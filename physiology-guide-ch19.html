@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 19: Fluid, Electrolyte & Acid-Base Balance | Physiology Study Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2234;
+            --bg-card-hover: #222d42;
+            --accent-primary: #06b6d4;
+            --accent-secondary: #22d3ee;
+            --accent-success: #10b981;
+            --accent-warning: #f59e0b;
+            --accent-danger: #ef4444;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: #1e293b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 15, 26, 0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 0.75rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-chapters {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-ch {
+            padding: 0.4rem 0.8rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .nav-ch:hover, .nav-ch.active {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 6rem 1.5rem 4rem;
+        }
+
+        .chapter-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .chapter-label {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-primary), #8b5cf6);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .chapter-header h1 {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.2;
+        }
+
+        .chapter-header .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .learning-objectives {
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(6, 182, 212, 0.2);
+            border-radius: 16px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .learning-objectives h2 {
+            font-size: 1.1rem;
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+        }
+
+        .learning-objectives ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .learning-objectives li {
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .learning-objectives li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-number {
+            display: inline-block;
+            background: var(--accent-primary);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-right: 0.75rem;
+        }
+
+        .section h2 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.6rem;
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .big-idea {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-primary);
+            border-radius: 0 12px 12px 0;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .big-idea-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-primary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .big-idea p {
+            font-size: 1.05rem;
+            color: var(--text-primary);
+        }
+
+        .why-matters {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(6, 182, 212, 0.1));
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .why-matters h4 {
+            color: var(--accent-success);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .why-matters p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .analogy {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(249, 115, 22, 0.1));
+            border: 1px solid rgba(245, 158, 11, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .analogy h4 {
+            color: var(--accent-warning);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .analogy p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .content p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .content p strong {
+            color: var(--text-primary);
+        }
+
+        .subsection {
+            margin: 2rem 0;
+        }
+
+        .subsection h3 {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .subsection h4 {
+            font-size: 1rem;
+            color: var(--accent-primary);
+            margin: 1.25rem 0 0.75rem;
+        }
+
+        .content ul, .content ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .content li strong {
+            color: var(--text-primary);
+        }
+
+        .step-by-step {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .step-by-step h4 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .step {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .step:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .step-num {
+            width: 28px;
+            height: 28px;
+            background: var(--accent-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-content strong {
+            color: var(--text-primary);
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .step-content p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .key-concept {
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid rgba(6, 182, 212, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .key-concept h4 {
+            color: var(--accent-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .key-concept p, .key-concept ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .formula-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .formula-box .formula {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            color: var(--accent-primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .formula-box .explanation {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .comparison-table th {
+            background: var(--bg-card);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid var(--accent-primary);
+        }
+
+        .comparison-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        .comparison-table tr:hover td {
+            background: rgba(255,255,255,0.02);
+        }
+
+        .values-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .values-card h4 {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .value-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .value-row:last-child {
+            border-bottom: none;
+        }
+
+        .value-label {
+            color: var(--text-secondary);
+        }
+
+        .value-number {
+            color: var(--accent-primary);
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+
+        .clinical {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(236, 72, 153, 0.1));
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .clinical h4 {
+            color: #f87171;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .clinical p, .clinical ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .check-understanding {
+            background: var(--bg-card);
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .check-understanding h4 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+
+        .check-understanding p {
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 0.75rem;
+        }
+
+        .reveal-answer {
+            background: var(--accent-primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .reveal-answer:hover {
+            background: #0891b2;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--accent-success);
+        }
+
+        .answer.show {
+            display: block;
+        }
+
+        .summary {
+            background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .summary h3 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .summary ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .summary li {
+            padding: 0.5rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .summary li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-success);
+            font-weight: bold;
+        }
+
+        .progress-container {
+            position: fixed;
+            top: 60px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--bg-secondary);
+            z-index: 999;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-primary), #8b5cf6);
+            width: 0%;
+            transition: width 0.1s;
+        }
+
+        .expandable {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .expandable-header {
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .expandable-header:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .expandable-header h4 {
+            margin: 0;
+            font-size: 1rem;
+            color: var(--text-primary);
+        }
+
+        .expandable-icon {
+            color: var(--text-muted);
+            transition: transform 0.3s;
+        }
+
+        .expandable.open .expandable-icon {
+            transform: rotate(180deg);
+        }
+
+        .expandable-content {
+            display: none;
+            padding: 0 1.25rem 1.25rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .expandable.open .expandable-content {
+            display: block;
+        }
+
+        .flow-diagram {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .flow-diagram .flow-title {
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .flow-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .flow-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .flow-box.highlight {
+            background: rgba(6, 182, 212, 0.2);
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+
+        .flow-box.danger {
+            background: rgba(239, 68, 68, 0.15);
+            border-color: #ef4444;
+            color: #f87171;
+        }
+
+        .flow-box.success {
+            background: rgba(16, 185, 129, 0.15);
+            border-color: #10b981;
+            color: #34d399;
+        }
+
+        .flow-arrow {
+            color: var(--accent-primary);
+            font-size: 1.2rem;
+        }
+
+        .seesaw-diagram {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .seesaw {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 2rem;
+            margin: 1.5rem 0;
+        }
+
+        .seesaw-side {
+            text-align: center;
+        }
+
+        .seesaw-label {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .seesaw-value {
+            font-family: 'Courier New', monospace;
+            color: var(--accent-primary);
+            font-size: 1.1rem;
+        }
+
+        .seesaw-fulcrum {
+            font-size: 2rem;
+            color: var(--text-muted);
+        }
+
+        .ratio-display {
+            font-size: 1.5rem;
+            color: var(--accent-primary);
+            font-weight: 700;
+            margin: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 5rem 1rem 3rem;
+            }
+
+            .chapter-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .nav-chapters {
+                display: none;
+            }
+
+            .seesaw {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">PhysioGuide</div>
+            <div class="nav-chapters">
+                <a href="index.html" class="nav-ch home">🏠 Home</a>
+                <a href="physiology-guide-ch16.html" class="nav-ch">Ch 16</a>
+                <a href="physiology-guide-ch17.html" class="nav-ch">Ch 17</a>
+                <a href="physiology-guide-ch18.html" class="nav-ch">Ch 18</a>
+                <a href="physiology-guide-ch19.html" class="nav-ch active">Ch 19</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="chapter-header">
+            <span class="chapter-label">Chapter 19 • Urinary System</span>
+            <h1>Fluid, Electrolyte & Acid-Base Balance</h1>
+            <p class="subtitle">Maintaining the internal environment for cellular life</p>
+        </header>
+
+        <div class="learning-objectives">
+            <h2>🎯 What You'll Learn</h2>
+            <ul>
+                <li>How body fluids are distributed across compartments</li>
+                <li>How ADH and aldosterone regulate water and sodium balance</li>
+                <li>The renin-angiotensin-aldosterone system (RAAS)</li>
+                <li>Why pH must stay within a narrow range and how buffers work</li>
+                <li>The four types of acid-base disorders and how to identify them</li>
+                <li>How lungs and kidneys compensate for each other's problems</li>
+            </ul>
+        </div>
+
+        <!-- SECTION 1: FLUID COMPARTMENTS -->
+        <section class="section">
+            <h2><span class="section-number">1</span>Body Fluid Compartments</h2>
+            
+            <div class="content">
+                <p>Your body is about 60% water (for an average adult male). This water isn't just sloshing around randomly—it's organized into distinct compartments, and the balance between them is critical for proper cell function.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Water moves freely between compartments by osmosis, always flowing toward higher solute concentration. By controlling SOLUTE concentrations (especially Na⁺), the body indirectly controls WATER distribution.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Three Fluid Compartments</h3>
+                    
+                    <div class="values-card">
+                        <h4>Fluid Distribution (70 kg adult male)</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Total Body Water (TBW)</strong></span>
+                            <span class="value-number">~40 L (60%)</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Intracellular Fluid (ICF)</strong> — inside cells</span>
+                            <span class="value-number">~25 L (62%)</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Extracellular Fluid (ECF)</strong> — outside cells</span>
+                            <span class="value-number">~15 L (38%)</span>
+                        </div>
+                        <div class="value-row" style="padding-left: 1rem;">
+                            <span class="value-label">• Interstitial fluid (between cells)</span>
+                            <span class="value-number">~12 L (30%)</span>
+                        </div>
+                        <div class="value-row" style="padding-left: 1rem;">
+                            <span class="value-label">• Plasma (in blood vessels)</span>
+                            <span class="value-number">~3 L (8%)</span>
+                        </div>
+                    </div>
+
+                    <p><strong>Variations in body water:</strong></p>
+                    <ul>
+                        <li>Women have less (~50%) due to more body fat</li>
+                        <li>Elderly have less (~45%) due to loss of lean mass</li>
+                        <li>Infants have more (~75%) due to higher metabolic needs</li>
+                        <li>More fat = less water (adipose tissue is ~10% water)</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>Electrolyte Distribution: ICF vs ECF</h3>
+                    <p>The composition of ICF and ECF is dramatically different, maintained by membrane pumps:</p>
+
+                    <table class="comparison-table">
+                        <tr>
+                            <th>ECF (Extracellular)</th>
+                            <th>ICF (Intracellular)</th>
+                        </tr>
+                        <tr>
+                            <td>Major cation: <strong>Na⁺</strong> (136-145 mEq/L)</td>
+                            <td>Major cation: <strong>K⁺</strong> (~150 mEq/L)</td>
+                        </tr>
+                        <tr>
+                            <td>Major anion: <strong>Cl⁻</strong> and HCO₃⁻</td>
+                            <td>Major anion: <strong>HPO₄²⁻</strong> and proteins</td>
+                        </tr>
+                        <tr>
+                            <td>Low K⁺ (3.5-5.1 mEq/L)</td>
+                            <td>Low Na⁺ (~10 mEq/L)</td>
+                        </tr>
+                    </table>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: Na⁺ is the Boss of ECF</h4>
+                        <p>Because Na⁺ is the dominant ECF solute, <strong>sodium determines ECF volume</strong>. When you retain Na⁺, water follows by osmosis → ECF expands → blood volume and pressure increase. This is why high-sodium diets contribute to hypertension!</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Water Balance: Inputs and Outputs</h3>
+                    <p>Your body carefully matches water intake with water loss:</p>
+
+                    <table class="comparison-table">
+                        <tr>
+                            <th>Water Inputs (~2500 mL/day)</th>
+                            <th>Water Outputs (~2500 mL/day)</th>
+                        </tr>
+                        <tr>
+                            <td>Beverages: ~1500 mL</td>
+                            <td>Urine: ~1500 mL</td>
+                        </tr>
+                        <tr>
+                            <td>Food: ~750 mL</td>
+                            <td>Insensible loss (skin, lungs): ~900 mL</td>
+                        </tr>
+                        <tr>
+                            <td>Metabolic water: ~250 mL</td>
+                            <td>Sweat: ~100 mL (variable)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Feces: ~100 mL</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: WATER REGULATION -->
+        <section class="section">
+            <h2><span class="section-number">2</span>Regulation of Water Balance: ADH</h2>
+
+            <div class="content">
+                <p>The primary regulator of water balance is <strong>antidiuretic hormone (ADH)</strong>, also called vasopressin. ADH is produced by the hypothalamus and released from the posterior pituitary.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>ADH controls how much water the kidneys reabsorb. More ADH = more water reabsorption = concentrated urine. Less ADH = less water reabsorption = dilute urine. It's like adjusting a faucet on your kidney's water recycling system.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>How ADH Works</h3>
+                    <div class="step-by-step">
+                        <h4>ADH Response to Dehydration</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>Stimulus: ↑ Plasma osmolarity (or ↓ blood volume)</strong>
+                                <p>Losing water (sweating, not drinking) concentrates blood solutes</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>Detection: Osmoreceptors in hypothalamus</strong>
+                                <p>These neurons shrink when plasma is hypertonic, triggering ADH release</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <strong>Response: ↑ ADH secretion from posterior pituitary</strong>
+                                <p>ADH travels via blood to its target: kidney collecting ducts</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">4</div>
+                            <div class="step-content">
+                                <strong>Effect: Aquaporin insertion → ↑ water reabsorption</strong>
+                                <p>ADH triggers insertion of water channels (aquaporins) into collecting duct cells</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">5</div>
+                            <div class="step-content">
+                                <strong>Result: Concentrated urine, water conserved</strong>
+                                <p>More water returns to blood → plasma osmolarity decreases → negative feedback complete</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow-diagram">
+                    <div class="flow-title">ADH Negative Feedback Loop</div>
+                    <div class="flow-row">
+                        <span class="flow-box danger">↑ Plasma osmolarity</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-box">Osmoreceptors detect</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-box highlight">↑ ADH release</span>
+                    </div>
+                    <div class="flow-row">
+                        <span class="flow-arrow">↓</span>
+                    </div>
+                    <div class="flow-row">
+                        <span class="flow-box">↑ Water reabsorption</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-box success">↓ Plasma osmolarity</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-box">Negative feedback</span>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Thirst Mechanism</h3>
+                    <p>ADH conserves water you already have, but to gain water you need to drink. Three signals trigger thirst:</p>
+                    <ol>
+                        <li><strong>↑ Plasma osmolarity</strong> → Osmoreceptors in hypothalamus</li>
+                        <li><strong>↓ Blood volume</strong> → Angiotensin II stimulates thirst center</li>
+                        <li><strong>Dry mouth/throat</strong> → Sensory signals to brain</li>
+                    </ol>
+
+                    <div class="why-matters">
+                        <h4>🏥 Why Thirst Gets Suppressed Before Full Rehydration</h4>
+                        <p>You stop feeling thirsty after drinking even before the water is absorbed and corrects osmolarity. This "anticipatory" response from mouth/stomach stretch receptors prevents overdrinking!</p>
+                    </div>
+                </div>
+
+                <div class="clinical">
+                    <h4>🏥 Clinical Connection: Diabetes Insipidus</h4>
+                    <p>Not to be confused with diabetes mellitus! In diabetes insipidus, either ADH isn't produced (central DI) or kidneys don't respond to it (nephrogenic DI). Result: massive amounts of dilute urine (up to 20 L/day!) and extreme thirst. Without treatment, severe dehydration can occur rapidly.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: SODIUM BALANCE -->
+        <section class="section">
+            <h2><span class="section-number">3</span>Sodium Balance: Aldosterone & RAAS</h2>
+
+            <div class="content">
+                <p>While ADH regulates water, <strong>aldosterone</strong> is the primary regulator of sodium. Since sodium determines ECF volume, aldosterone indirectly controls blood volume and pressure.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Aldosterone tells the kidneys: "Save sodium!" It acts on principal cells of the collecting duct to increase Na⁺ reabsorption (and K⁺ secretion). When you save sodium, water follows—increasing blood volume and pressure.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Aldosterone Effects</h3>
+                    <ul>
+                        <li><strong>↑ Na⁺ reabsorption</strong> (DCT and collecting duct)</li>
+                        <li><strong>↑ K⁺ secretion</strong> (trades Na⁺ for K⁺)</li>
+                        <li><strong>↑ Water reabsorption</strong> (follows Na⁺ if ADH is present)</li>
+                        <li><strong>Net result:</strong> ↑ blood volume → ↑ blood pressure</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Renin-Angiotensin-Aldosterone System (RAAS)</h3>
+                    <p>RAAS is a powerful hormonal cascade activated by low blood pressure or low blood volume:</p>
+
+                    <div class="step-by-step">
+                        <h4>RAAS Pathway</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>↓ Blood pressure detected by JG cells</strong>
+                                <p>Juxtaglomerular cells in the kidney sense reduced stretch in afferent arterioles</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>Renin released into blood</strong>
+                                <p>Renin is an enzyme that starts the cascade</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <strong>Renin converts angiotensinogen → Angiotensin I</strong>
+                                <p>Angiotensinogen is made by the liver and circulates in blood</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">4</div>
+                            <div class="step-content">
+                                <strong>ACE converts Angiotensin I → Angiotensin II</strong>
+                                <p>ACE (angiotensin-converting enzyme) is found mainly in lung capillaries</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">5</div>
+                            <div class="step-content">
+                                <strong>Angiotensin II has multiple effects:</strong>
+                                <p>• Vasoconstriction → ↑ blood pressure immediately<br>
+                                • Stimulates aldosterone release → Na⁺/water retention<br>
+                                • Stimulates ADH release → water retention<br>
+                                • Stimulates thirst → ↑ water intake</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow-diagram">
+                    <div class="flow-title">RAAS: From Low BP to Restored BP</div>
+                    <div class="flow-row">
+                        <span class="flow-box danger">↓ Blood pressure</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-box">JG cells release renin</span>
+                    </div>
+                    <div class="flow-row">
+                        <span class="flow-arrow">↓</span>
+                    </div>
+                    <div class="flow-row">
+                        <span class="flow-box">Angiotensinogen → Angiotensin I → Angiotensin II</span>
+                    </div>
+                    <div class="flow-row">
+                        <span class="flow-arrow">↓</span>
+                    </div>
+                    <div class="flow-row">
+                        <span class="flow-box">Vasoconstriction</span>
+                        <span class="flow-box highlight">+ Aldosterone</span>
+                        <span class="flow-box">+ ADH + Thirst</span>
+                    </div>
+                    <div class="flow-row">
+                        <span class="flow-arrow">↓</span>
+                    </div>
+                    <div class="flow-row">
+                        <span class="flow-box success">↑ Blood pressure restored</span>
+                    </div>
+                </div>
+
+                <div class="clinical">
+                    <h4>🏥 Clinical Connection: ACE Inhibitors</h4>
+                    <p>Drugs like lisinopril and enalapril block ACE, preventing Angiotensin II formation. This reduces vasoconstriction and aldosterone release → lower blood pressure. They're first-line treatment for hypertension and heart failure. Side effect: dry cough (due to bradykinin accumulation).</p>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>A patient takes a diuretic that blocks Na⁺ reabsorption. What happens to their K⁺ levels and why?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p>K⁺ levels may drop (hypokalemia). When less Na⁺ is reabsorbed proximally, more reaches the collecting duct. The body compensates by increasing aldosterone, which enhances Na⁺ reabsorption there—but also increases K⁺ secretion. More K⁺ is lost in urine. This is why some diuretics are called "potassium-wasting" and why patients may need K⁺ supplements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: ACID-BASE INTRO -->
+        <section class="section">
+            <h2><span class="section-number">4</span>Acid-Base Balance: Why pH Matters</h2>
+
+            <div class="content">
+                <p>Your blood pH must stay within a very narrow range: <strong>7.35-7.45</strong>. Even small deviations can be life-threatening because pH affects protein shape and enzyme function.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>pH is maintained by a balance between CO₂ (controlled by lungs) and HCO₃⁻ (controlled by kidneys). Think of it as a seesaw: lungs control one side, kidneys control the other. The ratio must stay at 20:1 for pH to be normal.</p>
+                </div>
+
+                <div class="values-card">
+                    <h4>Normal Arterial Blood Gas (ABG) Values</h4>
+                    <div class="value-row">
+                        <span class="value-label"><strong>pH</strong></span>
+                        <span class="value-number">7.35 - 7.45</span>
+                    </div>
+                    <div class="value-row">
+                        <span class="value-label"><strong>P<sub>CO₂</sub></strong> (respiratory component)</span>
+                        <span class="value-number">35 - 45 mmHg</span>
+                    </div>
+                    <div class="value-row">
+                        <span class="value-label"><strong>HCO₃⁻</strong> (metabolic component)</span>
+                        <span class="value-number">22 - 26 mEq/L</span>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Key Equation: Bicarbonate Buffer System</h3>
+                    <div class="formula-box">
+                        <div class="formula">CO₂ + H₂O ⇌ H₂CO₃ ⇌ HCO₃⁻ + H⁺</div>
+                        <div class="explanation">This equilibrium is the foundation of blood pH regulation</div>
+                    </div>
+
+                    <p>Understanding this equation is crucial:</p>
+                    <ul>
+                        <li><strong>↑ CO₂</strong> → reaction shifts RIGHT → <strong>↑ H⁺</strong> → <strong>↓ pH (acidosis)</strong></li>
+                        <li><strong>↓ CO₂</strong> → reaction shifts LEFT → <strong>↓ H⁺</strong> → <strong>↑ pH (alkalosis)</strong></li>
+                        <li><strong>↑ HCO₃⁻</strong> → buffers H⁺ → <strong>↑ pH (alkalosis)</strong></li>
+                        <li><strong>↓ HCO₃⁻</strong> → less buffering → <strong>↓ pH (acidosis)</strong></li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Henderson-Hasselbalch Equation</h3>
+                    <div class="formula-box">
+                        <div class="formula">pH = 6.1 + log([HCO₃⁻]/[CO₂])</div>
+                        <div class="explanation">For pH = 7.4, the ratio [HCO₃⁻]:[CO₂] must equal 20:1</div>
+                    </div>
+
+                    <div class="seesaw-diagram">
+                        <div class="flow-title">The pH Seesaw: Maintaining 20:1 Balance</div>
+                        <div class="seesaw">
+                            <div class="seesaw-side">
+                                <div class="seesaw-label">🫁 Lungs</div>
+                                <div class="seesaw-value">CO₂ (P<sub>CO₂</sub>)</div>
+                                <div style="color: var(--text-muted); font-size: 0.85rem;">= 1</div>
+                            </div>
+                            <div class="seesaw-fulcrum">⚖️</div>
+                            <div class="seesaw-side">
+                                <div class="seesaw-label">🫘 Kidneys</div>
+                                <div class="seesaw-value">HCO₃⁻</div>
+                                <div style="color: var(--text-muted); font-size: 0.85rem;">= 20</div>
+                            </div>
+                        </div>
+                        <div class="ratio-display">[HCO₃⁻] : [CO₂] = 20 : 1 → pH = 7.4</div>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">It's the RATIO that matters, not the absolute values!</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Three Lines of Defense Against pH Changes</h3>
+                    <ol>
+                        <li><strong>Chemical Buffers (seconds)</strong>
+                            <ul>
+                                <li>Bicarbonate buffer: HCO₃⁻ + H⁺ ⇌ H₂CO₃ (most important in blood)</li>
+                                <li>Phosphate buffer: HPO₄²⁻ + H⁺ ⇌ H₂PO₄⁻ (important inside cells, urine)</li>
+                                <li>Protein buffers: Including hemoglobin</li>
+                            </ul>
+                        </li>
+                        <li><strong>Respiratory Compensation (minutes)</strong>
+                            <ul>
+                                <li>↑ ventilation → ↓ CO₂ → ↑ pH</li>
+                                <li>↓ ventilation → ↑ CO₂ → ↓ pH</li>
+                            </ul>
+                        </li>
+                        <li><strong>Renal Compensation (hours to days)</strong>
+                            <ul>
+                                <li>Kidneys can excrete or retain H⁺</li>
+                                <li>Kidneys can excrete or retain HCO₃⁻</li>
+                                <li>Kidneys can generate NEW bicarbonate</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="analogy">
+                    <h4>💭 Think of the 20:1 ratio like a seesaw...</h4>
+                    <p>If one side gets heavier (more CO₂ or less HCO₃⁻), the seesaw tips toward acidosis. If the other side gets heavier (less CO₂ or more HCO₃⁻), it tips toward alkalosis. The body's goal is always to level the seesaw back to 20:1. The healthy organ compensates for the sick one!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: ACID-BASE DISORDERS -->
+        <section class="section">
+            <h2><span class="section-number">5</span>The Four Acid-Base Disorders</h2>
+
+            <div class="content">
+                <p>There are only four primary acid-base disorders. The key to understanding them is knowing which organ is causing the problem (lungs = respiratory, kidneys = metabolic) and which way pH has shifted.</p>
+
+                <table class="comparison-table">
+                    <tr>
+                        <th>Disorder</th>
+                        <th>pH</th>
+                        <th>Primary Problem</th>
+                        <th>Compensation</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Respiratory Acidosis</strong></td>
+                        <td>&lt; 7.35</td>
+                        <td>↑ P<sub>CO₂</sub> (hypoventilation)</td>
+                        <td>Kidneys ↑ HCO₃⁻</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Respiratory Alkalosis</strong></td>
+                        <td>&gt; 7.45</td>
+                        <td>↓ P<sub>CO₂</sub> (hyperventilation)</td>
+                        <td>Kidneys ↓ HCO₃⁻</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Metabolic Acidosis</strong></td>
+                        <td>&lt; 7.35</td>
+                        <td>↓ HCO₃⁻ or ↑ H⁺</td>
+                        <td>Lungs ↓ P<sub>CO₂</sub> (hyperventilation)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Metabolic Alkalosis</strong></td>
+                        <td>&gt; 7.45</td>
+                        <td>↑ HCO₃⁻ or ↓ H⁺</td>
+                        <td>Lungs ↑ P<sub>CO₂</sub> (hypoventilation)</td>
+                    </tr>
+                </table>
+
+                <div class="key-concept">
+                    <h4>🔑 Key Concept: Cross-System Compensation</h4>
+                    <p><strong>Metabolic problems → Respiratory compensation (fast)</strong><br>
+                    <strong>Respiratory problems → Renal compensation (slow)</strong><br><br>
+                    The healthy organ tries to restore the 20:1 ratio. Lungs can adjust CO₂ in minutes; kidneys need hours to days to adjust HCO₃⁻.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Respiratory Acidosis</h3>
+                    <p><strong>Cause:</strong> Hypoventilation → CO₂ accumulates</p>
+                    <p><strong>Examples:</strong> COPD, drug overdose (opioids), airway obstruction, respiratory muscle weakness</p>
+                    
+                    <div class="flow-diagram">
+                        <div class="flow-row">
+                            <span class="flow-box">Hypoventilation</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box danger">↑ P<sub>CO₂</sub></span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box danger">↑ H⁺ → ↓ pH</span>
+                        </div>
+                        <div class="flow-row" style="margin-top: 1rem;">
+                            <span class="flow-box success">Kidneys compensate: ↑ HCO₃⁻ reabsorption</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Respiratory Alkalosis</h3>
+                    <p><strong>Cause:</strong> Hyperventilation → CO₂ blown off</p>
+                    <p><strong>Examples:</strong> Anxiety/panic, high altitude, fever, early stages of aspirin overdose</p>
+                    
+                    <div class="flow-diagram">
+                        <div class="flow-row">
+                            <span class="flow-box">Hyperventilation</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box danger">↓ P<sub>CO₂</sub></span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box danger">↓ H⁺ → ↑ pH</span>
+                        </div>
+                        <div class="flow-row" style="margin-top: 1rem;">
+                            <span class="flow-box success">Kidneys compensate: ↓ HCO₃⁻ (excrete in urine)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Metabolic Acidosis</h3>
+                    <p><strong>Cause:</strong> Gain of acid (not CO₂) OR loss of bicarbonate</p>
+                    <p><strong>Examples:</strong> Diabetic ketoacidosis (DKA), lactic acidosis, renal failure, severe diarrhea (HCO₃⁻ loss)</p>
+                    
+                    <div class="flow-diagram">
+                        <div class="flow-row">
+                            <span class="flow-box">↑ Acid or ↓ HCO₃⁻</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box danger">↓ pH</span>
+                        </div>
+                        <div class="flow-row" style="margin-top: 1rem;">
+                            <span class="flow-box success">Lungs compensate: Hyperventilation → ↓ P<sub>CO₂</sub></span>
+                        </div>
+                    </div>
+
+                    <p><strong>Classic sign:</strong> Kussmaul breathing (deep, rapid breathing) — the body desperately trying to blow off CO₂ to raise pH.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Metabolic Alkalosis</h3>
+                    <p><strong>Cause:</strong> Loss of acid OR gain of bicarbonate</p>
+                    <p><strong>Examples:</strong> Prolonged vomiting (loss of HCl from stomach), antacid overuse, excessive diuretics</p>
+                    
+                    <div class="flow-diagram">
+                        <div class="flow-row">
+                            <span class="flow-box">↓ Acid or ↑ HCO₃⁻</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box danger">↑ pH</span>
+                        </div>
+                        <div class="flow-row" style="margin-top: 1rem;">
+                            <span class="flow-box success">Lungs compensate: Hypoventilation → ↑ P<sub>CO₂</sub></span>
+                        </div>
+                    </div>
+
+                    <p><strong>Note:</strong> Respiratory compensation for metabolic alkalosis is limited—the body won't hypoventilate so much that it becomes hypoxic.</p>
+                </div>
+
+                <div class="expandable">
+                    <div class="expandable-header">
+                        <h4>🔬 Deep Dive: How to Read an ABG (Arterial Blood Gas)</h4>
+                        <span class="expandable-icon">▼</span>
+                    </div>
+                    <div class="expandable-content">
+                        <p><strong>Step 1: Look at pH</strong></p>
+                        <ul>
+                            <li>&lt; 7.35 = Acidosis</li>
+                            <li>&gt; 7.45 = Alkalosis</li>
+                        </ul>
+                        
+                        <p><strong>Step 2: Identify the primary cause</strong></p>
+                        <ul>
+                            <li>Is P<sub>CO₂</sub> abnormal? (Normal: 35-45 mmHg) → Respiratory problem</li>
+                            <li>Is HCO₃⁻ abnormal? (Normal: 22-26 mEq/L) → Metabolic problem</li>
+                        </ul>
+                        
+                        <p><strong>Step 3: Check for compensation</strong></p>
+                        <ul>
+                            <li>Is the other value moving in the direction that would correct pH?</li>
+                            <li>If yes, compensation is occurring</li>
+                        </ul>
+                        
+                        <p><strong>Example:</strong> pH = 7.30, P<sub>CO₂</sub> = 60 mmHg, HCO₃⁻ = 28 mEq/L</p>
+                        <p>→ Acidosis (pH &lt; 7.35) + ↑ P<sub>CO₂</sub> = <strong>Respiratory acidosis</strong></p>
+                        <p>→ HCO₃⁻ is elevated = kidneys are compensating by retaining bicarbonate</p>
+                    </div>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>A patient with uncontrolled diabetes has pH = 7.28, P<sub>CO₂</sub> = 28 mmHg, HCO₃⁻ = 12 mEq/L. What's the diagnosis and is there compensation?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p><strong>Metabolic acidosis with respiratory compensation.</strong> The low pH (acidosis) with low HCO₃⁻ (metabolic cause—likely ketoacids from diabetes) indicates metabolic acidosis. The low P<sub>CO₂</sub> shows the lungs are hyperventilating to compensate (blowing off CO₂ to reduce the acid load). This is classic diabetic ketoacidosis (DKA)!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: RENAL MECHANISMS -->
+        <section class="section">
+            <h2><span class="section-number">6</span>Renal Acid-Base Regulation</h2>
+
+            <div class="content">
+                <p>The kidneys are the slow but powerful regulators of acid-base balance. They have three main mechanisms:</p>
+
+                <div class="subsection">
+                    <h3>1. Bicarbonate Reabsorption</h3>
+                    <p>The kidneys reabsorb nearly all filtered HCO₃⁻ (normally ~4,320 mEq/day). This occurs mainly in the PCT and involves carbonic anhydrase (CA):</p>
+                    <ul>
+                        <li>H⁺ is secreted into tubular fluid</li>
+                        <li>H⁺ + HCO₃⁻ → H₂CO₃ → CO₂ + H₂O (in tubular lumen)</li>
+                        <li>CO₂ diffuses into cell, reconverted to HCO₃⁻, returned to blood</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>2. H⁺ Secretion</h3>
+                    <p>Intercalated cells of the collecting duct actively secrete H⁺ into urine. This H⁺ is buffered in urine by:</p>
+                    <ul>
+                        <li><strong>Phosphate buffer:</strong> HPO₄²⁻ + H⁺ → H₂PO₄⁻ (excreted)</li>
+                        <li><strong>Ammonia buffer:</strong> NH₃ + H⁺ → NH₄⁺ (excreted as ammonium)</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>3. New Bicarbonate Generation</h3>
+                    <p>In acidosis, the kidneys can manufacture NEW bicarbonate (not just reclaim filtered HCO₃⁻) through glutamine metabolism, adding to the body's buffer capacity.</p>
+                </div>
+
+                <div class="key-concept">
+                    <h4>🔑 Summary: Kidneys in Acidosis vs Alkalosis</h4>
+                    <table class="comparison-table">
+                        <tr>
+                            <th>In Acidosis (need to ↑ pH)</th>
+                            <th>In Alkalosis (need to ↓ pH)</th>
+                        </tr>
+                        <tr>
+                            <td>↑ H⁺ secretion</td>
+                            <td>↓ H⁺ secretion</td>
+                        </tr>
+                        <tr>
+                            <td>↑ HCO₃⁻ reabsorption</td>
+                            <td>↓ HCO₃⁻ reabsorption (excrete in urine)</td>
+                        </tr>
+                        <tr>
+                            <td>↑ New HCO₃⁻ synthesis</td>
+                            <td>↓ New HCO₃⁻ synthesis</td>
+                        </tr>
+                        <tr>
+                            <td>Acidic urine produced</td>
+                            <td>Alkaline urine produced</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUMMARY -->
+        <div class="summary">
+            <h3>📋 Chapter 19 Summary: What You Should Know</h3>
+            <ul>
+                <li>Body water (~60%) is distributed into ICF (2/3) and ECF (1/3: interstitial + plasma)</li>
+                <li>Na⁺ is the main ECF cation and determines ECF volume; K⁺ is the main ICF cation</li>
+                <li>ADH (from posterior pituitary) increases water reabsorption via aquaporins when osmolarity is high</li>
+                <li>Thirst is triggered by ↑ osmolarity, ↓ blood volume (via angiotensin II), and dry mouth</li>
+                <li>Aldosterone (from adrenal cortex) increases Na⁺ reabsorption and K⁺ secretion</li>
+                <li>RAAS: ↓ BP → renin → angiotensin I → (ACE) → angiotensin II → vasoconstriction + aldosterone + ADH + thirst</li>
+                <li>Normal blood pH = 7.35-7.45; maintained by [HCO₃⁻]:[CO₂] = 20:1 ratio</li>
+                <li>Buffers act in seconds, respiratory compensation in minutes, renal compensation in hours to days</li>
+                <li>Respiratory acidosis: ↑ P<sub>CO₂</sub> (hypoventilation) → kidneys compensate by ↑ HCO₃⁻</li>
+                <li>Respiratory alkalosis: ↓ P<sub>CO₂</sub> (hyperventilation) → kidneys compensate by ↓ HCO₃⁻</li>
+                <li>Metabolic acidosis: ↓ HCO₃⁻ or ↑ H⁺ → lungs compensate by hyperventilation (↓ P<sub>CO₂</sub>)</li>
+                <li>Metabolic alkalosis: ↑ HCO₃⁻ or ↓ H⁺ → lungs compensate by hypoventilation (↑ P<sub>CO₂</sub>)</li>
+                <li>Kidneys regulate pH by reabsorbing HCO₃⁻, secreting H⁺, and generating new bicarbonate</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        document.querySelectorAll('.expandable-header').forEach(header => {
+            header.addEventListener('click', function() {
+                this.parentElement.classList.toggle('open');
+            });
+        });
+
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            answer.classList.toggle('show');
+            button.textContent = answer.classList.contains('show') ? 'Hide Answer' : 'Reveal Answer';
+        }
+    </script>
+</body>
+</html>

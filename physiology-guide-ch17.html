@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 17: Gas Exchange & Regulation | Physiology Study Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2234;
+            --bg-card-hover: #222d42;
+            --accent-primary: #3b82f6;
+            --accent-secondary: #8b5cf6;
+            --accent-success: #10b981;
+            --accent-warning: #f59e0b;
+            --accent-danger: #ef4444;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: #1e293b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 15, 26, 0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 0.75rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-chapters {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-ch {
+            padding: 0.4rem 0.8rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .nav-ch:hover, .nav-ch.active {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 6rem 1.5rem 4rem;
+        }
+
+        /* Chapter Header */
+        .chapter-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .chapter-label {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .chapter-header h1 {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.2;
+        }
+
+        .chapter-header .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        /* Learning Objectives */
+        .learning-objectives {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 16px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .learning-objectives h2 {
+            font-size: 1.1rem;
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .learning-objectives ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .learning-objectives li {
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .learning-objectives li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-number {
+            display: inline-block;
+            background: var(--accent-primary);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-right: 0.75rem;
+        }
+
+        .section h2 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.6rem;
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Big Idea Box */
+        .big-idea {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-primary);
+            border-radius: 0 12px 12px 0;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .big-idea-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-primary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .big-idea p {
+            font-size: 1.05rem;
+            color: var(--text-primary);
+        }
+
+        /* Why It Matters */
+        .why-matters {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(6, 182, 212, 0.1));
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .why-matters h4 {
+            color: var(--accent-success);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .why-matters p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Analogy Box */
+        .analogy {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(249, 115, 22, 0.1));
+            border: 1px solid rgba(245, 158, 11, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .analogy h4 {
+            color: var(--accent-warning);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .analogy p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Content paragraphs */
+        .content p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .content p strong {
+            color: var(--text-primary);
+        }
+
+        /* Subsection */
+        .subsection {
+            margin: 2rem 0;
+        }
+
+        .subsection h3 {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .subsection h4 {
+            font-size: 1rem;
+            color: var(--accent-primary);
+            margin: 1.25rem 0 0.75rem;
+        }
+
+        /* Lists */
+        .content ul, .content ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .content li strong {
+            color: var(--text-primary);
+        }
+
+        /* Step by Step */
+        .step-by-step {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .step-by-step h4 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .step {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .step:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .step-num {
+            width: 28px;
+            height: 28px;
+            background: var(--accent-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-content strong {
+            color: var(--text-primary);
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .step-content p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Key Concept Box */
+        .key-concept {
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .key-concept h4 {
+            color: var(--accent-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .key-concept p, .key-concept ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Formula Box */
+        .formula-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .formula-box .formula {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            color: var(--accent-primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .formula-box .explanation {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .comparison-table th {
+            background: var(--bg-card);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid var(--accent-primary);
+        }
+
+        .comparison-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        .comparison-table tr:hover td {
+            background: rgba(255,255,255,0.02);
+        }
+
+        /* Values Card */
+        .values-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .values-card h4 {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .value-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .value-row:last-child {
+            border-bottom: none;
+        }
+
+        .value-label {
+            color: var(--text-secondary);
+        }
+
+        .value-number {
+            color: var(--accent-primary);
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* Clinical Connection */
+        .clinical {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(236, 72, 153, 0.1));
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .clinical h4 {
+            color: #f87171;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .clinical p, .clinical ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Check Understanding */
+        .check-understanding {
+            background: var(--bg-card);
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .check-understanding h4 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .check-understanding p {
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 0.75rem;
+        }
+
+        .reveal-answer {
+            background: var(--accent-primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            transition: background 0.2s;
+        }
+
+        .reveal-answer:hover {
+            background: #2563eb;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--accent-success);
+        }
+
+        .answer.show {
+            display: block;
+        }
+
+        /* Summary Box */
+        .summary {
+            background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .summary h3 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .summary ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .summary li {
+            padding: 0.5rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .summary li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-success);
+            font-weight: bold;
+        }
+
+        /* Progress indicator */
+        .progress-container {
+            position: fixed;
+            top: 60px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--bg-secondary);
+            z-index: 999;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+            width: 0%;
+            transition: width 0.1s;
+        }
+
+        /* Expandable sections */
+        .expandable {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .expandable-header {
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .expandable-header:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .expandable-header h4 {
+            margin: 0;
+            font-size: 1rem;
+            color: var(--text-primary);
+        }
+
+        .expandable-icon {
+            color: var(--text-muted);
+            transition: transform 0.3s;
+        }
+
+        .expandable.open .expandable-icon {
+            transform: rotate(180deg);
+        }
+
+        .expandable-content {
+            display: none;
+            padding: 0 1.25rem 1.25rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .expandable.open .expandable-content {
+            display: block;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                padding: 5rem 1rem 3rem;
+            }
+
+            .chapter-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .nav-chapters {
+                display: none;
+            }
+        }
+
+        /* Flow diagram styling */
+        .flow-diagram {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .flow-diagram .flow-title {
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .flow-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .flow-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .flow-box.highlight {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+
+        .flow-arrow {
+            color: var(--accent-primary);
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">PhysioGuide</div>
+            <div class="nav-chapters">
+                <a href="index.html" class="nav-ch home">🏠 Home</a>
+                <a href="physiology-guide-ch16.html" class="nav-ch">Ch 16</a>
+                <a href="physiology-guide-ch17.html" class="nav-ch active">Ch 17</a>
+                <a href="physiology-guide-ch18.html" class="nav-ch">Ch 18</a>
+                <a href="physiology-guide-ch19.html" class="nav-ch">Ch 19</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="chapter-header">
+            <span class="chapter-label">Chapter 17 • Respiratory System</span>
+            <h1>Gas Exchange & Regulation of Breathing</h1>
+            <p class="subtitle">How oxygen gets into your blood and why you can't stop breathing</p>
+        </header>
+
+        <div class="learning-objectives">
+            <h2>🎯 What You'll Learn</h2>
+            <ul>
+                <li>How gases move between air and blood (hint: it's all about pressure gradients)</li>
+                <li>Why hemoglobin is the MVP of oxygen transport</li>
+                <li>How CO₂ is transported (it's more clever than you'd think)</li>
+                <li>Why your brain automatically controls your breathing</li>
+                <li>What your body actually monitors to decide how fast to breathe</li>
+            </ul>
+        </div>
+
+        <!-- SECTION 1: THE BIG PICTURE -->
+        <section class="section">
+            <h2><span class="section-number">1</span>The Big Picture: What Happens After You Inhale?</h2>
+            
+            <div class="content">
+                <p>Chapter 16 covered how air gets into your lungs. But getting air into the lungs is only half the battle. Now we need to understand:</p>
+                <ol>
+                    <li>How does oxygen get from the air in your alveoli into your blood?</li>
+                    <li>How does your blood carry oxygen to tissues?</li>
+                    <li>How does CO₂ get from tissues back to the lungs?</li>
+                    <li>How does your body know when to breathe faster or slower?</li>
+                </ol>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Gas exchange works by <strong>diffusion</strong>—gases naturally move from areas of HIGH concentration (pressure) to LOW concentration. Your body doesn't actively "pump" oxygen; it simply creates the right conditions for diffusion to happen automatically.</p>
+                </div>
+
+                <div class="analogy">
+                    <h4>💭 Think of it like perfume in a room...</h4>
+                    <p>If you spray perfume in one corner of a room, the scent molecules will naturally spread throughout the entire room—from high concentration to low concentration. This is diffusion. The same principle moves oxygen from air (high O₂) into blood (lower O₂), and moves CO₂ from blood (high CO₂) into alveoli (lower CO₂).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: PARTIAL PRESSURES -->
+        <section class="section">
+            <h2><span class="section-number">2</span>Understanding Partial Pressures: The Language of Gas Exchange</h2>
+
+            <div class="content">
+                <p>Before we can understand gas exchange, we need to understand a crucial concept: <strong>partial pressure</strong>. This is the key to predicting which way gases will move.</p>
+
+                <div class="subsection">
+                    <h3>Dalton's Law: Air is a Mixture</h3>
+                    <p>The air you breathe isn't pure oxygen—it's a mixture of gases. Each gas contributes part of the total pressure:</p>
+
+                    <div class="formula-box">
+                        <div class="formula">P<sub>total</sub> = P<sub>O₂</sub> + P<sub>CO₂</sub> + P<sub>N₂</sub> + P<sub>H₂O</sub> + ...</div>
+                        <div class="explanation">The total pressure equals the sum of all individual gas pressures (Dalton's Law)</div>
+                    </div>
+
+                    <div class="formula-box">
+                        <div class="formula">P<sub>gas</sub> = % of gas × P<sub>total</sub></div>
+                        <div class="explanation">Each gas's partial pressure depends on what percentage of the mixture it makes up</div>
+                    </div>
+
+                    <p>At sea level, atmospheric pressure is 760 mmHg. Since oxygen makes up about 21% of air:</p>
+                    <p><strong>P<sub>O₂</sub> = 21% × 760 mmHg = ~160 mmHg</strong></p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Why Partial Pressure Matters</h3>
+                    <p>Each gas diffuses according to its OWN partial pressure gradient, <strong>independently</strong> of other gases. This is why oxygen and CO₂ can move in opposite directions simultaneously!</p>
+
+                    <div class="key-concept">
+                        <h4>🔑 The Golden Rule of Gas Exchange</h4>
+                        <p>Gases diffuse from HIGH partial pressure → LOW partial pressure. Always. No exceptions. If you know the partial pressures, you can predict exactly which way any gas will move.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Tracking Partial Pressures Through the Body</h3>
+                    <p>Let's follow oxygen and CO₂ as they travel through the body. Notice how the pressure gradients drive diffusion at each step:</p>
+
+                    <div class="values-card">
+                        <h4>Partial Pressures at Different Locations</h4>
+                        <table class="comparison-table">
+                            <tr>
+                                <th>Location</th>
+                                <th>P<sub>O₂</sub> (mmHg)</th>
+                                <th>P<sub>CO₂</sub> (mmHg)</th>
+                            </tr>
+                            <tr>
+                                <td>Atmospheric air</td>
+                                <td><strong>160</strong></td>
+                                <td>0.3</td>
+                            </tr>
+                            <tr>
+                                <td>Alveolar air</td>
+                                <td><strong>100</strong></td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <td>Blood arriving at lungs (deoxygenated)</td>
+                                <td>40</td>
+                                <td><strong>46</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Blood leaving lungs (oxygenated)</td>
+                                <td><strong>100</strong></td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <td>Tissue cells</td>
+                                <td>≤40</td>
+                                <td><strong>≥46</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Blood leaving tissues (deoxygenated)</td>
+                                <td>40</td>
+                                <td><strong>46</strong></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="why-matters">
+                        <h4>🏥 Why Alveolar P<sub>O₂</sub> is Lower Than Atmospheric</h4>
+                        <p>Notice alveolar P<sub>O₂</sub> (100) is much lower than atmospheric (160). Why? Three reasons: (1) Inhaled air gets humidified, adding water vapor. (2) O₂ is constantly being removed into blood. (3) Alveoli never completely empty—fresh air mixes with "stale" air from previous breaths.</p>
+                    </div>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>Blood arriving at the lungs has P<sub>O₂</sub> = 40 mmHg. Alveolar air has P<sub>O₂</sub> = 100 mmHg. Which way will oxygen diffuse and why?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p>Oxygen will diffuse FROM the alveoli (100 mmHg = higher) INTO the blood (40 mmHg = lower). Gases always move down their partial pressure gradient. This is external respiration—oxygen loading in the lungs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: GAS EXCHANGE -->
+        <section class="section">
+            <h2><span class="section-number">3</span>Gas Exchange: External and Internal Respiration</h2>
+
+            <div class="content">
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Gas exchange happens at two locations: in the <strong>lungs</strong> (external respiration) where blood picks up O₂ and drops off CO₂, and in the <strong>tissues</strong> (internal respiration) where blood drops off O₂ and picks up CO₂.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>External Respiration (In the Lungs)</h3>
+                    <p>Blood arriving at the pulmonary capillaries is "deoxygenated"—it's been to the tissues and given up its oxygen. Now it needs to reload.</p>
+
+                    <div class="step-by-step">
+                        <h4>What Happens in the Lungs</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>Oxygen diffuses INTO blood</strong>
+                                <p>P<sub>O₂</sub> gradient: Alveoli (100) → Blood (40). Oxygen moves from high to low, crossing the thin respiratory membrane into plasma, then into RBCs to bind hemoglobin.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>CO₂ diffuses OUT of blood</strong>
+                                <p>P<sub>CO₂</sub> gradient: Blood (46) → Alveoli (40). CO₂ moves out of the blood into alveolar air to be exhaled.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <strong>Equilibrium is reached rapidly</strong>
+                                <p>Blood is in the pulmonary capillaries for less than 1 second, but the thin membrane and huge surface area allow full equilibration. Blood leaves with P<sub>O₂</sub> = 100 mmHg.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Internal Respiration (In the Tissues)</h3>
+                    <p>Now oxygenated blood travels to systemic capillaries throughout the body. Here the process reverses:</p>
+
+                    <div class="step-by-step">
+                        <h4>What Happens in the Tissues</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>Oxygen diffuses OUT of blood</strong>
+                                <p>P<sub>O₂</sub> gradient: Blood (100) → Cells (≤40). Oxygen leaves blood to enter cells where it's used for cellular respiration.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>CO₂ diffuses INTO blood</strong>
+                                <p>P<sub>CO₂</sub> gradient: Cells (≥46) → Blood (40). CO₂ produced by cellular metabolism enters the blood for transport back to the lungs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: Active Tissues Get More Oxygen</h4>
+                        <p>In very active tissues (exercising muscle), cells consume oxygen rapidly, dropping their P<sub>O₂</sub> to 20 mmHg or lower. This creates a STEEPER gradient, causing more oxygen to diffuse out of the blood. The system automatically delivers more oxygen where it's needed most!</p>
+                    </div>
+                </div>
+
+                <div class="expandable">
+                    <div class="expandable-header">
+                        <h4>🔬 Deep Dive: Factors Affecting Gas Exchange Efficiency</h4>
+                        <span class="expandable-icon">▼</span>
+                    </div>
+                    <div class="expandable-content">
+                        <p>Three main factors determine how efficiently gases exchange:</p>
+                        <ol>
+                            <li><strong>Surface area:</strong> ~300 million alveoli create a tennis court-sized surface. Emphysema destroys alveoli, reducing surface area.</li>
+                            <li><strong>Membrane thickness:</strong> The respiratory membrane is only 0.2 μm thick. Pulmonary edema (fluid in lungs) or fibrosis increases thickness, slowing diffusion.</li>
+                            <li><strong>Partial pressure gradient:</strong> Bigger difference = faster diffusion. High altitude reduces the gradient (lower atmospheric P<sub>O₂</sub>).</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: OXYGEN TRANSPORT -->
+        <section class="section">
+            <h2><span class="section-number">4</span>Oxygen Transport: Why Hemoglobin is Essential</h2>
+
+            <div class="content">
+                <p>Oxygen has a problem: it's not very soluble in water. If we relied only on dissolved oxygen in plasma, we could only deliver about 3 mL of O₂ per liter of blood—nowhere near enough! Enter hemoglobin.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Hemoglobin is a protein in red blood cells that binds oxygen reversibly. It increases the oxygen-carrying capacity of blood by about 70-fold. Without hemoglobin, you couldn't survive.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>How Oxygen is Transported</h3>
+                    <div class="values-card">
+                        <h4>Forms of O₂ Transport in Blood</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Dissolved in plasma</strong></span>
+                            <span class="value-number">~1.5%</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Bound to hemoglobin</strong> (oxyhemoglobin, HbO₂)</span>
+                            <span class="value-number">~98.5%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Hemoglobin Structure</h3>
+                    <p>Understanding hemoglobin's structure helps explain how it works:</p>
+                    <ul>
+                        <li><strong>4 polypeptide chains</strong> (the globin portion) - 2 alpha, 2 beta</li>
+                        <li><strong>4 heme groups</strong> - each containing one iron (Fe²⁺) atom</li>
+                        <li><strong>Each iron can bind one O₂</strong> - so one Hb can carry up to 4 O₂ molecules</li>
+                        <li><strong>~250 million Hb molecules per RBC</strong> - each RBC can carry ~1 billion O₂ molecules!</li>
+                    </ul>
+
+                    <div class="formula-box">
+                        <div class="formula">Hb + O₂ ⇌ HbO₂</div>
+                        <div class="explanation">Deoxyhemoglobin + Oxygen ⇌ Oxyhemoglobin<br>This reaction is reversible—that's crucial for both loading AND unloading</div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Oxygen-Hemoglobin Dissociation Curve</h3>
+                    <p>This is one of the most important graphs in respiratory physiology. It shows how much oxygen hemoglobin carries at different P<sub>O₂</sub> levels.</p>
+
+                    <div class="values-card">
+                        <h4>Hemoglobin Saturation at Key Locations</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Arterial blood</strong> (P<sub>O₂</sub> = 100 mmHg)</span>
+                            <span class="value-number">~98% saturated</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Venous blood at rest</strong> (P<sub>O₂</sub> = 40 mmHg)</span>
+                            <span class="value-number">~75% saturated</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Active muscle</strong> (P<sub>O₂</sub> = 20 mmHg)</span>
+                            <span class="value-number">~35% saturated</span>
+                        </div>
+                    </div>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: The Curve is S-Shaped (Sigmoidal)</h4>
+                        <p>The S-shape is critically important:</p>
+                        <ul>
+                            <li><strong>Flat portion (80-100 mmHg):</strong> Even if P<sub>O₂</sub> drops a bit (like at high altitude), Hb stays almost fully saturated. This provides a safety margin for loading.</li>
+                            <li><strong>Steep portion (20-40 mmHg):</strong> Small drops in P<sub>O₂</sub> cause large releases of O₂. This allows efficient unloading in tissues.</li>
+                        </ul>
+                    </div>
+
+                    <div class="analogy">
+                        <h4>💭 Think of hemoglobin like a greedy vs. generous friend...</h4>
+                        <p>In the lungs (high P<sub>O₂</sub>), hemoglobin is "greedy"—it grabs oxygen tightly and won't let go easily. In the tissues (low P<sub>O₂</sub>), hemoglobin becomes "generous"—it readily releases oxygen. The S-shaped curve reflects this changing personality!</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Factors That Shift the Curve (The Bohr Effect)</h3>
+                    <p>The curve can shift right or left, changing how readily hemoglobin releases oxygen:</p>
+
+                    <table class="comparison-table">
+                        <tr>
+                            <th>Right Shift (↓ affinity, MORE unloading)</th>
+                            <th>Left Shift (↑ affinity, LESS unloading)</th>
+                        </tr>
+                        <tr>
+                            <td>↑ Temperature (active tissues are hot)</td>
+                            <td>↓ Temperature</td>
+                        </tr>
+                        <tr>
+                            <td>↓ pH / ↑ H⁺ (active tissues are acidic)</td>
+                            <td>↑ pH / ↓ H⁺</td>
+                        </tr>
+                        <tr>
+                            <td>↑ P<sub>CO₂</sub> (active tissues produce CO₂)</td>
+                            <td>↓ P<sub>CO₂</sub></td>
+                        </tr>
+                        <tr>
+                            <td>↑ 2,3-DPG (produced in hypoxia)</td>
+                            <td>↓ 2,3-DPG</td>
+                        </tr>
+                    </table>
+
+                    <div class="why-matters">
+                        <h4>🏥 Why This Matters: Automatic O₂ Delivery</h4>
+                        <p>This is incredibly elegant! Active tissues that need the most oxygen are also hotter, more acidic, and have more CO₂. All of these factors shift the curve RIGHT, causing hemoglobin to release MORE oxygen exactly where it's needed. The system automatically matches oxygen delivery to metabolic demand!</p>
+                    </div>
+                </div>
+
+                <div class="clinical">
+                    <h4>🏥 Clinical Connection: Carbon Monoxide Poisoning</h4>
+                    <p>Carbon monoxide (CO) binds to hemoglobin with ~200× greater affinity than oxygen. Even small amounts of CO can occupy hemoglobin binding sites, preventing oxygen transport. Worse, CO shifts the curve LEFT, making remaining O₂ harder to unload. This is why CO poisoning is so dangerous—cherry-red skin, but tissues are starving for oxygen.</p>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>During intense exercise, muscles are hot, acidic, and have high CO₂. How does this affect oxygen delivery, and why is this beneficial?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p>All three factors (↑temperature, ↓pH, ↑CO₂) shift the O₂-Hb dissociation curve to the RIGHT. This decreases hemoglobin's affinity for oxygen, causing it to release MORE oxygen to the exercising muscles. This is beneficial because active muscles need more oxygen for ATP production. The "Bohr effect" ensures oxygen delivery automatically increases where metabolic demand is highest.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: CO2 TRANSPORT -->
+        <section class="section">
+            <h2><span class="section-number">5</span>Carbon Dioxide Transport: Three Routes Back to the Lungs</h2>
+
+            <div class="content">
+                <p>CO₂ is a waste product of cellular metabolism. It must be transported from tissues to the lungs for elimination. Unlike oxygen, CO₂ uses three different transport methods:</p>
+
+                <div class="values-card">
+                    <h4>Forms of CO₂ Transport in Blood</h4>
+                    <div class="value-row">
+                        <span class="value-label"><strong>Dissolved in plasma</strong></span>
+                        <span class="value-number">5-6%</span>
+                    </div>
+                    <div class="value-row">
+                        <span class="value-label"><strong>Bound to hemoglobin</strong> (carbaminohemoglobin)</span>
+                        <span class="value-number">5-8%</span>
+                    </div>
+                    <div class="value-row">
+                        <span class="value-label"><strong>As bicarbonate ions</strong> (HCO₃⁻) in plasma</span>
+                        <span class="value-number">86-90%</span>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Bicarbonate System (The Main Route)</h3>
+                    <p>Most CO₂ is converted to bicarbonate inside red blood cells. This is a clever chemical trick:</p>
+
+                    <div class="formula-box">
+                        <div class="formula">CO₂ + H₂O ⇌ H₂CO₃ ⇌ HCO₃⁻ + H⁺</div>
+                        <div class="explanation">Carbon dioxide + Water ⇌ Carbonic acid ⇌ Bicarbonate + Hydrogen ion<br>Catalyzed by carbonic anhydrase (CA) enzyme in RBCs</div>
+                    </div>
+
+                    <div class="step-by-step">
+                        <h4>CO₂ Loading in the Tissues</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>CO₂ enters red blood cells</strong>
+                                <p>CO₂ diffuses from tissues into plasma, then into RBCs where carbonic anhydrase is located.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>CO₂ is converted to bicarbonate</strong>
+                                <p>Carbonic anhydrase rapidly catalyzes: CO₂ + H₂O → H₂CO₃ → HCO₃⁻ + H⁺</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <strong>Bicarbonate leaves the RBC (Chloride Shift)</strong>
+                                <p>HCO₃⁻ exits into plasma via an antiporter that exchanges it for Cl⁻. This "chloride shift" maintains electrical neutrality.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">4</div>
+                            <div class="step-content">
+                                <strong>H⁺ is buffered by hemoglobin</strong>
+                                <p>The H⁺ produced binds to hemoglobin (forming HHb), preventing dangerous pH changes. Deoxygenated Hb is a better buffer than oxygenated Hb.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Haldane Effect: How O₂ and CO₂ Help Each Other</h3>
+                    <p>There's an elegant reciprocal relationship between oxygen and CO₂ transport:</p>
+
+                    <div class="key-concept">
+                        <h4>🔑 The Haldane Effect</h4>
+                        <p><strong>Deoxygenated hemoglobin binds CO₂ better than oxygenated hemoglobin.</strong></p>
+                        <ul>
+                            <li><strong>In tissues:</strong> O₂ leaves Hb → Hb can now pick up more CO₂</li>
+                            <li><strong>In lungs:</strong> O₂ binds to Hb → CO₂ is released from Hb</li>
+                        </ul>
+                        <p>This is the perfect arrangement—oxygen unloading facilitates CO₂ loading, and vice versa!</p>
+                    </div>
+                </div>
+
+                <div class="expandable">
+                    <div class="expandable-header">
+                        <h4>🔬 Deep Dive: Bohr Effect vs. Haldane Effect</h4>
+                        <span class="expandable-icon">▼</span>
+                    </div>
+                    <div class="expandable-content">
+                        <p>These two effects are related but describe different things:</p>
+                        <table class="comparison-table">
+                            <tr>
+                                <th>Bohr Effect</th>
+                                <th>Haldane Effect</th>
+                            </tr>
+                            <tr>
+                                <td>CO₂ and H⁺ affect <strong>oxygen binding</strong></td>
+                                <td>O₂ affects <strong>CO₂ binding</strong></td>
+                            </tr>
+                            <tr>
+                                <td>↑CO₂/↑H⁺ → ↓O₂ affinity → more O₂ released</td>
+                                <td>↓O₂ → ↑CO₂ binding → more CO₂ carried</td>
+                            </tr>
+                            <tr>
+                                <td>Important in <strong>tissues</strong> (promotes O₂ unloading)</td>
+                                <td>Important in <strong>both</strong> lungs and tissues</td>
+                            </tr>
+                        </table>
+                        <p>Together, these effects create a beautifully coordinated system where O₂ and CO₂ transport enhance each other.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: CONTROL OF BREATHING -->
+        <section class="section">
+            <h2><span class="section-number">6</span>Control of Breathing: Why You Can't Hold Your Breath Forever</h2>
+
+            <div class="content">
+                <p>You breathe about 12-15 times per minute, roughly 20,000 times per day—mostly without thinking about it. How does your body control this automatic process?</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Breathing is controlled by <strong>respiratory centers in the brainstem</strong> that set the basic rhythm. This rhythm is modified by <strong>chemoreceptors</strong> that detect changes in CO₂, pH, and O₂ levels. The primary stimulus for breathing is <strong>CO₂ (via pH)</strong>, not oxygen!</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Neural Control Center</h3>
+                    <p>The breathing rhythm originates in the brainstem, not the conscious brain:</p>
+
+                    <div class="values-card">
+                        <h4>Brainstem Respiratory Centers</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Ventral Respiratory Group (VRG)</strong> - in medulla</span>
+                            <span class="value-number">Sets basic rhythm</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Dorsal Respiratory Group (DRG)</strong> - in medulla</span>
+                            <span class="value-number">Integrates sensory input</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Pontine Respiratory Group (PRG)</strong> - in pons</span>
+                            <span class="value-number">Smooths transitions</span>
+                        </div>
+                    </div>
+
+                    <p>These centers send signals via motor neurons:</p>
+                    <ul>
+                        <li><strong>Phrenic nerve</strong> → Diaphragm (main muscle of inspiration)</li>
+                        <li><strong>External intercostal nerves</strong> → External intercostal muscles</li>
+                        <li><strong>Internal intercostal nerves</strong> → Internal intercostal muscles (forced expiration)</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>Chemoreceptors: The Sensors</h3>
+                    <p>Chemoreceptors detect chemical changes in the blood and cerebrospinal fluid, then signal the respiratory centers to adjust ventilation:</p>
+
+                    <table class="comparison-table">
+                        <tr>
+                            <th>Central Chemoreceptors</th>
+                            <th>Peripheral Chemoreceptors</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Location:</strong> Medulla (brainstem)</td>
+                            <td><strong>Location:</strong> Carotid bodies (near carotid sinus)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Detect:</strong> pH of cerebrospinal fluid (CSF)</td>
+                            <td><strong>Detect:</strong> Blood pH, P<sub>O₂</sub>, P<sub>CO₂</sub></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Respond to CO₂:</strong> Indirectly (CO₂ → ↓pH in CSF)</td>
+                            <td><strong>Respond to CO₂:</strong> Directly</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Respond to O₂:</strong> NO</td>
+                            <td><strong>Respond to O₂:</strong> Yes (but only when P<sub>O₂</sub> < 60 mmHg)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Most important stimulus:</strong> CO₂ (via pH)</td>
+                            <td><strong>Most important stimulus:</strong> pH changes</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="subsection">
+                    <h3>CO₂ is the Primary Respiratory Stimulus</h3>
+                    <p>This surprises many people! We think of breathing as "getting oxygen," but your body primarily monitors CO₂ levels:</p>
+
+                    <div class="key-concept">
+                        <h4>🔑 Why CO₂ Matters More Than O₂</h4>
+                        <p>CO₂ directly affects blood pH through the bicarbonate equation. Even small changes in P<sub>CO₂</sub> cause pH changes that can disrupt enzyme function and cellular processes. Your body is exquisitely sensitive to CO₂ because maintaining pH is critical for survival.</p>
+                    </div>
+
+                    <div class="flow-diagram">
+                        <div class="flow-title">How CO₂ Stimulates Breathing</div>
+                        <div class="flow-row">
+                            <span class="flow-box">↑ P<sub>CO₂</sub></span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box">↑ H⁺ (↓ pH)</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box">Chemoreceptors detect</span>
+                        </div>
+                        <div class="flow-row">
+                            <span class="flow-arrow">↓</span>
+                        </div>
+                        <div class="flow-row">
+                            <span class="flow-box highlight">↑ Ventilation</span>
+                            <span class="flow-arrow">←</span>
+                            <span class="flow-box">Respiratory centers stimulated</span>
+                        </div>
+                        <div class="flow-row">
+                            <span class="flow-arrow">↓</span>
+                        </div>
+                        <div class="flow-row">
+                            <span class="flow-box">CO₂ exhaled</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box">P<sub>CO₂</sub> returns to normal</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box highlight">Homeostasis restored</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>When Does Oxygen Matter?</h3>
+                    <p>Oxygen only becomes a significant breathing stimulus when P<sub>O₂</sub> drops below about 60 mmHg—a dangerous level! This happens at very high altitudes or in severe lung disease.</p>
+
+                    <div class="clinical">
+                        <h4>🏥 Clinical Connection: COPD and the "Hypoxic Drive"</h4>
+                        <p>Some patients with severe COPD have chronically elevated CO₂. Their central chemoreceptors become desensitized ("reset" to accept high CO₂ as normal). These patients may rely more on low oxygen as their breathing stimulus. Giving them too much supplemental oxygen can actually decrease their drive to breathe—a dangerous situation called "oxygen-induced hypoventilation."</p>
+                    </div>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>Why can't you hold your breath indefinitely, even if you really want to?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p>While you hold your breath, CO₂ accumulates in your blood. This raises P<sub>CO₂</sub>, which lowers blood and CSF pH. Your chemoreceptors detect this change and send increasingly strong signals to your respiratory centers. Eventually, the brainstem's automatic drive to breathe overwhelms your voluntary control, forcing you to inhale. The urge to breathe is primarily driven by rising CO₂, not falling O₂!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: VENTILATION-PERFUSION MATCHING -->
+        <section class="section">
+            <h2><span class="section-number">7</span>Ventilation-Perfusion Matching: Fine-Tuning the System</h2>
+
+            <div class="content">
+                <p>For optimal gas exchange, airflow (ventilation) and blood flow (perfusion) need to be matched. What good is well-ventilated alveoli if no blood flows past them, or vice versa?</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>The lungs have local control mechanisms that automatically match ventilation to perfusion. If an area has poor airflow, blood vessels constrict to redirect blood elsewhere. If an area has poor blood flow, airways constrict to redirect air elsewhere.</p>
+                </div>
+
+                <div class="key-concept">
+                    <h4>🔑 Local Control Mechanisms</h4>
+                    <ul>
+                        <li><strong>Low P<sub>O₂</sub> in alveoli</strong> → Pulmonary arterioles <strong>constrict</strong> (redirects blood to better-ventilated areas)</li>
+                        <li><strong>High P<sub>CO₂</sub> in alveoli</strong> → Bronchioles <strong>dilate</strong> (increases airflow to match blood flow)</li>
+                        <li><strong>Low P<sub>CO₂</sub> in alveoli</strong> → Bronchioles <strong>constrict</strong> (reduces wasted ventilation)</li>
+                    </ul>
+                </div>
+
+                <div class="why-matters">
+                    <h4>🏥 Why This Matters</h4>
+                    <p>This local control is unique to the pulmonary circulation! In systemic circulation, low O₂ causes vasodilation (to bring more blood). In pulmonary circulation, low O₂ causes vasoconstriction (to redirect blood to better-oxygenated areas). This "hypoxic vasoconstriction" is a clever adaptation that optimizes oxygen pickup in the lungs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUMMARY -->
+        <div class="summary">
+            <h3>📋 Chapter 17 Summary: What You Should Know</h3>
+            <ul>
+                <li>Gases diffuse from high to low partial pressure—this drives all gas exchange</li>
+                <li>External respiration (lungs): O₂ into blood, CO₂ out; Internal respiration (tissues): O₂ out, CO₂ in</li>
+                <li>98.5% of O₂ is carried by hemoglobin; only 1.5% dissolved in plasma</li>
+                <li>The O₂-Hb dissociation curve is S-shaped, allowing efficient loading in lungs and unloading in tissues</li>
+                <li>Bohr effect: ↑CO₂/↑temp/↓pH shifts curve right → more O₂ unloading (helps active tissues)</li>
+                <li>Most CO₂ (86-90%) is transported as bicarbonate; formed by carbonic anhydrase in RBCs</li>
+                <li>Haldane effect: deoxygenated Hb carries more CO₂ (coordinates O₂ and CO₂ transport)</li>
+                <li>Breathing rhythm is generated in the medulla (VRG and DRG) and modified by the pons (PRG)</li>
+                <li>CO₂ (via pH changes) is the PRIMARY stimulus for breathing, detected by central and peripheral chemoreceptors</li>
+                <li>O₂ only stimulates breathing when P<sub>O₂</sub> drops below 60 mmHg (emergency backup)</li>
+                <li>Ventilation-perfusion matching ensures blood flow goes where the air goes</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <script>
+        // Progress bar
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        // Expandable sections
+        document.querySelectorAll('.expandable-header').forEach(header => {
+            header.addEventListener('click', function() {
+                this.parentElement.classList.toggle('open');
+            });
+        });
+
+        // Reveal answers
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            answer.classList.toggle('show');
+            button.textContent = answer.classList.contains('show') ? 'Hide Answer' : 'Reveal Answer';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 18: Renal Function | Physiology Study Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2234;
+            --bg-card-hover: #222d42;
+            --accent-primary: #8b5cf6;
+            --accent-secondary: #a78bfa;
+            --accent-success: #10b981;
+            --accent-warning: #f59e0b;
+            --accent-danger: #ef4444;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: #1e293b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 15, 26, 0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 0.75rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-chapters {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-ch {
+            padding: 0.4rem 0.8rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .nav-ch:hover, .nav-ch.active {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 6rem 1.5rem 4rem;
+        }
+
+        .chapter-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .chapter-label {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-primary), #06b6d4);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .chapter-header h1 {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.2;
+        }
+
+        .chapter-header .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .learning-objectives {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(6, 182, 212, 0.1));
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 16px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .learning-objectives h2 {
+            font-size: 1.1rem;
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+        }
+
+        .learning-objectives ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .learning-objectives li {
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .learning-objectives li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-number {
+            display: inline-block;
+            background: var(--accent-primary);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-right: 0.75rem;
+        }
+
+        .section h2 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.6rem;
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .big-idea {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-primary);
+            border-radius: 0 12px 12px 0;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .big-idea-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-primary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .big-idea p {
+            font-size: 1.05rem;
+            color: var(--text-primary);
+        }
+
+        .why-matters {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(6, 182, 212, 0.1));
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .why-matters h4 {
+            color: var(--accent-success);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .why-matters p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .analogy {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(249, 115, 22, 0.1));
+            border: 1px solid rgba(245, 158, 11, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .analogy h4 {
+            color: var(--accent-warning);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .analogy p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .content p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .content p strong {
+            color: var(--text-primary);
+        }
+
+        .subsection {
+            margin: 2rem 0;
+        }
+
+        .subsection h3 {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .subsection h4 {
+            font-size: 1rem;
+            color: var(--accent-primary);
+            margin: 1.25rem 0 0.75rem;
+        }
+
+        .content ul, .content ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .content li strong {
+            color: var(--text-primary);
+        }
+
+        .step-by-step {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .step-by-step h4 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .step {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .step:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .step-num {
+            width: 28px;
+            height: 28px;
+            background: var(--accent-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-content strong {
+            color: var(--text-primary);
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .step-content p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .key-concept {
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .key-concept h4 {
+            color: var(--accent-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .key-concept p, .key-concept ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .formula-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .formula-box .formula {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            color: var(--accent-primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .formula-box .explanation {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .comparison-table th {
+            background: var(--bg-card);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid var(--accent-primary);
+        }
+
+        .comparison-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        .comparison-table tr:hover td {
+            background: rgba(255,255,255,0.02);
+        }
+
+        .values-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .values-card h4 {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .value-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .value-row:last-child {
+            border-bottom: none;
+        }
+
+        .value-label {
+            color: var(--text-secondary);
+        }
+
+        .value-number {
+            color: var(--accent-primary);
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+
+        .clinical {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(236, 72, 153, 0.1));
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .clinical h4 {
+            color: #f87171;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .clinical p, .clinical ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .check-understanding {
+            background: var(--bg-card);
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .check-understanding h4 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+
+        .check-understanding p {
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 0.75rem;
+        }
+
+        .reveal-answer {
+            background: var(--accent-primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .reveal-answer:hover {
+            background: #7c3aed;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--accent-success);
+        }
+
+        .answer.show {
+            display: block;
+        }
+
+        .summary {
+            background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .summary h3 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .summary ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .summary li {
+            padding: 0.5rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .summary li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-success);
+            font-weight: bold;
+        }
+
+        .progress-container {
+            position: fixed;
+            top: 60px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--bg-secondary);
+            z-index: 999;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-primary), #06b6d4);
+            width: 0%;
+            transition: width 0.1s;
+        }
+
+        .expandable {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .expandable-header {
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .expandable-header:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .expandable-header h4 {
+            margin: 0;
+            font-size: 1rem;
+            color: var(--text-primary);
+        }
+
+        .expandable-icon {
+            color: var(--text-muted);
+            transition: transform 0.3s;
+        }
+
+        .expandable.open .expandable-icon {
+            transform: rotate(180deg);
+        }
+
+        .expandable-content {
+            display: none;
+            padding: 0 1.25rem 1.25rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .expandable.open .expandable-content {
+            display: block;
+        }
+
+        .flow-diagram {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .flow-diagram .flow-title {
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .flow-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .flow-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .flow-box.highlight {
+            background: rgba(139, 92, 246, 0.2);
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+
+        .flow-arrow {
+            color: var(--accent-primary);
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 5rem 1rem 3rem;
+            }
+
+            .chapter-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .nav-chapters {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">PhysioGuide</div>
+            <div class="nav-chapters">
+                <a href="index.html" class="nav-ch home">🏠 Home</a>
+                <a href="physiology-guide-ch16.html" class="nav-ch">Ch 16</a>
+                <a href="physiology-guide-ch17.html" class="nav-ch">Ch 17</a>
+                <a href="physiology-guide-ch18.html" class="nav-ch active">Ch 18</a>
+                <a href="physiology-guide-ch19.html" class="nav-ch">Ch 19</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="chapter-header">
+            <span class="chapter-label">Chapter 18 • Urinary System</span>
+            <h1>Renal Function</h1>
+            <p class="subtitle">How your kidneys filter blood and make urine</p>
+        </header>
+
+        <div class="learning-objectives">
+            <h2>🎯 What You'll Learn</h2>
+            <ul>
+                <li>Why kidneys are essential for survival (it's not just about making urine)</li>
+                <li>The anatomy of the nephron—the kidney's functional unit</li>
+                <li>The three basic processes: filtration, reabsorption, and secretion</li>
+                <li>How your body regulates filtration rate to maintain homeostasis</li>
+                <li>What each part of the tubule does and why it matters</li>
+            </ul>
+        </div>
+
+        <!-- SECTION 1: BIG PICTURE -->
+        <section class="section">
+            <h2><span class="section-number">1</span>The Big Picture: What Do Kidneys Actually Do?</h2>
+            
+            <div class="content">
+                <p>Most people think kidneys just "make urine." But that vastly underestimates their importance. Your kidneys are sophisticated chemical processing plants that perform many critical functions:</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Kidneys regulate the composition, volume, and pressure of your blood. They filter about 180 liters of fluid daily, selectively keeping what you need and excreting what you don't. Without kidneys, you'd die within days from toxic waste buildup and fluid/electrolyte imbalances.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Many Jobs of Your Kidneys</h3>
+                    <ul>
+                        <li><strong>Excrete metabolic wastes</strong> – Urea (from protein breakdown), creatinine (from muscle metabolism), uric acid (from nucleic acids)</li>
+                        <li><strong>Regulate water balance</strong> – Control how much water you retain or excrete</li>
+                        <li><strong>Regulate electrolyte balance</strong> – Control levels of Na⁺, K⁺, Ca²⁺, Cl⁻, phosphate</li>
+                        <li><strong>Regulate blood pH</strong> – Excrete or retain H⁺ and HCO₃⁻ to maintain pH 7.35-7.45</li>
+                        <li><strong>Regulate blood pressure</strong> – Via fluid volume and the renin-angiotensin system</li>
+                        <li><strong>Produce hormones</strong> – Erythropoietin (stimulates RBC production), calcitriol (active vitamin D)</li>
+                    </ul>
+                </div>
+
+                <div class="analogy">
+                    <h4>💭 Think of kidneys like a water treatment plant...</h4>
+                    <p>Imagine a city's water treatment facility that processes millions of gallons daily. It doesn't just remove waste—it carefully monitors and adjusts mineral content, pH, and volume to ensure the water leaving meets exact specifications. Your kidneys do the same for blood, processing it ~40 times per day!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ANATOMY -->
+        <section class="section">
+            <h2><span class="section-number">2</span>Kidney Anatomy: From Organ to Nephron</h2>
+
+            <div class="content">
+                <div class="subsection">
+                    <h3>The Urinary System Overview</h3>
+                    <p>The urinary system consists of:</p>
+                    <ul>
+                        <li><strong>2 Kidneys</strong> – Filter blood and produce urine</li>
+                        <li><strong>2 Ureters</strong> – Transport urine from kidneys to bladder</li>
+                        <li><strong>1 Urinary bladder</strong> – Stores urine</li>
+                        <li><strong>1 Urethra</strong> – Excretes urine from body</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>Kidney Structure</h3>
+                    <p>Each kidney (about the size of your fist) has three main regions:</p>
+                    <ul>
+                        <li><strong>Renal cortex</strong> – Outer layer; contains glomeruli and convoluted tubules</li>
+                        <li><strong>Renal medulla</strong> – Inner region; contains renal pyramids with loops of Henle and collecting ducts</li>
+                        <li><strong>Renal pelvis</strong> – Funnel-shaped area that collects urine and drains into ureter</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Nephron: The Functional Unit</h3>
+                    <p>Each kidney contains about <strong>1 million nephrons</strong>—the microscopic structures that actually filter blood and make urine. Understanding the nephron is key to understanding kidney function.</p>
+
+                    <div class="key-concept">
+                        <h4>🔑 Nephron Components</h4>
+                        <p>Each nephron consists of two main parts:</p>
+                        <ol>
+                            <li><strong>Renal corpuscle</strong> (filtering unit):
+                                <ul>
+                                    <li><strong>Glomerulus</strong> – Ball of capillaries where filtration occurs</li>
+                                    <li><strong>Bowman's capsule</strong> – Cup that surrounds glomerulus and collects filtrate</li>
+                                </ul>
+                            </li>
+                            <li><strong>Renal tubule</strong> (processing unit):
+                                <ul>
+                                    <li><strong>Proximal convoluted tubule (PCT)</strong> – Major reabsorption site</li>
+                                    <li><strong>Loop of Henle</strong> – Creates concentration gradient (descending & ascending limbs)</li>
+                                    <li><strong>Distal convoluted tubule (DCT)</strong> – Fine-tuning, hormone-regulated</li>
+                                    <li><strong>Collecting duct</strong> – Final concentration of urine</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Two Types of Nephrons</h3>
+                    <table class="comparison-table">
+                        <tr>
+                            <th>Cortical Nephrons (80-85%)</th>
+                            <th>Juxtamedullary Nephrons (15-20%)</th>
+                        </tr>
+                        <tr>
+                            <td>Short loops of Henle</td>
+                            <td>Long loops extending deep into medulla</td>
+                        </tr>
+                        <tr>
+                            <td>Mostly in cortex</td>
+                            <td>Corpuscle near cortex-medulla border</td>
+                        </tr>
+                        <tr>
+                            <td>Standard filtering</td>
+                            <td>Create the medullary osmotic gradient essential for concentrating urine</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="subsection">
+                    <h3>Blood Supply: A Unique Arrangement</h3>
+                    <p>The kidney has a distinctive blood vessel arrangement with TWO capillary beds in series:</p>
+
+                    <div class="flow-diagram">
+                        <div class="flow-title">Blood Flow Through the Nephron</div>
+                        <div class="flow-row">
+                            <span class="flow-box">Renal artery</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box">Afferent arteriole</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box highlight">Glomerulus (1st capillary bed)</span>
+                        </div>
+                        <div class="flow-row">
+                            <span class="flow-arrow">↓</span>
+                        </div>
+                        <div class="flow-row">
+                            <span class="flow-box">Efferent arteriole</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box highlight">Peritubular capillaries (2nd capillary bed)</span>
+                            <span class="flow-arrow">→</span>
+                            <span class="flow-box">Renal vein</span>
+                        </div>
+                    </div>
+
+                    <div class="why-matters">
+                        <h4>🏥 Why Two Capillary Beds?</h4>
+                        <p>This arrangement is unique! The glomerulus is a high-pressure capillary bed for FILTRATION. The peritubular capillaries are a low-pressure bed for REABSORPTION. Connecting them with an arteriole (not a venule) allows precise control of pressure in each bed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: THREE PROCESSES -->
+        <section class="section">
+            <h2><span class="section-number">3</span>The Three Basic Renal Processes</h2>
+
+            <div class="content">
+                <p>Urine formation involves three processes working together. Understanding these is fundamental to understanding kidney function.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>The kidney uses a "filter first, then reclaim" strategy. It filters almost EVERYTHING out of blood (except cells and proteins), then selectively reabsorbs what the body needs. This is more efficient than trying to selectively remove specific wastes.</p>
+                </div>
+
+                <div class="step-by-step">
+                    <h4>The Three Processes</h4>
+                    
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div class="step-content">
+                            <strong>Filtration (Blood → Bowman's Capsule)</strong>
+                            <p>Pressure forces water and small solutes from glomerular capillaries through the filtration membrane into Bowman's capsule. Large molecules (proteins) and cells stay in blood.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div class="step-content">
+                            <strong>Reabsorption (Tubule → Blood)</strong>
+                            <p>As filtrate flows through tubules, needed substances (water, glucose, amino acids, ions) are transported back into peritubular capillaries. Most filtrate is reclaimed!</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div class="step-content">
+                            <strong>Secretion (Blood → Tubule)</strong>
+                            <p>Some substances are actively transported FROM peritubular capillaries INTO the tubule. This allows removal of substances that weren't filtered (drug metabolites, excess H⁺ or K⁺).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formula-box">
+                    <div class="formula">Amount Excreted = Amount Filtered + Amount Secreted − Amount Reabsorbed</div>
+                    <div class="explanation">This equation determines how much of any substance ends up in urine</div>
+                </div>
+
+                <div class="analogy">
+                    <h4>💭 Think of it like sorting your belongings...</h4>
+                    <p>Imagine you dump ALL contents of your closet on the floor (filtration), then carefully pick up items you want to keep and put them back (reabsorption), and add a few items from elsewhere that you want to throw away (secretion). What's left on the floor goes in the trash (excretion). That's essentially how the kidney works!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: GLOMERULAR FILTRATION -->
+        <section class="section">
+            <h2><span class="section-number">4</span>Glomerular Filtration: The First Step</h2>
+
+            <div class="content">
+                <div class="subsection">
+                    <h3>The Filtration Membrane</h3>
+                    <p>Blood must pass through three layers to become filtrate. This membrane determines what gets filtered:</p>
+
+                    <ol>
+                        <li><strong>Fenestrated capillary endothelium</strong> – Has pores that allow most plasma components through (but not blood cells)</li>
+                        <li><strong>Basement membrane</strong> – Blocks most proteins based on size and charge</li>
+                        <li><strong>Podocytes of Bowman's capsule</strong> – Specialized cells with filtration slits between "foot processes"</li>
+                    </ol>
+
+                    <div class="key-concept">
+                        <h4>🔑 What Gets Filtered?</h4>
+                        <p><strong>Size is the main determinant:</strong></p>
+                        <ul>
+                            <li>✅ Water, ions (Na⁺, K⁺, Cl⁻), glucose, amino acids, urea, creatinine – small enough to pass</li>
+                            <li>❌ Blood cells, platelets – too large</li>
+                            <li>❌ Plasma proteins (albumin, globulins) – too large and negatively charged</li>
+                        </ul>
+                        <p>The filtrate is essentially protein-free plasma!</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Forces Driving Filtration</h3>
+                    <p>Filtration is driven by pressure, just like in other capillaries. But the glomerulus has unusually HIGH pressure because of the arteriole arrangement:</p>
+
+                    <div class="values-card">
+                        <h4>Starling Forces in the Glomerulus</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Glomerular hydrostatic pressure (P<sub>GC</sub>)</strong> — pushes OUT</span>
+                            <span class="value-number">+60 mmHg</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Capsular hydrostatic pressure (P<sub>BC</sub>)</strong> — pushes back IN</span>
+                            <span class="value-number">−15 mmHg</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Glomerular osmotic pressure (π<sub>GC</sub>)</strong> — pulls back IN</span>
+                            <span class="value-number">−28 mmHg</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Net Filtration Pressure</strong></span>
+                            <span class="value-number">≈ +17 mmHg</span>
+                        </div>
+                    </div>
+
+                    <div class="formula-box">
+                        <div class="formula">NFP = P<sub>GC</sub> − P<sub>BC</sub> − π<sub>GC</sub></div>
+                        <div class="explanation">NFP = 60 − 15 − 28 = 17 mmHg (always favors filtration in healthy kidneys)</div>
+                    </div>
+
+                    <div class="why-matters">
+                        <h4>🏥 Why is Glomerular Pressure So High?</h4>
+                        <p>The afferent arteriole is wide (low resistance in), but the efferent arteriole is narrow (high resistance out). This "backs up" blood in the glomerulus, maintaining ~60 mmHg pressure—much higher than typical capillaries (~20 mmHg). This high pressure is essential for effective filtration.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Glomerular Filtration Rate (GFR)</h3>
+                    <p>GFR is the volume of filtrate produced per minute by all glomeruli in both kidneys.</p>
+
+                    <div class="values-card">
+                        <h4>GFR: The Numbers</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Normal GFR</strong></span>
+                            <span class="value-number">125 mL/min</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Daily filtrate volume</strong></span>
+                            <span class="value-number">~180 liters!</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Daily urine output</strong></span>
+                            <span class="value-number">~1.5 liters</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Percentage reabsorbed</strong></span>
+                            <span class="value-number">>99%</span>
+                        </div>
+                    </div>
+
+                    <div class="analogy">
+                        <h4>💭 Putting this in perspective...</h4>
+                        <p>180 liters is about 47 gallons—nearly enough to fill a bathtub! Your kidneys filter your entire blood volume (~5 liters) about 36 times per day. If reabsorption failed, you'd die from dehydration within hours.</p>
+                    </div>
+                </div>
+
+                <div class="clinical">
+                    <h4>🏥 Clinical Connection: Acute Kidney Failure</h4>
+                    <p>If blood pressure drops too low (severe hemorrhage, shock), the net filtration pressure can drop to zero—the glomerular pressure can't overcome the opposing forces. This is called "kidney shutdown" or acute renal failure. Waste products rapidly accumulate in blood, and without treatment (IV fluids, dialysis), it's fatal.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: REGULATION OF GFR -->
+        <section class="section">
+            <h2><span class="section-number">5</span>Regulation of GFR: Keeping Filtration Constant</h2>
+
+            <div class="content">
+                <p>GFR must stay relatively constant despite normal fluctuations in blood pressure. Too high = excessive fluid loss; too low = inadequate waste removal. The kidney has elegant mechanisms to maintain stable GFR.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>The kidney can adjust the diameter of afferent and efferent arterioles to maintain constant glomerular pressure (and thus GFR) even when systemic blood pressure changes. This is called <strong>autoregulation</strong>.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>1. Myogenic Mechanism</h3>
+                    <p>Smooth muscle in arteriole walls automatically responds to stretch:</p>
+                    <ul>
+                        <li><strong>↑ Blood pressure</strong> → Stretches afferent arteriole → Smooth muscle contracts → Vasoconstriction → ↓ blood flow to glomerulus → GFR stays normal</li>
+                        <li><strong>↓ Blood pressure</strong> → Less stretch → Smooth muscle relaxes → Vasodilation → ↑ blood flow to glomerulus → GFR stays normal</li>
+                    </ul>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: Myogenic = "Muscle-Generated"</h4>
+                        <p>This response is intrinsic to the smooth muscle itself—no hormones or nerves required. It works within seconds to buffer pressure changes.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>2. Tubuloglomerular Feedback</h3>
+                    <p>This mechanism uses the juxtaglomerular apparatus (JGA) to sense and adjust GFR:</p>
+
+                    <div class="step-by-step">
+                        <h4>How Tubuloglomerular Feedback Works</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>Macula densa cells sense NaCl concentration</strong>
+                                <p>These specialized cells in the DCT (near the glomerulus) monitor NaCl in the tubular fluid.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>High NaCl = High GFR signal</strong>
+                                <p>If GFR is too high, fluid flows too fast through tubules for complete NaCl reabsorption → high NaCl at macula densa.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <strong>Response: Constrict afferent arteriole</strong>
+                                <p>Macula densa releases vasoconstrictors → afferent arteriole constricts → ↓ GFR → slower flow → more time for NaCl reabsorption.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>The opposite occurs if GFR is too low (low NaCl at macula densa → afferent dilation + renin release).</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>3. Sympathetic Control (Extrinsic)</h3>
+                    <p>During emergencies (hemorrhage, severe stress), sympathetic nerves can override autoregulation:</p>
+                    <ul>
+                        <li><strong>Strong sympathetic activation</strong> → Intense vasoconstriction of ALL renal vessels</li>
+                        <li><strong>Result:</strong> Blood is shunted away from kidneys to vital organs (brain, heart)</li>
+                        <li><strong>GFR drops dramatically</strong> → Conserves fluid during blood loss</li>
+                    </ul>
+
+                    <div class="why-matters">
+                        <h4>🏥 Why This Makes Sense</h4>
+                        <p>If you're bleeding heavily, the last thing you need is kidneys producing urine! Reducing GFR conserves fluid and redirects blood to where it's needed most. This is a survival mechanism—kidney function temporarily takes a back seat to keeping you alive.</p>
+                    </div>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>If blood pressure increases from 120 to 140 mmHg during mild exercise, what happens to GFR and why?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p>GFR stays approximately the same due to autoregulation! The myogenic mechanism causes the afferent arteriole to constrict in response to increased pressure, reducing blood flow into the glomerulus and preventing the expected increase in GFR. This protects you from losing excessive fluid during exercise.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: TUBULAR PROCESSING -->
+        <section class="section">
+            <h2><span class="section-number">6</span>Tubular Processing: Region by Region</h2>
+
+            <div class="content">
+                <p>Each segment of the renal tubule has specialized cells with different permeabilities and transport proteins. Let's follow the filtrate through each region.</p>
+
+                <div class="subsection">
+                    <h3>Proximal Convoluted Tubule (PCT) — "The Workhorse"</h3>
+                    <p>The PCT does the bulk of reabsorption—recovering valuable substances before they're lost.</p>
+
+                    <div class="values-card">
+                        <h4>PCT Reabsorption</h4>
+                        <div class="value-row">
+                            <span class="value-label">Filtrate volume reabsorbed</span>
+                            <span class="value-number">~65%</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label">Glucose reabsorbed</span>
+                            <span class="value-number">~100%</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label">Amino acids reabsorbed</span>
+                            <span class="value-number">~100%</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label">Na⁺ reabsorbed</span>
+                            <span class="value-number">~65%</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label">HCO₃⁻ reabsorbed</span>
+                            <span class="value-number">~80-90%</span>
+                        </div>
+                    </div>
+
+                    <p><strong>Key features:</strong></p>
+                    <ul>
+                        <li>Cells have abundant microvilli (brush border) → huge surface area</li>
+                        <li>Many mitochondria → lots of ATP for active transport</li>
+                        <li>Na⁺/K⁺-ATPase pumps on basolateral membrane drive reabsorption</li>
+                        <li>Water follows solutes passively (high permeability to water)</li>
+                        <li>Filtrate remains isotonic (~300 mOsm) despite volume reduction</li>
+                    </ul>
+
+                    <div class="clinical">
+                        <h4>🏥 Clinical Connection: Glucosuria in Diabetes</h4>
+                        <p>Glucose is normally 100% reabsorbed via Na⁺-glucose cotransporters. But these transporters have a maximum capacity (~375 mg/min). In uncontrolled diabetes, blood glucose is so high that filtered glucose exceeds this "transport maximum." Excess glucose spills into urine (glucosuria)—a classic sign of diabetes.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Loop of Henle — "The Concentrator"</h3>
+                    <p>The loop of Henle's main job is to create a concentration gradient in the medulla, enabling urine concentration.</p>
+
+                    <table class="comparison-table">
+                        <tr>
+                            <th>Descending Limb</th>
+                            <th>Ascending Limb</th>
+                        </tr>
+                        <tr>
+                            <td>Permeable to WATER</td>
+                            <td>Impermeable to water</td>
+                        </tr>
+                        <tr>
+                            <td>Impermeable to solutes (NaCl)</td>
+                            <td>Permeable to solutes (actively pumps NaCl out)</td>
+                        </tr>
+                        <tr>
+                            <td>Water leaves → filtrate concentrates</td>
+                            <td>NaCl leaves → filtrate dilutes</td>
+                        </tr>
+                        <tr>
+                            <td>Filtrate becomes hypertonic (up to 1200 mOsm)</td>
+                            <td>Filtrate becomes hypotonic (~100 mOsm)</td>
+                        </tr>
+                    </table>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: Countercurrent Multiplier</h4>
+                        <p>The opposing flows (descending goes down, ascending goes up) and opposite permeabilities create the <strong>medullary osmotic gradient</strong>—high solute concentration in the deep medulla (~1200 mOsm). This gradient is essential for concentrating urine in the collecting duct.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Distal Convoluted Tubule (DCT) — "Fine Tuning"</h3>
+                    <p>The DCT does selective, hormone-regulated adjustments:</p>
+                    <ul>
+                        <li>Additional Na⁺ and Ca²⁺ reabsorption</li>
+                        <li>K⁺ and H⁺ secretion</li>
+                        <li>Relatively impermeable to water (unless ADH present)</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>Collecting Duct — "The Final Decision"</h3>
+                    <p>The collecting duct determines final urine concentration, regulated by hormones:</p>
+
+                    <ul>
+                        <li><strong>ADH (antidiuretic hormone):</strong>
+                            <ul>
+                                <li>Makes collecting duct permeable to water</li>
+                                <li>Water leaves into hypertonic medulla → concentrated urine</li>
+                                <li>No ADH → collecting duct impermeable → dilute urine</li>
+                            </ul>
+                        </li>
+                        <li><strong>Aldosterone:</strong>
+                            <ul>
+                                <li>Increases Na⁺ reabsorption (water follows if ADH present)</li>
+                                <li>Increases K⁺ secretion</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="expandable">
+                        <div class="expandable-header">
+                            <h4>🔬 Deep Dive: Principal Cells vs. Intercalated Cells</h4>
+                            <span class="expandable-icon">▼</span>
+                        </div>
+                        <div class="expandable-content">
+                            <p>The collecting duct has two cell types with different functions:</p>
+                            <ul>
+                                <li><strong>Principal cells:</strong> Respond to ADH (water) and aldosterone (Na⁺/K⁺)</li>
+                                <li><strong>Intercalated cells:</strong> Regulate acid-base balance by secreting H⁺ or HCO₃⁻</li>
+                            </ul>
+                            <p>This allows independent control of water balance, electrolyte balance, and pH!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>Why does the filtrate become concentrated in the descending loop but diluted in the ascending loop?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p>The descending limb is permeable to water but NOT solutes. As it descends into the increasingly concentrated medulla, water leaves by osmosis (following the gradient), but solutes stay trapped → filtrate concentrates. The ascending limb is the opposite: permeable to solutes but NOT water. It actively pumps NaCl out, but water can't follow → filtrate dilutes. This opposite behavior in adjacent limbs creates the concentration gradient.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUMMARY -->
+        <div class="summary">
+            <h3>📋 Chapter 18 Summary: What You Should Know</h3>
+            <ul>
+                <li>Kidneys regulate blood composition, volume, pressure, pH, and produce hormones (erythropoietin, calcitriol)</li>
+                <li>The nephron is the functional unit (~1 million per kidney) consisting of the renal corpuscle and renal tubule</li>
+                <li>Three renal processes: Filtration (blood → tubule), Reabsorption (tubule → blood), Secretion (blood → tubule)</li>
+                <li>The filtration membrane (3 layers) filters based on size—water and small solutes pass; cells and proteins don't</li>
+                <li>GFR = 125 mL/min = 180 L/day; >99% is reabsorbed; only ~1.5 L becomes urine</li>
+                <li>Net Filtration Pressure = P<sub>GC</sub> (60) − P<sub>BC</sub> (15) − π<sub>GC</sub> (28) ≈ 17 mmHg</li>
+                <li>GFR autoregulation: Myogenic mechanism (arteriole responds to stretch) and tubuloglomerular feedback (macula densa senses NaCl)</li>
+                <li>PCT reabsorbs ~65% of filtrate including 100% of glucose and amino acids</li>
+                <li>Loop of Henle creates medullary osmotic gradient via countercurrent multiplication</li>
+                <li>DCT and collecting duct do hormone-regulated fine-tuning (ADH controls water, aldosterone controls Na⁺/K⁺)</li>
+                <li>Final urine concentration depends on ADH: high ADH → concentrated urine; no ADH → dilute urine</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        document.querySelectorAll('.expandable-header').forEach(header => {
+            header.addEventListener('click', function() {
+                this.parentElement.classList.toggle('open');
+            });
+        });
+
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            answer.classList.toggle('show');
+            button.textContent = answer.classList.contains('show') ? 'Hide Answer' : 'Reveal Answer';
+        }
+    </script>
+</body>
+</html>

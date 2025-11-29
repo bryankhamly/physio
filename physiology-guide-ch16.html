@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 16: Pulmonary Ventilation | Physiology Study Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2234;
+            --bg-card-hover: #222d42;
+            --accent-primary: #3b82f6;
+            --accent-secondary: #8b5cf6;
+            --accent-success: #10b981;
+            --accent-warning: #f59e0b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: #1e293b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 15, 26, 0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 0.75rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-chapters {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-ch {
+            padding: 0.4rem 0.8rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .nav-ch:hover, .nav-ch.active {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 6rem 1.5rem 4rem;
+        }
+
+        /* Chapter Header */
+        .chapter-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .chapter-label {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .chapter-header h1 {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.2;
+        }
+
+        .chapter-header .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        /* Learning Objectives */
+        .learning-objectives {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 16px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .learning-objectives h2 {
+            font-size: 1.1rem;
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .learning-objectives ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .learning-objectives li {
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .learning-objectives li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-number {
+            display: inline-block;
+            background: var(--accent-primary);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-right: 0.75rem;
+        }
+
+        .section h2 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.6rem;
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Big Idea Box */
+        .big-idea {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-primary);
+            border-radius: 0 12px 12px 0;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .big-idea-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-primary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .big-idea p {
+            font-size: 1.05rem;
+            color: var(--text-primary);
+        }
+
+        /* Why It Matters */
+        .why-matters {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(6, 182, 212, 0.1));
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .why-matters h4 {
+            color: var(--accent-success);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .why-matters p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Analogy Box */
+        .analogy {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(249, 115, 22, 0.1));
+            border: 1px solid rgba(245, 158, 11, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .analogy h4 {
+            color: var(--accent-warning);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .analogy p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Content paragraphs */
+        .content p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .content p strong {
+            color: var(--text-primary);
+        }
+
+        /* Subsection */
+        .subsection {
+            margin: 2rem 0;
+        }
+
+        .subsection h3 {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .subsection h4 {
+            font-size: 1rem;
+            color: var(--accent-primary);
+            margin: 1.25rem 0 0.75rem;
+        }
+
+        /* Lists */
+        .content ul, .content ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .content li strong {
+            color: var(--text-primary);
+        }
+
+        /* Step by Step */
+        .step-by-step {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .step-by-step h4 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .step {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .step:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .step-num {
+            width: 28px;
+            height: 28px;
+            background: var(--accent-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-content strong {
+            color: var(--text-primary);
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .step-content p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Key Concept Box */
+        .key-concept {
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .key-concept h4 {
+            color: var(--accent-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .key-concept p, .key-concept ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Formula Box */
+        .formula-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .formula-box .formula {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            color: var(--accent-primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .formula-box .explanation {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .comparison-table th {
+            background: var(--bg-card);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid var(--accent-primary);
+        }
+
+        .comparison-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        .comparison-table tr:hover td {
+            background: rgba(255,255,255,0.02);
+        }
+
+        /* Values Card */
+        .values-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .values-card h4 {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .value-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .value-row:last-child {
+            border-bottom: none;
+        }
+
+        .value-label {
+            color: var(--text-secondary);
+        }
+
+        .value-number {
+            color: var(--accent-primary);
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* Clinical Connection */
+        .clinical {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(236, 72, 153, 0.1));
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .clinical h4 {
+            color: #f87171;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .clinical p, .clinical ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Check Understanding */
+        .check-understanding {
+            background: var(--bg-card);
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .check-understanding h4 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .check-understanding p {
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 0.75rem;
+        }
+
+        .reveal-answer {
+            background: var(--accent-primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            transition: background 0.2s;
+        }
+
+        .reveal-answer:hover {
+            background: #2563eb;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--accent-success);
+        }
+
+        .answer.show {
+            display: block;
+        }
+
+        /* Summary Box */
+        .summary {
+            background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .summary h3 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .summary ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .summary li {
+            padding: 0.5rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .summary li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-success);
+            font-weight: bold;
+        }
+
+        /* Progress indicator */
+        .progress-container {
+            position: fixed;
+            top: 60px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--bg-secondary);
+            z-index: 999;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+            width: 0%;
+            transition: width 0.1s;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                padding: 5rem 1rem 3rem;
+            }
+
+            .chapter-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .nav-chapters {
+                display: none;
+            }
+        }
+
+        /* Expandable sections */
+        .expandable {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .expandable-header {
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .expandable-header:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .expandable-header h4 {
+            margin: 0;
+            font-size: 1rem;
+            color: var(--text-primary);
+        }
+
+        .expandable-icon {
+            color: var(--text-muted);
+            transition: transform 0.3s;
+        }
+
+        .expandable.open .expandable-icon {
+            transform: rotate(180deg);
+        }
+
+        .expandable-content {
+            display: none;
+            padding: 0 1.25rem 1.25rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .expandable.open .expandable-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">PhysioGuide</div>
+            <div class="nav-chapters">
+                <a href="index.html" class="nav-ch home">🏠 Home</a>
+                <a href="physiology-guide-ch16.html" class="nav-ch active">Ch 16</a>
+                <a href="physiology-guide-ch17.html" class="nav-ch">Ch 17</a>
+                <a href="physiology-guide-ch18.html" class="nav-ch">Ch 18</a>
+                <a href="physiology-guide-ch19.html" class="nav-ch">Ch 19</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="chapter-header">
+            <span class="chapter-label">Chapter 16 • Respiratory System</span>
+            <h1>Pulmonary Ventilation</h1>
+            <p class="subtitle">Understanding how we breathe and why it matters</p>
+        </header>
+
+        <div class="learning-objectives">
+            <h2>🎯 What You'll Learn</h2>
+            <ul>
+                <li>Why your body needs a respiratory system in the first place</li>
+                <li>How air travels from outside your body to where gas exchange happens</li>
+                <li>The physics behind how we breathe in and out</li>
+                <li>What lung volumes mean and why doctors measure them</li>
+                <li>What can go wrong with breathing and how we detect it</li>
+            </ul>
+        </div>
+
+        <!-- SECTION 1: THE BIG PICTURE -->
+        <section class="section">
+            <h2><span class="section-number">1</span>The Big Picture: Why Do We Breathe?</h2>
+            
+            <div class="content">
+                <p>Before we dive into anatomy and mechanics, let's understand <strong>why breathing exists</strong>. This will make everything else make sense.</p>
+                
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Every single cell in your body needs oxygen to produce energy (ATP) and produces carbon dioxide as waste. Your respiratory system is the delivery and waste removal service that keeps all 37 trillion cells alive.</p>
+                </div>
+
+                <p>Your cells perform a process called <strong>cellular respiration</strong> (also called oxidative phosphorylation). Think of it like this: cells "burn" glucose fuel using oxygen to produce energy. Just like a car engine produces exhaust, your cells produce carbon dioxide (CO₂) as a byproduct.</p>
+
+                <div class="analogy">
+                    <h4>💭 Think of it like a city...</h4>
+                    <p>Imagine your body as a massive city with 37 trillion buildings (cells). Each building needs fresh air delivered and waste hauled away constantly. Your respiratory system is like the ventilation system for the entire city—it brings fresh oxygen in from outside and removes carbon dioxide waste. If this system stops for even a few minutes, the whole city shuts down.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Two Types of "Respiration"</h3>
+                    <p>The word "respiration" is used in two different ways, which can be confusing. Let's clarify:</p>
+                    
+                    <table class="comparison-table">
+                        <tr>
+                            <th>Internal Respiration</th>
+                            <th>External Respiration</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>What:</strong> Cells using O₂ to make ATP<br>
+                                <strong>Where:</strong> Inside every cell (mitochondria)<br>
+                                <strong>Also called:</strong> Cellular respiration
+                            </td>
+                            <td>
+                                <strong>What:</strong> Getting O₂ into blood and CO₂ out<br>
+                                <strong>Where:</strong> Lungs and blood<br>
+                                <strong>Includes:</strong> Breathing, gas exchange, transport
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p>This chapter focuses on <strong>external respiration</strong>—specifically, how we move air in and out of our lungs (ventilation).</p>
+                </div>
+
+                <div class="why-matters">
+                    <h4>🏥 Why This Matters</h4>
+                    <p>Understanding the purpose of breathing helps you understand disease. When someone has pneumonia, COVID-19, or asthma, the fundamental problem is that oxygen can't get to cells efficiently. Everything in this chapter connects back to this simple goal: getting O₂ to cells and removing CO₂.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ANATOMY -->
+        <section class="section">
+            <h2><span class="section-number">2</span>The Pathway: Following Air Through Your Body</h2>
+
+            <div class="content">
+                <p>Air doesn't just teleport into your blood—it travels through a carefully designed pathway. Let's follow a breath of air from start to finish.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>The respiratory system is divided into two zones: the <strong>conducting zone</strong> (the highway that moves air) and the <strong>respiratory zone</strong> (where the actual gas exchange happens). Only the respiratory zone can transfer oxygen to your blood.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Upper Airways: Preparing the Air</h3>
+                    <p>Before air reaches your lungs, it needs to be processed. The upper airways clean, warm, and humidify incoming air.</p>
+
+                    <div class="step-by-step">
+                        <h4>Air's Journey Through the Upper Airways</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>Nasal Cavity (or Mouth)</strong>
+                                <p>Air enters here first. The nose is preferred because it filters particles with tiny hairs (cilia), warms cold air using blood vessels near the surface, and adds moisture. Mouth breathing bypasses these benefits.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>Pharynx (Throat)</strong>
+                                <p>The pharynx is a shared hallway—both air and food pass through here. This is why you can choke if food "goes down the wrong pipe."</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <strong>Larynx (Voice Box)</strong>
+                                <p>Contains your vocal cords for speaking. The <strong>epiglottis</strong> acts like a trap door—it closes over the larynx when you swallow to prevent food from entering your airways. When this fails, you choke.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Lower Respiratory Tract: The Conducting Zone</h3>
+                    <p>Below the larynx, we enter the lower respiratory tract. This is where air is channeled deeper and deeper into the lungs.</p>
+
+                    <div class="analogy">
+                        <h4>💭 Think of it like an upside-down tree...</h4>
+                        <p>The respiratory tract looks like an inverted tree. The trachea is the trunk, bronchi are major branches, bronchioles are smaller branches, and alveoli are like leaves at the tips. Each division gets smaller but more numerous—there are about 300 million alveoli!</p>
+                    </div>
+
+                    <div class="step-by-step">
+                        <h4>The Branching Airways</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">4</div>
+                            <div class="step-content">
+                                <strong>Trachea (Windpipe)</strong>
+                                <p>A tube about 4-5 inches long, reinforced with C-shaped cartilage rings. Why C-shaped? So the esophagus (behind it) can expand when you swallow food. The cartilage keeps the trachea from collapsing.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">5</div>
+                            <div class="step-content">
+                                <strong>Primary Bronchi</strong>
+                                <p>The trachea splits into two primary bronchi—one for each lung. The right bronchus is shorter, wider, and more vertical, which is why inhaled objects more often end up in the right lung.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">6</div>
+                            <div class="step-content">
+                                <strong>Secondary → Tertiary Bronchi</strong>
+                                <p>Bronchi keep dividing into smaller and smaller branches within each lung lobe. They still have cartilage for support.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">7</div>
+                            <div class="step-content">
+                                <strong>Bronchioles</strong>
+                                <p>These tiny airways have NO cartilage—their walls are made of smooth muscle. This is important! It means their diameter can change. In asthma, this smooth muscle constricts, narrowing the airways and making breathing difficult.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">8</div>
+                            <div class="step-content">
+                                <strong>Terminal Bronchioles</strong>
+                                <p>The smallest conducting airways. After this point, we enter the respiratory zone where gas exchange begins.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: The Conducting Zone</h4>
+                        <p>Everything from the nose to the terminal bronchioles is called the <strong>conducting zone</strong>. NO gas exchange happens here—it's just a highway for air. This space is called <strong>anatomical dead space</strong> (~150 mL) because the air in it doesn't participate in gas exchange.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Respiratory Zone: Where the Magic Happens</h3>
+                    <p>This is where oxygen actually enters your blood and carbon dioxide leaves. The respiratory zone has an enormous surface area—about the size of a tennis court!</p>
+
+                    <div class="step-by-step">
+                        <h4>Structures of the Respiratory Zone</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">9</div>
+                            <div class="step-content">
+                                <strong>Respiratory Bronchioles</strong>
+                                <p>These have a few alveoli budding from their walls, so some gas exchange begins here.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">10</div>
+                            <div class="step-content">
+                                <strong>Alveolar Ducts</strong>
+                                <p>Completely lined with alveoli—the main corridors of gas exchange.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">11</div>
+                            <div class="step-content">
+                                <strong>Alveolar Sacs & Alveoli</strong>
+                                <p>Clusters of alveoli, like bunches of grapes. The ~300 million alveoli are where oxygen diffuses into blood and CO₂ diffuses out. Each alveolus is wrapped in capillaries.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="expandable">
+                        <div class="expandable-header">
+                            <h4>🔬 Deep Dive: Inside an Alveolus</h4>
+                            <span class="expandable-icon">▼</span>
+                        </div>
+                        <div class="expandable-content">
+                            <p>The alveolar wall is incredibly thin—only about 0.2 micrometers (that's 0.0002 mm). It contains:</p>
+                            <ul>
+                                <li><strong>Type I cells (95% of surface):</strong> Extremely thin, flat cells that allow gases to diffuse quickly. They're so thin that their nucleus creates a visible bulge.</li>
+                                <li><strong>Type II cells (5% of surface):</strong> Cube-shaped cells that produce <strong>surfactant</strong>—a soapy substance that reduces surface tension and prevents alveoli from collapsing.</li>
+                                <li><strong>Alveolar macrophages:</strong> Immune cells that patrol the alveoli, eating bacteria, dust, and debris that made it past all the filters.</li>
+                            </ul>
+                            <p>The <strong>respiratory membrane</strong> (what gases must cross) consists of: alveolar epithelium → fused basement membranes → capillary endothelium. Despite having three layers, it's only 0.2 μm thick—thin enough for rapid diffusion!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>Why do bronchioles (not bronchi) cause problems in asthma?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p>Bronchioles have smooth muscle in their walls but NO cartilage. This means they can constrict significantly when the smooth muscle contracts. Bronchi have cartilage that keeps them rigid, so they can't narrow as much. In asthma, inflammatory signals cause bronchiole smooth muscle to spasm, dramatically narrowing the airways.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: MECHANICS OF BREATHING -->
+        <section class="section">
+            <h2><span class="section-number">3</span>How We Breathe: The Physics of Ventilation</h2>
+
+            <div class="content">
+                <p>Now that you know the pathway, let's understand HOW air actually moves in and out. This is where physics meets physiology.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Air flows from areas of HIGH pressure to LOW pressure. To breathe in, you make the pressure inside your lungs LOWER than outside. To breathe out, you make it HIGHER. Your body does this by changing the VOLUME of your chest cavity.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Fundamental Law: Boyle's Law</h3>
+                    <p>Everything about breathing mechanics comes from one physics principle discovered in 1662:</p>
+
+                    <div class="formula-box">
+                        <div class="formula">P₁V₁ = P₂V₂</div>
+                        <div class="explanation">At constant temperature, pressure and volume are inversely related.<br>↑ Volume = ↓ Pressure &nbsp;&nbsp;|&nbsp;&nbsp; ↓ Volume = ↑ Pressure</div>
+                    </div>
+
+                    <div class="analogy">
+                        <h4>💭 Think of it like a syringe...</h4>
+                        <p>Imagine a syringe with the tip blocked. If you pull the plunger out (increase volume), the pressure inside drops and air would rush in if you opened the tip. Push the plunger in (decrease volume), pressure rises and air would rush out. Your chest cavity works the same way—your respiratory muscles are the plunger.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Inspiration (Breathing In)</h3>
+                    <p>Inspiration is an <strong>active process</strong>—it requires muscle contraction. Here's exactly what happens:</p>
+
+                    <div class="step-by-step">
+                        <h4>The Mechanics of Inspiration</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>Brain signals respiratory muscles</strong>
+                                <p>The respiratory center in your brainstem sends signals via the phrenic nerve (to diaphragm) and intercostal nerves (to rib muscles).</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>Diaphragm contracts and flattens</strong>
+                                <p>The diaphragm is a dome-shaped muscle below your lungs. When it contracts, it pulls downward and flattens, increasing the vertical dimension of your chest cavity.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <strong>External intercostals contract</strong>
+                                <p>These muscles between your ribs pull the ribs upward and outward (like bucket handles lifting), increasing the front-to-back and side-to-side dimensions.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">4</div>
+                            <div class="step-content">
+                                <strong>Thoracic volume increases → Pressure drops</strong>
+                                <p>By Boyle's Law: bigger volume = lower pressure. The pressure inside the alveoli (P<sub>alv</sub>) drops below atmospheric pressure (about -1 mmHg relative to atmosphere).</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">5</div>
+                            <div class="step-content">
+                                <strong>Air flows IN</strong>
+                                <p>Since pressure outside (760 mmHg) is now greater than inside (759 mmHg), air rushes in down the pressure gradient until pressures equalize.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: Muscles of Quiet Inspiration</h4>
+                        <ul>
+                            <li><strong>Diaphragm</strong> (most important—does ~75% of the work)</li>
+                            <li><strong>External intercostals</strong></li>
+                        </ul>
+                        <p>For deep/forced inspiration, you also use accessory muscles: sternocleidomastoid, scalenes, and pectoralis minor.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Expiration (Breathing Out)</h3>
+                    <p>Here's a surprise: <strong>quiet expiration is passive</strong>—no muscle contraction needed!</p>
+
+                    <div class="step-by-step">
+                        <h4>The Mechanics of Quiet Expiration</h4>
+                        
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <strong>Inspiratory muscles relax</strong>
+                                <p>The diaphragm and external intercostals simply stop contracting.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <strong>Elastic recoil</strong>
+                                <p>Your lungs and chest wall are elastic—like stretched rubber bands. When the muscles relax, elastic tissue snaps back to its resting position, decreasing thoracic volume.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <strong>Thoracic volume decreases → Pressure rises</strong>
+                                <p>Smaller volume = higher pressure. Alveolar pressure rises above atmospheric (about +1 mmHg).</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-num">4</div>
+                            <div class="step-content">
+                                <strong>Air flows OUT</strong>
+                                <p>Air moves from higher pressure (761 mmHg inside) to lower pressure (760 mmHg outside).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: Forced Expiration IS Active</h4>
+                        <p>When you need to exhale forcefully (blowing out candles, coughing, exercise), you recruit expiratory muscles:</p>
+                        <ul>
+                            <li><strong>Internal intercostals</strong> - pull ribs downward and inward</li>
+                            <li><strong>Abdominal muscles</strong> - push diaphragm upward</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Understanding the Pressures</h3>
+                    <p>Three pressures are critical to understand. They're often expressed relative to atmospheric pressure (atmospheric = 0).</p>
+
+                    <div class="values-card">
+                        <h4>The Three Key Pressures</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Atmospheric (P<sub>atm</sub>)</strong> — outside the body</span>
+                            <span class="value-number">760 mmHg (= 0)</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Intra-alveolar (P<sub>alv</sub>)</strong> — inside the alveoli</span>
+                            <span class="value-number">Varies: -1 to +1</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Intrapleural (P<sub>ip</sub>)</strong> — in the pleural cavity</span>
+                            <span class="value-number">Always negative: ~-4</span>
+                        </div>
+                    </div>
+
+                    <div class="expandable">
+                        <div class="expandable-header">
+                            <h4>🔬 Deep Dive: Why is Intrapleural Pressure Always Negative?</h4>
+                            <span class="expandable-icon">▼</span>
+                        </div>
+                        <div class="expandable-content">
+                            <p>The pleural cavity is the thin space between the lungs and chest wall. Three forces keep this pressure negative:</p>
+                            <ol>
+                                <li><strong>Lung elastic recoil:</strong> Lungs naturally want to collapse inward (like deflating a balloon)</li>
+                                <li><strong>Chest wall elastic recoil:</strong> Chest wall naturally wants to spring outward</li>
+                                <li><strong>Surface tension:</strong> Alveolar fluid creates an inward pull</li>
+                            </ol>
+                            <p>These opposing forces create a "suction" effect that keeps the lungs inflated and pulled against the chest wall. If air enters the pleural space (pneumothorax), this negative pressure is lost and the lung collapses!</p>
+                            <p><strong>Transpulmonary pressure</strong> (P<sub>alv</sub> - P<sub>ip</sub>) keeps the lungs expanded. At rest: 0 - (-4) = +4 mmHg pushing outward on the lungs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clinical">
+                    <h4>🏥 Clinical Connection: Pneumothorax</h4>
+                    <p>If the chest wall is punctured (stabbing, rib fracture, or medical procedure), air rushes into the pleural space. The negative intrapleural pressure is lost, transpulmonary pressure drops to zero, and the lung collapses. Treatment involves inserting a chest tube to remove the air and restore negative pressure.</p>
+                </div>
+
+                <div class="check-understanding">
+                    <h4>🤔 Check Your Understanding</h4>
+                    <p>If you're at rest and suddenly all your inspiratory muscles were paralyzed, what would happen and why?</p>
+                    <button class="reveal-answer" onclick="toggleAnswer(this)">Reveal Answer</button>
+                    <div class="answer">
+                        <p>You could still exhale (because quiet expiration is passive—it relies on elastic recoil, not muscles), but you couldn't inhale. Without diaphragm and external intercostal contraction, you can't expand your chest to create the negative pressure needed to draw air in. This is why spinal cord injuries above C3-C5 (which control the phrenic nerve to the diaphragm) are immediately life-threatening.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: LUNG VOLUMES -->
+        <section class="section">
+            <h2><span class="section-number">4</span>Lung Volumes & Capacities: Measuring Breathing</h2>
+
+            <div class="content">
+                <p>Doctors use measurements of lung volumes to diagnose respiratory diseases. Understanding these helps you interpret pulmonary function tests.</p>
+
+                <div class="big-idea">
+                    <div class="big-idea-label">💡 The Big Idea</div>
+                    <p>Your lungs can hold about 6 liters of air, but you only use a fraction of this with each normal breath. Different "volumes" describe different portions of your lung capacity, and "capacities" are combinations of volumes.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Four Lung Volumes</h3>
+                    <p>These are distinct, non-overlapping amounts of air:</p>
+
+                    <div class="values-card">
+                        <h4>Lung Volumes (for average adult male)</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Tidal Volume (V<sub>T</sub>)</strong> — normal breath</span>
+                            <span class="value-number">500 mL</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Inspiratory Reserve (IRV)</strong> — extra you CAN inhale</span>
+                            <span class="value-number">3000 mL</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Expiratory Reserve (ERV)</strong> — extra you CAN exhale</span>
+                            <span class="value-number">1000 mL</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Residual Volume (RV)</strong> — air that ALWAYS stays</span>
+                            <span class="value-number">1200 mL</span>
+                        </div>
+                    </div>
+
+                    <div class="analogy">
+                        <h4>💭 Think of your lungs like a water tank...</h4>
+                        <p>Imagine a tank that holds 6 liters. Normally, you only use the middle 500 mL (tidal volume). You COULD draw out more (ERV) or add more (IRV), but you never empty it completely—there's always ~1200 mL stuck at the bottom (residual volume) that prevents your lungs from completely collapsing.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>The Four Lung Capacities</h3>
+                    <p>Capacities are combinations of two or more volumes:</p>
+
+                    <div class="values-card">
+                        <h4>Lung Capacities</h4>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Inspiratory Capacity (IC)</strong> = V<sub>T</sub> + IRV</span>
+                            <span class="value-number">3500 mL</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Vital Capacity (VC)</strong> = V<sub>T</sub> + IRV + ERV</span>
+                            <span class="value-number">4500 mL</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Functional Residual Capacity (FRC)</strong> = ERV + RV</span>
+                            <span class="value-number">2200 mL</span>
+                        </div>
+                        <div class="value-row">
+                            <span class="value-label"><strong>Total Lung Capacity (TLC)</strong> = all volumes</span>
+                            <span class="value-number">5700 mL</span>
+                        </div>
+                    </div>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: Vital Capacity</h4>
+                        <p><strong>Vital capacity</strong> is the maximum amount of air you can move in one breath (deepest inhale → fullest exhale). It's called "vital" because it represents the air available for gas exchange. It does NOT include residual volume because you can never exhale that air.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Not All Air Reaches the Alveoli</h3>
+                    <p>Remember the conducting zone? That ~150 mL of airways doesn't participate in gas exchange. This is called <strong>anatomical dead space</strong>.</p>
+
+                    <div class="formula-box">
+                        <div class="formula">Alveolar Ventilation = (V<sub>T</sub> - Dead Space) × Respiratory Rate</div>
+                        <div class="explanation">= (500 mL - 150 mL) × 12 breaths/min = 4200 mL/min<br>This is the air actually available for gas exchange</div>
+                    </div>
+
+                    <div class="why-matters">
+                        <h4>🏥 Why This Matters</h4>
+                        <p>This explains why shallow, rapid breathing is inefficient. If you breathe 250 mL × 24 times/min, your minute ventilation is 6000 mL/min (sounds good!), but alveolar ventilation is only (250-150) × 24 = 2400 mL/min. Deep, slow breathing (500 × 12) gives you 4200 mL/min of actual gas exchange—almost twice as effective!</p>
+                    </div>
+                </div>
+
+                <div class="clinical">
+                    <h4>🏥 Clinical Connection: Pulmonary Function Tests</h4>
+                    <p>Doctors use spirometry to diagnose lung diseases. Two key tests:</p>
+                    <ul>
+                        <li><strong>FVC (Forced Vital Capacity):</strong> Breathe in maximally, then exhale as fast and completely as possible. Reduced in restrictive diseases (fibrosis, obesity).</li>
+                        <li><strong>FEV₁ (Forced Expiratory Volume in 1 second):</strong> How much of your FVC you can exhale in the first second. Normally ~80%. Reduced in obstructive diseases (asthma, COPD) because narrowed airways slow airflow.</li>
+                    </ul>
+                    <p><strong>FEV₁/FVC ratio</strong> helps distinguish types:</p>
+                    <ul>
+                        <li>Normal: ~80%</li>
+                        <li>Obstructive disease: &lt;70% (air trapped, can't get out fast)</li>
+                        <li>Restrictive disease: Normal or increased ratio (both reduced proportionally)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: FACTORS AFFECTING VENTILATION -->
+        <section class="section">
+            <h2><span class="section-number">5</span>What Affects How Well You Breathe?</h2>
+
+            <div class="content">
+                <p>Two main factors determine how easily air flows in and out: <strong>airway resistance</strong> and <strong>lung compliance</strong>.</p>
+
+                <div class="subsection">
+                    <h3>Airway Resistance</h3>
+                    <p>Air flowing through tubes encounters friction. The narrower the tube, the more resistance.</p>
+
+                    <div class="formula-box">
+                        <div class="formula">Airflow = ΔP / Resistance</div>
+                        <div class="explanation">Airflow depends on pressure difference divided by resistance.<br>↑ Resistance = ↓ Airflow (for the same pressure)</div>
+                    </div>
+
+                    <p>What changes airway diameter (and therefore resistance)?</p>
+
+                    <table class="comparison-table">
+                        <tr>
+                            <th>Bronchodilation (↑ diameter, ↓ resistance)</th>
+                            <th>Bronchoconstriction (↓ diameter, ↑ resistance)</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Epinephrine</strong> (adrenaline) - released during exercise/stress<br>
+                                <strong>β₂-agonist drugs</strong> (albuterol inhalers)
+                            </td>
+                            <td>
+                                <strong>Parasympathetic activation</strong> (acetylcholine)<br>
+                                <strong>Histamine</strong> (allergic reactions)<br>
+                                <strong>Cold air, irritants</strong>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="clinical">
+                        <h4>🏥 Clinical Connection: Asthma</h4>
+                        <p>In asthma, triggers cause bronchiole smooth muscle to spasm (bronchoconstriction), inflammation swells airway walls, and excess mucus clogs airways. All three increase resistance. Treatment targets all three: bronchodilators (albuterol) relax smooth muscle, corticosteroids reduce inflammation.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Lung Compliance</h3>
+                    <p><strong>Compliance</strong> = how easily the lungs expand. High compliance means lungs stretch easily; low compliance means they're stiff.</p>
+
+                    <p>Two factors determine compliance:</p>
+                    <ol>
+                        <li><strong>Elastic fibers in lung tissue:</strong> Healthy lungs have lots of stretchy elastin. Diseases like fibrosis replace this with stiff scar tissue, reducing compliance.</li>
+                        <li><strong>Surface tension in alveoli:</strong> The thin layer of fluid lining alveoli creates surface tension that resists expansion (like trying to open a wet plastic bag). This is where surfactant becomes critical.</li>
+                    </ol>
+
+                    <div class="key-concept">
+                        <h4>🔑 Key Concept: Surfactant</h4>
+                        <p><strong>Surfactant</strong> is a soap-like substance produced by Type II alveolar cells. It reduces surface tension, which:</p>
+                        <ul>
+                            <li>Makes lungs easier to expand (increases compliance)</li>
+                            <li>Prevents alveoli from collapsing at the end of expiration</li>
+                            <li>Equalizes pressure in different-sized alveoli</li>
+                        </ul>
+                    </div>
+
+                    <div class="clinical">
+                        <h4>🏥 Clinical Connection: Respiratory Distress Syndrome</h4>
+                        <p>Premature infants often can't produce enough surfactant (production begins around week 24-28 of gestation). Without it:</p>
+                        <ul>
+                            <li>Surface tension is very high</li>
+                            <li>Alveoli collapse after each breath</li>
+                            <li>Each breath requires enormous effort</li>
+                            <li>The infant tires and develops respiratory failure</li>
+                        </ul>
+                        <p>Treatment: artificial surfactant sprayed into airways + mechanical ventilation. This has dramatically improved survival of premature infants.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUMMARY -->
+        <div class="summary">
+            <h3>📋 Chapter 16 Summary: What You Should Know</h3>
+            <ul>
+                <li>The respiratory system exists to get O₂ to cells and remove CO₂—supporting cellular respiration</li>
+                <li>Air travels: nose/mouth → pharynx → larynx → trachea → bronchi → bronchioles → alveoli</li>
+                <li>The conducting zone (nose to terminal bronchioles) moves air; the respiratory zone (respiratory bronchioles to alveoli) exchanges gases</li>
+                <li>Breathing works by Boyle's Law: muscles change thoracic volume, which changes pressure, which moves air</li>
+                <li>Inspiration is active (diaphragm + external intercostals); quiet expiration is passive (elastic recoil)</li>
+                <li>Intrapleural pressure is always negative, keeping lungs expanded against the chest wall</li>
+                <li>Tidal volume (~500 mL) is normal breathing; vital capacity (~4500 mL) is maximum possible breath</li>
+                <li>Anatomical dead space (~150 mL) doesn't participate in gas exchange</li>
+                <li>Airway resistance (affected by bronchiole diameter) and lung compliance (affected by elasticity and surfactant) determine breathing efficiency</li>
+                <li>FEV₁/FVC ratio distinguishes obstructive from restrictive lung diseases</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <script>
+        // Progress bar
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        // Expandable sections
+        document.querySelectorAll('.expandable-header').forEach(header => {
+            header.addEventListener('click', function() {
+                this.parentElement.classList.toggle('open');
+            });
+        });
+
+        // Reveal answers
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            answer.classList.toggle('show');
+            button.textContent = answer.classList.contains('show') ? 'Hide Answer' : 'Reveal Answer';
+        }
+    </script>
+</body>
+</html>

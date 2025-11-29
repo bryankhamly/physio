@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physiology | Respiratory & Urinary Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2234;
+            --bg-card-hover: #222d42;
+            --accent-primary: #06b6d4;
+            --accent-secondary: #22d3ee;
+            --accent-purple: #8b5cf6;
+            --accent-pink: #ec4899;
+            --accent-success: #10b981;
+            --accent-warning: #f59e0b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: #1e293b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .background-effects {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .gradient-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+        }
+
+        .orb-1 {
+            width: 600px;
+            height: 600px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-purple));
+            top: -200px;
+            right: -200px;
+        }
+
+        .orb-2 {
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+            bottom: -150px;
+            left: -150px;
+        }
+
+        .orb-3 {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, var(--accent-success), var(--accent-primary));
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.15;
+        }
+
+        main {
+            flex: 1;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+            width: 100%;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding-top: 2rem;
+        }
+
+        .logo-container {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-purple));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .logo-text {
+            font-family: 'Fraunces', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        h1 {
+            font-family: 'Fraunces', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .chapters-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .chapter-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 2rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chapter-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--card-accent), var(--card-accent-2));
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .chapter-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--card-accent);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .chapter-card:hover::before {
+            opacity: 1;
+        }
+
+        .chapter-card.ch16 {
+            --card-accent: #06b6d4;
+            --card-accent-2: #22d3ee;
+        }
+
+        .chapter-card.ch17 {
+            --card-accent: #8b5cf6;
+            --card-accent-2: #a78bfa;
+        }
+
+        .chapter-card.ch18 {
+            --card-accent: #10b981;
+            --card-accent-2: #34d399;
+        }
+
+        .chapter-card.ch19 {
+            --card-accent: #f59e0b;
+            --card-accent-2: #fbbf24;
+        }
+
+        .chapter-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--card-accent), var(--card-accent-2));
+            border-radius: 12px;
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 1.25rem;
+        }
+
+        .chapter-card h2 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.4rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+
+        .chapter-card .system-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            font-size: 0.75rem;
+            color: var(--card-accent);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+        }
+
+        .chapter-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.25rem;
+        }
+
+        .chapter-topics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .topic-tag {
+            padding: 0.35rem 0.75rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .chapter-card:hover .topic-tag {
+            border-color: var(--card-accent);
+            color: var(--text-secondary);
+        }
+
+        .arrow-icon {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            width: 36px;
+            height: 36px;
+            background: var(--bg-secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            transition: all 0.3s;
+        }
+
+        .chapter-card:hover .arrow-icon {
+            background: var(--card-accent);
+            color: white;
+            transform: translateX(4px);
+        }
+
+        .features-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .feature-icon {
+            width: 56px;
+            height: 56px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 1.5rem;
+        }
+
+        .feature h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .feature p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1.5rem 3rem;
+            border-top: 1px solid var(--border-color);
+            background: var(--bg-secondary);
+        }
+
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .footer-text {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .linkedin-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(135deg, #0077b5, #00a0dc);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .linkedin-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 119, 181, 0.3);
+        }
+
+        .linkedin-link svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .credits {
+            margin-top: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.25rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .chapters-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .features-section {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .feature {
+                padding: 1rem;
+            }
+
+            .chapter-card {
+                padding: 1.5rem;
+            }
+
+            .arrow-icon {
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            main {
+                padding: 2rem 1rem;
+            }
+
+            header {
+                margin-bottom: 2.5rem;
+            }
+
+            h1 {
+                font-size: 1.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-effects">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <main>
+        <header>
+            <div class="logo-container">
+                <div class="logo-icon">🫁</div>
+                <span class="logo-text">PhysioGuide</span>
+            </div>
+            <h1>Physiology Study Guide</h1>
+            <p class="subtitle">Master the Respiratory and Urinary Systems with interactive, concept-focused learning designed to help you truly understand — not just memorize.</p>
+        </header>
+
+        <div class="chapters-grid">
+            <a href="physiology-guide-ch16.html" class="chapter-card ch16">
+                <div class="chapter-number">16</div>
+                <span class="system-tag">Respiratory System</span>
+                <h2>Respiratory Anatomy & Ventilation</h2>
+                <p>Explore the structure of the respiratory system and understand how air moves in and out of your lungs through pressure gradients.</p>
+                <div class="chapter-topics">
+                    <span class="topic-tag">Anatomy</span>
+                    <span class="topic-tag">Pressure Gradients</span>
+                    <span class="topic-tag">Ventilation</span>
+                    <span class="topic-tag">Lung Volumes</span>
+                </div>
+                <div class="arrow-icon">→</div>
+            </a>
+
+            <a href="physiology-guide-ch17.html" class="chapter-card ch17">
+                <div class="chapter-number">17</div>
+                <span class="system-tag">Respiratory System</span>
+                <h2>Gas Exchange & Transport</h2>
+                <p>Learn how oxygen and carbon dioxide move between air, blood, and tissues, and how breathing is controlled.</p>
+                <div class="chapter-topics">
+                    <span class="topic-tag">Diffusion</span>
+                    <span class="topic-tag">Hemoglobin</span>
+                    <span class="topic-tag">O₂-Hb Curve</span>
+                    <span class="topic-tag">CO₂ Transport</span>
+                </div>
+                <div class="arrow-icon">→</div>
+            </a>
+
+            <a href="physiology-guide-ch18.html" class="chapter-card ch18">
+                <div class="chapter-number">18</div>
+                <span class="system-tag">Urinary System</span>
+                <h2>Renal Function</h2>
+                <p>Discover how your kidneys filter blood, regulate water and electrolytes, and maintain the body's internal environment.</p>
+                <div class="chapter-topics">
+                    <span class="topic-tag">Nephron</span>
+                    <span class="topic-tag">GFR</span>
+                    <span class="topic-tag">Reabsorption</span>
+                    <span class="topic-tag">Secretion</span>
+                </div>
+                <div class="arrow-icon">→</div>
+            </a>
+
+            <a href="physiology-guide-ch19.html" class="chapter-card ch19">
+                <div class="chapter-number">19</div>
+                <span class="system-tag">Urinary System</span>
+                <h2>Fluid, Electrolyte & Acid-Base Balance</h2>
+                <p>Understand how hormones regulate water and sodium, and how the body maintains critical pH balance.</p>
+                <div class="chapter-topics">
+                    <span class="topic-tag">ADH</span>
+                    <span class="topic-tag">Aldosterone</span>
+                    <span class="topic-tag">RAAS</span>
+                    <span class="topic-tag">pH Balance</span>
+                </div>
+                <div class="arrow-icon">→</div>
+            </a>
+        </div>
+
+        <div class="features-section">
+            <div class="feature">
+                <div class="feature-icon">💡</div>
+                <h3>Concept-First Approach</h3>
+                <p>Learn the "why" before the "what" with Big Idea boxes and progressive explanations.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔗</div>
+                <h3>Clinical Connections</h3>
+                <p>See how physiology applies to real medical conditions and patient care.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✅</div>
+                <h3>Self-Assessment</h3>
+                <p>Test your understanding with interactive questions and reveal-able answers.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">Created as an interactive study resource for physiology students</p>
+            <a href="https://www.linkedin.com/in/bryankhamly/" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                Connect with Bryan Khamly
+            </a>
+            <p class="credits">© 2024 PhysioGuide • Built for learning</p>
+        </div>
+    </footer>
+</body>
+</html>
