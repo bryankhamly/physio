@@ -2023,6 +2023,437 @@ const questionBank = {
                 "Absent"
             ],
             correct: 1
+        },
+
+        // NEW QUESTIONS FROM newquestions.json
+        {
+            question: "What solute maintains the medullary interstitial fluid osmotic gradient?",
+            options: [
+                "Potassium ions",
+                "Urea",
+                "Sodium ions",
+                "Glucose",
+                "Water"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which of the following best describes sodium movement in the proximal tubule?",
+            options: [
+                "Sodium is transported across the apical membrane by the Na+/K+ pump and across the basolateral membrane by diffusion through sodium channels.",
+                "Sodium is transported across the apical membrane by the Na+/K+ pump and across the basolateral membrane by secondary active transport.",
+                "Sodium is transported across the apical membrane by the Na+/K+ pump and across the basolateral membrane by facilitated diffusion.",
+                "Sodium is transported across the basolateral membrane by the Na+/K+ pump and across the apical membrane by diffusion through sodium channels.",
+                "Sodium is transported across the basolateral membrane by the Na+/K+ pump and across the apical membrane by secondary active transport."
+            ],
+            correct: 4
+        },
+        {
+            question: "What is the force that moves water out of the distal tubules and collecting ducts?",
+            options: [
+                "An osmotic gradient",
+                "The active transport of water",
+                "The passive regulated movement through Na+/H2O transporter",
+                "An alteration in temperature",
+                "The passive unregulated movement along the paracellular pathway"
+            ],
+            correct: 0
+        },
+        {
+            question: "What hormone activates the cAMP second messenger system in principal cells of the distal tubules and collecting ducts?",
+            options: [
+                "ADH",
+                "Aldosterone",
+                "Angiotensin II",
+                "Atrial natriuretic peptide",
+                "Parathyroid hormone"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which of the following best describes sodium movement in the distal tubule?",
+            options: [
+                "Sodium is transported across the apical membrane by the Na+/K+ pump and across the basolateral membrane by diffusion through sodium channels.",
+                "Sodium is transported across the basolateral membrane by the Na+/K+ pump and across the apical membrane by facilitated diffusion.",
+                "Sodium is transported across the apical membrane by the Na+/K+ pump and across the basolateral membrane by secondary active transport.",
+                "Sodium is transported across the apical membrane by the Na+/K+ pump and across the basolateral membrane by facilitated diffusion.",
+                "Sodium is transported across the basolateral membrane by the Na+/K+ pump and across the apical membrane by diffusion through sodium channels."
+            ],
+            correct: 4
+        },
+        {
+            question: "Receptors for ADH are located where?",
+            options: [
+                "Intercalated cells basolateral membrane",
+                "Proximal tubule apical membrane",
+                "Principal cells basolateral membrane",
+                "Proximal tubule basolateral membrane",
+                "Principal cells apical membrane"
+            ],
+            correct: 2
+        },
+        {
+            question: "Atrial natriuretic peptide causes which of the following effects in principal cells?",
+            options: [
+                "Increase in glomerular filtration rate",
+                "Efferent arteriole dilation",
+                "Afferent arteriole constriction",
+                "Decreased number of open sodium channels in the apical membrane",
+                "Decreased activity of the Na+/K+ pump in the basolateral membrane"
+            ],
+            correct: 3
+        },
+        {
+            question: "The effects of antidiuretic hormone (ADH) are not restricted to regulating water movement; it also affects sodium reabsorption by:",
+            options: [
+                "Increasing the synthesis of sodium channels in principal cells.",
+                "Decreasing the synthesis of sodium channels in intercalated cells.",
+                "Increasing the synthesis of Na+/K+ pumps in principal cells.",
+                "Decreasing the synthesis of sodium channels in principal cells.",
+                "Increasing the synthesis of sodium channels in intercalated cells."
+            ],
+            correct: 0
+        },
+        {
+            question: "At high concentrations of antidiuretic hormone, the extent of water reabsorption in the collecting ducts is ________ causing urine output to ________.",
+            options: [
+                "High: decrease",
+                "High: increase",
+                "Low: decrease",
+                "Low: increase",
+                "Unaffected: remain unchanged"
+            ],
+            correct: 0
+        },
+        {
+            question: "Aldosterone increases the number of potassium channels where?",
+            options: [
+                "Proximal tubule apical membrane",
+                "Proximal tubule basolateral membrane",
+                "Principal cells apical membrane",
+                "Intercalated cells basolateral membrane",
+                "Principal cells basolateral membrane"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which of the following is associated with actions of aldosterone on principal cells?",
+            options: [
+                "Increased potassium secretion",
+                "Decreased blood pressure",
+                "Increased calcium reabsorption",
+                "Increased sodium secretion",
+                "Decreased plasma osmolarity"
+            ],
+            correct: 0
+        },
+        {
+            question: "In the basolateral membrane of proximal tubular cells, bicarbonate is moved out of the cells by:",
+            options: [
+                "K+/HCO3- countertransporters only.",
+                "HCO3-/Cl- countertransporters only.",
+                "Na+/HCO3- cotransporters only.",
+                "Both K+/HCO3- and HCO3-/Cl- countertransporters.",
+                "Both HCO3-/Cl- countertransporters and Na+/HCO3- cotransporters."
+            ],
+            correct: 4
+        },
+        {
+            question: "Antidiuretic hormone binds to receptors on ________ cells in the collecting ducts and distal tubules where it ________.",
+            options: [
+                "Principal: causes vesicle with aquaporin-3 to insert into the apical membrane",
+                "Intercalated: causes vesicles with aquaporin-3 to insert into the apical membrane",
+                "Intercalated: causes vesicles with aquaporin-2 to insert into the basolateral membrane",
+                "Granular: causes vesicles with aquaporin-2 to insert into the apical membrane",
+                "Principal: causes insertion of aquaporin-2 into the apical membrane"
+            ],
+            correct: 4
+        },
+        {
+            question: "The osmotic gradient in the medullary region of the kidneys is established and maintained by which of the following?",
+            options: [
+                "Na+/K+/Cl- cotransporters in the ascending limb of the loop of Henle",
+                "Na+/K+/Cl- cotransporters in the descending limb of the loop of Henle",
+                "Efflux of Na+ from the descending limb of the loop of Henle",
+                "Efflux of water from the ascending limb of the loop of Henle",
+                "Efflux of water from the descending limb of the loop of Henle"
+            ],
+            correct: 0
+        },
+        {
+            question: "In diabetes insipidus, blood levels of ________ are decreased causing an increase in ________.",
+            options: [
+                "Aldosterone: potassium in the urine",
+                "Aldosterone: sodium in the urine",
+                "ADH: plasma volume",
+                "ADH: urine volume",
+                "Insulin: glucose in the urine"
+            ],
+            correct: 3
+        },
+        {
+            question: "Aquaporin-3 is located on what membrane in the absence of ADH?",
+            options: [
+                "Proximal tubule apical membrane",
+                "Principal cells apical membrane",
+                "Proximal tubule basolateral membrane",
+                "Intercalated cells basolateral membrane",
+                "Principal cells basolateral membrane"
+            ],
+            correct: 4
+        },
+        {
+            question: "Which of the following is an effect of aldosterone on principal cells?",
+            options: [
+                "Increased number of Na+/K+ pumps in the apical membrane",
+                "Increased number of open Na+/K+ channels in the basolateral membrane",
+                "Decreased number of open Na+/K+ channels in the basolateral membrane",
+                "Increased number of open Na+/K+ channels in the apical membrane",
+                "Decreased number of Na+/K+ pumps in the basolateral membrane"
+            ],
+            correct: 3
+        },
+        {
+            question: "In diabetes insipidus, why does polyuria occur?",
+            options: [
+                "An increase in aldosterone increases water reabsorption.",
+                "A lack of ADH decreases water reabsorption.",
+                "A lack of angiotensin II decreases thirst.",
+                "A lack of insulin decreases water permeability of the renal tubules.",
+                "Glucose transporters in the renal tubules become saturated."
+            ],
+            correct: 1
+        },
+        {
+            question: "Most sodium reabsorption is driven by the Na+/K+ pump located in what region?",
+            options: [
+                "Proximal tubule basolateral membrane",
+                "Proximal tubule apical membrane",
+                "Intercalated cells basolateral membrane",
+                "Principal cells basolateral membrane",
+                "Principal cells apical membrane"
+            ],
+            correct: 0
+        },
+        {
+            question: "Sodium-glucose cotransporters are located where?",
+            options: [
+                "Intercalated cells basolateral membrane",
+                "Proximal tubule apical membrane",
+                "Principal cells apical membrane",
+                "Proximal tubule basolateral membrane",
+                "Principal cells basolateral membrane"
+            ],
+            correct: 1
+        },
+        {
+            question: "Renin is released by ________ cells of the ________.",
+            options: [
+                "Principal: afferent arteriole",
+                "Granular: afferent arteriole",
+                "Granular: distal tubule",
+                "Principal: distal tubule",
+                "Intercalated: afferent arteriole"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which of the following accurately describes the thick ascending limb of the loop of Henle?",
+            options: [
+                "Impermeable to water and contains Na+/K+/Cl- cotransporters",
+                "Permeable to water in the presence of specific hormones",
+                "Permeable to water and does NOT contain Na/K/Cl cotransporters",
+                "Impermeable to water and does NOT contain Na+/K+/Cl- cotransporters",
+                "Permeable to water and contains Na+/K+/Cl- cotransporters"
+            ],
+            correct: 0
+        },
+        {
+            question: "If nothing else is removed from the filtrate once it reaches the late distal tubules, the urine excreted would have which of the following properties?",
+            options: [
+                "Low osmolarity and large volume",
+                "Low osmolarity and low volume",
+                "High osmolarity and large volume",
+                "Devoid of ions and large volume",
+                "High osmolarity and low volume"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which of the following diseases is associated with decreased responsiveness of the renal tubules to ADH?",
+            options: [
+                "Diabetes mellitus type 1",
+                "Diabetes mellitus type 2",
+                "Nephrogenic diabetes insipidus",
+                "Diabetic nephropathy",
+                "Central diabetes insipidus"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which of the following is an effect of the transporters in the proximal tubules?",
+            options: [
+                "Secretion of potassium",
+                "Reabsorption of bicarbonate",
+                "Secretion of sodium",
+                "Secretion of urea",
+                "Reabsorption of hydrogen"
+            ],
+            correct: 1
+        },
+        {
+            question: "In the early portion of the collecting duct (in cortical interstitial fluid), an increase in water permeability will result in a(n):",
+            options: [
+                "Movement of water into the duct.",
+                "Efflux of urea from the tubule.",
+                "Increase in filtrate volume.",
+                "Transport of sodium out of the tubule.",
+                "Decrease in filtrate volume."
+            ],
+            correct: 4
+        },
+        {
+            question: "Bicarbonate crosses the apical membrane of the proximal tubule by:",
+            options: [
+                "HCO3-/Cl- countertransporters.",
+                "HCO3- active transporters.",
+                "Conversion to carbon dioxide.",
+                "Na+/HCO3- cotransporters.",
+                "Na+/HCO3- countertransporters."
+            ],
+            correct: 2
+        },
+        {
+            question: "The regulation of water and ion excretion occurs primarily within the:",
+            options: [
+                "Proximal tubules only.",
+                "Late distal tubules only.",
+                "Collecting ducts only.",
+                "Both proximal tubules and late distal tubules.",
+                "Both collecting ducts and late distal tubules."
+            ],
+            correct: 4
+        },
+        {
+            question: "Which of the following correctly describes water movement across the epithelial cells lining the collecting duct?",
+            options: [
+                "Water can permeate the lipid bilayer at all times.",
+                "Water can permeate the phospholipid bilayer only in the presence of aldosterone.",
+                "Water can permeate the apical membrane through aquaporin-2 and the basolateral membrane through aquaporin-3, but aquaporin-2 is only present in the presence of ADH.",
+                "Water can permeate the basolateral membrane through aquaporin-2 and the apical membrane through aquaporin-3, but aquaporin-2 is only present in the presence of aldosterone.",
+                "Water can permeate the phospholipid bilayer only in the presence of ADH."
+            ],
+            correct: 2
+        },
+        {
+            question: "In the proximal tubule, hydrogen ions are transported into the filtrate by:",
+            options: [
+                "Na+/H+ countertransporters only.",
+                "H+ primary active transporters only.",
+                "H+/Cl- cotransporters only.",
+                "Both Na+/H+ countertransporters and H+ primary active transporters.",
+                "Both Na+/H+ countertransporters and H+/Cl- cotransporters."
+            ],
+            correct: 3
+        },
+        {
+            question: "Potassium channels located where are necessary for its reabsorption?",
+            options: [
+                "Proximal tubule basolateral membrane",
+                "Intercalated cells basolateral membrane",
+                "Principal cells basolateral membrane",
+                "Principal cells apical membrane",
+                "Proximal tubule apical membrane"
+            ],
+            correct: 0
+        },
+        {
+            question: "Potassium channels located where are necessary for its secretion?",
+            options: [
+                "Intercalated cells basolateral membrane",
+                "Principal cells apical membrane",
+                "Principal cells basolateral membrane",
+                "Proximal tubule apical membrane",
+                "Proximal tubule basolateral membrane"
+            ],
+            correct: 1
+        },
+        {
+            question: "The regulation of sodium and water balance in the kidneys occurs primarily through the unique action of which cells in the distal tubules and collecting ducts?",
+            options: [
+                "Granular cells",
+                "Mesangial cells",
+                "Principal cells",
+                "Intercalated cells",
+                "Podocytes"
+            ],
+            correct: 2
+        },
+        {
+            question: "Under severe acidic conditions, the proximal tubules can convert ________ into bicarbonate.",
+            options: [
+                "Glutamate",
+                "Lysine",
+                "Glycine",
+                "Carbon monoxide",
+                "Glutamine"
+            ],
+            correct: 4
+        },
+        {
+            question: "ADH increases the insertion of aquaporin-2 where?",
+            options: [
+                "Proximal tubule apical membrane",
+                "Proximal tubule basolateral membrane",
+                "Intercalated cells basolateral membrane",
+                "Principal cells apical membrane",
+                "Principal cells basolateral membrane"
+            ],
+            correct: 3
+        },
+        {
+            question: "A person must void what volume of urine per day?",
+            options: [
+                "0 mL",
+                "15 mL",
+                "120 mL",
+                "440 mL",
+                "1200 mL"
+            ],
+            correct: 3
+        },
+        {
+            question: "Carbonic anhydrase is located where?",
+            options: [
+                "Principal cells basolateral membrane",
+                "Intercalated cells basolateral membrane",
+                "Proximal tubule apical membrane",
+                "Proximal tubule basolateral membrane",
+                "Principal cells apical membrane"
+            ],
+            correct: 2
+        },
+        {
+            question: "In the renal tubules, where is the Na+/K+ pump located?",
+            options: [
+                "In both the apical and basolateral membranes of principal cells",
+                "In the basolateral membrane of the proximal tubules",
+                "In both the apical and basolateral membranes of intercalated cells",
+                "In the apical membrane of the collecting ducts",
+                "In the apical membrane of the descending limb of the loop of Henle"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which of the following statements on sodium movement in the renal tubules is TRUE?",
+            options: [
+                "Sodium channels are located on the basolateral membrane of principal cells.",
+                "Sodium is actively secreted from the collecting duct.",
+                "Sodium reabsorption follows water reabsorption in all segments of the renal tubules.",
+                "Sodium is actively transported across the basolateral membrane of both the proximal and distal tubule.",
+                "Sodium is actively secreted from the proximal tubule."
+            ],
+            correct: 3
         }
     ],
 
@@ -2971,6 +3402,840 @@ const questionBank = {
                 "Rarely returns pH completely to normal",
                 "Causes the opposite disorder",
                 "Is harmful"
+            ],
+            correct: 2
+        },
+
+        // NEW QUESTIONS FROM newquestions.json
+        {
+            question: "Which of the following is a source of water input?",
+            options: [
+                "Digestive tract only",
+                "Renal tubules only",
+                "Metabolism only",
+                "Both digestive tract and metabolism",
+                "Both the digestive tract and renal tubules"
+            ],
+            correct: 3
+        },
+        {
+            question: "The regulation of acid-base balance in the kidneys occurs primarily through the unique action of which cells in the distal tubules and collecting ducts?",
+            options: [
+                "Principal cells",
+                "Mesangial cells",
+                "Granular cells",
+                "Intercalated cells",
+                "Podocytes"
+            ],
+            correct: 3
+        },
+        {
+            question: "What hormone increases water reabsorption by inserting aquaporin-2 proteins into the apical membrane of principal cells?",
+            options: [
+                "ADH",
+                "Aldosterone",
+                "Angiotensin II",
+                "Atrial natriuretic peptide",
+                "Parathyroid hormone"
+            ],
+            correct: 0
+        },
+        {
+            question: "What would the following blood values indicate? Blood pH = 7.3, [HCO3-] is low, PCO2 is low.",
+            options: [
+                "Respiratory acidosis with renal compensation",
+                "Respiratory alkalosis with renal compensation",
+                "Metabolic acidosis with respiratory compensation",
+                "Metabolic acidosis only",
+                "Metabolic alkalosis with respiratory compensation"
+            ],
+            correct: 2
+        },
+        {
+            question: "What regulates the rate of water loss?",
+            options: [
+                "Cardiovascular system",
+                "Kidney",
+                "Lungs",
+                "Skin",
+                "Digestive tract"
+            ],
+            correct: 1
+        },
+        {
+            question: "A person walks into the emergency room with rapid and shallow breathing and a feeling of light-headedness. A blood test shows high levels of bicarbonate ions and a pH of 7.34. What could explain these symptoms?",
+            options: [
+                "Metabolic acidosis with respiratory compensation",
+                "Acidosis with no compensation",
+                "Respiratory acidosis with renal compensation",
+                "Metabolic alkalosis with respiratory compensation",
+                "Respiratory alkalosis with renal compensation"
+            ],
+            correct: 2
+        },
+        {
+            question: "A patient is exhibiting several signs of acid-base imbalance. Blood tests reveal that blood pH is 7.5, and bicarbonate and carbon dioxide levels in blood are both low. What is the state of this patient?",
+            options: [
+                "Respiratory acidosis with renal compensation",
+                "Metabolic acidosis with respiratory compensation",
+                "Respiratory alkalosis with renal compensation",
+                "Metabolic alkalosis with respiratory compensation",
+                "Blood pH is normal."
+            ],
+            correct: 2
+        },
+        {
+            question: "Kidneys compensate for changes in plasma volume and osmolarity by adjusting the rate of water:",
+            options: [
+                "Reabsorption only.",
+                "Secretion only.",
+                "Resorption only.",
+                "Reabsorption and secretion.",
+                "Secretion and resorption."
+            ],
+            correct: 0
+        },
+        {
+            question: "ACE inhibitors prevent angiotensin converting enzyme (ACE) from performing its role in the body. Which statement best describes why doctors prescribe ACE inhibitors?",
+            options: [
+                "ACE inhibitors block the production of renin in the juxtaglomerular cells in the kidneys reducing fluid volume and, therefore, blood pressure.",
+                "ACE inhibitors slow down the heart rate by not allowing atrial natriuretic peptide (ANP) to be released from the heart, decreasing sodium production and, therefore, blood pressure.",
+                "ACE inhibitors reduce blood pressure by blocking the conversion of angiotensin I to angiotensin II.",
+                "ACE inhibitors block baroreceptors and reduce sympathetic activity to the cardiovascular system, thereby reducing blood pressure.",
+                "ACE inhibitors increase blood pressure by blocking the RAAS pathway."
+            ],
+            correct: 2
+        },
+        {
+            question: "What hormone increases excretion of sodium?",
+            options: [
+                "ADH",
+                "Aldosterone",
+                "Angiotensin II",
+                "Atrial natriuretic peptide",
+                "Parathyroid hormone"
+            ],
+            correct: 3
+        },
+        {
+            question: "Release of what hormone is stimulated by high levels of potassium?",
+            options: [
+                "ADH",
+                "Aldosterone",
+                "Angiotensin II",
+                "Atrial natriuretic peptide",
+                "Parathyroid hormone"
+            ],
+            correct: 1
+        },
+        {
+            question: "A substance is in positive balance when:",
+            options: [
+                "It exits plasma at a greater rate than it enters plasma.",
+                "Its production by cells is decreased.",
+                "It enters plasma at a greater rate than it exits plasma.",
+                "Its usage by cells is increased.",
+                "It enters plasma at the same rate it exits plasma."
+            ],
+            correct: 2
+        },
+        {
+            question: "What would the following blood values indicate? Blood pH = 7.3, [HCO3-] is high, PCO2 is high.",
+            options: [
+                "Metabolic acidosis with respiratory compensation",
+                "Respiratory alkalosis with renal compensation",
+                "Respiratory acidosis with renal compensation",
+                "Metabolic alkalosis with respiratory compensation",
+                "Metabolic acidosis only"
+            ],
+            correct: 2
+        },
+        {
+            question: "The hydrogen ion concentration or pH of arterial blood is regulated by the combined actions of the ______ and ______.",
+            options: [
+                "Kidneys: buffer systems",
+                "Lungs: kidneys",
+                "Kidneys: cardiovascular system",
+                "Kidneys: lymphatic system",
+                "Lungs: buffer systems"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which of the following is NOT a mechanism of dissipating heat during exercise?",
+            options: [
+                "Radiation",
+                "Convection",
+                "Conduction",
+                "Secretion of ADH",
+                "Evaporation"
+            ],
+            correct: 3
+        },
+        {
+            question: "Which of the following is NOT a metabolic disturbance that can result in a metabolic acidosis?",
+            options: [
+                "Heavy exercise",
+                "High-fat diet",
+                "Severe diarrhea",
+                "Excessive vomiting",
+                "High-protein diet"
+            ],
+            correct: 3
+        },
+        {
+            question: "What hormone decreases plasma calcium levels?",
+            options: [
+                "Calcitonin only",
+                "1,25-dihydroxy vitamin D3 only",
+                "Parathyroid hormone only",
+                "Both calcitonin and 1,25-dihydroxy vitamin D3",
+                "Both calcitonin and parathyroid hormone"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which of the following structures is NOT involved in the regulation of plasma calcium?",
+            options: [
+                "Skeletal muscle",
+                "Kidneys",
+                "Gastrointestinal tract",
+                "Skin",
+                "Bone"
+            ],
+            correct: 0
+        },
+        {
+            question: "How does severe vomiting cause a metabolic alkalosis?",
+            options: [
+                "Production of bicarbonate",
+                "Production of hydrogen ions",
+                "Loss of hydrogen ions",
+                "Loss of bicarbonate",
+                "Loss of phosphate"
+            ],
+            correct: 2
+        },
+        {
+            question: "What solute is primarily responsible for producing the osmotic gradient that drives water reabsorption?",
+            options: [
+                "Potassium",
+                "Phosphate",
+                "Chloride",
+                "Calcium",
+                "Sodium"
+            ],
+            correct: 4
+        },
+        {
+            question: "Angiotensinogen is synthesized by what organ?",
+            options: [
+                "Pituitary gland",
+                "Kidney",
+                "Bone marrow",
+                "Adrenal gland",
+                "Liver"
+            ],
+            correct: 4
+        },
+        {
+            question: "Under which of the following conditions do cell volumes not change and the osmolarity in both extracellular and intracellular fluids remain the same?",
+            options: [
+                "Hypovolemia",
+                "Osmotic equilibrium",
+                "Hypervolemia",
+                "Hypotonicity",
+                "Hypertonicity"
+            ],
+            correct: 1
+        },
+        {
+            question: "If a person is normovolemic and consumes a large quantity of a hyperosmotic solution, it will:",
+            options: [
+                "Have no effect on cell osmolarity and thereby cell size.",
+                "Cause cells to swell due to an increase in the osmolarity of extracellular fluid.",
+                "Cause cells to shrink due to an increase in the osmolarity of extracellular fluid.",
+                "Cause cells to swell due to a decrease in the osmolarity of extracellular fluid.",
+                "Cause cells to shrink due to a decrease in the osmolarity of extracellular fluid."
+            ],
+            correct: 2
+        },
+        {
+            question: "If hydrogen ions are added to a solution, the pH will:",
+            options: [
+                "Increase.",
+                "Decrease.",
+                "Remain the same."
+            ],
+            correct: 1
+        },
+        {
+            question: "Which of the following ions acts as a buffer to minimize changes in intracellular pH?",
+            options: [
+                "Sodium",
+                "Chloride",
+                "Bicarbonate",
+                "Potassium",
+                "Phosphate"
+            ],
+            correct: 4
+        },
+        {
+            question: "Which of the following is NOT a response to hemorrhage?",
+            options: [
+                "Increased sympathetic activity",
+                "Increased epinephrine secretion",
+                "Increased angiotensin II production",
+                "Increased ADH release",
+                "Decreased renin secretion"
+            ],
+            correct: 4
+        },
+        {
+            question: "Seawater has an osmolarity of around 1000 mOsm, mostly from dissolved sodium. Given what you know about the osmolarity in most of the cells in the body, why is it dangerous to drink seawater?",
+            options: [
+                "In the cardiovascular system, the higher sodium levels would decrease the pressure in the arteries making it more difficult to get blood to the systemic capillaries.",
+                "In the digestive system, the seawater would draw more water out of the bloodstream than would be absorbed, leading to severe dehydration.",
+                "In membrane transport, the increased sodium concentration would slow down secondary active transport of glucose into cells.",
+                "In the nervous system, the additional extracellular sodium concentration would slow down the normal flow of sodium ions used to generate action potentials.",
+                "In the renal system, the osmolarity of the medulla of the kidney would become even more concentrated."
+            ],
+            correct: 1
+        },
+        {
+            question: "Which type of cell carries out bone resorption?",
+            options: [
+                "Osteoclasts",
+                "Osteocytes",
+                "Osteons",
+                "Osteoblasts",
+                "Ossicles"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which of the following conditions is NOT indicative of a decrease in plasma osmolarity?",
+            options: [
+                "Neural hyperexcitability",
+                "Confusion",
+                "Nausea",
+                "Headache",
+                "Seizure"
+            ],
+            correct: 0
+        },
+        {
+            question: "What would the following blood values indicate? Blood pH = 7.5, [HCO3-] is high, PCO2 is high.",
+            options: [
+                "Respiratory alkalosis with renal compensation",
+                "Metabolic acidosis only",
+                "Metabolic alkalosis with respiratory compensation",
+                "Metabolic acidosis with respiratory compensation",
+                "Respiratory acidosis with renal compensation"
+            ],
+            correct: 2
+        },
+        {
+            question: "In order to compensate for a hyperventilation, the:",
+            options: [
+                "Kidneys increase the reabsorption of hydrogen ions.",
+                "Kidneys increase the conversion of glutamine to bicarbonate.",
+                "Kidneys decrease the reabsorption of bicarbonate.",
+                "Lungs increase ventilation rate.",
+                "Kidneys increase the secretion of hydrogen ions."
+            ],
+            correct: 2
+        },
+        {
+            question: "How might heavy exercise cause metabolic acidosis?",
+            options: [
+                "Loss of bicarbonate",
+                "Production of lactic acid",
+                "Direct production of hydrogen ions",
+                "Loss of phosphate",
+                "Loss of hydrogen ions"
+            ],
+            correct: 1
+        },
+        {
+            question: "A patient is exhibiting several signs of acid-base imbalance. Blood tests reveal that blood pH is 7.3, and bicarbonate and carbon dioxide levels in blood are both low. What is the state of this patient?",
+            options: [
+                "Metabolic alkalosis with respiratory compensation",
+                "Respiratory acidosis with renal compensation",
+                "Metabolic acidosis with respiratory compensation",
+                "Respiratory alkalosis with renal compensation",
+                "Blood pH is normal."
+            ],
+            correct: 2
+        },
+        {
+            question: "How might a high-protein diet cause metabolic acidosis?",
+            options: [
+                "Loss of phosphate",
+                "Loss of bicarbonate",
+                "Production of phosphoric acid and sulfuric acid",
+                "Direct production of hydrogen ions",
+                "Loss of hydrogen ions"
+            ],
+            correct: 2
+        },
+        {
+            question: "The primary function of atrial natriuretic peptide (ANP) is to:",
+            options: [
+                "Decrease potassium secretion thereby increasing potassium reabsorption.",
+                "Decrease sodium secretion thereby increasing sodium reabsorption.",
+                "Increase sodium secretion thereby decreasing sodium reabsorption.",
+                "Increase the stretching capacity of the atria.",
+                "Increase potassium secretion thereby decreasing potassium reabsorption."
+            ],
+            correct: 2
+        },
+        {
+            question: "What form of osteoporosis would be localized to a specific bone?",
+            options: [
+                "Disuse osteoporosis",
+                "Primary osteoporosis",
+                "Secondary osteoporosis",
+                "Tertiary osteoporosis",
+                "Hyperosteoporosis"
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the strongest stimulus for the release of antidiuretic hormone from the posterior pituitary?",
+            options: [
+                "Increase in plasma osmolarity",
+                "Decrease in sodium content of the blood",
+                "Decrease in blood pressure",
+                "Increase in blood pressure",
+                "Decrease in plasma osmolarity"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which of the following conditions triggers the release of renin?",
+            options: [
+                "High blood pressure",
+                "Increased mean arterial pressure (MAP)",
+                "Low blood pressure",
+                "Atrial stretching due to increased plasma volume",
+                "Increased sympathetic stimulation"
+            ],
+            correct: 2
+        },
+        {
+            question: "What enzyme converts angiotensinogen into angiotensin I?",
+            options: [
+                "Mucin",
+                "Angiotensin converting enzyme (ACE)",
+                "Atrial natriuretic peptide",
+                "Renin",
+                "Carbonic anhydrase"
+            ],
+            correct: 3
+        },
+        {
+            question: "Which type of cell carries out bone formation?",
+            options: [
+                "Ossicles",
+                "Osteocytes",
+                "Osteons",
+                "Osteoblasts",
+                "Osteoclasts"
+            ],
+            correct: 3
+        },
+        {
+            question: "What is the most rapid defense against changes in blood pH?",
+            options: [
+                "Cardiac compensation",
+                "Respiratory compensation",
+                "Hepatic compensation",
+                "Renal compensation",
+                "Buffering of hydrogen ions"
+            ],
+            correct: 4
+        },
+        {
+            question: "Aldosterone is released from the ________ in response to ________.",
+            options: [
+                "Adrenal medulla: decreases in plasma sodium",
+                "Posterior pituitary: increases in plasma osmolarity",
+                "Pancreas: increases in plasma glucose",
+                "Adrenal cortex: increases in plasma potassium",
+                "Macula densa: increased flow of tubular fluid in the distal tubule"
+            ],
+            correct: 3
+        },
+        {
+            question: "Angiotensin II acts directly in the hypothalamus to stimulate what?",
+            options: [
+                "The release of oxytocin",
+                "An increase in body temperature",
+                "The release of aldosterone",
+                "An increase in thirst",
+                "A systemic increase in blood pressure"
+            ],
+            correct: 3
+        },
+        {
+            question: "During hyperventilation, why do some people detect a tingling sensation in their hands and feet?",
+            options: [
+                "A decrease in carbon dioxide in blood",
+                "An increase in carbon dioxide in blood",
+                "Widespread release of catecholamines",
+                "Hyperexcitability of afferent neurons",
+                "A decrease in blood flow to the distal extremities"
+            ],
+            correct: 3
+        },
+        {
+            question: "Exposure of the skin to sunlight converts ________ to vitamin D3.",
+            options: [
+                "Calcium",
+                "Calcitriol",
+                "7-dehydrocholesterol",
+                "Cholesterol",
+                "25-OH D3"
+            ],
+            correct: 2
+        },
+        {
+            question: "Angiotensin II and atrial natriuretic peptide are able to alter the reabsorption of water through a similar pathway that involves altered:",
+            options: [
+                "Na+/K+ pump activity in the principal cells.",
+                "Sodium channel expression on the apical membrane.",
+                "Na+/K+ pump activity in the intercalated cells.",
+                "Release of antidiuretic hormone (ADH).",
+                "Integration of aquaporin-3 into the membrane."
+            ],
+            correct: 3
+        },
+        {
+            question: "The role of a buffer is to:",
+            options: [
+                "Reduce the secretion of bicarbonate ions in the kidneys.",
+                "Reduce the secretion of hydrogen ions in the kidneys.",
+                "Reduce the reabsorption of hydrogen ions in the kidneys.",
+                "Limit the change in pH with changing hydrogen ion concentrations.",
+                "Enhance the ability of an increase in hydrogen ions to increase pH."
+            ],
+            correct: 3
+        },
+        {
+            question: "Potassium secretion is regulated by:",
+            options: [
+                "Aldosterone.",
+                "Angiotensin I.",
+                "Renin.",
+                "Atrial natriuretic peptide (ANP).",
+                "Parathyroid hormone (PTH)."
+            ],
+            correct: 0
+        },
+        {
+            question: "What stimulates atrial natriuretic peptide release?",
+            options: [
+                "Renin",
+                "Changes in the concentration of sodium in the blood of the atrium",
+                "Distension of the atrial wall due to an increase in plasma volume",
+                "Changes in the concentration of potassium in the blood of the atrium",
+                "Distension of the atrial wall due to an increase in blood pressure"
+            ],
+            correct: 2
+        },
+        {
+            question: "Fluid and electrolyte balance occur when:",
+            options: [
+                "The amount of solute in the plasma is the same as the amount in the interstitial fluid.",
+                "Solutes and water exit the plasma at a greater rate than it enters.",
+                "Solutes and water enter and exit the plasma at the same rate.",
+                "Solutes and water enter the plasma at a greater rate than it exits.",
+                "The charges are neutral and happen to be in an aqueous solution."
+            ],
+            correct: 2
+        },
+        {
+            question: "The most important buffer system in the extracellular fluid is:",
+            options: [
+                "Carboxyl groups.",
+                "Chloride.",
+                "Monoprotonated phosphates.",
+                "Amino acids.",
+                "Bicarbonate."
+            ],
+            correct: 4
+        },
+        {
+            question: "If hydrogen ions are taken out of a solution, the pH will:",
+            options: [
+                "Increase.",
+                "Decrease.",
+                "Remain the same."
+            ],
+            correct: 0
+        },
+        {
+            question: "The hemorrhage-induced decrease in blood flow to the kidneys will:",
+            options: [
+                "Increase the release of atrial natriuretic peptide.",
+                "Increase the production of erythrocytes.",
+                "Decrease the release of renin.",
+                "Increase the production of leukocytes.",
+                "Increase glomerular filtration rate."
+            ],
+            correct: 1
+        },
+        {
+            question: "Which statement best describes why estrogen may contribute to osteoporosis?",
+            options: [
+                "A decrease in estrogen causes a corresponding decrease in interleukin-6 that then lowers calcium levels.",
+                "A decrease in estrogen stimulates an increase in osteoblast activity due to the activation of 1,25-(OH2) D3.",
+                "A decrease in estrogen stimulates calcitonin secretion from the pituitary gland.",
+                "Estrogen is a steroid hormone that interferes with calcium resorption.",
+                "A decrease in estrogen stimulates the production of interleukin-6 that then stimulates osteoclast activity."
+            ],
+            correct: 4
+        },
+        {
+            question: "How might a high-fat diet cause metabolic acidosis?",
+            options: [
+                "Loss of bicarbonate",
+                "Direct production of hydrogen ions",
+                "Breakdown of fat into fatty acids",
+                "Loss of phosphate",
+                "Loss of hydrogen ions"
+            ],
+            correct: 2
+        },
+        {
+            question: "The activity of the respiratory system can increase pH by:",
+            options: [
+                "A hyperventilation-induced decrease in PCO2.",
+                "A hypoventilation-induced decrease in PCO2.",
+                "A hypoventilation-induced increase in PCO2.",
+                "A hyperventilation-induced increase in PCO2.",
+                "Increasing the amount of carbonic acid in the blood."
+            ],
+            correct: 0
+        },
+        {
+            question: "What hormone decreases calcium levels in blood?",
+            options: [
+                "Calcitonin",
+                "Aldosterone",
+                "Parathyroid hormone",
+                "Angiotensin II",
+                "ADH"
+            ],
+            correct: 0
+        },
+        {
+            question: "When an increase in hydrogen ions remains after one hour, this will lead to a(n):",
+            options: [
+                "Increase in bicarbonate secretion in the kidneys.",
+                "Increase in hydrogen ion secretion from the kidneys.",
+                "Decrease in bicarbonate reabsorption in the kidneys.",
+                "Failure of the kidneys to filter any more hydrogen ions.",
+                "Increased hydrogen reabsorption in the kidneys."
+            ],
+            correct: 1
+        },
+        {
+            question: "The extent of potassium excretion is regulated primarily by the:",
+            options: [
+                "Amount reabsorbed into the proximal tubule.",
+                "Amount secreted into the distal tubule.",
+                "Amount secreted into the proximal tubule.",
+                "Amount reabsorbed in the distal tubule.",
+                "Amount filtered by the basement membrane of the glomerular capillaries."
+            ],
+            correct: 1
+        },
+        {
+            question: "A greater plasma volume than normal is called:",
+            options: [
+                "Hypervolemia.",
+                "Fluid balance.",
+                "Hypovolemia.",
+                "Equilibrium.",
+                "Normovolemia."
+            ],
+            correct: 0
+        },
+        {
+            question: "Plasma can gain solutes and/or water from which of the following?",
+            options: [
+                "Gastrointestinal tract only",
+                "Renal tubules only",
+                "Bone only",
+                "Both the gastrointestinal tract and bone",
+                "Both the gastrointestinal tract and renal tubules"
+            ],
+            correct: 3
+        },
+        {
+            question: "A student in your physiology lab is thirsty and decides to sneak a drink of deionized or distilled water. The student drinks a fairly large quantity of this water in a short period of time. What will happen to the student's cells?",
+            options: [
+                "It will cause the student's cells to shrink.",
+                "It will make the cells hypovolemic.",
+                "Water is water, so it will not do anything to the student's cells.",
+                "It will cause the student's cells to swell.",
+                "It is an isotonic solution, so water will enter and leave cells at the same rate."
+            ],
+            correct: 3
+        },
+        {
+            question: "The bone can supply calcium to the plasma by what process?",
+            options: [
+                "Filtration",
+                "Reabsorption",
+                "Resorption",
+                "Ossification",
+                "Calcification"
+            ],
+            correct: 2
+        },
+        {
+            question: "A substance is in negative balance when:",
+            options: [
+                "It enters plasma at the same rate it exits plasma.",
+                "It exits plasma at a greater rate than it enters plasma.",
+                "It enters plasma at a greater rate than it exits plasma.",
+                "Its usage by cells is decreased.",
+                "Its production by cells is increased."
+            ],
+            correct: 1
+        },
+        {
+            question: "What enzyme converts angiotensin I into angiotensin II?",
+            options: [
+                "Angiotensin converting enzyme (ACE)",
+                "Mucin",
+                "Atrial natriuretic peptide",
+                "Renin",
+                "Carbonic anhydrase"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which of the following conditions would be associated with hypernatremia?",
+            options: [
+                "Increased plasma sodium",
+                "Decreased plasma volume",
+                "Decreased plasma osmolarity",
+                "Increased plasma potassium",
+                "Hypotension"
+            ],
+            correct: 0
+        },
+        {
+            question: "How does severe diarrhea cause a metabolic acidosis?",
+            options: [
+                "Loss of phosphate",
+                "Production of bicarbonate",
+                "Production of hydrogen ions",
+                "Loss of hydrogen ions",
+                "Loss of bicarbonate"
+            ],
+            correct: 4
+        },
+        {
+            question: "From where is ADH released?",
+            options: [
+                "Distal tubule",
+                "Pancreas",
+                "Anterior pituitary",
+                "Collecting duct",
+                "Posterior pituitary"
+            ],
+            correct: 4
+        },
+        {
+            question: "What is the secondary defense against changes in pH that requires minutes to be activated?",
+            options: [
+                "Renal compensation",
+                "Buffering of hydrogen ions",
+                "Respiratory compensation",
+                "Cardiac compensation",
+                "Hepatic compensation"
+            ],
+            correct: 2
+        },
+        {
+            question: "Respiratory compensation for changes in pH is originated by:",
+            options: [
+                "Proprioceptors.",
+                "Directly affecting the activity of the diaphragm.",
+                "Central chemoreceptors.",
+                "Baroreceptors.",
+                "Peripheral chemoreceptors."
+            ],
+            correct: 4
+        },
+        {
+            question: "Hyperkalemia refers to an excess of what?",
+            options: [
+                "Calcium",
+                "Chloride",
+                "Water",
+                "Potassium",
+                "Sodium"
+            ],
+            correct: 3
+        },
+        {
+            question: "What hormone increases calcium resorption from bone?",
+            options: [
+                "ADH",
+                "Aldosterone",
+                "Angiotensin II",
+                "Atrial natriuretic peptide",
+                "Parathyroid hormone"
+            ],
+            correct: 4
+        },
+        {
+            question: "The last step to synthesis of 1,25-dihydroxy vitamin D3 occurs in what organ?",
+            options: [
+                "Skin",
+                "Brain",
+                "Gastrointestinal tract",
+                "Kidney",
+                "Liver"
+            ],
+            correct: 3
+        },
+        {
+            question: "Which statement BEST distinguishes metabolic acidosis from respiratory acidosis?",
+            options: [
+                "Metabolic acidosis is a disturbance in blood pH caused by exercise as opposed to hyper- or hypoventilation.",
+                "Metabolic acidosis is a disturbance in blood pH caused by something other than an abnormal PCO2.",
+                "Metabolic acidosis occurs due to changes in blood glucose as opposed to changes in PO2 and PCO2.",
+                "Metabolic acidosis occurs due to changes in PO2 as opposed to PCO2.",
+                "Metabolic acidosis occurs due to changes in bicarbonate as opposed to PCO2."
+            ],
+            correct: 1
+        },
+        {
+            question: "A decrease in plasma calcium will initiate an increase in the release of which of the following?",
+            options: [
+                "Parathyroid hormone only",
+                "Calcitonin only",
+                "1,25-dihydroxy vitamin D3 only",
+                "Both parathyroid hormone and calcitonin",
+                "Both parathyroid hormone and 1,25-dihydroxy vitamin D3"
+            ],
+            correct: 0
+        },
+        {
+            question: "What hormone stimulates the release of aldosterone?",
+            options: [
+                "ADH",
+                "Aldosterone",
+                "Angiotensin II",
+                "Atrial natriuretic peptide",
+                "Parathyroid hormone"
             ],
             correct: 2
         }
