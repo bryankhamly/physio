@@ -84,6 +84,28 @@
         .essay-answer li { color: var(--text-primary); margin-bottom: 0.5rem; line-height: 1.6; }
         
         @media (max-width: 768px) { main { padding: 5rem 1rem 3rem; } .chapter-header h1 { font-size: 1.8rem; } .nav-chapters { display: none; } }
+
+        /* Educational Images */
+        .edu-image {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .edu-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            background: #fff;
+        }
+        .edu-image .image-caption {
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -160,6 +182,10 @@
         <section class="section">
             <h2><span class="section-number">2</span>Kidney Anatomy</h2>
             <div class="content">
+                <div class="edu-image">
+                    <img src="ref/images/more/kidney.jpg" alt="Kidney Anatomy">
+                </div>
+
                 <div class="key-concept">
                     <h4>🔑 Gross Anatomy</h4>
                     <ul>
@@ -173,6 +199,10 @@
                 <div class="subsection">
                     <h3>The Nephron: The Functional Unit</h3>
                     <p>Each kidney contains approximately <strong>1 million nephrons</strong>. The nephron consists of:</p>
+
+                    <div class="edu-image">
+                        <img src="ref/images/more/nephron.jpg" alt="Nephron Structure">
+                    </div>
 
                     <div class="key-concept">
                         <h4>🔑 Nephron Components</h4>
@@ -260,6 +290,10 @@
                     </ol>
                     <p><strong>What gets filtered:</strong> Water, glucose, ions, amino acids, small molecules</p>
                     <p><strong>What stays in blood:</strong> Red blood cells, plasma proteins (too large and negatively charged)</p>
+                </div>
+
+                <div class="edu-image">
+                    <img src="ref/images/more/filtration membrane diagram.jpg" alt="Filtration Membrane Diagram">
                 </div>
 
                 <div class="values-card">

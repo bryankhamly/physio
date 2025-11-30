@@ -98,6 +98,30 @@
         .essay-answer ol, .essay-answer ul { margin: 0.75rem 0; padding-left: 1.5rem; }
         .essay-answer li { color: var(--text-primary); margin-bottom: 0.5rem; line-height: 1.6; }
         
+        /* Educational Image Styling */
+        .edu-image {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .edu-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        .edu-image .image-caption {
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
         @media (max-width: 768px) { main { padding: 5rem 1rem 3rem; } .chapter-header h1 { font-size: 1.8rem; } .nav-chapters { display: none; } }
     </style>
 </head>
@@ -258,10 +282,19 @@
                             <li><strong>Steep middle portion (20-40 mmHg):</strong> Small drops in P<sub>O₂</sub> cause large O₂ release—efficient unloading in tissues</li>
                         </ul>
                     </div>
+
                 </div>
 
                 <div class="subsection">
                     <h3>Factors That Shift the O₂-Hb Curve</h3>
+
+                    <div class="edu-image">
+                        <img src="ref/images/3.jpg" alt="Oxygen-hemoglobin dissociation curve - normal">
+                    </div>
+
+                    <div class="edu-image">
+                        <img src="ref/images/4.jpg" alt="Oxygen-hemoglobin dissociation curve with Bohr effect shifts">
+                    </div>
 
                     <div class="key-concept">
                         <h4>🔑 The Bohr Effect</h4>
