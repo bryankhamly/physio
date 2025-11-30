@@ -519,6 +519,45 @@
             line-height: 1.6;
         }
 
+        /* Educational Image Styling */
+        .edu-image {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .edu-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        .edu-image .image-caption {
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .edu-image .image-source {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .edu-image .image-source a {
+            color: var(--accent-primary);
+            text-decoration: none;
+        }
+
+        .edu-image .image-source a:hover {
+            text-decoration: underline;
+        }
+
         @media (max-width: 768px) {
             main { padding: 5rem 1rem 3rem; }
             .chapter-header h1 { font-size: 1.8rem; }
@@ -629,6 +668,11 @@
                     <p><strong>Nose/Mouth → Pharynx → Larynx → Trachea → Primary bronchi → Secondary bronchi → Bronchioles → Terminal bronchioles → Respiratory bronchioles → Alveolar ducts → Alveoli</strong></p>
                 </div>
 
+                <div class="edu-image">
+                    <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSCY2qOn_wZfOHLg-o2GJ2p34tjdZLM1sSMZxMTWIi_L7D-H5k9d7KssJpjV8GBXqzD4jXeeQZoZZntztJ5pmSAcpBwjRFqP2xcU6aaKohedyD6I8Q" alt="Major respiratory organs showing upper and lower respiratory tract">
+                    <div class="image-caption">Major respiratory organs: nasal cavity, pharynx, larynx, trachea, bronchi, and lungs</div>
+                </div>
+
                 <div class="key-concept">
                     <h4>🔑 Key Structures</h4>
                     <ul>
@@ -681,6 +725,10 @@
                         <li>Capillary endothelium</li>
                     </ol>
                     <p>Total thickness: only 0.5 μm—allows rapid diffusion!</p>
+                </div>
+
+                <div class="edu-image">
+                    <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcS59geVoYQxxidArt7dd5FBeqOj9cHXVAA1UyPtLMTPKr4IBUegJjTGLFfL7HHXDuPktAKRb1GxVVasMWM3lSuUWMgolQDkpkuGxZzAUyzihtnwPuo" alt="Diagram of alveolus showing Type I and Type II cells with gas exchange">
                 </div>
             </div>
         </section>
@@ -811,6 +859,12 @@
                         <span class="value-label"><strong>Functional Residual Capacity (FRC)</strong> = ERV + RV</span>
                         <span class="value-number">~2200 mL</span>
                     </div>
+                </div>
+
+                <div class="edu-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Lungvolumes.svg" alt="Spirogram showing lung volumes and capacities">
+                    <div class="image-caption">Spirogram showing lung volumes (TV, IRV, ERV, RV) and capacities (VC, IC, FRC, TLC)</div>
+                    <div class="image-source">Source: <a href="https://commons.wikimedia.org/wiki/File:Lungvolumes.svg" target="_blank">Wikimedia Commons</a> (Public Domain)</div>
                 </div>
 
                 <div class="why-matters">
