@@ -559,9 +559,9 @@ const questionBank = {
         {
             question: "Alveolar ventilation is calculated as:",
             options: [
-                "Tidal volume � respiratory rate",
-                "(Tidal volume - dead space) � respiratory rate",
-                "Vital capacity � respiratory rate",
+                "Tidal volume × respiratory rate",
+                "(Tidal volume - dead space) × respiratory rate",
+                "Vital capacity × respiratory rate",
                 "Minute ventilation + dead space ventilation",
                 "Tidal volume + dead space"
             ],
