@@ -122,6 +122,15 @@
             font-style: italic;
         }
 
+        /* Multiple Choice Quiz Styling */
+        .check-understanding { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+        .check-understanding h4 { color: var(--text-primary); margin-bottom: 1rem; font-size: 1rem; line-height: 1.5; }
+        .check-understanding p { color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.8; }
+        .reveal-answer { background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 6px; cursor: pointer; font-weight: 500; transition: opacity 0.2s; }
+        .reveal-answer:hover { opacity: 0.9; }
+        .check-understanding .answer { display: none; margin-top: 1rem; padding: 1rem; background: rgba(16, 185, 129, 0.1); border-left: 3px solid var(--accent-success); border-radius: 0 8px 8px 0; color: var(--text-primary); }
+        .check-understanding .answer.show { display: block; }
+
         @media (max-width: 768px) { main { padding: 5rem 1rem 3rem; } .chapter-header h1 { font-size: 1.8rem; } .nav-chapters { display: none; } }
     </style>
 </head>
@@ -499,7 +508,8 @@
             </ul>
         </div>
 
-        
+        <!-- Multiple Choice Questions have been moved to the practice quiz (practice-quiz.html) -->
+
         <!-- Essay Questions Section -->
         <section class="section" style="margin-top: 3rem;">
             <h2><span class="section-number">📝</span>Essay Questions for Practice</h2>
@@ -649,6 +659,217 @@
                     <p><strong>Treatment:</strong> 100% O₂ or hyperbaric O₂ to displace CO from Hb.</p>
                 </div>
             </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">9</span>
+                    <span class="essay-text">What force(s) move(s) carbon dioxide from the blood into the alveoli?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Carbon dioxide moves into the alveoli as a result of the <strong>pressure gradient</strong>.</p>
+                    <p>Blood arriving at the pulmonary capillaries has P<sub>CO₂</sub> of ~46 mmHg, while alveolar air has P<sub>CO₂</sub> of ~40 mmHg. This gradient drives CO₂ diffusion from blood into alveoli.</p>
+                    <p>The process reverses the reactions that occurred in tissues: HCO₃⁻ re-enters RBCs, combines with H⁺ to form carbonic acid, which carbonic anhydrase converts back to CO₂ and H₂O. The CO₂ then diffuses across the respiratory membrane.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">10</span>
+                    <span class="essay-text">List and explain the factors that influence gas diffusion in the lungs.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>Four factors</strong> affect gas diffusion rate:</p>
+                    <ol>
+                        <li><strong>Concentration gradient</strong> (partial pressure difference): Greater gradient = faster diffusion</li>
+                        <li><strong>Surface area</strong>: Increased surface area = increased diffusion. The lungs have ~70 m² of surface area</li>
+                        <li><strong>Membrane thickness</strong>: Increased thickness = decreased diffusion. The respiratory membrane is only 0.2 μm thick</li>
+                        <li><strong>Diffusion distance</strong>: Longer distance = slower diffusion</li>
+                    </ol>
+                    <p>Increasing the concentration gradient and surface area will increase diffusion rate, while increasing membrane thickness and diffusion distance will decrease diffusion rate.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">11</span>
+                    <span class="essay-text">Name three pathological changes that adversely affect gas exchange.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Three conditions that impair gas exchange:</p>
+                    <ol>
+                        <li><strong>Decreased alveolar surface area</strong> (emphysema): Destruction of alveolar walls reduces area for gas exchange</li>
+                        <li><strong>Increased alveolar membrane thickness</strong> (pulmonary fibrosis): Scar tissue thickens the respiratory membrane</li>
+                        <li><strong>Increased diffusion distance</strong> (pulmonary edema): Fluid accumulation between alveoli and capillaries increases the path gases must travel</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">12</span>
+                    <span class="essay-text">List and explain the factors that influence the presence of gases in liquids.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>According to <strong>Henry's Law</strong>, three factors affect gas dissolution in liquids:</p>
+                    <ol>
+                        <li><strong>Partial pressure</strong>: Higher partial pressure = more gas dissolves</li>
+                        <li><strong>Solubility</strong>: Some gases dissolve more readily (CO₂ is ~24× more soluble than O₂ in water)</li>
+                        <li><strong>Temperature</strong>: Lower temperature = more gas dissolves (gases are less soluble at higher temperatures)</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">13</span>
+                    <span class="essay-text">What are the three ways CO₂ is transported in blood? Approximately what percentage is transported by each way?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <ol>
+                        <li><strong>Attached to hemoglobin</strong> as carbaminohemoglobin: ~23% (binds to amino groups on the globin protein, NOT the heme)</li>
+                        <li><strong>Dissolved</strong> in plasma: ~7%</li>
+                        <li><strong>As bicarbonate</strong> (HCO₃⁻) in plasma: ~70% (most important form)</li>
+                    </ol>
+                    <p>The bicarbonate transport is catalyzed by carbonic anhydrase in RBCs: CO₂ + H₂O ⇌ H₂CO₃ ⇌ HCO₃⁻ + H⁺</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">14</span>
+                    <span class="essay-text">List and describe the brain's centers for monitoring and controlling respiration.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Respiratory neurons in the <strong>medulla</strong> control inspiration and expiration. Neurons in the <strong>pons</strong> modulate ventilation.</p>
+                    <ul>
+                        <li><strong>Ventral Respiratory Group (VRG)</strong>: Located in the medulla; contains the rhythm-generating neurons that establish the basic breathing pattern</li>
+                        <li><strong>Dorsal Respiratory Group (DRG)</strong>: Located in the nucleus tractus solitarius of the medulla; receives sensory input from peripheral chemoreceptors and stretch receptors; modulates breathing based on these inputs</li>
+                        <li><strong>Pontine Respiratory Group (PRG)</strong>: Located in the pons; helps smooth transitions between inspiration and expiration; fine-tunes breathing patterns</li>
+                    </ul>
+                    <p>Ventilation is subject to modulation by various chemical factors and by higher brain centers.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">15</span>
+                    <span class="essay-text">List and describe the locations and stimuli for respiratory chemoreceptors.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>Peripheral chemoreceptors</strong> in the carotid and aortic bodies sense changes in:</p>
+                    <ul>
+                        <li>Oxygen concentration (P<sub>O₂</sub>)</li>
+                        <li>pH</li>
+                        <li>P<sub>CO₂</sub> of the plasma</li>
+                    </ul>
+                    <p><strong>Central chemoreceptors</strong> in the medulla oblongata monitor cerebrospinal fluid composition and respond to changes in:</p>
+                    <ul>
+                        <li>Concentration of CO₂ in the cerebrospinal fluid (detected via pH changes)</li>
+                    </ul>
+                    <p>Note: Central chemoreceptors do NOT directly respond to O₂ levels.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">16</span>
+                    <span class="essay-text">Which is usually more important in regulating the respiratory system, P<sub>O₂</sub> or P<sub>CO₂</sub>? Explain your answer and discuss the receptors involved.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>P<sub>CO₂</sub> is the more important factor.</strong></p>
+                    <p>For P<sub>CO₂</sub>, there are central and peripheral receptors that respond to CO₂ as well as to CO₂-related pH. These receptors are very sensitive to routine changes in P<sub>CO₂</sub> and pH, such as those associated with an increase in physical activity.</p>
+                    <p>Peripheral chemoreceptors have been identified for O₂, but these respond only to dramatic changes in P<sub>O₂</sub> (below ~60 mmHg), such as those associated with high altitude or disease.</p>
+                    <p>Because CO₂ is produced as a by-product of aerobic (oxygen-consuming) metabolism, an increase in CO₂ is associated with a corresponding decrease in O₂.</p>
+                    <p><strong>The sensitivity to CO₂ makes physiological sense</strong> because CO₂ directly affects blood pH, which can disrupt enzyme function and cellular processes if not tightly controlled.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">17</span>
+                    <span class="essay-text">A 10-year-old swimmer has attached an extension to his snorkel tube, so that he can sit on the bottom of the ocean for a longer period of time. What problems would you expect him to have?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>The resistance to air flow increases as a result of adding the extension to the snorkel tube. Assuming he has used an extension of sufficiently large diameter, he is in a shallow location where the total length isn't excessive, and he has the strength and endurance in his respiratory muscles, he may be able to breathe this way for a few seconds longer than he could have held his breath.</p>
+                    <p>He will probably notice that he is breathing more deeply and at a higher rate, to maintain ventilation against the higher resistance. After a few exchanges he will start to hypoventilate, despite his efforts to increase pulmonary ventilation, because the presence of <strong>dead airspace in the tube</strong> will result in decreasing P<sub>O₂</sub> in the alveoli.</p>
+                    <p>Dead airspace is a problem if the total volume of air in the tube is greater than the volume exchanged with each breath.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">18</span>
+                    <span class="essay-text">Cary deliberately hyperventilates for several minutes before diving into a swimming pool. Shortly after he enters the water and begins swimming, he blacks out and almost drowns. What caused this to happen?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Hyperventilation causes a decrease in the alveolar P<sub>CO₂</sub>, and more carbon dioxide is eliminated from the body than during normal breathing. The loss of large amounts of carbon dioxide upsets the body's normal drive for ventilation, and <strong>Cary does not feel the urge to breathe</strong> as he swims.</p>
+                    <p>As the exercising muscles use oxygen, a state of <strong>hypoxia</strong> develops. This results in insufficient amounts of oxygen reaching the brain, causing Cary to lose consciousness.</p>
+                    <p>This is dangerous because:</p>
+                    <ul>
+                        <li>The O₂ stores are depleted before CO₂ builds up enough to trigger the urge to breathe</li>
+                        <li>P<sub>O₂</sub> can drop below 60 mmHg (the threshold for peripheral chemoreceptor stimulation) without warning</li>
+                        <li>Hypoxia causes rapid loss of consciousness underwater</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">19</span>
+                    <span class="essay-text">Define hyperventilation and explain what may cause it. How are P<sub>O₂</sub> and P<sub>CO₂</sub> affected by hyperventilation? Can breathing into a paper bag decrease hyperventilation? Explain.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>Hyperventilation</strong> is an increase in alveolar ventilation that exceeds metabolic demand. A person can deliberately hyperventilate, or it may occur as a result of emotional stress or high altitude.</p>
+                    <p>Strictly speaking, the increase in ventilation during exercise is necessary to meet increased metabolism and is therefore not hyperventilation.</p>
+                    <p><strong>Effects on blood gases:</strong></p>
+                    <ul>
+                        <li><strong>P<sub>O₂</sub> is increased</strong> — more O₂ is inhaled</li>
+                        <li><strong>P<sub>CO₂</sub> is decreased</strong> — CO₂ is exhaled faster than it's produced, producing abnormally low P<sub>CO₂</sub></li>
+                    </ul>
+                    <p><strong>Paper bag treatment:</strong> Hyperventilation can be remedied by breathing into a paper bag, because rebreathing exhaled air will <strong>increase P<sub>CO₂</sub></strong> in the body back to normal. The elevated CO₂ restores normal blood pH and stops the symptoms (dizziness, tingling, lightheadedness).</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">20</span>
+                    <span class="essay-text">Do the factors affecting affinity of hemoglobin for oxygen have the same effect on loading and unloading oxygen in lungs and tissues? Explain your answer.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Hemoglobin affinity changes in the same way in the lungs and tissues. Factors that decrease affinity (↑CO₂, ↑temperature, ↓pH, ↑2,3-BPG) shift the curve RIGHT everywhere.</p>
+                    <p>At first glance, this seems to present a conflict: if the curve shifts right, wouldn't that decrease loading in the lungs while increasing unloading in tissues?</p>
+                    <p><strong>The key insight</strong> is that the effect is more pronounced in tissues due to the steep portion of the dissociation curve:</p>
+                    <ul>
+                        <li>In the <strong>lungs</strong> (P<sub>O₂</sub> ~100 mmHg): The curve is flat at the top, so affinity changes have minimal effect—Hb still gets nearly saturated</li>
+                        <li>In the <strong>tissues</strong> (P<sub>O₂</sub> ~40 mmHg or lower): The curve is steep, so the same affinity decrease causes significant additional O₂ release</li>
+                    </ul>
+                    <p>The net effect is that increased unloading in tissues (where it's needed) outweighs any small decrease in loading in the lungs.</p>
+                </div>
+            </div>
         </section>
 
 
@@ -666,6 +887,12 @@
             const scrolled = (winScroll / height) * 100;
             document.getElementById('progressBar').style.width = scrolled + '%';
         });
+
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            answer.classList.toggle('show');
+            button.textContent = answer.classList.contains('show') ? 'Hide Answer' : 'Reveal Answer';
+        }
     </script>
 </body>
 </html>

@@ -82,6 +82,15 @@
         
         @media (max-width: 768px) { main { padding: 5rem 1rem 3rem; } .chapter-header h1 { font-size: 1.8rem; } .nav-chapters { display: none; } }
 
+        /* Multiple Choice Quiz Styling */
+        .check-understanding { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+        .check-understanding h4 { color: var(--text-primary); margin-bottom: 1rem; font-size: 1rem; line-height: 1.5; }
+        .check-understanding p { color: var(--text-secondary); margin-bottom: 1rem; }
+        .reveal-answer { background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 6px; cursor: pointer; font-weight: 500; transition: transform 0.2s, box-shadow 0.2s; }
+        .reveal-answer:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3); }
+        .check-understanding .answer { display: none; margin-top: 1rem; padding: 1rem; background: rgba(16, 185, 129, 0.1); border-left: 3px solid var(--accent-success); border-radius: 0 8px 8px 0; }
+        .check-understanding .answer.show { display: block; }
+
         /* Educational Images */
         .edu-image {
             background: var(--bg-card);
@@ -554,7 +563,7 @@
             </ul>
         </div>
 
-        
+
         <!-- Essay Questions Section -->
         <section class="section" style="margin-top: 3rem;">
             <h2><span class="section-number">📝</span>Essay Questions for Practice</h2>
@@ -749,6 +758,380 @@
                     <p><strong>Treatment:</strong> IV normal saline with KCl</p>
                 </div>
             </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">10</span>
+                    <span class="essay-text">Draw a map that shows the renal compensation for acidosis. Draw another map for alkalosis.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Figure 20.18 in the textbook shows compensations for both acidosis and alkalosis.</p>
+                    <p><strong>Renal Compensation for Acidosis:</strong></p>
+                    <ul>
+                        <li>↓pH detected → intercalated cells activated</li>
+                        <li>↑H⁺ secretion into tubular fluid</li>
+                        <li>↑HCO₃⁻ reabsorption (nearly 100%)</li>
+                        <li>↑New HCO₃⁻ generation from glutamine metabolism</li>
+                        <li>↑NH₄⁺ production to buffer excreted H⁺</li>
+                        <li>Result: Acidic urine, ↑plasma HCO₃⁻ → pH returns toward normal</li>
+                    </ul>
+                    <p><strong>Renal Compensation for Alkalosis:</strong></p>
+                    <ul>
+                        <li>↑pH detected → different intercalated cells (type B) activated</li>
+                        <li>↓H⁺ secretion</li>
+                        <li>↑HCO₃⁻ secretion into tubular fluid</li>
+                        <li>↓HCO₃⁻ reabsorption</li>
+                        <li>Result: Alkaline urine, ↓plasma HCO₃⁻ → pH returns toward normal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">11</span>
+                    <span class="essay-text">Diagram the reactions and interactions of the renin-angiotensin system (RAS). Which condition is the primary stimulus for its activation?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Figure 20.10 diagrams these interactions. <strong>The primary stimulus is low blood pressure</strong>, detected in several ways:</p>
+                    <p><strong>RAS Pathway:</strong></p>
+                    <ol>
+                        <li><strong>Triggers:</strong> ↓BP in afferent arteriole, ↓Na⁺ at macula densa, sympathetic stimulation</li>
+                        <li><strong>Granular (JG) cells</strong> release <strong>renin</strong></li>
+                        <li>Renin cleaves <strong>angiotensinogen</strong> (from liver) → <strong>Angiotensin I</strong></li>
+                        <li><strong>ACE</strong> (in lung capillaries) converts Ang I → <strong>Angiotensin II</strong></li>
+                        <li><strong>Angiotensin II effects:</strong>
+                            <ul>
+                                <li>Vasoconstriction → ↑BP immediately</li>
+                                <li>Stimulates aldosterone release → Na⁺ retention</li>
+                                <li>Stimulates ADH release → water retention</li>
+                                <li>Stimulates thirst</li>
+                                <li>All effects work to restore blood pressure</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">12</span>
+                    <span class="essay-text">The cellular mechanisms for renal handling of H⁺ and HCO₃⁻ involve several membrane transporters; name three.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Possible answers include:</p>
+                    <ol>
+                        <li><strong>Apical Na⁺-H⁺ exchanger (NHE3):</strong> Secretes H⁺ into tubular lumen in exchange for Na⁺ reabsorption</li>
+                        <li><strong>Basolateral Na⁺-HCO₃⁻ symport:</strong> Transports reabsorbed HCO₃⁻ from cell into blood along with Na⁺</li>
+                        <li><strong>H⁺-ATPase:</strong> Actively pumps H⁺ into tubular lumen (especially in collecting duct intercalated cells)</li>
+                        <li><strong>H⁺-K⁺-ATPase:</strong> Exchanges H⁺ for K⁺ in intercalated cells</li>
+                        <li><strong>Na⁺-NH₄⁺ antiporter:</strong> Involved in ammonium handling</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">13</span>
+                    <span class="essay-text">What are the two mechanisms of bicarbonate reabsorption in the proximal tubule?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <ol>
+                        <li><strong>Indirect reabsorption via CO₂:</strong>
+                            <ul>
+                                <li>H⁺ secreted into lumen combines with filtered HCO₃⁻ → H₂CO₃</li>
+                                <li>Carbonic anhydrase on brush border converts H₂CO₃ → CO₂ + H₂O</li>
+                                <li>CO₂ diffuses into cell, recombines with H₂O (via intracellular carbonic anhydrase) → H₂CO₃ → H⁺ + HCO₃⁻</li>
+                                <li>HCO₃⁻ exits basolaterally into blood; H⁺ is recycled</li>
+                            </ul>
+                        </li>
+                        <li><strong>Through glutamine metabolism:</strong>
+                            <ul>
+                                <li>PCT cells metabolize glutamine to produce NH₄⁺ and NEW HCO₃⁻</li>
+                                <li>NH₄⁺ is excreted; new HCO₃⁻ enters blood</li>
+                                <li>This process generates new bicarbonate rather than just reclaiming filtered bicarbonate</li>
+                                <li>See Figure 20.17 in the textbook</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">14</span>
+                    <span class="essay-text">"Water, water, everywhere, nor any drop to drink" — Explain why drinking seawater cannot prevent death from dehydration. Why wouldn't reflexes compensate?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>The osmolarity of seawater (~1000 mOsM) is higher than that of the kidney medulla (~1200 mOsM maximum), thus the osmotic gradient that normally allows net reabsorption of water does not exist.</p>
+                    <p><strong>Why seawater worsens dehydration:</strong></p>
+                    <ul>
+                        <li>Seawater osmolarity is largely a result of permeant ions such as sodium and chloride</li>
+                        <li>Ingested seawater raises plasma osmolarity when absorbed</li>
+                        <li>When kidneys form a filtrate of this high-osmolarity solution, the descending limb fails to reabsorb water because the kidney medulla has a lower osmolarity than the filtrate (opposite of normal)</li>
+                        <li>In fact, the medulla would lose water as it moved into the descending limb</li>
+                        <li>While ions would be reabsorbed by the ascending limb as usual, it is not enough to drive sufficient water reabsorption</li>
+                    </ul>
+                    <p><strong>Why reflexes fail:</strong> Reflexes such as ADH secretion to preserve water are ineffective because, ultimately, water reabsorption depends only on osmosis, and the normal osmotic gradient has been disrupted.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">15</span>
+                    <span class="essay-text">What are oropharynx receptors, which hormone do they decrease, and how would drinking seawater affect them?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Oropharynx receptors inhibit the sense of thirst when they come in contact with cool water. They also inhibit secretion of vasopressin (ADH).</p>
+                    <p><strong>Key characteristics:</strong></p>
+                    <ul>
+                        <li>They have not been identified anatomically, but presence of receptors that inhibit the thirst sensation are the best guess as to how this works</li>
+                        <li>Presence of even a small amount of cold water in the mouth and pharynx is known to satisfy thirst even if the water is not absorbed and thus does not actually alleviate dehydration</li>
+                    </ul>
+                    <p><strong>Effect of seawater:</strong> Presumably drinking seawater would temporarily reduce the sense of thirst by the same proposed mechanism, even though the seawater would actually worsen dehydration.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">16</span>
+                    <span class="essay-text">"Glucose, glucose, everywhere, nor any speck to utilize" — Explain why there is glucose in diabetic urine, why glucose is not in normal urine, and why diabetics become dehydrated.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>Why glucose appears in diabetic urine:</strong></p>
+                    <ul>
+                        <li>Glucose is in the urine simply because the plasma concentration exceeds the number of glucose transporters in the kidney tubules</li>
+                        <li>Plasma glucose is unusually high because diabetic cells cannot absorb glucose properly</li>
+                        <li>A genetic defect resulting in an insufficient number of glucose transporters is another possibility</li>
+                    </ul>
+                    <p><strong>Why glucose is NOT in normal urine:</strong></p>
+                    <ul>
+                        <li>Normal individuals are able to reabsorb all the glucose in the filtrate because plasma glucose concentrations are normally low</li>
+                        <li>Normal body cells absorb glucose, so diabetic cells do not</li>
+                    </ul>
+                    <p><strong>Why diabetics become dehydrated:</strong></p>
+                    <ul>
+                        <li>Glucose in the filtrate raises the osmolarity of the filtrate</li>
+                        <li>This decreases the relative osmotic gradient for reabsorption of water</li>
+                        <li>Thus more water is lost in the urine, leading to dehydration (osmotic diuresis)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">17</span>
+                    <span class="essay-text">Using food chemistry, explain the reaction when baking soda (NaHCO₃) is added to acidic batter. What happens without enough baking soda or acid?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>The chemical reaction:</strong></p>
+                    <p>NaHCO₃ + CH₃COO⁻ + H⁺ → Na⁺ + CH₃COO⁻ + CO₂ + H₂O</p>
+                    <p>CO₂ gas is formed. The bubbles of CO₂ get trapped in the batter as it bakes, providing the characteristic texture (leavening).</p>
+                    <p><strong>Without enough baking soda:</strong> Less gas would be produced, so the cake wouldn't rise normally.</p>
+                    <p><strong>Without the acid (vinegar):</strong> The chemical reaction would not occur, so the cake wouldn't rise at all.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">18</span>
+                    <span class="essay-text">Gopal suffers from chronic emphysema. Blood tests show his pH is normal but his bicarbonate levels are increased significantly. How can this be?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>As long as the ratio of bicarbonate ion to carbonic acid is 20:1, the pH of body fluids will remain normal.</p>
+                    <p><strong>Explanation:</strong></p>
+                    <ul>
+                        <li>Since Gopal's condition is chronic (long term), his body has compensated for the excess carbonic acid (the result of hypercapnea due to poor ventilation)</li>
+                        <li>Compensation occurred by increasing the amount of bicarbonate to match the elevated level of acid</li>
+                        <li>This process involves the kidneys, where some of the excess carbon dioxide is converted into carbonic acid and the carbonic acid is allowed to dissociate</li>
+                        <li>The hydrogen ions are secreted and the newly formed bicarbonate is conserved to maintain a proper buffering capacity</li>
+                    </ul>
+                    <p>This is called <strong>compensated respiratory acidosis</strong>.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">19</span>
+                    <span class="essay-text">Chandi, a nursing student caring for burn patients, notices they consistently show increased levels of potassium in their urine. Explain why.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>When tissues are burned, cells are destroyed and the contents of their cytoplasm leak into the interstitial fluid and then move into the plasma.</p>
+                    <p><strong>The mechanism:</strong></p>
+                    <ul>
+                        <li>Since potassium ion is normally found within the cell, damage to a large number of cells would release relatively large amounts of potassium into the blood</li>
+                        <li>The elevated potassium levels (hyperkalemia) stimulate the cells of the adrenal cortex that produce aldosterone</li>
+                        <li>The elevated levels of aldosterone promote sodium retention AND potassium secretion by the kidneys</li>
+                        <li>This accounts for the elevated levels of potassium in the patient's urine</li>
+                    </ul>
+                    <p>This is the body's attempt to restore normal plasma K⁺ levels.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">20</span>
+                    <span class="essay-text">Mr. Gregory has high blood pressure, increased renin levels, and atherosclerotic plaques blocking blood flow through his renal arteries. Explain how decreased renal blood flow causes renin secretion and high blood pressure.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Atherosclerotic plaques block blood flow, which decreases GFR and decreases pressure in the afferent arteriole. These are both stimuli for renin release.</p>
+                    <p><strong>The pathway:</strong></p>
+                    <ul>
+                        <li>Renin secretion starts a cascade that produces angiotensin II, a vasoconstrictor</li>
+                        <li>Vasoconstriction increases blood pressure</li>
+                        <li>The medullary control center responds to ANG II by also increasing ADH, aldosterone secretion, and thirst</li>
+                        <li>All of these collectively increase blood pressure even further</li>
+                    </ul>
+                    <p>This is called <strong>renovascular hypertension</strong> — the kidneys "think" blood pressure is low because their blood flow is reduced, but they're actually making systemic hypertension worse.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">21</span>
+                    <span class="essay-text">How does decreased blood pressure affect the following: granular cells, glomerulus, cardiovascular control center, hypothalamus? Does it act directly or through a reflex?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>See Table 20.1 in the chapter for complete details.</p>
+                    <p><strong>Effects of decreased blood pressure:</strong></p>
+                    <ul>
+                        <li><strong>Granular cells:</strong> Directly affected — ↓BP sensed by baroreceptor mechanism → ↑renin release</li>
+                        <li><strong>Glomerulus:</strong> Directly affected — ↓BP → ↓GFR → less filtration</li>
+                        <li><strong>Cardiovascular control center:</strong> Via reflex (baroreceptor reflex) — ↓BP detected by carotid/aortic baroreceptors → signals to medulla → ↑sympathetic output → vasoconstriction, ↑heart rate</li>
+                        <li><strong>Hypothalamus:</strong> Via reflex — baroreceptor signals reach hypothalamus → ↑ADH release → water retention; also responds to angiotensin II → stimulates thirst</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">22</span>
+                    <span class="essay-text">Layla has normal P<sub>CO₂</sub> levels, high H⁺ levels, low pH, and low bicarbonate levels. What type of disturbance is this? What if her P<sub>CO₂</sub> were elevated?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Layla is likely suffering from <strong>metabolic acidosis</strong>, since her P<sub>CO₂</sub> is normal.</p>
+                    <p><strong>Causes of metabolic acidosis:</strong></p>
+                    <ul>
+                        <li>Ingestion of methanol, aspirin, or ethylene glycol</li>
+                        <li>Lactic acidosis</li>
+                        <li>Diabetic ketoacidosis</li>
+                        <li>Diarrhea (loss of HCO₃⁻)</li>
+                    </ul>
+                    <p><strong>If her P<sub>CO₂</sub> were elevated:</strong> She would likely be suffering from <strong>respiratory acidosis</strong>.</p>
+                    <p><strong>Causes of respiratory acidosis:</strong></p>
+                    <ul>
+                        <li>Drugs or alcohol depression of respiratory centers</li>
+                        <li>Increased airway resistance (asthma)</li>
+                        <li>Impaired gas exchange in fibrosis or severe pneumonia</li>
+                        <li>Muscle weakness in muscular dystrophy</li>
+                        <li>Most common cause is chronic obstructive pulmonary disease (COPD)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">23</span>
+                    <span class="essay-text">Maria is a teenage diabetic developing ketoacidosis. Her breathing has become deep and gasping. Explain her breathing pattern and what other compensatory responses may occur.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Maria's respiratory system is responding to her ketoacidosis. By hyperventilating (Kussmaul breathing), she removes more CO₂ from her blood, which shifts the carbonic acid equation to the right, removing free H⁺ and raising pH.</p>
+                    <p><strong>Other compensatory responses:</strong></p>
+                    <ul>
+                        <li>Chemical buffering in the blood occurs immediately after the initial pH disturbance, as this is an ongoing process</li>
+                        <li>The kidneys buffer more slowly, so they are effective later</li>
+                    </ul>
+                    <p><strong>Timeline:</strong></p>
+                    <ol>
+                        <li>Chemical buffers: seconds to minutes</li>
+                        <li>Respiratory compensation: minutes to hours</li>
+                        <li>Renal compensation: hours to days</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">24</span>
+                    <span class="essay-text">For developing ketoacidosis, create a chart showing how pH, HCO₃⁻, and P<sub>CO₂</sub> change at three stages: (1) ketoacidosis just developed, (2) respiratory compensation occurs, (3) renal compensation occurs.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <table style="width:100%; border-collapse: collapse; margin: 1rem 0;">
+                        <tr style="background: rgba(6, 182, 212, 0.2);">
+                            <th style="border: 1px solid var(--border-color); padding: 0.5rem;">Stage</th>
+                            <th style="border: 1px solid var(--border-color); padding: 0.5rem;">pH</th>
+                            <th style="border: 1px solid var(--border-color); padding: 0.5rem;">HCO₃⁻</th>
+                            <th style="border: 1px solid var(--border-color); padding: 0.5rem;">P<sub>CO₂</sub></th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">1. Ketoacidosis just developed</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">Decrease</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">Decrease</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">No change</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">2. Respiratory compensation</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">Increases (toward normal)</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">Decrease (excess expelled by lungs)</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">Decrease (exhaled)</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">3. Renal compensation</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">Increases (as H⁺ is excreted)</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">Increases (as it is reabsorbed)</td>
+                            <td style="border: 1px solid var(--border-color); padding: 0.5rem;">Increases (returns to normal)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">25</span>
+                    <span class="essay-text">A graph shows plasma osmolarity on one axis and either vasopressin or aldosterone on the other. Explain how to determine which hormone is on the y-axis.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>The dependent variable is typically used for the y-axis, and the independent variable for the x-axis. Plasma osmolarity is the independent variable, and it regulates the secretion of hormones.</p>
+                    <p><strong>The key insight:</strong></p>
+                    <ul>
+                        <li>As osmolarity increases, <strong>vasopressin secretion increases</strong> to promote water retention</li>
+                        <li>As osmolarity increases, <strong>aldosterone secretion is inhibited</strong> to promote sodium loss</li>
+                    </ul>
+                    <p><strong>Therefore:</strong> If the graph shows a positive correlation (line going up), the y-axis is vasopressin concentration. If negative correlation, it would be aldosterone.</p>
+                    <p>See Figure 20.6 in the chapter.</p>
+                </div>
+            </div>
         </section>
 
 
@@ -765,6 +1148,20 @@
             const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrolled = (winScroll / height) * 100;
             document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        // Toggle answer visibility for multiple choice questions
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            answer.classList.toggle('show');
+            button.textContent = answer.classList.contains('show') ? 'Hide Answer' : 'Reveal Answer';
+        }
+
+        // Toggle essay question answers
+        document.querySelectorAll('.essay-q-header').forEach(header => {
+            header.addEventListener('click', () => {
+                header.parentElement.classList.toggle('show-answer');
+            });
         });
     </script>
 </body>

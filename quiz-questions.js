@@ -4238,6 +4238,711 @@ const questionBank = {
                 "Parathyroid hormone"
             ],
             correct: 2
+        },
+        // Additional Chapter 19 questions from PDF
+        {
+            question: "The primary route for water loss from the body is the _______ system.",
+            options: [
+                "respiratory",
+                "digestive",
+                "cardiovascular",
+                "integumentary",
+                "urinary"
+            ],
+            correct: 4
+        },
+        {
+            question: "The primary route for ion loss from the body is the _______ system.",
+            options: [
+                "urinary",
+                "integumentary",
+                "digestive",
+                "respiratory",
+                "cardiovascular"
+            ],
+            correct: 0
+        },
+        {
+            question: "Cell volume (and therefore cell function) in most cells is dependent upon careful regulation of:",
+            options: [
+                "osmolarity of extracellular fluid",
+                "volume of extracellular fluid",
+                "permeability of cell membranes",
+                "blood pressure",
+                "resting membrane potential"
+            ],
+            correct: 0
+        },
+        {
+            question: "The two organ systems that work together to regulate most aspects of the body's water balance are:",
+            options: [
+                "urinary and cardiovascular",
+                "urinary and respiratory",
+                "digestive and cardiovascular",
+                "digestive and respiratory",
+                "cardiovascular and respiratory"
+            ],
+            correct: 0
+        },
+        {
+            question: "Kidneys respond relatively _______ to changes in blood volume.",
+            options: [
+                "quickly",
+                "slowly"
+            ],
+            correct: 1
+        },
+        {
+            question: "Shrinkage of hepatocytes in the liver results in which of the following?",
+            options: [
+                "protein synthesis only",
+                "glycogen production only",
+                "glycogen breakdown only",
+                "both glycogen production and protein synthesis",
+                "both glycogen breakdown and protein breakdown"
+            ],
+            correct: 4
+        },
+        {
+            question: "Most body water is located in:",
+            options: [
+                "lumens of organs open to the outside",
+                "cells",
+                "plasma",
+                "interstitial fluid"
+            ],
+            correct: 1
+        },
+        {
+            question: "Kidneys regulate:",
+            options: [
+                "water gain only",
+                "water loss only",
+                "both water loss and gain"
+            ],
+            correct: 1
+        },
+        {
+            question: "When a body is dehydrated, water in the urinary bladder:",
+            options: [
+                "can be returned to the circulation after moving back into the kidneys",
+                "will still be expelled from the body in the urine",
+                "can be returned to the circulation directly"
+            ],
+            correct: 1
+        },
+        {
+            question: "Water reabsorption by the kidneys is a result of:",
+            options: [
+                "exchange with ions",
+                "both passive and active transport processes",
+                "osmosis",
+                "cotransport with ions"
+            ],
+            correct: 2
+        },
+        {
+            question: "The hormone that directly controls water reabsorption by the kidneys is:",
+            options: [
+                "angiotensin",
+                "vasopressin",
+                "aldosterone",
+                "ANP",
+                "epinephrine"
+            ],
+            correct: 1
+        },
+        {
+            question: "The hormone that regulates water reabsorption by the kidneys:",
+            options: [
+                "only increases water permeability in certain portions of the kidney tubules",
+                "decreases water permeability throughout the kidney tubules",
+                "only decreases water permeability in certain portions of the kidney tubules",
+                "increases water permeability throughout the kidney tubules"
+            ],
+            correct: 0
+        },
+        {
+            question: "Why do patients taking loop diuretics need to take supplemental potassium?",
+            options: [
+                "They inhibit the reabsorption of potassium as well as sodium in the loop of Henle",
+                "They cause active reabsorption of potassium in the distal convoluted tubule",
+                "They inhibit intestinal absorption of potassium",
+                "They cause active secretion of potassium in the loop of Henle"
+            ],
+            correct: 0
+        },
+        {
+            question: "The primary osmoreceptors are located in the:",
+            options: [
+                "medulla",
+                "hypothalamus",
+                "pons",
+                "stomach",
+                "kidney"
+            ],
+            correct: 1
+        },
+        {
+            question: "Osmoreceptors fire after they _______ in response to _______ plasma osmolarity.",
+            options: [
+                "swell, increased",
+                "shrink, decreased",
+                "shrink, increased",
+                "swell, decreased"
+            ],
+            correct: 2
+        },
+        {
+            question: "The hormone vasopressin:",
+            options: [
+                "stimulates the kidneys to retain water",
+                "stimulates the kidneys to produce a large volume of urine",
+                "stimulates the kidneys to retain sodium ions",
+                "is secreted by the anterior pituitary gland in response to changes in blood osmolarity",
+                "All of the answers are correct"
+            ],
+            correct: 0
+        },
+        {
+            question: "When venous return is increased, stretch receptors in the atria of the heart are activated. This results in:",
+            options: [
+                "increased vasopressin secretion",
+                "increased thirst",
+                "decreased urine production",
+                "decreased vasopressin secretion",
+                "increased glomerular filtration"
+            ],
+            correct: 3
+        },
+        {
+            question: "When baroreceptors in the carotid and aortic bodies sense increased blood pressure, this results in:",
+            options: [
+                "increased thirst",
+                "increased glomerular filtration",
+                "decreased urine production",
+                "decreased vasopressin secretion",
+                "increased vasopressin secretion"
+            ],
+            correct: 3
+        },
+        {
+            question: "Why is sodium actively reabsorbed in the nephron?",
+            options: [
+                "to increase passive reabsorption of water",
+                "to decrease blood pressure",
+                "to make urine less concentrated",
+                "to decrease osmolarity inside the nephron"
+            ],
+            correct: 0
+        },
+        {
+            question: "Granular cells secrete:",
+            options: [
+                "aldosterone",
+                "renin",
+                "angiotensinogen",
+                "angiotensin converting enzyme",
+                "angiotensin I"
+            ],
+            correct: 1
+        },
+        {
+            question: "ACE converts:",
+            options: [
+                "angiotensinogen to angiotensin I",
+                "angiotensin II to aldosterone",
+                "renin to aldosterone",
+                "renin to angiotensinogen",
+                "angiotensin I to angiotensin II"
+            ],
+            correct: 4
+        },
+        {
+            question: "Stimuli for the activation of the RAS pathway include:",
+            options: [
+                "low blood pressure in arterioles in the nephron only",
+                "low blood pressure in arterioles in the nephron and a decrease in fluid flow through the distal tubule",
+                "a decrease in fluid flow through the distal tubule only",
+                "high blood pressure in the renal artery only",
+                "low blood pressure in arterioles in the nephron, a decrease in fluid flow through the distal tubule, and high blood pressure in the renal artery"
+            ],
+            correct: 1
+        },
+        {
+            question: "Angiotensin II stimulates:",
+            options: [
+                "thirst, vasoconstriction, and release of aldosterone",
+                "thirst only",
+                "vasoconstriction only",
+                "release of aldosterone",
+                "thirst and vasoconstriction"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which is FALSE about angiotensin II?",
+            options: [
+                "stimulates thirst",
+                "stimulates vasoconstriction",
+                "activates parasympathetic output",
+                "increases blood pressure",
+                "increases cardiac output"
+            ],
+            correct: 2
+        },
+        {
+            question: "Drugs that treat hypertension by preventing Angiotensin I from becoming Angiotensin II are called:",
+            options: [
+                "ACE inhibitors",
+                "calcium channel blockers",
+                "beta blockers",
+                "diuretics"
+            ],
+            correct: 0
+        },
+        {
+            question: "Aldosterone:",
+            options: [
+                "functions in pH regulation",
+                "helps decrease blood volume",
+                "stimulates sodium reabsorption in kidney principal cells",
+                "increases the concentration of sodium in urine",
+                "is secreted in response to increased levels of sodium in the blood"
+            ],
+            correct: 2
+        },
+        {
+            question: "Atrial natriuretic peptide:",
+            options: [
+                "inhibits release of renin",
+                "increases GFR and inhibits release of renin",
+                "increases GFR and stimulates release of renin",
+                "increases GFR",
+                "stimulates release of renin"
+            ],
+            correct: 1
+        },
+        {
+            question: "An increase in plasma potassium levels is properly called:",
+            options: [
+                "hypernatremia",
+                "hyperkalemia",
+                "hypercalcemia",
+                "hyperpotassemia",
+                "hyperpotasseplasmia"
+            ],
+            correct: 1
+        },
+        {
+            question: "Excess potassium ions are eliminated from the body by the:",
+            options: [
+                "sweat glands",
+                "liver",
+                "spleen",
+                "kidneys",
+                "digestive system"
+            ],
+            correct: 3
+        },
+        {
+            question: "Thirst is:",
+            options: [
+                "controlled by centers in the hypothalamus, stimulated by increased osmolarity, and relieved only when plasma osmolarity is decreased",
+                "controlled by centers in the hypothalamus",
+                "stimulated by decreased osmolarity",
+                "relieved only when plasma osmolarity is increased",
+                "controlled by centers in the hypothalamus and stimulated by increased osmolarity"
+            ],
+            correct: 4
+        },
+        {
+            question: "A hormone that helps to regulate the sodium ion concentration of the blood is:",
+            options: [
+                "cortisol",
+                "somatotropin",
+                "parathormone",
+                "thymosin",
+                "aldosterone"
+            ],
+            correct: 4
+        },
+        {
+            question: "Which about the hormone atrial natriuretic peptide is FALSE?",
+            options: [
+                "increases sodium loss at the kidneys",
+                "decreases blood pressure",
+                "increases aldosterone secretion",
+                "produced by cells in the heart",
+                "decreases vasopressin secretion"
+            ],
+            correct: 2
+        },
+        {
+            question: "The enzyme renin is responsible for the production of:",
+            options: [
+                "atrial natriuretic peptide",
+                "erythropoietin",
+                "angiotensinogen",
+                "angiotensin I",
+                "cortisol"
+            ],
+            correct: 3
+        },
+        {
+            question: "Angiotensin I is converted to angiotensin II by enzymes primarily located in the:",
+            options: [
+                "heart",
+                "lungs and blood vessels",
+                "kidneys",
+                "liver"
+            ],
+            correct: 1
+        },
+        {
+            question: "The osmolarity in the bottom of the loop of Henle is _______ mOsM.",
+            options: [
+                "100",
+                "900",
+                "300",
+                "1200",
+                "None of these answers are correct"
+            ],
+            correct: 3
+        },
+        {
+            question: "Decreased ECF volume causes:",
+            options: [
+                "the force of ventricular contraction to decrease",
+                "sympathetic output from the cardiovascular control center to increase and arteriolar vasodilation",
+                "sympathetic output from the cardiovascular control center to increase",
+                "parasympathetic output from the cardiovascular control center to increase",
+                "arteriolar vasodilation"
+            ],
+            correct: 2
+        },
+        {
+            question: "Symptoms of low plasma pH may include:",
+            options: [
+                "CNS depression only",
+                "CNS depression and confusion and disorientation",
+                "CNS depression; confusion and disorientation; and numbness, tingling, or muscle twitches",
+                "confusion and disorientation only",
+                "numbness, tingling, or muscle twitches only"
+            ],
+            correct: 1
+        },
+        {
+            question: "The most important factor affecting the pH of plasma is the concentration of:",
+            options: [
+                "hydrochloric acid",
+                "carbon dioxide",
+                "lactic acid",
+                "ketone bodies",
+                "organic acids"
+            ],
+            correct: 1
+        },
+        {
+            question: "The primary role of the carbonic acid-bicarbonate buffer system is to:",
+            options: [
+                "buffer carbonic acid formed by carbon dioxide",
+                "buffer stomach acid",
+                "buffer the urine",
+                "increase the amount of carbonic acid during ventilation",
+                "prevent pH changes caused by organic and fixed acids"
+            ],
+            correct: 4
+        },
+        {
+            question: "Which is most likely to be observed in a patient with compensated respiratory alkalosis?",
+            options: [
+                "respiratory rate increases",
+                "kidneys reabsorb more hydrogen ions",
+                "kidneys conserve bicarbonate",
+                "body keeps less carbon dioxide",
+                "tidal volume increases"
+            ],
+            correct: 1
+        },
+        {
+            question: "Vomiting of the stomach's contents can cause:",
+            options: [
+                "metabolic alkalosis",
+                "respiratory alkalosis",
+                "respiratory acidosis",
+                "metabolic acidosis",
+                "None of the answers are correct"
+            ],
+            correct: 0
+        },
+        {
+            question: "Emphysema can cause:",
+            options: [
+                "respiratory acidosis",
+                "metabolic alkalosis",
+                "metabolic acidosis",
+                "respiratory alkalosis",
+                "None of the answers are correct"
+            ],
+            correct: 0
+        },
+        {
+            question: "Hyperventilation can cause:",
+            options: [
+                "metabolic alkalosis",
+                "respiratory alkalosis",
+                "respiratory acidosis",
+                "metabolic acidosis",
+                "None of the answers are correct"
+            ],
+            correct: 1
+        },
+        {
+            question: "If sodium increases in the ECF, water will move from:",
+            options: [
+                "the ECF to cells, and cells will shrink",
+                "cells to the ECF, and cells will shrink",
+                "the ECF to cells, and cells will swell",
+                "cells to the ECF, and cells will swell"
+            ],
+            correct: 1
+        },
+        {
+            question: "A buffer:",
+            options: [
+                "always decreases pH",
+                "always increases pH",
+                "binds or releases bicarbonate ions",
+                "moderates changes in pH"
+            ],
+            correct: 3
+        },
+        {
+            question: "The normal pH range for most body fluids is:",
+            options: [
+                "7.25 to 7.75",
+                "7 to 8",
+                "7.5 to 8",
+                "7.38 to 7.42"
+            ],
+            correct: 3
+        },
+        {
+            question: "When the pH rises above 7.42, a state of _______ exists.",
+            options: [
+                "equilibrium",
+                "alkalosis",
+                "homeostasis",
+                "acidosis"
+            ],
+            correct: 1
+        },
+        {
+            question: "Abnormal fat and amino acid metabolism may lead to the condition called:",
+            options: [
+                "ketoacidosis",
+                "respiratory acidosis",
+                "lactic acidosis",
+                "metabolic alkalosis"
+            ],
+            correct: 0
+        },
+        {
+            question: "The enzyme that catalyzes the conversion of H₂O and CO₂ to H₂CO₃ is called:",
+            options: [
+                "carbonic anhydrase",
+                "carbonic acid",
+                "renin",
+                "bicarbonate ion"
+            ],
+            correct: 0
+        },
+        {
+            question: "Normal removal of excess water in urine is known as:",
+            options: [
+                "diuretics",
+                "osmotic diuresis",
+                "filtration",
+                "diuresis"
+            ],
+            correct: 3
+        },
+        {
+            question: "_______ interstitial osmolarity allows urine to be concentrated.",
+            options: [
+                "Low medullary",
+                "High cortex",
+                "High medullary",
+                "Low cortex"
+            ],
+            correct: 2
+        },
+        {
+            question: "AQP2 water pores are added to the cell membrane by _______ and withdrawn by _______ in a process known as _______.",
+            options: [
+                "membrane recycling, endocytosis, exocytosis",
+                "membrane recycling, exocytosis, endocytosis",
+                "endocytosis, exocytosis, membrane recycling",
+                "exocytosis, endocytosis, membrane recycling"
+            ],
+            correct: 3
+        },
+        {
+            question: "The anatomical arrangement of the kidney that allows transfer of solutes from one blood vessel to another is called the:",
+            options: [
+                "countercurrent exchange system",
+                "portal system",
+                "countercurrent heat exchanger",
+                "capillaries"
+            ],
+            correct: 0
+        },
+        {
+            question: "Paracrine feedback from the _______ in the distal tubule to the granular cells stimulates release of _______.",
+            options: [
+                "granular cells, renin",
+                "sympathetic neurons, epinephrine",
+                "liver, angiotensinogen",
+                "macula densa, renin"
+            ],
+            correct: 3
+        },
+        {
+            question: "The _______ cells of the distal nephron are interspersed among the principal cells and contribute to acid-base regulation.",
+            options: [
+                "endothelial",
+                "intercalated",
+                "granular",
+                "endocrine"
+            ],
+            correct: 1
+        },
+        {
+            question: "Increased angiotensin II levels would result in increased:",
+            options: [
+                "blood volume",
+                "retention of water",
+                "retention of sodium ions at the kidney",
+                "blood pressure",
+                "All of these effects"
+            ],
+            correct: 4
+        },
+        {
+            question: "The RAS pathway begins with secretion of:",
+            options: [
+                "renin",
+                "aldosterone",
+                "angiotensin converting enzyme",
+                "vasopressin",
+                "angiotensinogen"
+            ],
+            correct: 0
+        },
+        {
+            question: "Renal tubule cells in the kidney medulla are constantly exposed to high extracellular osmolarity. How do they maintain normal cell volume?",
+            options: [
+                "They synthesize organic solutes as needed to match the osmolarity",
+                "They maintain a water-impermeable membrane",
+                "They add or remove aquaporins as needed",
+                "They synthesize water molecules through increased metabolism to offset volume loss"
+            ],
+            correct: 0
+        },
+        {
+            question: "When the pH of body fluids decreases, proteins will:",
+            options: [
+                "lose three-dimensional structure",
+                "fold into tertiary structures",
+                "become more active",
+                "not be affected"
+            ],
+            correct: 0
+        },
+        {
+            question: "When the pH of the extracellular fluid decreases, the kidneys:",
+            options: [
+                "reabsorb more potassium ions",
+                "excrete more sodium ions",
+                "excrete more bicarbonate ions",
+                "reabsorb more hydrogen ions",
+                "reabsorb less water"
+            ],
+            correct: 0
+        },
+        {
+            question: "Two hours before major surgery, the patient is stressed, with increased heart rate and blood pressure. These symptoms are the result of:",
+            options: [
+                "increased parasympathetic activity",
+                "sympathetic activation",
+                "decreased activity of sympathetic centers in the hypothalamus",
+                "decreased levels of epinephrine in the blood",
+                "All of these mechanisms"
+            ],
+            correct: 1
+        },
+        {
+            question: "An explorer has been lost in the desert for two days with very little water. As a result, you would expect to observe:",
+            options: [
+                "cells enlarged with fluid",
+                "increased vasopressin levels",
+                "increased blood volume",
+                "normal urine production",
+                "decreased blood osmolarity"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which effect would a decrease in pH have on the amount of potassium ion in the urine?",
+            options: [
+                "increase",
+                "decrease",
+                "no effect"
+            ],
+            correct: 1
+        },
+        {
+            question: "In response to a rapid increase of organic acid in the body, you would expect to observe:",
+            options: [
+                "decreased heart rate",
+                "increased alveolar ventilation",
+                "increased blood pH",
+                "decreased blood pressure"
+            ],
+            correct: 1
+        },
+        {
+            question: "Dehydration may cause some ions to become concentrated. If a person was suffering from severe hyperkalemia, you would expect:",
+            options: [
+                "the membrane potential of nerves and muscles to be more negative",
+                "the potassium ion concentration of the interstitial fluid to be less than normal",
+                "muscle weakness and increased strength of twitch contractions",
+                "abnormal cardiac rhythms",
+                "All of the answers are correct"
+            ],
+            correct: 3
+        },
+        {
+            question: "Which leads to the lowest water loss during a day?",
+            options: [
+                "urine",
+                "feces",
+                "skin and lungs",
+                "metabolism",
+                "food and drink"
+            ],
+            correct: 1
+        },
+        {
+            question: "The most potent stimulus for vasopressin release is:",
+            options: [
+                "low potassium",
+                "blood volume",
+                "plasma osmolarity",
+                "blood pressure"
+            ],
+            correct: 2
         }
     ]
 };

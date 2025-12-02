@@ -85,6 +85,15 @@
         
         @media (max-width: 768px) { main { padding: 5rem 1rem 3rem; } .chapter-header h1 { font-size: 1.8rem; } .nav-chapters { display: none; } }
 
+        /* Multiple Choice Quiz Styling */
+        .check-understanding { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+        .check-understanding h4 { color: var(--text-primary); margin-bottom: 1rem; font-size: 1rem; line-height: 1.5; }
+        .check-understanding p { color: var(--text-secondary); margin-bottom: 1rem; }
+        .reveal-answer { background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 6px; cursor: pointer; font-weight: 500; transition: transform 0.2s, box-shadow 0.2s; }
+        .reveal-answer:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3); }
+        .check-understanding .answer { display: none; margin-top: 1rem; padding: 1rem; background: rgba(16, 185, 129, 0.1); border-left: 3px solid var(--accent-success); border-radius: 0 8px 8px 0; }
+        .check-understanding .answer.show { display: block; }
+
         /* Educational Images */
         .edu-image {
             background: var(--bg-card);
@@ -565,12 +574,13 @@
             </ul>
         </div>
 
-        
+        <!-- Multiple Choice Questions have been moved to the practice quiz (practice-quiz.html) -->
+
         <!-- Essay Questions Section -->
         <section class="section" style="margin-top: 3rem;">
             <h2><span class="section-number">📝</span>Essay Questions for Practice</h2>
             <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Click on any question to reveal the answer.</p>
-            
+
             <div class="essay-question">
                 <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
                     <span class="essay-num">1</span>
@@ -587,6 +597,215 @@
                     </ol>
                     <p><strong>The equation:</strong> Amount Excreted = Filtered + Secreted − Reabsorbed</p>
                     <p>This "filter-then-reclaim" strategy is more efficient than trying to selectively remove specific wastes.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">9</span>
+                    <span class="essay-text">A person with cirrhosis of the liver has lower than normal levels of plasma proteins and a higher than normal GFR. Explain why a decrease in plasma protein concentration would cause an increase in GFR.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>The primary driving force for GFR is blood pressure, opposed by fluid pressure in Bowman's capsule and osmotic pressure due to plasma proteins. If a person has fewer plasma proteins due to liver disease, the plasma will have a lower osmotic pressure. With less osmotic pressure opposing the GFR, GFR will increase.</p>
+                    <p><strong>Net Filtration Pressure = Glomerular HP - Bowman's HP - Oncotic Pressure</strong></p>
+                    <p>When oncotic pressure decreases, NFP increases, leading to increased GFR.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">10</span>
+                    <span class="essay-text">Patrick's urine sample reveals a high concentration of glucose. Is glucose normally present in urine? Suggest two possible mechanisms to explain why the kidney would excrete excess glucose, and what abnormality may underlie those conditions.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Glucose is normally NOT present in urine because the kidneys reabsorb all filtered glucose in healthy individuals.</p>
+                    <p><strong>Two possible mechanisms for glucosuria:</strong></p>
+                    <ol>
+                        <li><strong>Glucose transporters may be saturated:</strong> This prevents complete reabsorption of glucose. This can happen with extremely high glucose ingestion or with untreated <strong>diabetes mellitus</strong> (most common cause).</li>
+                        <li><strong>Genetic defect:</strong> A genetic defect resulting in an insufficient number of glucose transporters is another possibility (renal glucosuria).</li>
+                    </ol>
+                    <p>In diabetes, blood glucose exceeds the transport maximum (~375 mg/min), causing excess glucose to "spill" into urine.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">11</span>
+                    <span class="essay-text">Trace a drop of water through the urinary system, beginning with the plasma in the renal artery.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Plasma in the <strong>renal artery</strong> flows into smaller branches, entering the <strong>arcuate arteries</strong>, which lead to the <strong>afferent arterioles</strong>, which in turn lead to the <strong>glomeruli</strong>.</p>
+                    <p>Water moves from glomeruli into the nephrons (PCT, loop of Henle, then DCT), into the <strong>collecting ducts</strong>, then <strong>renal calyces</strong> and into the <strong>renal pelvis</strong>.</p>
+                    <p>From there, it passes into a <strong>ureter</strong>, then to the <strong>urinary bladder</strong>; finally, it is expelled as urine through the <strong>urethra</strong>.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">12</span>
+                    <span class="essay-text">List and describe the three filtration barriers that substances leaving the plasma must pass through before entering the tubule lumen.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>The three filtration barriers are:</p>
+                    <ol>
+                        <li><strong>The glomerular capillary endothelium:</strong> A fenestrated (porous) endothelium with holes that allow most plasma components through but block blood cells</li>
+                        <li><strong>The basal lamina (basement membrane):</strong> A protein-polysaccharide gel matrix that blocks large proteins and has a negative charge that repels most plasma proteins</li>
+                        <li><strong>The epithelium of Bowman's capsule (podocytes):</strong> Specialized cells with foot processes that wrap around capillaries, creating filtration slits between them</li>
+                    </ol>
+                    <p>See the "Renal Corpuscle Contains Filtration Barriers" section of the chapter.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">13</span>
+                    <span class="essay-text">List and summarize the forces that influence filtration across the walls of glomerular capillaries.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Three Starling forces influence glomerular filtration:</p>
+                    <ol>
+                        <li><strong>Hydrostatic pressure (glomerular capillary):</strong> ~60 mmHg - FAVORS filtration; this is the primary driving force created by blood pressure</li>
+                        <li><strong>Colloid osmotic pressure (plasma proteins):</strong> ~28 mmHg - OPPOSES filtration; proteins in blood pull water back</li>
+                        <li><strong>Hydrostatic fluid pressure (Bowman's capsule):</strong> ~15 mmHg - OPPOSES filtration; fluid already in Bowman's capsule pushes back</li>
+                    </ol>
+                    <p><strong>NFP = 60 - 28 - 15 = 17 mmHg</strong> (always favors filtration)</p>
+                    <p>See the "Capillary Pressure Causes Filtration" section of the chapter.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">14</span>
+                    <span class="essay-text">Reabsorption involves which two methods of transport? Describe each. What determines which route a solute will take?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Reabsorption involves two transport methods:</p>
+                    <ol>
+                        <li><strong>Transepithelial transport:</strong> Substances cross both apical and basolateral membranes of the tubule epithelial cell. This is the route for actively transported substances like glucose and amino acids.</li>
+                        <li><strong>Paracellular pathway:</strong> Substances pass through the junction between two adjacent cells. This route is used for passive movement of water and some ions.</li>
+                    </ol>
+                    <p><strong>What determines the route?</strong> The permeability of the epithelial junction and the electrochemical gradient for the solute determines which route it will take. Tight junctions in different nephron segments have different permeabilities.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">15</span>
+                    <span class="essay-text">Describe GFR autoregulation, and explain why it is important.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>GFR autoregulation maintains constant filtration despite changes in blood pressure (effective within 80-180 mmHg range).</p>
+                    <p><strong>Two mechanisms:</strong></p>
+                    <ol>
+                        <li><strong>Myogenic response:</strong> The ability of vascular smooth muscle to constrict or dilate to keep pressure and flow constant. Vasoconstriction is more effective at this than vasodilation. When the afferent arteriole is stretched by increased BP, it constricts.</li>
+                        <li><strong>Tubuloglomerular feedback:</strong> Involves production of a paracrine signal from the macula densa (in response to increased GFR/NaCl), which constricts the afferent arteriole to decrease GFR.</li>
+                    </ol>
+                    <p><strong>Why important:</strong> Autoregulation helps protect the filtration barriers from high blood pressures that could damage them. It also ensures consistent waste removal and prevents excessive fluid/electrolyte loss.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">16</span>
+                    <span class="essay-text">Ruby is 77 years old and can no longer control her urination. What changed in the reflex pathway that used to control her urination?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>Micturition (urination) normally occurs when stretch receptors in the bladder wall are stimulated by distension due to urine accumulation. The stretch receptors project to an integration center in the spinal cord, which stimulates parasympathetic neurons of the bladder wall.</p>
+                    <p>This causes bladder contraction, forcing the internal urethral sphincter to open. At the same time, the spinal control center inhibits somatic motor neurons that control the external urethral sphincter, which relaxes in response, allowing urine to flow out.</p>
+                    <p>The spinal reflex is normally overridden by <strong>descending control from the brain stem and cerebral cortex</strong>. The brain inhibits the parasympathetic output to the bladder and stimulates the somatic motor output to the external urethral sphincter, preventing urination until a convenient time.</p>
+                    <p><strong>Ruby's problem:</strong> It is likely that Ruby's descending control is what is no longer working properly; thus she is not able to suppress the urge until she can get to a toilet. This is common in aging due to weakened pelvic floor muscles or neurological changes.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">17</span>
+                    <span class="essay-text">Sylvia is suffering from severe edema in her arms and legs. Her physician prescribes a diuretic (a substance that will increase the volume of urine produced). Why might this help to alleviate Sylvia's problem?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p>One simple answer is that a diuretic reduces the free fluid in the body. A more complex explanation is that increasing the volume of urine produced would decrease the total blood volume of the body.</p>
+                    <p>This in turn would lead to a <strong>decreased blood hydrostatic pressure</strong>. Edema is frequently the result of hydrostatic pressure of the blood exceeding the opposing forces at the capillaries in the affected area.</p>
+                    <p>Depending on the actual cause of the edema, decreasing the blood hydrostatic pressure would:</p>
+                    <ul>
+                        <li>Decrease edema formation</li>
+                        <li>Possibly cause some of the fluid to move from the interstitial space back to the blood</li>
+                    </ul>
+                    <p>Diuresis would also increase the concentration of proteins in the plasma, contributing to the fluid's movement out of the tissues and into the blood.</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">18</span>
+                    <span class="essay-text">A professor gave the following analogy of kidney function: "Imagine your desk is a disorganized mess. Instead of picking through each item one by one, you sweep your arm across your desktop in one smooth motion, knocking everything into your large trash can. Then you pull the items you want to keep out of the trash can and place them back on your desk." In what ways is this analogy accurate? In what ways is it inaccurate?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>Accurate aspects:</strong></p>
+                    <ul>
+                        <li>The glomerulus does "dump" contents into the nephron (like sweeping the desk into the trash)</li>
+                        <li>The body takes back what it needs (reabsorption = pulling items out of trash)</li>
+                        <li>The "filter first, then reclaim" strategy is correctly represented</li>
+                    </ul>
+                    <p><strong>Inaccurate aspects:</strong></p>
+                    <ul>
+                        <li>The entire contents of plasma are NOT dumped - only about 1/5 (20%) of the volume enters the nephron (filtration fraction)</li>
+                        <li>Some students argue that kidneys are inefficient and poorly designed, but the professor should respond that the kidney can only use the tools it has: membrane transport processes and physical laws governing movement of water and solutes</li>
+                        <li>Kidney dialysis machines rely on diffusion through semipermeable membranes, mimicking part of normal kidney function - this shows the design is actually quite elegant</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">19</span>
+                    <span class="essay-text">Presence of glucose in the urine is evidence of what condition?</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>Diabetes mellitus</strong></p>
+                    <p>Glucose in the urine (glucosuria) is a classic sign of diabetes mellitus. In this condition, blood glucose levels are chronically elevated, exceeding the kidney's transport maximum for glucose reabsorption (~375 mg/min).</p>
+                    <p>When glucose transporters (SGLT2) become saturated, excess glucose "spills" into the urine. This is why diabetes was historically diagnosed by tasting urine (sweet taste indicated "mellitus" - meaning honey).</p>
+                </div>
+            </div>
+
+            <div class="essay-question">
+                <div class="essay-q-header" onclick="this.parentElement.classList.toggle('show-answer')">
+                    <span class="essay-num">20</span>
+                    <span class="essay-text">Armann weighs 100 kg. Assume his total blood volume is 7%, his heart pumps his total blood volume within 90 seconds, and his renal blood flow is 20% of his cardiac output. Calculate the volume of blood that flows through Armann's kidneys each minute.</span>
+                    <span class="essay-toggle">+</span>
+                </div>
+                <div class="essay-answer">
+                    <div class="answer-label">Answer:</div>
+                    <p><strong>Step-by-step calculation:</strong></p>
+                    <ol>
+                        <li>Blood volume = 100 kg × 0.07 = 7 L = 7000 mL</li>
+                        <li>At least two thirds of this volume must circulate per minute = 7000 mL × 0.67 = 4690 mL/min (minimum cardiac output); values up to 5000 mL/min would still be within a normal range</li>
+                        <li>Renal blood flow = 4690 × 20% = 938 mL/min</li>
+                        <li>Using 5000 mL/min: 5000 × 20% = 1000 mL/min</li>
+                    </ol>
+                    <p><strong>Thus, blood flow to Armann's kidneys approximates 938-1000 mL/min</strong></p>
+                    <p>This represents about 20-25% of cardiac output going to organs that represent less than 1% of body mass - showing how important the kidneys are for blood filtration!</p>
                 </div>
             </div>
 
@@ -745,6 +964,20 @@
             const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrolled = (winScroll / height) * 100;
             document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        // Toggle answer visibility for multiple choice questions
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            answer.classList.toggle('show');
+            button.textContent = answer.classList.contains('show') ? 'Hide Answer' : 'Reveal Answer';
+        }
+
+        // Toggle essay question answers
+        document.querySelectorAll('.essay-q-header').forEach(header => {
+            header.addEventListener('click', () => {
+                header.parentElement.classList.toggle('show-answer');
+            });
         });
     </script>
 </body>
