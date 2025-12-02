@@ -548,10 +548,10 @@ const questionBank = {
         {
             question: "Minute ventilation is calculated as:",
             options: [
-                "Tidal volume � respiratory rate",
-                "Vital capacity � respiratory rate",
-                "Alveolar ventilation � dead space",
-                "Total lung capacity � respiratory rate",
+                "Tidal volume × respiratory rate",
+                "Vital capacity × respiratory rate",
+                "Alveolar ventilation × dead space",
+                "Total lung capacity × respiratory rate",
                 "Tidal volume - dead space"
             ],
             correct: 0
