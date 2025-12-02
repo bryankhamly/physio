@@ -14,7 +14,7 @@ const questionBank = {
                 "Regulation of water balance",
                 "Gas exchange"
             ],
-            correct: 1
+            correct: 3
         },
         {
             question: "Ventilation is also known as:",
