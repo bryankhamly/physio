@@ -6,7 +6,7 @@
     <title>Chapter 19: Fluid, Electrolyte & Acid-Base Balance | Physiology Study Guide</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
     <style>
-        :root { --bg-primary: #0a0f1a; --bg-secondary: #111827; --bg-card: #1a2234; --accent-primary: #06b6d4; --accent-secondary: #22d3ee; --accent-success: #10b981; --accent-warning: #f59e0b; --text-primary: #f1f5f9; --text-secondary: #94a3b8; --text-muted: #64748b; --border-color: #1e293b; }
+        :root { --bg-primary: #0a0f1a; --bg-secondary: #111827; --bg-card: #1a2234; --bg-card-hover: #222d42; --accent-primary: #06b6d4; --accent-secondary: #22d3ee; --accent-success: #10b981; --accent-warning: #f59e0b; --text-primary: #f1f5f9; --text-secondary: #94a3b8; --text-muted: #64748b; --border-color: #1e293b; }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'DM Sans', sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.8; }
         nav { position: fixed; top: 0; left: 0; right: 0; background: rgba(10, 15, 26, 0.9); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-color); z-index: 1000; padding: 0.75rem 2rem; }
@@ -1157,12 +1157,6 @@
             button.textContent = answer.classList.contains('show') ? 'Hide Answer' : 'Reveal Answer';
         }
 
-        // Toggle essay question answers
-        document.querySelectorAll('.essay-q-header').forEach(header => {
-            header.addEventListener('click', () => {
-                header.parentElement.classList.toggle('show-answer');
-            });
-        });
     </script>
 </body>
 </html>
