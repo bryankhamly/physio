@@ -1,0 +1,1410 @@
+Here is the accurate transcription of the lecture slides from the uploaded files `ch23a.pdf` and `ch23b.pdf`.
+
+###**File: ch23a.pdf (The Immune System - Part 1)****Page 1**
+
+* PowerPoint® Lecture Presentation
+* 
+**PRINCIPLES OF HUMAN PHYSIOLOGY** 
+
+
+* 
+**CHAPTER 23a** 
+
+
+* The Immune System
+* Cindy L. Stanfield, Sixth Edition 
+
+
+* © 2017 Pearson Education, Inc.
+
+**Page 2**
+
+* **Chapter Outline**
+* 23.1 Anatomy of the Immune System 
+
+
+* 23.2 Pathogens That Activate the Immune Response 
+
+
+* 23.3 Organization of the Body's Defenses 
+
+
+* 23.4 Humoral Immunity 
+
+
+* 23.5 Cell-Mediated Immunity 
+
+
+* 23.6 Immune Responses in Health and Disease 
+
+
+
+
+
+**Page 3**
+
+* **23.1 Anatomy of the Immune System**
+* **Physical barriers**
+* Skin and mucous membranes
+
+
+* **Leukocytes**
+* White blood cells
+* Wide range of immune responses
+
+
+* **Lymphoid tissues**
+* Bone marrow, thymus, spleen, lymph nodes, and tonsils
+* Development and function of leukocytes
+
+
+
+**Page 4**
+
+* **Physical Barriers**
+* **Skin**
+* Epidermis
+* Dermis
+* Sebaceous glands
+
+
+* **Mucous membranes**
+* Viscous mucus traps foreign matter
+
+
+
+**Page 5**
+
+* **Figure 23.1 Chemical and physical barriers to pathogens.**
+* 
+*Chemical Barriers:* Lysozyme in saliva, HCl in stomach, Acid in urinary tract (and vagina in females), Fatty acids in sebaceous glands 
+
+
+* 
+*Physical Barriers:* Ciliated mucosa, GI tract mucosa, Skin 
+
+
+* 
+*Labels:* Goblet cell, Mucus, Ciliated cell, Epithelial cell, Dermis, Epidermis, Keratin layer 
+
+
+
+**Page 6-9** (Progressive Slides)
+
+* **Figure 23.2 Immune cell production.**
+* 
+*Origin:* Hematopoietic stem cell (Bone marrow) 
+
+
+* *Lineages:*
+* 
+**Myeloid stem cell** 
+
+
+* Megakaryocyte → Platelets 
+
+
+* Reticulocyte → Erythrocyte 
+
+
+* Granulocyte/monocyte progenitor → Basophil, Eosinophil, Neutrophil, Monocyte (→ Macrophage, Dendritic cell) 
+
+
+
+
+* 
+**Lymphoid stem cell** 
+
+
+* B-lymphocyte 
+
+
+* Natural killer cells 
+
+
+* T-lymphocytes (processed in Thymus) 
+
+
+
+
+
+
+
+**Page 10** (Numbering reset in PDF logical structure, corresponds to Slide 144)
+
+* **Leukocytes**
+* Derived from same hematopoietic stem cells in bone marrow
+* **Granulocytes**
+* Neutrophils
+* Eosinophils
+* Basophils
+
+
+* **Agranulocytes**
+* Monocytes
+* Lymphocytes
+
+
+
+**Page 11**
+
+* **Leukocytes**
+* **Phagocytes**
+* Neutrophils (most abundant)
+* Eosinophils
+* Monocytes
+* Macrophages
+* Dendritic cells
+
+
+* Secrete cytokines
+* Circulate in blood 7–10 hours
+* Migrate to tissues for a few days
+* Increase in number during infections
+
+**Page 12**
+
+* **Leukocytes**
+* **Lymphocytes**
+* Account for 20–40% of leukocytes
+* Account for 99% of interstitial fluid cells
+* Three types
+* B lymphocytes (B cells)
+* T lymphocytes (T cells)
+* Null cells
+
+
+
+
+
+**Page 13**
+
+* **Leukocytes**
+* **B cells**
+* Associated with antibodies
+* Contact antigen → plasma cell
+* Plasma cell secretes antibodies (immunoglobulins)
+* Antibodies mark invaders for destruction
+
+
+
+**Page 14**
+
+* **Leukocytes**
+* **T cells**
+* Directly damage foreign cells
+* Contact infected, mutant, or transplanted cells
+* Develop into cytotoxic T cells that destroy target cells
+* Takes several days
+* Secretory products form pores in the target cell’s membrane
+* Lysis
+
+
+
+
+
+**Page 15**
+
+* **Leukocytes**
+* **Null cells**
+* Most are natural killer cells
+* Important defense against viral infections
+* Attack virus-infected cells
+* Cause lysis
+* Fast acting
+* Early immune response
+
+
+
+
+
+**Page 16**
+
+* **Leukocytes**
+* **Mast cells**
+* Immune cells of skin and mucosa
+* Secrete histamine and other substances
+
+
+* **Dendritic cells**
+* Similar to macrophages
+* Phagocytes
+* Activate certain types of T cells
+
+
+
+**Page 17**
+
+* **Lymphoid Tissues**
+* Bone marrow
+* Thymus
+* Spleen
+* Lymph nodes
+* Tonsils
+* Adenoids
+* Appendix
+* Peyer's patches
+
+**Page 18**
+
+* **Lymphoid Tissues**
+* **Central lymphoid tissue** = bone marrow + thymus
+* **Bone marrow**
+* Hematopoietic stem cells: precursors for all blood cells
+* Leukocytes (except T lymphocytes) fully develop in bone marrow
+
+
+* **Thymus**
+* T lymphocytes migrate from bone marrow to thymus
+* Reach maturity in thymus
+
+
+
+
+
+**Page 19**
+
+* **Lymphoid Tissues**
+* **Peripheral lymphoid tissue**
+* Spleen, lymph nodes, tonsils, adenoids, appendix, and Peyer’s patches
+* Collections of B cells, T cells, and macrophages
+* Trap microorganisms and foreign particles
+* Expose them to leukocytes in high concentrations
+* Spleen and lymph nodes filter blood and lymph
+
+
+
+**Page 20**
+
+* **Lymphoid Tissue**
+* **Tonsils and adenoids**
+* Trap inhaled particles
+
+
+* **Appendix and Peyer’s patches**
+* Trap ingested particles
+
+
+
+**Page 21**
+
+* **Figure 23.3 Lymphoid tissues.**
+* 
+*Central lymphoid tissues:* Thymus, Bone marrow 
+
+
+* 
+*Peripheral lymphoid tissues:* Adenoids, Tonsils, Lymph nodes, Spleen, Small intestine, Peyer's patch, Large intestine, Appendix, Lymphatic vessels 
+
+
+
+**Page 22**
+
+* **23.2 Pathogens That Activate the Immune Response**
+* Four different classes of pathogens
+* Viruses
+* Bacteria
+* Fungi
+* Parasites
+
+
+* Ability to cause a disease = virulence
+
+**Page 23**
+
+* **Viruses**
+* Smallest (20–400 nm)
+* Single- or double-stranded nucleic acid surrounded by protein coat
+* Requires a host
+* Uses host’s metabolic machinery to reproduce
+* Can double the number of viral organisms hourly
+
+
+* Target specific cells
+
+**Page 24**
+
+* **Bacteria**
+* Smallest (1–5 μm) [Note: likely meant "larger than viruses" or specific range, text says "Smallest (1–5 μm)"]
+* Prokaryotic
+* Most have single circular chromosome
+* Gram-positive or -negative
+* Ability to break up cresyl violet [Note: text might imply "invade tissue" is separate bullet]
+* Invade tissue
+* Colonization: adhesin
+* Release endotoxins or exotoxins
+
+**Page 25**
+
+* **Fungi**
+* Constitute their own kingdom; neither plants nor animals
+* Eukaryotic
+* Yeast, molds, and mushrooms
+* Absorb nutrients from environment
+* Grow slowly
+
+**Page 26**
+
+* **Parasites**
+* Invading organisms
+* **Protozoans**
+* Example: *Trypanosoma brucei* (sleeping sickness)
+
+
+* **Metazoans**
+* Examples: worms, arthropods
+
+
+* 10 μm to 20 cm in size; most less than 50 μm
+* Vector
+
+**Page 27**
+
+* **Figure 23.4 Classes of pathogens: viruses, bacteria, fungi, and parasites.**
+* 
+*Virus:* Capsid, Nucleic acid, Rod, Tails 
+
+
+* 
+*Bacterium:* Nucleic acid, Cell wall, Plasma membrane, Flagellum 
+
+
+* 
+*Fungi:* Microscopic fungi 
+
+
+* 
+*Parasites:* Microscopic parasites (Trypanosomes, Erythrocytes), Hookworm, Tapeworm 
+
+
+
+**Page 28**
+
+* **23.3 Organization of the Body’s Defenses**
+* **Nonspecific defenses (innate defenses)**
+* Pathogen-associated molecular patterns (PAMPs)
+* Pattern recognition receptors: bind PAMPs
+* Physical barriers
+* Inflammation
+* Interferons
+* Natural killer cells
+* Complement system
+
+
+
+**Page 29**
+
+* **Nonspecific defenses**
+* **Inflammation:** series of events causing accumulation of proteins, fluid, and phagocytes in an injured or invaded area
+1. Macrophages engulf debris and foreign matter
+2. Capillaries dilate and become more permeable
+3. Foreign matter is contained
+4. More leukocytes migrate to area
+5. Leukocytes clear infection
+
+
+
+**Page 30**
+
+* **Nonspecific Defenses**
+* **Phagocytosis of pathogens**
+* Proteins on microbes bound by macrophages
+* Triggers phagocytosis and secretions
+* Secretory products trigger subsequent steps
+
+
+
+**Page 31**
+
+* **Figure 23.5a Major events in local inflammation.**
+* (a) Phagocytosis by nearby macrophages 
+
+
+* 
+*Labels:* Cytokines, Macrophage, Foreign matter, Microbes, Capillary, Tissue injury 
+
+
+
+**Page 32**
+
+* **Nonspecific Defenses**
+* Dilation and increased permeability in capillaries
+* Damaged mast cells secrete histamine
+* Histamine triggers dilation and increases permeability
+* Result: increased blood flow and increased movement of proteins and cells to injured tissue
+
+
+* Symptoms of inflammation induced by effects of histamine
+* Redness
+* Heat
+* Edema
+* Pain
+
+
+
+**Page 33**
+
+* **Figure 23.5b Major events in local inflammation.**
+* (b) Dilation and increased permeability of capillary 
+
+
+* 
+*Labels:* Defensive proteins, Histamine, Fluid 
+
+
+
+**Page 34**
+
+* **Nonspecific Defenses**
+* **Containment of foreign matter**
+* Mast cells and basophils → heparin
+* Heparin prevents clot formation initially so blood cells can access area
+* Clotting factors eventually form a clot in tissue, which prevents spread of foreign matter
+* Eventually forms a scab
+
+
+
+**Page 35**
+
+* **Figure 23.5c Major events in local inflammation.**
+* (c) Containment of bacteria and foreign matter 
+
+
+* 
+*Labels:* Clotting proteins, Heparin 
+
+
+
+**Page 36**
+
+* **Nonspecific Defenses**
+* **Leukocyte migration and proliferation**
+* 1 hour: neutrophil migration
+* 10 hours: monocyte migration → macrophages
+* Cells move from blood to tissue triggered by cytokines
+* **Margination:** move to vasculature wall
+* **Attachment:** bind to wall
+* **Diapedesis:** move between endothelial cells
+* **Movement in tissue to injury:** chemotaxis
+
+
+
+
+
+**Page 37**
+
+* **Nonspecific Defenses**
+* **Leukocyte proliferation**
+* Cytokines travel to bone marrow
+* Stimulate production of leukocytes
+* Increase four to five times in circulating numbers
+
+
+
+**Page 38**
+
+* **Figure 23.5d Major events in local inflammation.**
+* (d) Leukocyte proliferation and migration 
+
+
+* 
+*Labels:* Margination, Leukocyte diapedesis 
+
+
+
+**Page 39**
+
+* **Nonspecific Defenses**
+* **Clearing of foreign particles**
+* Once foreign particles are present in damaged or invaded tissue, leukocytes must clear the tissue
+* Phagocytosis
+* Secretion of cytokines
+
+
+
+**Page 40**
+
+* **Figure 23.5e Major events in local inflammation.**
+* (e) Continued activity of recruited leukocytes 
+
+
+
+**Page 41**
+
+* **Nonspecific Defenses**
+* **Steps of phagocytosis**
+1. **Attachment:** Specific: damaged cells or protein-targeted cells (Proteins = opsonins)
+2. **Internalization:** Takes approximately 0.01 sec. Phagosome + lysosome → secondary lysosome
+3. **Degradation:** Lysosome enzymes degrade phagocytosed product
+4. **Exocytosis:** Elimination of some degradation products
+
+
+
+**Page 42**
+
+* **Figure 23.6a Phagocytosis.**
+* 
+*Steps:* 1. Attachment/Internalization 2. Phagosome 3. Lysosome-phagosome fusion (Secondary lysosome + Enzymes) 4. Exocytotic vesicle (Eliminates Bacterial debris) 
+
+
+
+**Page 43**
+
+* 
+**Figure 23.6b Phagocytosis.** [Micrograph image] 
+
+
+
+**Page 44**
+
+* **Nonspecific Defenses**
+* **Secretion of cytokines by phagocytes**
+* Trigger: attachment of foreign particle to phagocyte
+
+
+* **Secretory products of macrophages**
+* Interleukins: communicate between leukocytes
+* IL-1
+* IL-6
+* TNF-α
+
+
+
+
+
+**Page 45**
+
+* **Nonspecific Defenses**
+* **Actions of interleukins and TNF-α**
+* Bone marrow: produces and secretes more leukocytes
+* Act as endogenous pyrogens
+* Stimulate fever via hypothalamus
+* Hypothalamus increases body temperature via prostaglandins
+
+
+* Liver: acute-phase proteins
+* IL-1 stimulates proliferation and differentiation of B and T lymphocytes
+* B cells → antibody production
+* T cells → cell-mediated immunity
+
+
+
+
+
+**Page 46**
+
+* **Nonspecific Defenses**
+* **Interferons**
+* Proteins secreted by leukocytes and virus-infected cells
+* Induce virus resistance in neighboring cells
+
+
+* **Viral infection**
+* RNA invades host cell, using that cell's replication machinery to reproduce
+* Viral nucleic acid stimulates host cell to secrete interferon-α and interferon-β
+* Kills host cells
+* Induces neighboring cells to resist viral infection
+
+
+
+
+
+**Page 47**
+
+* **Nonspecific Defenses**
+* **Interferon-γ**
+* Secreted from active T cells and NK cells
+* Inhibits viral replication
+* Enhances phagocytosis by macrophages
+* Boosts antibody production in B cells
+* Helps activate NK cells and cytotoxic T cells
+* Inhibits cell division—defense against cancer
+
+
+
+**Page 48**
+
+* **Nonspecific Defenses**
+* **Natural killer cells**
+* Recognize abnormal or infected cells
+* Cause lysis of pathogen by secreting perforins
+* Can attack virus-infected cells without identifying virus
+* Early defense against viral infections
+* Part of specific immune response
+* Actions are enhanced by interleukin-2 produced by T cells as well as by antibodies produced by plasma cells
+
+
+
+**Page 49**
+
+* **Nonspecific Defenses**
+* **Complement system**
+* Plasma proteins that lyse foreign cells, especially bacteria
+* Part of response to antibodies (specific immunity) in addition to nonspecific response
+* Approximately 30 proteins participate in the response cascade, resulting in MAC reaching the surface of bacteria
+* MAC pierces the bacterial membrane, causing lysis
+
+
+
+**Page 50**
+
+* **Nonspecific Defenses**
+* **Activation of complement system**
+* **Classical pathway**
+* Binding to antibodies attached to bacteria
+* Part of specific defense mechanisms
+
+
+* **Lectin pathway**
+* Binding to mannose-containing carbohydrates on bacteria or viruses
+
+
+* **Alternative pathway**
+* Binding to carbohydrates on bacterial cell walls
+* Part of nonspecific defense mechanisms
+
+
+
+
+
+**Page 51**
+
+* **Figure 23.7 Complement activation and actions.**
+* 
+*Inputs:* Classical pathway, Lectin pathway, Alternative pathway → Complement activation 
+
+
+* 
+*Outputs:* Opsonization, Leukocyte recruitment, Histamine secretion, MAC 
+
+
+
+**Page 52**
+
+* **Figure 23.8 Complement pathways.**
+* 
+*Classical:* Ab + Pathogen → C1 → C2/C4 → C4b2a 
+
+
+* 
+*Lectin:* MBL + mannose → MASP → C4 + C2 → C4b2a 
+
+
+* 
+*Alternate:* C3 → C3b + B → C3bB → C3bBb 
+
+
+* 
+*Convergence:* All lead to C3 convertase → C3a + C3b 
+
+
+* 
+*Terminal:* C5 → C5b + C6-C9 → MAC (Reactions occurring on cell membrane) 
+
+
+
+**Page 53**
+
+* **Nonspecific Defenses**
+* **Complement protein functions**
+* Form MAC to lyse cell
+* Chemotaxis
+* Trigger histamine release from mast cells
+* Act as opsonins
+
+
+
+**Page 54**
+
+* **Figure 23.9 Formation of the MAC complex and cell lysis.**
+* 
+*Process:* First complement protein (inactive) binds Bacterial cell → Cascade of protein activation steps on membrane → Pore/MAC is formed → Pore formation → Fluid rushes into cell → Swelling → Lysis 
+
+
+
+**Page 55**
+
+* **Figure 23.10 Actions of complement proteins independent of MAC.**
+* (a) **Solubilization:** Pathogen + Antibody + 3b 
+
+
+* (b) **Opsonization:** Phagocyte + Complement receptor binds Bacterium (3b) 
+
+
+* (c) **Inflammation:** C5a, C3a, C4a trigger:
+* Capillary (Vasodilation and increased permeability) 
+
+
+* Chemotaxis of Neutrophil, monocyte, eosinophil 
+
+
+* Neutrophil releases Hydrolytic enzymes 
+
+
+* Mast cell releases Histamine 
+
+
+
+
+
+**Page 56**
+
+* **Specific Defenses: Immune Responses**
+* **Humoral immunity**
+* B cell mediated
+* Involves secretion of antibodies by plasma cells
+* Defend against bacteria, toxins, and viruses in body fluids
+
+
+* **Cell-mediated immunity**
+* T cell mediated
+* Involves lysis of cells by cytotoxic T cells
+* Defend against bacteria and viruses in body cells
+* Part of reaction to transplants and cancer cells
+
+
+
+**Page 57**
+
+* **Specific Defenses: Immune Responses**
+* **Features of specific immune response**
+* Specificity
+* Diversity
+* Memory
+* Self-tolerance
+
+
+
+**Page 58**
+
+* **Specific Defenses: Immune Responses**
+* **Specificity**
+* Antigens (antibody generators) confer specificity
+* Complex proteins and polysaccharides
+* Part of foreign invaders and tumor cells
+* Epitopes: recognition sites for B or T cells
+
+
+
+
+* **B cell and T cell specificity**
+* Antigen receptors recognize certain antigens only
+* B cells: membrane antibodies
+* T cells: T cell receptors
+
+
+
+**Page 59**
+
+* **Specific Defenses: Immune Responses**
+* **Antibody structure**
+* Two heavy chains
+* Two light chains
+* Constant region: same within a class of antibodies
+* Variable region: differs for different antigens, gives specificity to antigen-binding site
+* Two antigen-binding sites
+
+
+
+**Page 60**
+
+* **Figure 23.11 The basis of antigen-antibody specificity.**
+* (a) *Structure:* Antigen-binding site, Variable (V) region, Constant (C) region, Light chain, Heavy chain, Disulfide bridge 
+
+
+* (b) *Binding:* Antibody + Antigen (Epitopes bind to Antigen-binding site) 
+
+
+
+**Page 61**
+
+* **Figure 23.12 B cell and T cell antigen receptors.**
+* 
+*B cell:* Membrane antibody with Antigen-binding sites 
+
+
+* 
+*T cell:* T cell receptor (TCR) with Antigen-binding site 
+
+
+
+**Page 62**
+
+* **Specific Defenses: Immune Responses**
+* **Diversity**
+* Specificity means that a B or T cell can recognize only a few of many antigens; determined genetically
+* Diversity in B- and T-cell antigen receptor types allows the immune system to recognize millions of antigens
+* Antigen interacts with specific lymphocyte
+* Induces those lymphocytes to proliferate and differentiate
+* Activation of lymphocytes = clonal selection
+
+
+
+
+
+**Page 63**
+
+* **Specific Defenses: Immune Responses**
+* **Two types of clones**
+* **Effector cells**
+* Combat the antigen that stimulated their production
+* Short lived
+
+
+* **Memory cells**
+* Long lived
+* Antigen specific
+
+
+
+
+
+**Page 64**
+
+* **Figure 23.13 Clonal selection in B lymphocytes.**
+* 
+*Process:* B cells + Antigen (Antibodies bind to antigen) → Cell proliferation → Cell differentiation 
+
+
+* *Outcomes:* Plasma cells (effector cells) → Antibody secretion; Memory B cells 
+
+
+
+**Page 65**
+
+* **Specific Defenses: Immune Responses**
+* **Memory**
+* First exposure to antigen
+* Takes 10–17 days to occur after exposure
+* Symptoms of illness occur during these days
+
+
+* Antigen-selected B and T cells proliferate and differentiate into effector cells
+* Plasma cells
+* Cytotoxic T cells
+
+
+
+
+
+**Page 66**
+
+* **Specific Defenses: Immune Responses**
+* **Secondary immune response**
+* Subsequent exposures to antigen
+* Takes 2–7 days to occur
+* Response has greater magnitude and is more prolonged
+* Occurs due to presence of memory cells
+
+
+
+**Page 67**
+
+* **Figure 23.14 Primary and secondary responses to a given antigen.**
+* 
+*Graph:* Serum antibody concentration vs Time after infection (days) 
+
+
+* *Primary response:* Starts after "First exposure to antigen". Slower, lower concentration. 
+
+
+* *Secondary response:* Starts after "Second exposure to the same antigen". Faster, higher concentration (100 vs 1). 
+
+
+
+**Page 68**
+
+* **Specific Defenses: Immune Responses**
+* **Self-tolerance**
+* B and T cells do not attack normal cells of body
+* As cells develop in bone marrow and thymus, any that have antigen receptors against normal body cells are destroyed by apoptosis (programmed cell death)
+* Autoimmune diseases caused by failure of self-tolerance
+
+
+
+---
+
+###**File: ch23b.pdf (The Immune System - Part 2)****Page 1**
+
+* PowerPoint® Lecture Presentation
+* 
+**PRINCIPLES OF HUMAN PHYSIOLOGY** 
+
+
+* 
+**CHAPTER 23b** 
+
+
+* The Immune System
+* Cindy L. Stanfield, Sixth Edition 
+
+
+* © 2017 Pearson Education, Inc.
+
+**Page 2**
+
+* **Chapter Outline**
+* 23.1 Anatomy of the Immune System
+* 23.2 Pathogens That Activate the Immune Response
+* 23.3 Organization of the Body's Defenses
+* 23.4 Humoral Immunity 
+
+
+* 23.5 Cell-Mediated Immunity 
+
+
+* 23.6 Immune Responses in Health and Disease 
+
+
+
+
+
+**Page 3**
+
+* **23.4 Humoral Immunity**
+* **Role of B lymphocytes in antibody production**
+* B lymphocyte exposure to antigen triggers clonal selection
+* Memory B cells + plasma cells
+* **Plasma cells**
+* Life span: 4–7 days
+* Secrete 2000 antibodies specific for antigen per second
+* Antibodies circulate several weeks, binding to and marking antigen for destruction
+* Phagocytosis
+* Complement-mediated lysis
+
+
+
+
+
+
+
+**Page 4**
+
+* **Role of B Lymphocytes in Antibody Production**
+* Sometimes proliferation and differentiation of B cells in response to antigen depends on helper T cells
+* Antigens: T-dependent antigens
+
+
+* Helper T cells respond to specific antigen
+* Secrete IL-2 (among other cytokines)
+* IL-2 + T-dependent antigens → activate B cells
+
+
+
+**Page 5**
+
+* **Role of B Lymphocytes in Antibody Production**
+* B cells can proliferate and differentiate into plasma cells (but not memory cells) in the absence of T cells
+* Antigens: polysaccharides on bacterial surfaces
+* Response weaker than helper T cell-dependent response
+* No memory for subsequent exposures
+
+
+
+**Page 6**
+
+* **Antibody Function in Humoral Immunity**
+* **Antibody functions**
+* Binds to specific antigen
+* Aids in inactivation or destruction of antigen
+
+
+* **Antibody: antigen-binding site and tail**
+* Antigen-binding site recognizes and binds antigen
+* Tail is involved in inactivation or destruction of antigen
+
+
+
+**Page 7**
+
+* **Figure 23.15 The five major classes of antibodies.**
+* **IgM:** Structure includes J chain. Features: Most common in primary response. Roles: Neutralizes, Agglutinates, Activates complement.
+* **IgD:** Features: Antigen receptor on B cells. Roles: Neutralizes, Agglutinates.
+* **IgG:** Features: Most common in blood, major in secondary response, crosses placenta. Roles: Neutralizes, Agglutinates, Activates complement, Opsonizes, Enhances NK activity.
+* **IgE:** Features: Involved in allergies. Roles: Neutralizes, Agglutinates, Binds mast cells/basophils triggering histamine.
+* **IgA:** Features: Crosses epithelial cells (mucosal surfaces, breast milk). Roles: Neutralizes, Agglutinates.
+
+**Page 8**
+
+* **Antibody Function in Humoral Immunity**
+* **Antibody actions**
+* All classes: neutralization and agglutination
+* IgM and IgG: activate complement
+* IgG: opsonization
+* IgE: histamine release from mast cells and basophils
+* IgG: NK cells
+* NK cells have receptors for the antibody tail
+* Antibodies mark cells for destruction
+* NK cells produce pores in the membranes of cells, causing lysis
+
+
+
+
+
+**Page 9**
+
+* **Figure 23.16 Antibody-mediated mechanisms of antigen disposal.**
+* (a) **Neutralization:** Antibodies block activity of pathogen (Pathogen + Antibody). 
+
+
+* (b) **Agglutination:** Multiple pathogens aggregated by antibody molecules. 
+
+
+* (c) **Opsonization:** Pathogens bound by antibodies engulfed by phagocytes (Macrophage). 
+
+
+* (d) **Complement activation:** Antibodies activate complement cascade, causing lysis (Pore). 
+
+
+* (e) **Enhanced NK cell activity:** Antibodies on abnormal body cell recognized by NK cell, leading to lysis (Perforin, Pore). 
+
+
+
+**Page 10**
+
+* **23.5 Cell-Mediated Immunity**
+* **Roles of T lymphocytes in cell-mediated immunity**
+* **Helper T cells**
+* Secrete cytokines that enhance activity of B cells and other T cells
+* Enhance activity of macrophages and NK cells
+
+
+* **Cytotoxic T cells**
+* Kill virus-infected cells, abnormal cells, and bacteria
+
+
+* **Suppressor T cells**
+* Secrete cytokines that suppress activity of B cells and other T cells
+
+
+
+
+
+**Page 11**
+
+* **Roles of T Lymphocytes in Cell-Mediated Immunity**
+* **Major histocompatibility complex (MHC) molecules**
+* T cells have antigen receptors
+* Only recognize antigen when it is associated with MHC molecules
+* MHC molecules bind antigen within the cell and transport antigen to the surface, where it can be recognized by T cells: antigen presentation
+
+
+
+**Page 12**
+
+* **Roles of T Lymphocytes in Cell-Mediated Immunity**
+* MHC marks body cells as "self"
+* **Two classes of MHC molecules**
+* Class I MHC: surface of all nucleated cells
+* Class II MHC: surface of macrophages, activated B cells, activated T cells, and thymus cells
+
+
+* MHC molecules unique to individual person: **human leukocyte antigen (HLA)**
+* Tissue type
+* Marks person as "self"
+* Responsible for tissue or organ rejection—stimulates immune response to foreign tissue
+
+
+
+**Page 13**
+
+* **Roles of T Lymphocytes in Cell-Mediated Immunity**
+* Final maturation of T cells depends on contact with MHC molecules
+* Bind with Type I MHC → cytotoxic T (CD8) cells
+* Bind with Type II MHC → helper T (CD4) cells
+
+
+
+**Page 14**
+
+* **Roles of T Lymphocytes in Cell-Mediated Immunity**
+* **Role of MHC molecules in antigen presentation**
+* MHC molecules have binding sites for antigen
+* MHC + antigen → cell surface (presentation)
+* **Type I MHC**
+* Bind antigens in infected cells or tumor cells (which can be any nucleated cell)
+
+
+* **Type II MHC**
+* Bind antigens taken into cell by phagocytosis or receptor-mediated endocytosis (which can occur only in cells that perform these functions—B cells, T cells, macrophages)
+
+
+
+
+
+**Page 15**
+
+* **Roles of T Lymphocytes in Cell-Mediated Immunity**
+* **Recognition by T cells**
+* **Helper T cells**
+* CD4: binds class II MHC; enhances macrophage-T cell interaction
+
+
+* **Cytotoxic T cells**
+* CD8: binds class I MHC; enhances abnormal cell-T cell interaction
+
+
+
+
+
+**Page 16**
+
+* **Figure 23.17 Presentation of antigens to T cells by major histocompatibility complex (MHC) molecules.**
+* (a) **Class I MHC:** Virus-infected cell (synthesizes virus proteins) → Fragmented proteins associate with Class I MHC → Presented to Cytotoxic T cell (TCR + CD8). 
+
+
+* (b) **Class II MHC:** Macrophage/Dendritic cell (internalizes virus) → Fragmented proteins associate with Class II MHC → Presented to Helper T cell (TCR + CD4). 
+
+
+
+**Page 17**
+
+* **Helper T Cell Activation**
+* Helper T cells coordinate immune response
+* **Events of activation**
+* Bind to class II MHC-foreign antigen complex on surface of macrophages and B cells
+* Macrophages and B cells secrete IL-1, which induces proliferation and differentiation of helper T cells
+
+
+* **Helper T cell differentiation**
+* Secretory cells (effector cells) and memory cells
+* Secretory cells: secrete cytokines that stimulate and regulate immune response
+
+
+
+**Page 18**
+
+* **TABLE 23.1 Selected Cytokines Secreted by Activated Helper T Cells**
+* **Interleukin-2:** Targets Helper T cells/Cytotoxic T cells (Proliferation), B cells (Proliferation/Plasma cell dev), NK cells (Enhance activity).
+* **Interleukin-4:** Targets B cells (Proliferation/Plasma cell dev/IgE/IgG/Class II MHC), Helper T cells (Proliferation), Macrophages/Mast cells (Class II MHC/Phagocytosis/Proliferation).
+* **Interleukin-5:** Targets B cells (Proliferation/IgA), Hematopoietic stem cells (Eosinophils).
+* **Interleukin-10:** Targets Macrophages (Inhibits cytokine production).
+* **Interferon-γ:** Targets Multiple cell types (Virus resistance), Macrophages (Phagocytosis), B cells (Antibody production), Cancer cells (Inhibits proliferation), Cytotoxic T/NK cells (Enhances killing).
+
+
+
+**Page 19**
+
+* **Cytotoxic T Cell Activation: The Destruction of Virus-Infected Cells and Tumor Cells**
+* Cell binds to class I MHC-foreign antigen complex on surface of infected cell or tumor cell
+* Helper T cell secretes IL-2, which signals activation of cytotoxic T cell
+* Cell secretes **perforins**
+* Form pores in the membranes of infected cells
+* Lysis
+
+
+* Cell secretes **fragmentins**
+* Enter infected cells through perforin-induced pores
+* Trigger apoptosis
+
+
+
+**Page 20**
+
+* **Cytotoxic T Cell Activation: The Destruction of Virus-Infected Cells and Tumor Cells**
+* Tumor cells → tumor antigens
+* Class I MHC molecules bring antigens to surface and present them to cytotoxic T cells
+* Cytotoxic T cells destroy tumor cells
+* Some cancers and viruses inhibit production of class I MHC molecules, thereby protecting them from the immune system
+
+**Page 21-29** (Progressive Slides)
+
+* **Figure 23.18 The role of helper T cells in activation of B cells and cytotoxic T cells.**
+* *Process:*
+1. Antigen enters Macrophage. Macrophage presents antigen to **Helper T-cell**. 
+
+
+2. Helper T-cell secretes **IL-2**. 
+
+
+3. **B-cell pathway:** B-cell binds antigen. IL-2 stimulates B-cell → Memory B-cell + Plasma cell → Antibodies. 
+
+
+4. **Cytotoxic T-cell pathway:** Infected cell presents antigen to Cytotoxic T-cell. IL-2 stimulates Cytotoxic T-cell → Activated Cytotoxic T-cell. 
+
+
+5. Activated Cytotoxic T-cell releases Perforins/fragmentins → H_{2}O enters → Infected cell lysis. 
+
+
+
+
+
+**Page 30**
+
+* **23.6 Immune Responses in Health and Disease**
+* **Generating immunity: immunization**
+* **Vaccine:** introduction of microorganism or its antigens in a form not expected to cause disease
+* Induces immune response, including production of memory cells
+
+
+* **Active immunity**
+* Immune response to vaccine or pathogen in individual gives immunity
+
+
+* **Passive immunity**
+* Administration of ready-made antibodies
+* No memory cells, so no long-term immunity
+
+
+
+
+
+**Page 31**
+
+* **Figure 23.19 Acquisition of long-term immunity through vaccination (immunization).**
+* 
+*Immunization pathway:* Inactivated microorganism/inoculum → Slow, weak primary response → Memory cells (Antibody production not needed). 
+
+
+* 
+*Natural exposure:* Exposure to pathogen → Fast, strong secondary response (Antibody production needed) + Memory cells. 
+
+
+
+**Page 32**
+
+* **TABLE 23.2 Recommended 2012 Vaccinations by the Centers for Disease Control and Prevention**
+* 
+*List includes:* Hepatitis B, Rotavirus, DTaP, Hib, Pneumococcal, Inactivated polio virus, Influenza, MMR, Varicella, Hepatitis A, Meningococcal. 
+
+
+
+
+
+**Page 33**
+
+* **Generating Immunity: Immunization**
+* Passive immunity from mother to fetus or baby
+* IgG passes to fetus via the placenta
+* IgA passes to baby in breast milk
+
+
+
+**Page 34**
+
+* **Role of Immune System in Transfusion and Transplantation**
+* Immune system recognizes difference between self and non-self
+* Need to match donor to recipient closely
+* Must suppress immune system in recipient
+
+**Page 35**
+
+* **Role of Immune System in Transfusion and Transplantation**
+* **Blood group compatibility**
+* Blood types: A, B, AB, O
+* Due to antigens on surface of RBCs
+* Type A → A antigens, anti-B antibodies
+* Type B → B antigens, anti-A antibodies
+* Type AB → A and B antigens, no A or B antibodies
+* Type O → no antigens, anti-A and anti-B antibodies
+
+
+* Universal donor: O
+* Universal recipient: AB
+
+
+
+**Page 36**
+
+* **Role of Immune System in Transfusion and Transplantation**
+* **Tissue grafts and organ transplantation**
+* HLA molecules (MHC) stimulate rejection by inducing an immune response
+* **Tissue typing:** matches HLA molecules between donor and recipient
+* Must suppress immune response of recipient
+* Cyclosporin A and FK506 inhibit IL-2
+
+
+
+
+
+**Page 37**
+
+* **Role of Immune System in Transfusion and Transplantation**
+* **Bone marrow transplants:** some are more successful than others
+* Radiation treatment destroys bone marrow cells, inactivating immune system
+* Donated marrow may mount an immune response against recipient: **graft versus host reaction**
+* Necessary to match donor and recipient HLA molecules
+
+
+
+**Page 38**
+
+* **Immune Dysfunctions**
+* **Allergy:** hypersensitive immune response
+* Antigens that induce allergic reactions: **allergens**
+* Antibodies of allergies: **IgE**
+* IgE activates mast cells to release histamine
+
+**Page 39-47** (Progressive Slides)
+
+* **Figure 23.20 Events in hay fever, an allergic response.**
+* 
+*First exposure:* Pollen → B cell → Plasma cells → Excess IgE antibodies → Attach to Mast cell. 
+
+
+* 
+*Subsequent exposure:* Pollen binds IgE on Mast cell → Release of Histamine and other inflammatory agents → Vasodilation, Increased permeability, Symptoms (coughing, sneezing). 
+
+
+
+**Page 48**
+
+* **Immune Dysfunctions**
+* **Anaphylactic shock**
+* Severe allergic reaction
+* Massive release of histamine from mast cells throughout the body
+* Vasodilation → decreased TPR → decreased MAP
+* Prophylactic: epinephrine
+* Increases CO and TPR → increased MAP
+
+
+
+
+
+**Page 49**
+
+* **Immune Dysfunctions**
+* **Autoimmune diseases**
+* Immune system treats a part of self like a pathogen
+* Immune response is induced against that part
+* Examples
+* Insulin-dependent diabetes mellitus
+* Lupus
+* Rheumatoid arthritis
+* Multiple sclerosis
+
+
+
+
+
+**Page 50**
+
+* **Immune Dysfunctions**
+* **Immunodeficiency diseases**
+* Weak or underactive immune system
+* A problem in any factors of immune response can impair immune function
+* Examples
+* Severe combined immunodeficiency disease (SCID)
+* Affects humoral and cell-mediated immunity
+
+
+* Hodgkin’s disease: cancer of lymphatic system
+* AIDS: affects helper T cells
+
+
+
+
+
+**Page 51**
+
+* **Immune Dysfunctions**
+* **The role of stress in the immune response**
+* Stress suppresses the immune system
+* Steroid hormones (cortisol)
+* Decrease number of leukocytes
+* Anti-inflammatory activity
+
+
+* Environmental chemicals
+* Autonomic neural input to lymphoid tissue
+* Multiple levels of interaction between stress and immune system

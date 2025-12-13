@@ -6083,6 +6083,491 @@ const questionBank = {
                 "use normal GI motility to move substances"
             ],
             correct: 1
+        },
+        // NEW QUESTIONS FROM LECTURE CONTENT
+        {
+            question: "The GI tract is approximately how long?",
+            options: [
+                "5 feet",
+                "10 feet",
+                "15 feet",
+                "20 feet",
+                "25 feet"
+            ],
+            correct: 2
+        },
+        {
+            question: "The volume of the stomach when empty is approximately:",
+            options: [
+                "10 mL",
+                "50 mL",
+                "100 mL",
+                "500 mL",
+                "1000 mL"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which of the following is the largest salivary gland?",
+            options: [
+                "Submandibular gland",
+                "Sublingual gland",
+                "Parotid gland",
+                "Buccal gland",
+                "Labial gland"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which component of saliva has antibacterial properties?",
+            options: [
+                "Salivary amylase",
+                "Bicarbonate ions",
+                "Mucus",
+                "Lysozyme",
+                "Water"
+            ],
+            correct: 3
+        },
+        {
+            question: "The junction where the pancreatic duct and common bile duct meet before entering the duodenum is called the:",
+            options: [
+                "Sphincter of Oddi",
+                "Ampulla of Vater",
+                "Ileocecal valve",
+                "Pyloric sphincter",
+                "Crypts of Lieberkuhn"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which structure regulates the flow of bile and pancreatic juice into the duodenum?",
+            options: [
+                "Ampulla of Vater",
+                "Common hepatic duct",
+                "Sphincter of Oddi",
+                "Cystic duct",
+                "Bile canaliculi"
+            ],
+            correct: 2
+        },
+        {
+            question: "When the liver removes old red blood cells, hemoglobin is catabolized to produce:",
+            options: [
+                "Bile salts",
+                "Bilirubin",
+                "Cholesterol",
+                "Urea",
+                "Glucose"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which brush border enzyme digests limit dextrins?",
+            options: [
+                "Maltase",
+                "Sucrase",
+                "Lactase",
+                "Dextrinase",
+                "Glucoamylase"
+            ],
+            correct: 3
+        },
+        {
+            question: "Zymogens are:",
+            options: [
+                "Active forms of digestive enzymes",
+                "Inactive forms of proteases that must be activated by cleavage",
+                "Hormones that regulate digestion",
+                "Cells that secrete gastric acid",
+                "Transporters for amino acids"
+            ],
+            correct: 1
+        },
+        {
+            question: "Bile salts are amphipathic, meaning they:",
+            options: [
+                "Can only dissolve in water",
+                "Can only dissolve in fat",
+                "Have both hydrophobic and hydrophilic regions",
+                "Are produced only during fasting",
+                "Cannot cross cell membranes"
+            ],
+            correct: 2
+        },
+        {
+            question: "In enterohepatic circulation, bile salts are reabsorbed primarily in the:",
+            options: [
+                "Duodenum",
+                "Jejunum",
+                "Ileum",
+                "Colon",
+                "Stomach"
+            ],
+            correct: 2
+        },
+        {
+            question: "Approximately what percentage of bile salts are recycled through enterohepatic circulation?",
+            options: [
+                "50%",
+                "65%",
+                "80%",
+                "95%",
+                "100%"
+            ],
+            correct: 3
+        },
+        {
+            question: "Which hormone increases calcium absorption by increasing calcium-binding protein in the intestine?",
+            options: [
+                "Parathyroid hormone",
+                "Calcitonin",
+                "1,25-(OH)2D3 (active Vitamin D)",
+                "Insulin",
+                "Gastrin"
+            ],
+            correct: 2
+        },
+        {
+            question: "Iron is stored in enterocytes bound to which protein?",
+            options: [
+                "Transferrin",
+                "Ferritin",
+                "Hemoglobin",
+                "Albumin",
+                "Myoglobin"
+            ],
+            correct: 1
+        },
+        {
+            question: "The total amount of fluid handled by the GI tract daily (secretions plus intake) is approximately:",
+            options: [
+                "2 liters",
+                "5 liters",
+                "7 liters",
+                "9 liters",
+                "12 liters"
+            ],
+            correct: 3
+        },
+        {
+            question: "Leptin is a satiety hormone released from:",
+            options: [
+                "The stomach",
+                "The hypothalamus",
+                "The pancreas",
+                "Adipose cells",
+                "The liver"
+            ],
+            correct: 3
+        },
+        {
+            question: "Which hormone is known as the 'hunger hormone' and is released when the stomach is empty?",
+            options: [
+                "Leptin",
+                "Insulin",
+                "CCK",
+                "Ghrelin",
+                "GIP"
+            ],
+            correct: 3
+        },
+        {
+            question: "NPY and AgRP are considered orexigenic factors because they:",
+            options: [
+                "Suppress appetite",
+                "Increase metabolism",
+                "Promote eating",
+                "Stimulate insulin release",
+                "Inhibit gastric motility"
+            ],
+            correct: 2
+        },
+        {
+            question: "In response to leptin, the arcuate nucleus of the hypothalamus releases:",
+            options: [
+                "NPY and AgRP",
+                "Ghrelin and motilin",
+                "MSH and CART",
+                "CCK and secretin",
+                "Gastrin and histamine"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which type of sensory receptor in the GI tract detects stretch or distension?",
+            options: [
+                "Chemoreceptors",
+                "Mechanoreceptors",
+                "Osmoreceptors",
+                "Thermoreceptors",
+                "Nociceptors"
+            ],
+            correct: 1
+        },
+        {
+            question: "The Basic Electric Rhythm (BER) of GI smooth muscle is affected by neural input such that:",
+            options: [
+                "Parasympathetic input decreases depolarization",
+                "Sympathetic input increases depolarization",
+                "Parasympathetic input increases depolarization (excitation)",
+                "Both divisions have the same effect",
+                "Neural input has no effect on BER"
+            ],
+            correct: 2
+        },
+        {
+            question: "During the swallowing reflex, approximately how long does it take for a bolus to travel from the pharynx to the stomach?",
+            options: [
+                "1 second",
+                "3 seconds",
+                "9 seconds",
+                "20 seconds",
+                "60 seconds"
+            ],
+            correct: 2
+        },
+        {
+            question: "Receptive relaxation refers to:",
+            options: [
+                "Relaxation of the lower esophageal sphincter during swallowing",
+                "Relaxation of stomach smooth muscle to receive the bolus",
+                "Relaxation of the pyloric sphincter during gastric emptying",
+                "Relaxation of the external anal sphincter during defecation",
+                "Relaxation of intestinal smooth muscle during segmentation"
+            ],
+            correct: 1
+        },
+        {
+            question: "The ileogastric reflex results in:",
+            options: [
+                "Increased gastric motility when the ileum is distended",
+                "Inhibition of gastric motility when the ileum is distended",
+                "Increased ileal motility when food enters the stomach",
+                "Relaxation of the ileocecal sphincter",
+                "Increased gastric acid secretion"
+            ],
+            correct: 1
+        },
+        {
+            question: "The gastroileal reflex results in:",
+            options: [
+                "Inhibition of ileal motility when food enters the stomach",
+                "Increased ileal motility when chyme enters the stomach",
+                "Relaxation of the pyloric sphincter",
+                "Inhibition of gastric secretion",
+                "Contraction of the gallbladder"
+            ],
+            correct: 1
+        },
+        {
+            question: "Haustrations are a type of motility pattern found primarily in the:",
+            options: [
+                "Esophagus",
+                "Stomach",
+                "Small intestine",
+                "Proximal colon",
+                "Rectum"
+            ],
+            correct: 3
+        },
+        {
+            question: "The gastrocolic reflex causes:",
+            options: [
+                "Increased gastric motility when food enters the colon",
+                "Decreased colonic motility when food enters the stomach",
+                "Increased colonic motility when food enters the stomach",
+                "Relaxation of the ileocecal sphincter",
+                "Contraction of the pyloric sphincter"
+            ],
+            correct: 2
+        },
+        {
+            question: "CCK and secretin are said to 'potentiate' each other. This means:",
+            options: [
+                "They have opposite effects",
+                "They inhibit each other's release",
+                "They enhance each other's effects",
+                "They are released from the same cells",
+                "They have identical functions"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which of the following correctly describes the effect of secretin?",
+            options: [
+                "Increases gastric secretion and motility",
+                "Stimulates pancreatic enzyme release primarily",
+                "Stimulates pancreatic bicarbonate release and potentiates CCK",
+                "Causes gallbladder relaxation",
+                "Increases gastric emptying rate"
+            ],
+            correct: 2
+        },
+        {
+            question: "The stomach cells called 'neck cells' primarily secrete:",
+            options: [
+                "HCl",
+                "Pepsinogen",
+                "Gastrin",
+                "Mucus",
+                "Intrinsic factor"
+            ],
+            correct: 3
+        },
+        {
+            question: "The gastric mucosal barrier that protects the stomach lining consists of:",
+            options: [
+                "HCl and pepsin",
+                "Mucus and bicarbonate",
+                "Gastrin and histamine",
+                "Intrinsic factor and pepsinogen",
+                "Bile salts and lipase"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which structure in the small intestine villi is specifically responsible for absorbing fats?",
+            options: [
+                "Blood capillaries",
+                "Goblet cells",
+                "Lacteal",
+                "Crypts of Lieberkuhn",
+                "Brush border"
+            ],
+            correct: 2
+        },
+        {
+            question: "The Crypts of Lieberkuhn in the small intestine:",
+            options: [
+                "Only absorb nutrients",
+                "Only produce hormones",
+                "Secrete bicarbonate-rich fluid and give rise to new epithelial cells",
+                "Are the site of B12 absorption",
+                "Contain pacemaker cells"
+            ],
+            correct: 2
+        },
+        {
+            question: "The bands of longitudinal smooth muscle in the colon are called:",
+            options: [
+                "Rugae",
+                "Plicae circulares",
+                "Haustra",
+                "Teniae coli",
+                "Villi"
+            ],
+            correct: 3
+        },
+        {
+            question: "During the chewing reflex, when food enters the mouth and creates pressure, the jaw muscles:",
+            options: [
+                "Contract more strongly",
+                "Are inhibited, allowing the jaw to drop",
+                "Remain unchanged",
+                "Cause immediate swallowing",
+                "Stimulate salivary secretion only"
+            ],
+            correct: 1
+        },
+        {
+            question: "The intestino-intestinal reflex causes:",
+            options: [
+                "Increased intestinal contractions when the intestine is injured",
+                "Inhibition of intestinal contractions in response to injury or stress",
+                "Increased gastric motility",
+                "Relaxation of the ileocecal sphincter",
+                "Increased colonic motility"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which statement about absorption in the small intestine is correct?",
+            options: [
+                "Absorption occurs along the entire length equally",
+                "Absorption is completed within the first 20% of intestinal length",
+                "Most absorption occurs in the ileum",
+                "No absorption occurs in the duodenum",
+                "The colon absorbs more nutrients than the small intestine"
+            ],
+            correct: 1
+        },
+        {
+            question: "Mass movements in the colon are:",
+            options: [
+                "Rapid, frequent contractions similar to segmentation",
+                "Slow contractions that propel material toward the rectum",
+                "Only triggered by defecation",
+                "Inhibited by the gastrocolic reflex",
+                "Controlled by voluntary muscle"
+            ],
+            correct: 1
+        },
+        {
+            question: "In the esophagus, which portion contains skeletal muscle?",
+            options: [
+                "Lower 2/3 only",
+                "Upper 1/3 only",
+                "Entire length",
+                "Middle 1/3 only",
+                "None - it is all smooth muscle"
+            ],
+            correct: 1
+        },
+        {
+            question: "Parasympathetic stimulation causes saliva that is:",
+            options: [
+                "Thick and viscous",
+                "Protein-rich",
+                "Watery",
+                "Acidic",
+                "Mucus-poor"
+            ],
+            correct: 2
+        },
+        {
+            question: "The colonocolonic reflex causes:",
+            options: [
+                "Increased motility throughout the colon when one area is distended",
+                "Relaxation of other areas of the colon when one area is distended",
+                "Contraction of the ileocecal valve",
+                "Inhibition of defecation",
+                "Increased gastric secretion"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which phase of gastric secretion regulation primarily INHIBITS gastric secretion?",
+            options: [
+                "Cephalic phase",
+                "Gastric phase",
+                "Intestinal phase",
+                "Oral phase",
+                "Esophageal phase"
+            ],
+            correct: 2
+        },
+        {
+            question: "Cephalic phase excitation of gastric motility can be triggered by:",
+            options: [
+                "Pain and fear",
+                "Depression and sadness",
+                "Anger and aggression",
+                "Distension of the duodenum",
+                "Low blood glucose"
+            ],
+            correct: 2
+        },
+        {
+            question: "Bicarbonate is actively secreted (not absorbed) in which part(s) of the GI tract?",
+            options: [
+                "Stomach only",
+                "Jejunum only",
+                "Duodenum only",
+                "Ileum and colon",
+                "Throughout the GI tract"
+            ],
+            correct: 3
         }
     ],
 
@@ -7090,6 +7575,627 @@ const questionBank = {
                 "Hormones and neuropeptides do not alter the function of immune system cells"
             ],
             correct: 0
+        },
+        // NEW CHAPTER 23 QUESTIONS - Lecture Content
+        {
+            question: "Which is NOT a chemical barrier to pathogens?",
+            options: [
+                "Lysozyme in saliva",
+                "HCl in the stomach",
+                "Fatty acids from sebaceous glands",
+                "Ciliated mucosa"
+            ],
+            correct: 3
+        },
+        {
+            question: "Neutrophils, eosinophils, and basophils are derived from which stem cell lineage?",
+            options: [
+                "Lymphoid stem cell",
+                "Myeloid stem cell",
+                "Hematopoietic stem cell directly",
+                "Pluripotent stem cell"
+            ],
+            correct: 1
+        },
+        {
+            question: "B lymphocytes, T lymphocytes, and NK cells are derived from which stem cell lineage?",
+            options: [
+                "Myeloid stem cell",
+                "Lymphoid stem cell",
+                "Granulocyte/monocyte progenitor",
+                "Megakaryocyte"
+            ],
+            correct: 1
+        },
+        {
+            question: "How long do phagocytes typically circulate in the blood before migrating to tissues?",
+            options: [
+                "1-2 hours",
+                "7-10 hours",
+                "24-48 hours",
+                "3-5 days"
+            ],
+            correct: 1
+        },
+        {
+            question: "Lymphocytes account for what percentage of leukocytes in blood?",
+            options: [
+                "1-5%",
+                "5-10%",
+                "20-40%",
+                "60-80%"
+            ],
+            correct: 2
+        },
+        {
+            question: "Lymphocytes account for what percentage of cells in interstitial fluid?",
+            options: [
+                "20-40%",
+                "50-60%",
+                "75-80%",
+                "99%"
+            ],
+            correct: 3
+        },
+        {
+            question: "Most null cells are actually which type of immune cell?",
+            options: [
+                "Memory B cells",
+                "Plasma cells",
+                "Natural killer cells",
+                "Suppressor T cells"
+            ],
+            correct: 2
+        },
+        {
+            question: "Mast cells are primarily found in which locations?",
+            options: [
+                "Blood and bone marrow",
+                "Skin and mucosa",
+                "Liver and spleen",
+                "Thymus and lymph nodes"
+            ],
+            correct: 1
+        },
+        {
+            question: "During inflammation, which cells secrete heparin to prevent initial clot formation so blood cells can access the area?",
+            options: [
+                "Neutrophils and macrophages",
+                "Mast cells and basophils",
+                "Lymphocytes and plasma cells",
+                "Red blood cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "What is the correct order of leukocyte migration from blood to tissue during inflammation?",
+            options: [
+                "Diapedesis → Margination → Attachment → Chemotaxis",
+                "Chemotaxis → Margination → Attachment → Diapedesis",
+                "Margination → Attachment → Diapedesis → Chemotaxis",
+                "Attachment → Chemotaxis → Diapedesis → Margination"
+            ],
+            correct: 2
+        },
+        {
+            question: "The process by which leukocytes squeeze between endothelial cells to exit blood vessels is called:",
+            options: [
+                "Chemotaxis",
+                "Margination",
+                "Diapedesis",
+                "Opsonization"
+            ],
+            correct: 2
+        },
+        {
+            question: "During inflammation, approximately how long after tissue injury do neutrophils arrive?",
+            options: [
+                "Immediately (seconds)",
+                "About 1 hour",
+                "About 10 hours",
+                "About 24 hours"
+            ],
+            correct: 1
+        },
+        {
+            question: "During inflammation, approximately how long after tissue injury do monocytes arrive and become macrophages?",
+            options: [
+                "About 1 hour",
+                "About 10 hours",
+                "About 24 hours",
+                "About 3 days"
+            ],
+            correct: 1
+        },
+        {
+            question: "During an infection, leukocyte numbers in circulation can increase by approximately:",
+            options: [
+                "1.5-2 times",
+                "4-5 times",
+                "10-15 times",
+                "100 times"
+            ],
+            correct: 1
+        },
+        {
+            question: "How long does internalization take during phagocytosis?",
+            options: [
+                "Approximately 0.01 seconds",
+                "Approximately 1 second",
+                "Approximately 1 minute",
+                "Approximately 10 minutes"
+            ],
+            correct: 0
+        },
+        {
+            question: "The correct sequence of phagocytosis steps is:",
+            options: [
+                "Internalization → Attachment → Degradation → Exocytosis",
+                "Attachment → Internalization → Degradation → Exocytosis",
+                "Degradation → Attachment → Internalization → Exocytosis",
+                "Attachment → Degradation → Internalization → Exocytosis"
+            ],
+            correct: 1
+        },
+        {
+            question: "Proteins that tag pathogens for phagocytosis are called:",
+            options: [
+                "Pyrogens",
+                "Chemotaxins",
+                "Opsonins",
+                "Interferons"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which of the following acts as an opsonin?",
+            options: [
+                "IL-1",
+                "Histamine",
+                "C3b (complement protein)",
+                "Interferon-gamma"
+            ],
+            correct: 2
+        },
+        {
+            question: "IL-1, IL-6, and TNF-α from macrophages act as:",
+            options: [
+                "Exogenous pyrogens",
+                "Endogenous pyrogens",
+                "Opsonins",
+                "Chemotaxins"
+            ],
+            correct: 1
+        },
+        {
+            question: "How do endogenous pyrogens (IL-1, IL-6, TNF-α) cause fever?",
+            options: [
+                "They directly heat the blood",
+                "They stimulate the hypothalamus which increases body temperature via prostaglandins",
+                "They cause vasodilation throughout the body",
+                "They increase metabolic rate in muscles"
+            ],
+            correct: 1
+        },
+        {
+            question: "Acute phase proteins are produced by which organ in response to IL-1, IL-6, and TNF-α?",
+            options: [
+                "Spleen",
+                "Thymus",
+                "Liver",
+                "Bone marrow"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which interferons are secreted by virus-infected cells and kill host cells to stop viral spread?",
+            options: [
+                "Interferon-α and Interferon-β",
+                "Interferon-γ only",
+                "All interferons equally",
+                "None - interferons don't kill host cells"
+            ],
+            correct: 0
+        },
+        {
+            question: "Interferon-gamma (IFN-γ) is secreted by which cells?",
+            options: [
+                "Virus-infected epithelial cells",
+                "Macrophages only",
+                "Active T cells and NK cells",
+                "B cells and plasma cells"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which is NOT a function of Interferon-gamma (IFN-γ)?",
+            options: [
+                "Inhibits viral replication",
+                "Enhances phagocytosis by macrophages",
+                "Inhibits cell division (defense against cancer)",
+                "Triggers histamine release from mast cells"
+            ],
+            correct: 3
+        },
+        {
+            question: "How many plasma proteins participate in the complement cascade?",
+            options: [
+                "About 5",
+                "About 10",
+                "About 30",
+                "About 100"
+            ],
+            correct: 2
+        },
+        {
+            question: "The classical complement pathway is activated by:",
+            options: [
+                "Carbohydrates on bacterial cell walls",
+                "Mannose-containing carbohydrates on bacteria",
+                "Antibodies attached to bacteria",
+                "PAMPs on pathogen surfaces"
+            ],
+            correct: 2
+        },
+        {
+            question: "The alternative complement pathway is activated by:",
+            options: [
+                "Antibodies attached to bacteria",
+                "Mannose-containing carbohydrates",
+                "Carbohydrates on bacterial cell walls",
+                "MHC molecules"
+            ],
+            correct: 2
+        },
+        {
+            question: "The lectin complement pathway is activated by:",
+            options: [
+                "Antibodies attached to bacteria",
+                "Mannose-containing carbohydrates on bacteria or viruses",
+                "Foreign MHC molecules",
+                "Viral RNA"
+            ],
+            correct: 1
+        },
+        {
+            question: "What does MAC stand for in the complement system?",
+            options: [
+                "Macrophage Activation Complex",
+                "Membrane Attack Complex",
+                "Mannose-Associated Cascade",
+                "Multiple Antibody Complex"
+            ],
+            correct: 1
+        },
+        {
+            question: "Complement protein C3b functions primarily as:",
+            options: [
+                "A chemotaxin",
+                "An opsonin",
+                "A pyrogen",
+                "Part of the MAC"
+            ],
+            correct: 1
+        },
+        {
+            question: "Complement proteins C3a, C4a, and C5a trigger which cells to release histamine?",
+            options: [
+                "Neutrophils",
+                "Macrophages",
+                "Mast cells",
+                "Lymphocytes"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which are the four features of specific (adaptive) immune response?",
+            options: [
+                "Speed, strength, duration, location",
+                "Specificity, diversity, memory, self-tolerance",
+                "Recognition, activation, elimination, resolution",
+                "Humoral, cellular, mucosal, systemic"
+            ],
+            correct: 1
+        },
+        {
+            question: "How long does the primary immune response typically take after first exposure to an antigen?",
+            options: [
+                "1-3 days",
+                "10-17 days",
+                "4-6 weeks",
+                "2-3 months"
+            ],
+            correct: 1
+        },
+        {
+            question: "How long does the secondary immune response typically take after re-exposure to the same antigen?",
+            options: [
+                "2-7 days",
+                "10-17 days",
+                "4-6 weeks",
+                "Same as primary response"
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the typical lifespan of a plasma cell?",
+            options: [
+                "A few hours",
+                "4-7 days",
+                "Several months",
+                "Years to decades"
+            ],
+            correct: 1
+        },
+        {
+            question: "How many antibodies can a single plasma cell secrete per second?",
+            options: [
+                "About 20",
+                "About 200",
+                "About 2,000",
+                "About 20,000"
+            ],
+            correct: 2
+        },
+        {
+            question: "T-dependent antigens require helper T cells for full B cell activation and produce:",
+            options: [
+                "Plasma cells only, no memory cells",
+                "Both plasma cells and memory cells",
+                "Memory cells only, no plasma cells",
+                "Neither plasma cells nor memory cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "T-independent antigens (like bacterial polysaccharides) produce:",
+            options: [
+                "Both plasma cells and memory cells",
+                "Plasma cells only, weaker response, no memory",
+                "Memory cells only",
+                "Stronger response than T-dependent antigens"
+            ],
+            correct: 1
+        },
+        {
+            question: "Antibody structure includes two heavy chains and two light chains. The variable region determines:",
+            options: [
+                "The antibody class (IgG, IgM, etc.)",
+                "The specificity for a particular antigen",
+                "How long the antibody lasts in circulation",
+                "Which complement pathway is activated"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which antibody classes can activate the complement system?",
+            options: [
+                "IgG and IgM only",
+                "IgA and IgE only",
+                "All five classes",
+                "IgG only"
+            ],
+            correct: 0
+        },
+        {
+            question: "HLA (Human Leukocyte Antigen) molecules are:",
+            options: [
+                "Antibodies found on leukocyte surfaces",
+                "MHC molecules unique to each individual that determine tissue type",
+                "Receptors that recognize bacterial antigens",
+                "Complement proteins on white blood cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which drug is used to prevent organ transplant rejection by inhibiting IL-2?",
+            options: [
+                "Aspirin",
+                "Penicillin",
+                "Cyclosporin A",
+                "Epinephrine"
+            ],
+            correct: 2
+        },
+        {
+            question: "IL-2 secreted by helper T cells has which effect?",
+            options: [
+                "Causes fever",
+                "Stimulates proliferation of T cells, B cells, and enhances NK cell activity",
+                "Triggers histamine release",
+                "Directly kills infected cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "Perforins released by cytotoxic T cells cause:",
+            options: [
+                "Apoptosis (programmed cell death)",
+                "Pore formation in target cell membrane leading to lysis",
+                "Complement activation",
+                "Histamine release"
+            ],
+            correct: 1
+        },
+        {
+            question: "Fragmentins released by cytotoxic T cells cause:",
+            options: [
+                "Pore formation in cell membrane",
+                "Apoptosis (programmed cell death)",
+                "Inflammation",
+                "Complement activation"
+            ],
+            correct: 1
+        },
+        {
+            question: "Anaphylactic shock is characterized by:",
+            options: [
+                "Increased TPR and increased MAP",
+                "Massive histamine release causing vasodilation, decreased TPR, and decreased MAP",
+                "Fever and increased white blood cell count",
+                "Autoimmune destruction of tissues"
+            ],
+            correct: 1
+        },
+        {
+            question: "What is the emergency treatment for anaphylactic shock?",
+            options: [
+                "Antihistamines",
+                "Antibiotics",
+                "Epinephrine (increases CO and TPR)",
+                "Corticosteroids"
+            ],
+            correct: 2
+        },
+        {
+            question: "Type 1 diabetes mellitus is an autoimmune disease in which the immune system attacks:",
+            options: [
+                "Thyroid cells",
+                "Pancreatic beta cells",
+                "Joint tissues",
+                "Myelin sheath"
+            ],
+            correct: 1
+        },
+        {
+            question: "Multiple sclerosis is an autoimmune disease in which the immune system attacks:",
+            options: [
+                "Joint tissues",
+                "Pancreatic cells",
+                "Myelin sheath of neurons",
+                "Red blood cells"
+            ],
+            correct: 2
+        },
+        {
+            question: "SCID (Severe Combined Immunodeficiency) affects:",
+            options: [
+                "Only humoral immunity",
+                "Only cell-mediated immunity",
+                "Both humoral and cell-mediated immunity",
+                "Only innate immunity"
+            ],
+            correct: 2
+        },
+        {
+            question: "Cortisol released during stress affects the immune system by:",
+            options: [
+                "Increasing leukocyte numbers and enhancing inflammation",
+                "Decreasing leukocyte numbers and having anti-inflammatory effects",
+                "Stimulating antibody production",
+                "Activating complement pathways"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which antibody passes from mother to fetus through the placenta?",
+            options: [
+                "IgA",
+                "IgM",
+                "IgG",
+                "IgE"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which antibody is passed to the baby through breast milk?",
+            options: [
+                "IgG",
+                "IgM",
+                "IgA",
+                "IgE"
+            ],
+            correct: 2
+        },
+        {
+            question: "In a bone marrow transplant, 'graft versus host reaction' occurs when:",
+            options: [
+                "The recipient's immune system attacks the donated marrow",
+                "The donated marrow's immune cells attack the recipient",
+                "The transplanted marrow fails to produce blood cells",
+                "Infection develops at the surgical site"
+            ],
+            correct: 1
+        },
+        {
+            question: "Some cancers and viruses can protect themselves from the immune system by:",
+            options: [
+                "Increasing their production of MHC class I molecules",
+                "Inhibiting production of MHC class I molecules",
+                "Producing more antigens",
+                "Stimulating T cell proliferation"
+            ],
+            correct: 1
+        },
+        {
+            question: "Central lymphoid tissue includes:",
+            options: [
+                "Spleen and lymph nodes",
+                "Bone marrow and thymus",
+                "Tonsils and Peyer's patches",
+                "GALT and appendix"
+            ],
+            correct: 1
+        },
+        {
+            question: "Peripheral lymphoid tissue includes all of the following EXCEPT:",
+            options: [
+                "Spleen",
+                "Lymph nodes",
+                "Thymus",
+                "Peyer's patches"
+            ],
+            correct: 2
+        },
+        {
+            question: "Tonsils and adenoids primarily trap:",
+            options: [
+                "Ingested particles",
+                "Inhaled particles",
+                "Blood-borne pathogens",
+                "Toxins from the liver"
+            ],
+            correct: 1
+        },
+        {
+            question: "Appendix and Peyer's patches primarily trap:",
+            options: [
+                "Inhaled particles",
+                "Ingested particles",
+                "Blood-borne pathogens",
+                "Airborne allergens"
+            ],
+            correct: 1
+        },
+        {
+            question: "Viruses are characterized by all of the following EXCEPT:",
+            options: [
+                "Size range of 20-400 nm",
+                "Require host cells to reproduce",
+                "Can double in number hourly",
+                "Have their own metabolic machinery"
+            ],
+            correct: 3
+        },
+        {
+            question: "Bacteria colonize tissues using proteins called:",
+            options: [
+                "Opsonins",
+                "Adhesins",
+                "Pyrogens",
+                "Interferons"
+            ],
+            correct: 1
+        },
+        {
+            question: "Self-tolerance is maintained because lymphocytes that recognize self-antigens are:",
+            options: [
+                "Activated to become regulatory T cells",
+                "Destroyed by apoptosis during development",
+                "Stored in the thymus for later use",
+                "Converted to memory cells"
+            ],
+            correct: 1
         }
     ]
 };
