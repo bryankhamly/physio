@@ -4944,5 +4944,2152 @@ const questionBank = {
             ],
             correct: 2
         }
+    ],
+
+    // CHAPTER 20: The Gastrointestinal System
+    20: [
+        {
+            question: "Digestion refers to the",
+            options: [
+                "input of food into the digestive tract",
+                "release of substances into the lumen of the gut",
+                "breakdown of food into particles small enough to cross epithelial cells",
+                "absorption of nutrients in the gut",
+                "progressive dehydration of indigestible residue"
+            ],
+            correct: 2
+        },
+        {
+            question: "Secretion refers to the",
+            options: [
+                "progressive dehydration of indigestible residue",
+                "breakdown of food into particles small enough to cross epithelial cells",
+                "release of substances into the lumen of the gut",
+                "absorption of nutrients in the gut",
+                "input of food into the digestive tract"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which are most closely regulated by the body?",
+            options: [
+                "motility, secretion, and digestion",
+                "digestion and motility",
+                "secretion and digestion",
+                "absorption and motility",
+                "motility and secretion"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which is an accessory organ of digestion?",
+            options: [
+                "esophagus",
+                "colon",
+                "pancreas",
+                "stomach",
+                "spleen"
+            ],
+            correct: 2
+        },
+        {
+            question: "The ________ is a significant site of absorption of water and electrolytes, but NOT of nutrients.",
+            options: [
+                "mouth",
+                "small intestine",
+                "stomach",
+                "large intestine",
+                "None of the answers are correct"
+            ],
+            correct: 3
+        },
+        {
+            question: "Which is the sequence of layers from the lumen to the outer wall of the digestive tract?",
+            options: [
+                "serosa, submucosa, mucosa, muscularis externa",
+                "submucosa, mucosa, serosa, muscularis externa",
+                "mucosa, submucosa, muscularis externa, serosa",
+                "submucosa, muscularis externa, serosa, mucosa",
+                "mucosa, submucosa, serosa, muscularis externa"
+            ],
+            correct: 2
+        },
+        {
+            question: "The lamina propria and mucous epithelium are parts of the",
+            options: [
+                "serosa",
+                "submucosa",
+                "mucosa",
+                "muscularis mucosa",
+                "adventitia"
+            ],
+            correct: 2
+        },
+        {
+            question: "The layer of connective tissue between the digestive epithelium and a layer of smooth muscle is the",
+            options: [
+                "submucosa",
+                "lamina propria",
+                "myenteric plexus",
+                "muscularis mucosae",
+                "submucosal plexus"
+            ],
+            correct: 1
+        },
+        {
+            question: "Contraction of the ________ alters the surface area by moving villi.",
+            options: [
+                "submucosal plexus",
+                "adventitia",
+                "submucosa",
+                "muscularis mucosae",
+                "mucosa"
+            ],
+            correct: 3
+        },
+        {
+            question: "Rugae, plicae, and villi are all structures that",
+            options: [
+                "increase surface area",
+                "secrete hormones",
+                "provide mechanical digestion",
+                "secrete enzymes",
+                "provide immunity"
+            ],
+            correct: 0
+        },
+        {
+            question: "The motor activity of the muscularis externa is controlled by the",
+            options: [
+                "motilin",
+                "extrinsic neurons",
+                "submucosal plexus",
+                "migrating motor complex",
+                "myenteric plexus"
+            ],
+            correct: 4
+        },
+        {
+            question: "Intestinal crypts",
+            options: [
+                "only produce new cells for the mucosa of the small intestine",
+                "only increase the surface area of the mucosa of the small intestine",
+                "only function in the absorption of nutrients",
+                "increase the surface area of the mucosa of the small intestine and produce new cells for the mucosa of the small intestine",
+                "only carry products of digestion that will not pass through the walls of blood capillaries"
+            ],
+            correct: 3
+        },
+        {
+            question: "Chief cells secrete",
+            options: [
+                "mucus",
+                "pepsinogen",
+                "gastrin",
+                "intrinsic factor",
+                "hydrochloric acid"
+            ],
+            correct: 1
+        },
+        {
+            question: "G cells of the stomach secrete",
+            options: [
+                "pepsin",
+                "enterokinase",
+                "secretin",
+                "cholecystokinin",
+                "gastrin"
+            ],
+            correct: 4
+        },
+        {
+            question: "In the intestine, the epithelial cells have",
+            options: [
+                "electrical gap junctions",
+                "tight junctions",
+                "leaky junctions"
+            ],
+            correct: 1
+        },
+        {
+            question: "The subepithelial connective tissue of the GI tract, immediately beneath the epithelium, is the",
+            options: [
+                "muscularis mucosae",
+                "submucosa",
+                "submucosal plexus",
+                "serosa",
+                "lamina propria"
+            ],
+            correct: 4
+        },
+        {
+            question: "Between the layer of circular and longitudinal muscle in the muscularis externa is the",
+            options: [
+                "muscularis mucosa",
+                "submucosa",
+                "submucosal plexus",
+                "mucosa",
+                "myenteric plexus"
+            ],
+            correct: 4
+        },
+        {
+            question: "The myenteric plexus is",
+            options: [
+                "primarily composed of connective tissue",
+                "a network of nerves",
+                "a layer of longitudinal smooth muscle",
+                "a layer of circular smooth muscle",
+                "the mucus secreting layer of the digestive tract"
+            ],
+            correct: 1
+        },
+        {
+            question: "Peyer's patches are found in the",
+            options: [
+                "stomach",
+                "pancreas",
+                "esophagus",
+                "intestine",
+                "colon"
+            ],
+            correct: 3
+        },
+        {
+            question: "Features of the submucosa include",
+            options: [
+                "blood vessels, lymph vessels, and a major nerve network",
+                "a major nerve network",
+                "blood and lymph vessels",
+                "Peyer's patches",
+                "blood vessels, lymph vessels, a major nerve network, and Peyer's patches"
+            ],
+            correct: 4
+        },
+        {
+            question: "The ________ are sheets of peritoneal membrane that hold some of the intestines in their place.",
+            options: [
+                "adventitia",
+                "serosa",
+                "lamina propria",
+                "fibrosa",
+                "mesenteries"
+            ],
+            correct: 4
+        },
+        {
+            question: "Slow waves are",
+            options: [
+                "segmental contractions",
+                "reflexes that originate and are integrated in the enteric nervous system",
+                "cycles of smooth muscle contraction and relaxation",
+                "peristaltic contractions",
+                "cycles of depolarization and repolarization"
+            ],
+            correct: 4
+        },
+        {
+            question: "________ are pacemakers for slow wave activity.",
+            options: [
+                "Interstitial cells of Cajal",
+                "G cells",
+                "Intrinsic neuron cells",
+                "Extrinsic neuron cells",
+                "Chief cells"
+            ],
+            correct: 0
+        },
+        {
+            question: "Powerful contractions that occur a few times each day in the colon are called",
+            options: [
+                "mass movements",
+                "tonic contractions",
+                "segmentation",
+                "phasic contractions",
+                "peristalsis"
+            ],
+            correct: 0
+        },
+        {
+            question: "The swallowing center in the brain, which coordinates the muscular reflexes, is located in the",
+            options: [
+                "medulla oblongata",
+                "hypothalamus",
+                "pons",
+                "cerebrum",
+                "cerebellum"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which does NOT occur when you swallow?",
+            options: [
+                "The lower esophageal sphincter relaxes",
+                "Respiration is inhibited",
+                "The upper esophageal sphincter closes",
+                "The epiglottis closes"
+            ],
+            correct: 2
+        },
+        {
+            question: "Mucus functions in",
+            options: [
+                "lubrication only",
+                "protection, lubrication, and enzyme activation",
+                "protection only",
+                "enzyme activation only",
+                "protection and lubrication"
+            ],
+            correct: 4
+        },
+        {
+            question: "In the digestive system, HCl is released by ________, whereas HCO3- is secreted primarily from the ________.",
+            options: [
+                "the pancreas; parietal cells of the stomach",
+                "parietal cells of the stomach; pancreas",
+                "the liver; parietal cells of the stomach",
+                "parietal cells of the stomach; liver"
+            ],
+            correct: 1
+        },
+        {
+            question: "Nutrient absorption occurs primarily in the",
+            options: [
+                "large intestine",
+                "stomach",
+                "liver",
+                "small intestine",
+                "stomach and small intestine"
+            ],
+            correct: 3
+        },
+        {
+            question: "Amylases, the enzymes used to digest carbohydrates, are secreted by",
+            options: [
+                "the pancreas into the intestine only",
+                "salivary glands into the mouth and the pancreas into the intestine",
+                "salivary glands into the mouth and gastric glands into the stomach",
+                "gastric glands into the stomach only",
+                "salivary glands into the mouth only"
+            ],
+            correct: 1
+        },
+        {
+            question: "Nearly 90% of our dietary calories from fat are in the form of",
+            options: [
+                "steroids",
+                "triglycerides",
+                "cholesterol",
+                "fat-soluble vitamins",
+                "phospholipids"
+            ],
+            correct: 1
+        },
+        {
+            question: "Bile is",
+            options: [
+                "made by the gallbladder only",
+                "secreted by hepatocytes, made by the gallbladder, and released into the stomach",
+                "released into the stomach only",
+                "secreted by hepatocytes and made by the gallbladder",
+                "secreted by hepatocytes only"
+            ],
+            correct: 3
+        },
+        {
+            question: "Functions of the large intestine include",
+            options: [
+                "absorption of most products of digestion",
+                "temporary food storage",
+                "absorption of water and production of feces",
+                "chemical digestion of chyme",
+                "All of these answers are correct"
+            ],
+            correct: 2
+        },
+        {
+            question: "The release of many GI tract hormones is stimulated by a particular food or substance. Which hormone is NOT paired with its stimulus?",
+            options: [
+                "CCK - fatty foods",
+                "GIP - glucose in the small intestine",
+                "gastrin - peptides and amino acids",
+                "motilin - acid in the stomach",
+                "secretin - acid in the small intestine"
+            ],
+            correct: 3
+        },
+        {
+            question: "During the cephalic phase of gastric secretion,",
+            options: [
+                "production of gastric juice is inhibited",
+                "there are increased action potentials along the vagus nerve to the stomach",
+                "secretin inhibits parietal and chief cells",
+                "the intestine reflexively inhibits gastric emptying",
+                "the stomach responds to distention"
+            ],
+            correct: 1
+        },
+        {
+            question: "The gastric phase of gastric secretion is triggered by the",
+            options: [
+                "entry of food into the stomach",
+                "entry of chyme into the large intestine",
+                "entry of chyme into the small intestine",
+                "release of cholecystokinin and secretin by the small intestine",
+                "sight, thought, or smell of food"
+            ],
+            correct: 0
+        },
+        {
+            question: "An enzyme that will digest proteins into amino acids is",
+            options: [
+                "maltase",
+                "amylase",
+                "nuclease",
+                "lipase",
+                "carboxypeptidase"
+            ],
+            correct: 4
+        },
+        {
+            question: "Most products of fat digestion are absorbed by",
+            options: [
+                "lymphatic lacteals",
+                "capillaries",
+                "arterioles",
+                "veins"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which is true about GI muscle contractions?",
+            options: [
+                "Tonic contractions are sustained for minutes and occur in the small intestine",
+                "Contractions of the smooth muscle do not depend on calcium",
+                "Phasic contractions last only seconds and occur in the stomach and small intestine",
+                "Cycles of smooth muscle contraction and relaxation are associated with fast wave potentials",
+                "None of these statements are true"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which statement is true about glucose absorption?",
+            options: [
+                "Fructose moves across the apical membrane by active transport",
+                "Glucose and galactose use different transporters in absorption",
+                "Glucose and galactose absorption uses an apical Na+-glucose SGLT symporter",
+                "A basolateral GLUT5 transporter moves glucose out of the intestinal epithelial cell",
+                "None of the statements are true"
+            ],
+            correct: 2
+        },
+        {
+            question: "Bicarbonate secretion",
+            options: [
+                "neutralizes acid entering from the stomach into the duodenum and is secreted by apical Cl--HCO3- exchanger",
+                "neutralizes acid entering from the stomach into the duodenum",
+                "is not dependent on high levels of carbonic anhydrase to maintain bicarbonate production",
+                "is secreted by apical Cl--HCO3- exchanger",
+                "is secreted by the acinar cells"
+            ],
+            correct: 0
+        },
+        {
+            question: "Saliva secretion is primarily a result of",
+            options: [
+                "increased sympathetic stimulation",
+                "increased somatic motor stimulation",
+                "increased parasympathetic stimulation",
+                "decreased somatic motor stimulation",
+                "decreased parasympathetic stimulation"
+            ],
+            correct: 2
+        },
+        {
+            question: "Where is the location of most peptic ulcers?",
+            options: [
+                "duodenum",
+                "colon",
+                "ileum",
+                "appendix"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which section is where chyme is processed to remove water and electrolytes, leaving waste products of digestion?",
+            options: [
+                "duodenum",
+                "colon",
+                "ileum",
+                "appendix"
+            ],
+            correct: 1
+        },
+        {
+            question: "The appendix is located at the ventral end of the",
+            options: [
+                "duodenum",
+                "colon",
+                "cecum",
+                "ileum"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which is the distal-most section of the small intestine?",
+            options: [
+                "duodenum",
+                "colon",
+                "ileum",
+                "appendix"
+            ],
+            correct: 2
+        },
+        {
+            question: "Chyme is released from the stomach through the",
+            options: [
+                "pylorus",
+                "small intestine",
+                "stomach",
+                "pancreas"
+            ],
+            correct: 0
+        },
+        {
+            question: "The organ that adds secretions to the duodenum through a duct is the",
+            options: [
+                "pylorus",
+                "small intestine",
+                "stomach",
+                "pancreas"
+            ],
+            correct: 3
+        },
+        {
+            question: "A location of a smooth muscle band that prevents premature emptying of the stomach is the",
+            options: [
+                "pylorus",
+                "small intestine",
+                "stomach",
+                "pancreas"
+            ],
+            correct: 0
+        },
+        {
+            question: "Where does most digestion occur?",
+            options: [
+                "pylorus",
+                "small intestine",
+                "stomach",
+                "pancreas"
+            ],
+            correct: 1
+        },
+        {
+            question: "Carbohydrate digestion begins in the",
+            options: [
+                "stomach",
+                "small intestine",
+                "mouth"
+            ],
+            correct: 2
+        },
+        {
+            question: "Carbohydrate digestion by human enzymes is completed in the",
+            options: [
+                "stomach",
+                "small intestine",
+                "mouth"
+            ],
+            correct: 1
+        },
+        {
+            question: "Protein digestion begins in the",
+            options: [
+                "stomach",
+                "small intestine",
+                "mouth"
+            ],
+            correct: 0
+        },
+        {
+            question: "Protein digestion is completed in the",
+            options: [
+                "stomach",
+                "small intestine",
+                "mouth"
+            ],
+            correct: 1
+        },
+        {
+            question: "Fat digestion begins in the",
+            options: [
+                "stomach",
+                "small intestine",
+                "mouth"
+            ],
+            correct: 1
+        },
+        {
+            question: "Fat digestion by human enzymes is completed in the",
+            options: [
+                "stomach",
+                "small intestine",
+                "mouth"
+            ],
+            correct: 1
+        },
+        {
+            question: "Parietal cells secrete",
+            options: [
+                "enzymes",
+                "more than one of these",
+                "HCl",
+                "mucus"
+            ],
+            correct: 2
+        },
+        {
+            question: "Goblet cells secrete",
+            options: [
+                "enzymes",
+                "more than one of these",
+                "HCl",
+                "mucus"
+            ],
+            correct: 3
+        },
+        {
+            question: "The brush border produces",
+            options: [
+                "enzymes",
+                "more than one of these",
+                "HCl",
+                "mucus"
+            ],
+            correct: 0
+        },
+        {
+            question: "Pancreatic cells secrete",
+            options: [
+                "enzymes",
+                "more than one of these",
+                "HCl",
+                "mucus"
+            ],
+            correct: 0
+        },
+        {
+            question: "The largest collection of ________ tissue in the body is the gut-associated lymphoid tissue (GALT).",
+            options: [
+                "lymphoid",
+                "nervous",
+                "epithelial",
+                "muscle"
+            ],
+            correct: 0
+        },
+        {
+            question: "Digestion is almost completely finished in the",
+            options: [
+                "small intestine",
+                "large intestine",
+                "stomach",
+                "anus"
+            ],
+            correct: 0
+        },
+        {
+            question: "The three sections of the small intestine, in order according to movement of its contents, are",
+            options: [
+                "jejunum, ileum, colon",
+                "duodenum, ileum, jejunum",
+                "jejunum colon, ileum",
+                "duodenum, jejunum, ileum"
+            ],
+            correct: 3
+        },
+        {
+            question: "Most absorbed nutrients first enter the blood of the ________ system.",
+            options: [
+                "lymphatic",
+                "immune",
+                "hepatic portal",
+                "arterial"
+            ],
+            correct: 2
+        },
+        {
+            question: "The primary complex carbohydrate ingested and digested by people is",
+            options: [
+                "starch",
+                "cellulose",
+                "fiber",
+                "glycogen"
+            ],
+            correct: 0
+        },
+        {
+            question: "After processing in the stomach, the gastric contents are referred to as",
+            options: [
+                "food",
+                "chyme",
+                "feces",
+                "filtrate"
+            ],
+            correct: 1
+        },
+        {
+            question: "Bile salts aid in the digestion of fats by ________ large fat droplets.",
+            options: [
+                "generating",
+                "digesting fats within",
+                "emulsifying",
+                "absorbing"
+            ],
+            correct: 2
+        },
+        {
+            question: "________ is intestinal gas produced by bacteria in the colon during the metabolism of indigestible carbohydrates.",
+            options: [
+                "Defecation",
+                "Haustra",
+                "Flatus",
+                "Tenia Coli"
+            ],
+            correct: 2
+        },
+        {
+            question: "The enzyme that digests starch into disaccharides is",
+            options: [
+                "maltase",
+                "sucrose",
+                "amylase",
+                "lactase"
+            ],
+            correct: 2
+        },
+        {
+            question: "Maltose is broken down by maltase into two molecules of",
+            options: [
+                "glucose",
+                "galactose",
+                "amylase",
+                "starch"
+            ],
+            correct: 0
+        },
+        {
+            question: "________ are tiny droplets of fatty acids, cholesterol, phospholipids, mono- and diglycerides, and bile salts.",
+            options: [
+                "Micelles",
+                "Lacteals",
+                "Enterocyte membranes",
+                "Chylomicrons"
+            ],
+            correct: 0
+        },
+        {
+            question: "Slow waves originate in modified smooth muscle cells called",
+            options: [
+                "mucous cells",
+                "goblet cells",
+                "smooth muscle sphincters",
+                "interstitial cells of Cajal"
+            ],
+            correct: 3
+        },
+        {
+            question: "The ________ is a 'housekeeping function' that sweeps food remnants and bacteria out of the upper GI tract and into the large intestine.",
+            options: [
+                "slow wave",
+                "segmental contraction",
+                "migrating motor complex",
+                "peristaltic contraction"
+            ],
+            correct: 2
+        },
+        {
+            question: "________ involve short segments of intestine that alternately contract and relax. They are responsible for ________.",
+            options: [
+                "Peristaltic contractions; mixing",
+                "Segmental contractions; mixing",
+                "Segmental contractions; pushing a bolus forward",
+                "Peristaltic contractions; pushing a bolus forward"
+            ],
+            correct: 1
+        },
+        {
+            question: "The exocrine portion of the pancreas consists of lobules called ________, which secrete ________.",
+            options: [
+                "islets; hormones",
+                "islets; digestive enzymes",
+                "acini; digestive enzymes",
+                "acini; hormones"
+            ],
+            correct: 2
+        },
+        {
+            question: "________ digest terminal peptide bonds to release amino acids.",
+            options: [
+                "Proteases",
+                "Lipases",
+                "Endopeptidases",
+                "Exopeptidases"
+            ],
+            correct: 3
+        },
+        {
+            question: "Bile is secreted from the ________ and stored in the ________.",
+            options: [
+                "liver; gallbladder",
+                "hepatocytes; pancreas",
+                "pancreas; hepatocytes",
+                "gallbladder; liver"
+            ],
+            correct: 0
+        },
+        {
+            question: "Digestive reflexes integrated in the CNS are called ________ reflexes.",
+            options: [
+                "long",
+                "deglutition",
+                "short",
+                "defecation"
+            ],
+            correct: 0
+        },
+        {
+            question: "Long reflexes that originate outside the digestive system include ________ reflexes and ________ reflexes, which are called ________ reflexes.",
+            options: [
+                "feedforward; emotional; short",
+                "submucosal plexus; myenteric plexus; short",
+                "submucosal plexus; myenteric plexus; cephalic",
+                "feedforward; emotional; cephalic"
+            ],
+            correct: 3
+        },
+        {
+            question: "Short reflexes of the digestive system are integrated in the ________ nervous system.",
+            options: [
+                "parasympathetic",
+                "enteric",
+                "central",
+                "peripheral"
+            ],
+            correct: 1
+        },
+        {
+            question: "The primary products of protein digestion are ________, ________, and ________.",
+            options: [
+                "polysaccharides; disaccharides; monosaccharides",
+                "nucleic acid polymers; DNA; RNA",
+                "free amino acids; dipeptides; tripeptides",
+                "triglycerides; fatty acids; glycerol"
+            ],
+            correct: 2
+        },
+        {
+            question: "Enzymatic digestion of fats involves ________, which breaks down ________.",
+            options: [
+                "bile; cholesterol",
+                "pepsin; proteins",
+                "lipase; triglycerides",
+                "amylase; carbohydrates"
+            ],
+            correct: 2
+        },
+        {
+            question: "________ is a protein cofactor secreted by the pancreas that allows lipases access to fats inside the bile salt coating.",
+            options: [
+                "Lipase",
+                "Phospholipase",
+                "Colipase",
+                "Monoglyceride"
+            ],
+            correct: 2
+        },
+        {
+            question: "Vitamin ________ must be complexed with a protein called ________ to be absorbed from the small intestine.",
+            options: [
+                "K; hydrogen sulfide",
+                "B12; intrinsic factor",
+                "A; Olestra",
+                "D; somatomedins"
+            ],
+            correct: 1
+        },
+        {
+            question: "Put the following steps of fat digestion and absorption in order: 1. Bile salts coat fat droplets. 2. Cholesterol is transported into cells. 3. Chylomicrons are formed. 4. Chylomicrons are removed by lymphatic system. 5. Monoglycerides and fatty acids move out of micelles. 6. Pancreatic lipase and colipase break down fats.",
+            options: [
+                "2, 6, 5, 1, 3, 4",
+                "1, 6, 5, 2, 3, 4",
+                "1, 2, 3, 4, 6, 5",
+                "6, 3, 4, 1, 2, 5",
+                "None of the answers are correct"
+            ],
+            correct: 1
+        },
+        {
+            question: "During defecation,",
+            options: [
+                "the external anal sphincter contracts",
+                "the internal anal sphincter contracts",
+                "distension in the rectal wall activates a spinal reflex",
+                "the internal anal sphincter is consciously relaxed",
+                "distension in the rectal wall activates a short reflex"
+            ],
+            correct: 2
+        },
+        {
+            question: "Decreased levels of bile salts in the bile would interfere with digestion of",
+            options: [
+                "protein",
+                "nucleic acids",
+                "fat",
+                "carbohydrates",
+                "vitamins and minerals"
+            ],
+            correct: 2
+        },
+        {
+            question: "In response to the acid in the duodenum, the blood levels of",
+            options: [
+                "gastrin increase",
+                "secretin increase",
+                "cholecystokinin decrease",
+                "enterocrinin decrease",
+                "All of these answers are correct"
+            ],
+            correct: 1
+        },
+        {
+            question: "A blockage of the ducts from the parotid glands would",
+            options: [
+                "result in the production of less viscous saliva",
+                "decrease carbohydrate digestion in the mouth",
+                "decrease the lubricating properties of saliva",
+                "decrease the sense of taste",
+                "cause all of these effects"
+            ],
+            correct: 1
+        },
+        {
+            question: "In response to the hormone secretin, the pancreas secretes a fluid that contains",
+            options: [
+                "only amylase",
+                "bile",
+                "only proteases",
+                "bicarbonate",
+                "enzymes"
+            ],
+            correct: 3
+        },
+        {
+            question: "In response to the hormone cholecystokinin (CCK), the pancreas secretes a fluid that contains",
+            options: [
+                "only proteases",
+                "bicarbonate",
+                "only amylase",
+                "bile",
+                "enzymes"
+            ],
+            correct: 4
+        },
+        {
+            question: "Digestion of an unlabeled carbohydrate results in increased amounts of the monosaccharides glucose and galactose. Which is most likely to be the original, unlabeled carbohydrate?",
+            options: [
+                "sucrose",
+                "glycogen",
+                "maltose",
+                "lactose",
+                "cellulose"
+            ],
+            correct: 3
+        },
+        {
+            question: "Diarrhea often results from intestinal infections. Why?",
+            options: [
+                "Dehydration of the body will kill the bacteria causing the infection",
+                "Loss of electrolytes will kill bacteria",
+                "Bacterial toxins enhance the secretion of Cl- and water",
+                "The immune system increases the production of enzymes for added protection"
+            ],
+            correct: 2
+        },
+        {
+            question: "A drug that blocks the action of carbonic anhydrase in parietal cells would result in",
+            options: [
+                "increased protein digestion in the stomach",
+                "decreased production of pepsinogen by chief cells",
+                "decreased gastrin production",
+                "a lower pH during gastric digestion",
+                "a higher pH during gastric digestion"
+            ],
+            correct: 4
+        },
+        {
+            question: "A drug that blocks the action of the hormone cholecystokinin would affect",
+            options: [
+                "the amount of bile produced by the liver",
+                "the level of intestinal gastrin",
+                "pancreatic secretions",
+                "secretions of the duodenal glands",
+                "All of the answers are correct"
+            ],
+            correct: 4
+        },
+        {
+            question: "Gastrin is secreted by cells in the stomach.",
+            options: [
+                "True - gastrin is released by G cells in the stomach",
+                "False - gastrin is only released by the small intestine",
+                "True - gastrin is released by parietal cells",
+                "False - gastrin is released by the pancreas"
+            ],
+            correct: 0
+        },
+        {
+            question: "Motilin inhibits gastric emptying.",
+            options: [
+                "True - motilin slows gastric emptying",
+                "False - GIP (gastric inhibitory peptide) inhibits gastric emptying, not motilin",
+                "True - motilin stimulates the pyloric sphincter to close",
+                "False - motilin stimulates the migrating motor complex"
+            ],
+            correct: 1
+        },
+        {
+            question: "Cholecystokinin stimulates bile release.",
+            options: [
+                "True - CCK causes gallbladder contraction and bile release",
+                "False - secretin stimulates bile release",
+                "True - CCK is released by hepatocytes",
+                "False - CCK only affects the pancreas"
+            ],
+            correct: 0
+        },
+        {
+            question: "GIP (glucose-dependent insulinotropic peptide) stimulates insulin release.",
+            options: [
+                "True - GIP stimulates insulin secretion from pancreatic beta cells",
+                "False - GIP only inhibits gastric acid secretion",
+                "True - GIP is released by the pancreas",
+                "False - secretin stimulates insulin release"
+            ],
+            correct: 0
+        },
+        {
+            question: "Cholecystokinin targets the smooth muscle of intestines.",
+            options: [
+                "True - CCK causes intestinal smooth muscle contraction",
+                "False - CCK targets the gallbladder and pancreas, not intestinal smooth muscle",
+                "True - CCK stimulates peristalsis",
+                "False - only motilin affects intestinal smooth muscle"
+            ],
+            correct: 0
+        },
+        {
+            question: "The apical transporter for iron absorption is",
+            options: [
+                "ezetimibe",
+                "DMT1",
+                "hepcidin",
+                "NPC1L1",
+                "ferroportin"
+            ],
+            correct: 1
+        },
+        {
+            question: "The basolateral transporter for ionized iron is",
+            options: [
+                "ezetimibe",
+                "DMT1",
+                "hepcidin",
+                "NPC1L1",
+                "ferroportin"
+            ],
+            correct: 4
+        },
+        {
+            question: "The hormone that decreases iron absorption is",
+            options: [
+                "ezetimibe",
+                "DMT1",
+                "hepcidin",
+                "NPC1L1",
+                "ferroportin"
+            ],
+            correct: 2
+        },
+        {
+            question: "The drug ezetimibe blocks cholesterol absorption by targeting",
+            options: [
+                "DMT1",
+                "hepcidin",
+                "NPC1L1",
+                "ferroportin"
+            ],
+            correct: 2
+        },
+        {
+            question: "The transporter for cholesterol absorption is",
+            options: [
+                "ezetimibe",
+                "DMT1",
+                "hepcidin",
+                "NPC1L1",
+                "ferroportin"
+            ],
+            correct: 3
+        },
+        {
+            question: "In the body, 80% of all lymphocytes, a type of immune system cell, are thought to be present in the",
+            options: [
+                "mouth",
+                "large intestine",
+                "stomach",
+                "small intestine",
+                "appendix"
+            ],
+            correct: 3
+        },
+        {
+            question: "Feedforward reflexes are also ________ reflexes.",
+            options: [
+                "cephalic",
+                "short",
+                "emotional",
+                "medium"
+            ],
+            correct: 0
+        },
+        {
+            question: "A possible treatment for Salmonella infection could involve",
+            options: [
+                "activating cytokine receptors",
+                "increasing macrophages",
+                "increasing lymphocytes",
+                "blocking M cell receptors"
+            ],
+            correct: 3
+        },
+        {
+            question: "Vomiting and diarrhea are similar since both",
+            options: [
+                "are used to prepare patients for surgery",
+                "work to rid the body of damaging agents",
+                "are stimulated by the CNS",
+                "use normal GI motility to move substances"
+            ],
+            correct: 1
+        }
+    ],
+
+    // CHAPTER 23: The Immune System
+    23: [
+        {
+            question: "Which is NOT a pathogen?",
+            options: [
+                "Athlete's foot fungus",
+                "Meningococcus bacterium",
+                "Cancer",
+                "Chicken pox virus",
+                "Hookworm parasite"
+            ],
+            correct: 2
+        },
+        {
+            question: "Autoimmune diseases are an example of a(n) ________ response by the immune system.",
+            options: [
+                "Overactive",
+                "Lack of",
+                "Correct",
+                "Incorrect"
+            ],
+            correct: 3
+        },
+        {
+            question: "When the immune system creates a response that is out of proportion to the threat it has been exposed to, the response is called an",
+            options: [
+                "Autoimmune response",
+                "Allergy or hypersensitivity reaction",
+                "Immunodeficiency"
+            ],
+            correct: 1
+        },
+        {
+            question: "Antibiotics are drugs that destroy or inhibit the growth of",
+            options: [
+                "Viruses",
+                "Bacteria",
+                "Viruses and bacteria",
+                "Multicellular pathogens such as hookworms"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which statement about viruses is correct?",
+            options: [
+                "They easily survive in the environment outside the body",
+                "They must reproduce inside host cells and are parasitic",
+                "They are killed by antibiotics",
+                "They can survive indefinitely without a host"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which is NOT matched correctly?",
+            options: [
+                "Active immunity - an immune response started and developed by the cells",
+                "Adaptive immunity - responses directed toward specific invaders",
+                "Innate immunity - nonspecific responses",
+                "Active adaptive immunity - immunity passed through the placenta or milk to offspring"
+            ],
+            correct: 3
+        },
+        {
+            question: "Lymphoid tissues include",
+            options: [
+                "Lymph nodes only",
+                "Spleen only",
+                "Thymus only",
+                "Bone marrow only",
+                "All of the above (lymph nodes, spleen, bone marrow, thymus)"
+            ],
+            correct: 4
+        },
+        {
+            question: "The largest lymphoid organ(s) is/are the",
+            options: [
+                "GALT (gut-associated lymphoid tissue)",
+                "Thymus",
+                "Lymph nodes",
+                "Tonsils",
+                "Spleen"
+            ],
+            correct: 0
+        },
+        {
+            question: "Diffuse lymphoid tissue includes",
+            options: [
+                "GALT only",
+                "Tonsils only",
+                "The spleen",
+                "Tonsils and GALT"
+            ],
+            correct: 3
+        },
+        {
+            question: "Swelling and soreness of the lymph nodes indicate that",
+            options: [
+                "Immune cells are fighting infection",
+                "Dangerous cancerous changes are occurring",
+                "The immune system is incapable of working",
+                "Too much exercise has been undertaken"
+            ],
+            correct: 0
+        },
+        {
+            question: "________ are clusters of lymphatic nodules located beneath the epithelial lining of the small intestine.",
+            options: [
+                "Lymph nodes",
+                "Tonsils",
+                "Peyer's patches",
+                "Adenoids",
+                "Immune complexes"
+            ],
+            correct: 2
+        },
+        {
+            question: "Cells of the mononuclear phagocyte system include",
+            options: [
+                "Macrophages and monocytes only",
+                "Lymphocytes and plasma cells",
+                "Neutrophils and eosinophils only",
+                "Macrophages, monocytes, neutrophils, eosinophils, lymphocytes and plasma cells"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which cell is NOT correctly matched with the characteristic?",
+            options: [
+                "Eosinophils - numbers increase with allergies and parasites",
+                "Eosinophils - cytotoxic cells may live only 6-12 hours",
+                "Neutrophils - most abundant white cell",
+                "Basophils - have granules"
+            ],
+            correct: 1
+        },
+        {
+            question: "________ are the precursor cells of macrophages.",
+            options: [
+                "Eosinophils",
+                "Basophils",
+                "Monocytes",
+                "Lymphocytes",
+                "Neutrophils"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which are NOT antigen-presenting cells (APCs)?",
+            options: [
+                "Dendritic cells",
+                "Neutrophils",
+                "Monocytes",
+                "Macrophages"
+            ],
+            correct: 1
+        },
+        {
+            question: "Leukocytes recognize molecules that are unique to pathogens; thus, the molecules are",
+            options: [
+                "Antigens",
+                "Pathogen-associated molecular patterns",
+                "Pattern recognition receptors",
+                "Toll-like receptors",
+                "Phagosomes"
+            ],
+            correct: 1
+        },
+        {
+            question: "Chemical signals that attract immune cells are known as",
+            options: [
+                "Opsonins",
+                "Chemotaxins",
+                "Lysozymes",
+                "Antigens",
+                "Interferons"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which immune cells are also known as Langerhans cells?",
+            options: [
+                "Mast cells",
+                "Eosinophils",
+                "Basophils",
+                "Dendritic cells",
+                "Lymphocytes"
+            ],
+            correct: 3
+        },
+        {
+            question: "Lymphocytes and plasma cells",
+            options: [
+                "Mediate the adaptive immune response only",
+                "All function the same way",
+                "Are found mostly in blood",
+                "Mediate the adaptive immune response and are found mainly in lymphoid tissue"
+            ],
+            correct: 3
+        },
+        {
+            question: "C-reactive protein is a type of",
+            options: [
+                "Pyrogen",
+                "Cytokine",
+                "Acute-phase protein",
+                "Granzyme",
+                "Chemotaxin"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which is NOT a characteristic of adaptive immunity?",
+            options: [
+                "Acquired immunity",
+                "Cell-mediated immunity",
+                "Humoral immunity",
+                "Nonspecific immunity"
+            ],
+            correct: 3
+        },
+        {
+            question: "Cytokines function by",
+            options: [
+                "Poisoning and killing invading cells only",
+                "Digesting invading cells only",
+                "Attracting immune cells and causing fever",
+                "Attracting immune cells, causing fever, poisoning and killing invading cells, and digesting invading cells"
+            ],
+            correct: 3
+        },
+        {
+            question: "Chemotaxins function in",
+            options: [
+                "Digesting invading cells only",
+                "Poisoning and killing invading cells only",
+                "Attracting additional immune cells",
+                "Digesting invading cells, attracting additional immune cells, and poisoning and killing invading cells"
+            ],
+            correct: 2
+        },
+        {
+            question: "A substance that induces fever is known as a(n)",
+            options: [
+                "Acute phase protein",
+                "Chemotaxin",
+                "Cytokine",
+                "Opsonin",
+                "Pyrogen"
+            ],
+            correct: 4
+        },
+        {
+            question: "Opsonins function by",
+            options: [
+                "Marking or tagging pathogens so phagocytes can find and ingest them",
+                "Poisoning and killing invading cells directly",
+                "Digesting invading cells directly",
+                "Attracting immune cells to the site of infection"
+            ],
+            correct: 0
+        },
+        {
+            question: "Acute phase proteins are produced by the",
+            options: [
+                "Macrophages",
+                "Liver",
+                "Thymus",
+                "Lymphocytes",
+                "Lymph nodes"
+            ],
+            correct: 1
+        },
+        {
+            question: "The cells responsible for the production of circulating antibodies are",
+            options: [
+                "Helper T cells",
+                "Cytotoxic T cells",
+                "NK cells",
+                "Suppressor T cells",
+                "Plasma cells"
+            ],
+            correct: 4
+        },
+        {
+            question: "Passive immunity is a type of ________ immunity.",
+            options: [
+                "Innate",
+                "Adaptive"
+            ],
+            correct: 1
+        },
+        {
+            question: "The cells responsible for cell-mediated immunity are the",
+            options: [
+                "T lymphocytes",
+                "B lymphocytes",
+                "Suppressor T lymphocytes",
+                "Plasma cells"
+            ],
+            correct: 0
+        },
+        {
+            question: "Stem cells that will form B lymphocytes are found in the",
+            options: [
+                "Kidneys",
+                "Bone marrow",
+                "Spleen",
+                "Thymus",
+                "Liver"
+            ],
+            correct: 1
+        },
+        {
+            question: "The initial cellular defense against pathogens are the",
+            options: [
+                "Plasma cells",
+                "Phagocytes",
+                "B lymphocytes",
+                "NK cells",
+                "T lymphocytes"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which acts as first line of defense against pathogens?",
+            options: [
+                "Inflammation",
+                "Skin",
+                "Macrophages",
+                "Lymphocytes"
+            ],
+            correct: 1
+        },
+        {
+            question: "An inflammatory response is triggered when",
+            options: [
+                "T lymphocytes release interferon",
+                "Red blood cells release pyrogens",
+                "Blood flow to an area increases",
+                "Neutrophils phagocytize bacteria",
+                "Mast cells release granules containing histamine"
+            ],
+            correct: 4
+        },
+        {
+            question: "Lymphocytes that attack body cells infected with viruses are",
+            options: [
+                "B lymphocytes",
+                "Helper T cells",
+                "Cytotoxic T cells",
+                "Suppressor T cells",
+                "Plasma cells"
+            ],
+            correct: 2
+        },
+        {
+            question: "Cells that help to influence other immune cells are",
+            options: [
+                "NK cells",
+                "Helper T cells",
+                "B lymphocytes",
+                "Cytotoxic T cells",
+                "Plasma cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "The cells that are actively involved in immune surveillance are the",
+            options: [
+                "Plasma cells",
+                "Helper T cells",
+                "Suppressor T cells",
+                "NK cells",
+                "B lymphocytes"
+            ],
+            correct: 3
+        },
+        {
+            question: "Stem cells that will form T lymphocytes mature in the",
+            options: [
+                "Thymus",
+                "Liver",
+                "Spleen",
+                "Kidneys",
+                "Bone marrow"
+            ],
+            correct: 0
+        },
+        {
+            question: "________ is the immunoglobulin class that makes up 75% of antibodies in adult blood.",
+            options: [
+                "IgA",
+                "IgD",
+                "IgE",
+                "IgG",
+                "IgM"
+            ],
+            correct: 3
+        },
+        {
+            question: "Immunoglobulins that cross the placenta are",
+            options: [
+                "IgA",
+                "IgD",
+                "IgE",
+                "IgG",
+                "IgM"
+            ],
+            correct: 3
+        },
+        {
+            question: "Immunoglobulins that attach to mast cells and are involved in allergic reactions are",
+            options: [
+                "IgA",
+                "IgD",
+                "IgE",
+                "IgG",
+                "IgM"
+            ],
+            correct: 2
+        },
+        {
+            question: "Immunoglobulins that are found on the surface of B lymphocytes and may play a role in regulation of the humoral immune response are",
+            options: [
+                "IgA",
+                "IgD",
+                "IgE",
+                "IgG",
+                "IgM"
+            ],
+            correct: 1
+        },
+        {
+            question: "Immunoglobulins in early responses to pathogens are",
+            options: [
+                "IgA",
+                "IgD",
+                "IgE",
+                "IgG",
+                "IgM"
+            ],
+            correct: 4
+        },
+        {
+            question: "Immunoglobulins in external secretions are",
+            options: [
+                "IgA",
+                "IgD",
+                "IgE",
+                "IgG",
+                "IgM"
+            ],
+            correct: 0
+        },
+        {
+            question: "The specificity of an antibody is determined by the",
+            options: [
+                "Antibody class",
+                "Fixed segment",
+                "Variable region",
+                "Size of the antibody",
+                "Antigenic determinants"
+            ],
+            correct: 2
+        },
+        {
+            question: "For a lymphocyte to respond to an antigen, the antigen must",
+            options: [
+                "Be phagocytized by the lymphocyte",
+                "Bind to the DNA of the lymphocyte",
+                "Enter the cytoplasm of the lymphocyte",
+                "Depolarize the lymphocyte",
+                "Bind to specific receptors on the lymphocyte membrane"
+            ],
+            correct: 4
+        },
+        {
+            question: "When an antigen fragment is bound to a MHC class I molecule to form a MHC-I-antigen complex, it can stimulate a",
+            options: [
+                "NK cell",
+                "Cytotoxic T cell",
+                "B cell",
+                "Plasma cell",
+                "Helper T cell"
+            ],
+            correct: 1
+        },
+        {
+            question: "MHC class II molecules are found",
+            options: [
+                "Only on red blood cells",
+                "Only on granulocytes and macrophages",
+                "Only on dendritic cells and macrophages",
+                "On all cells with a nucleus",
+                "Only on liver cells and macrophages in the spleen"
+            ],
+            correct: 2
+        },
+        {
+            question: "A person's blood type is determined by the",
+            options: [
+                "Number of specific molecules on the cell membrane",
+                "Chemical character of the hemoglobin",
+                "Shape of the red blood cells",
+                "Size of the red blood cells",
+                "Presence or absence of specific glycoprotein molecules on their cell membrane"
+            ],
+            correct: 4
+        },
+        {
+            question: "A person with type A blood has",
+            options: [
+                "Anti-B antibodies in his plasma",
+                "Anti-A antibodies on his red blood cells",
+                "The ability to receive AB blood",
+                "Anti-B antibodies on his red blood cells",
+                "Anti-A antibodies in his plasma"
+            ],
+            correct: 0
+        },
+        {
+            question: "Overactive immune responses to antigens are",
+            options: [
+                "Immunodeficiency diseases",
+                "Allergies and hypersensitivity reactions",
+                "The result of stress",
+                "Autoimmune diseases",
+                "Common in the elderly"
+            ],
+            correct: 1
+        },
+        {
+            question: "Most abundant leukocyte; they are formed in the bone marrow:",
+            options: [
+                "Neutrophils",
+                "Eosinophils",
+                "Basophils",
+                "Monocytes",
+                "Lymphocytes"
+            ],
+            correct: 0
+        },
+        {
+            question: "Cytotoxic cells associated with allergic reactions and parasitic infections:",
+            options: [
+                "Neutrophils",
+                "Eosinophils",
+                "Basophils",
+                "Monocytes",
+                "Lymphocytes"
+            ],
+            correct: 1
+        },
+        {
+            question: "Precursors of macrophages; these cells are relatively rare in blood:",
+            options: [
+                "Neutrophils",
+                "Eosinophils",
+                "Basophils",
+                "Monocytes",
+                "Lymphocytes"
+            ],
+            correct: 3
+        },
+        {
+            question: "Related to mast cells and release chemical mediators that aid in the inflammatory and immune responses:",
+            options: [
+                "Neutrophils",
+                "Eosinophils",
+                "Basophils",
+                "Monocytes",
+                "Lymphocytes"
+            ],
+            correct: 2
+        },
+        {
+            question: "Estimated to reach populations of one trillion in normal adults, most of these cells are found in lymphoid tissues:",
+            options: [
+                "Neutrophils",
+                "Eosinophils",
+                "Basophils",
+                "Monocytes",
+                "Lymphocytes"
+            ],
+            correct: 4
+        },
+        {
+            question: "A patient has increased eosinophils and monocytes but normal levels of neutrophils, basophils, and lymphocytes. Which is the most likely cause?",
+            options: [
+                "A chronic parasitic infection",
+                "A chronic bacterial infection",
+                "A viral infection",
+                "A severe allergic reaction",
+                "An acute bacterial infection"
+            ],
+            correct: 0
+        },
+        {
+            question: "A patient has increased neutrophils and macrophages with normal levels of basophils, eosinophils, and lymphocytes. Which is the most likely cause?",
+            options: [
+                "An acute viral infection",
+                "An allergic reaction",
+                "An autoimmune reaction",
+                "A fungal infection",
+                "A chronic bacterial infection"
+            ],
+            correct: 4
+        },
+        {
+            question: "A patient with hay fever symptoms would likely have increased levels of which leukocytes?",
+            options: [
+                "Neutrophils, monocytes, and lymphocytes",
+                "Monocytes, eosinophils, and basophils",
+                "Lymphocytes, basophils, and neutrophils",
+                "Monocytes, lymphocytes, and eosinophils"
+            ],
+            correct: 1
+        },
+        {
+            question: "Immunity present at birth is:",
+            options: [
+                "Adaptive",
+                "Innate"
+            ],
+            correct: 1
+        },
+        {
+            question: "Secreted lysozyme kills bacteria - this is an example of:",
+            options: [
+                "Adaptive immunity",
+                "Innate immunity"
+            ],
+            correct: 1
+        },
+        {
+            question: "NK cells cause apoptosis of viral-infected cells - this is an example of:",
+            options: [
+                "Adaptive immunity",
+                "Innate immunity"
+            ],
+            correct: 1
+        },
+        {
+            question: "Antibodies in breast milk protect a newborn baby from pathogens - this is an example of:",
+            options: [
+                "Active immunity",
+                "Passive immunity"
+            ],
+            correct: 1
+        },
+        {
+            question: "Infected cells are killed by perforin and granzymes - this involves:",
+            options: [
+                "B cells only",
+                "Cytotoxic T cells and NK cells",
+                "Helper T cells",
+                "Plasma cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "________ macrophages are phagocytic cells that are permanent residents of specific tissues and organs.",
+            options: [
+                "Tissue",
+                "Free",
+                "Circulating",
+                "Monocyte"
+            ],
+            correct: 0
+        },
+        {
+            question: "________ are fixed macrophages found in the brain.",
+            options: [
+                "Kupffer cells",
+                "Microglia",
+                "Langerhans cells",
+                "Alveolar macrophages"
+            ],
+            correct: 1
+        },
+        {
+            question: "________ are fixed macrophages found in the liver.",
+            options: [
+                "Kupffer cells",
+                "Microglia",
+                "Langerhans cells",
+                "Alveolar macrophages"
+            ],
+            correct: 0
+        },
+        {
+            question: "________ are dendritic cells found in the skin.",
+            options: [
+                "Kupffer cells",
+                "Microglia",
+                "Langerhans cells",
+                "Alveolar macrophages"
+            ],
+            correct: 2
+        },
+        {
+            question: "________ are free phagocytes found in the lungs.",
+            options: [
+                "Kupffer cells",
+                "Microglia",
+                "Langerhans cells",
+                "Alveolar macrophages"
+            ],
+            correct: 3
+        },
+        {
+            question: "The ability of certain cells to mobilize in response to changes in their chemical environment is called",
+            options: [
+                "Opsonization",
+                "Chemotaxis",
+                "Phagocytosis",
+                "Diapedesis"
+            ],
+            correct: 1
+        },
+        {
+            question: "Substances that trigger an immune response are known as",
+            options: [
+                "Antigens",
+                "Antibodies",
+                "Cytokines",
+                "Interferons"
+            ],
+            correct: 0
+        },
+        {
+            question: "________ are antibodies.",
+            options: [
+                "Antigens",
+                "Immunoglobulins",
+                "Cytokines",
+                "Complement proteins"
+            ],
+            correct: 1
+        },
+        {
+            question: "The process by which the surface of a microorganism is covered, making it more likely to be phagocytized occurs when ________ act as opsonins.",
+            options: [
+                "Cytokines",
+                "Antibodies",
+                "Interferons",
+                "Pyrogens"
+            ],
+            correct: 1
+        },
+        {
+            question: "________ cells enable the immune system to respond more quickly if the same antigen is encountered a second time.",
+            options: [
+                "Memory",
+                "Effector",
+                "Plasma",
+                "Helper T"
+            ],
+            correct: 0
+        },
+        {
+            question: "________ exists when the immune system does NOT respond to a particular antigen on cells of the body.",
+            options: [
+                "Autoimmunity",
+                "Tolerance",
+                "Hypersensitivity",
+                "Immunodeficiency"
+            ],
+            correct: 1
+        },
+        {
+            question: "________ are mediators released from white blood cells that act on other white blood cells and mediates innate defenses.",
+            options: [
+                "Cytokines",
+                "Antibodies",
+                "Antigens",
+                "Complement proteins"
+            ],
+            correct: 0
+        },
+        {
+            question: "________ are cytokines that inhibit the replication of viruses.",
+            options: [
+                "Pyrogens",
+                "Interferons",
+                "Chemotaxins",
+                "Opsonins"
+            ],
+            correct: 1
+        },
+        {
+            question: "________ are groups of lymphocytes that bind to a particular ligand.",
+            options: [
+                "Clones",
+                "APCs",
+                "Phagocytes",
+                "Granulocytes"
+            ],
+            correct: 0
+        },
+        {
+            question: "A sample of tissue from an injury shows a large number of basophils. This would indicate that the tissue was",
+            options: [
+                "Being rejected",
+                "Abscessed",
+                "Inflamed",
+                "Infected by multicellular parasites",
+                "Infected by viruses"
+            ],
+            correct: 2
+        },
+        {
+            question: "Meghan thinks she has an abscessed tooth. If she does, which type of white blood cell would you expect to see in increased numbers in a differential count?",
+            options: [
+                "Eosinophils",
+                "Lymphocytes",
+                "Basophils",
+                "Monocytes",
+                "Neutrophils"
+            ],
+            correct: 4
+        },
+        {
+            question: "Ricardo wants to determine his blood type, so he takes a few drops of blood from his finger and mixes it with various antibodies. His blood cells agglutinate when mixed with the anti-A antibody but not with the anti-B antibody. Therefore, which is true?",
+            options: [
+                "His plasma would cross-react with type O red blood cells",
+                "His plasma contains B antibodies",
+                "He could receive type B blood in a transfusion",
+                "He is Rh positive",
+                "He could donate blood to an individual with type B blood"
+            ],
+            correct: 1
+        },
+        {
+            question: "In an experimental situation focused on the development of a new vaccine, mice were injected with a viral antigen. Their plasma was removed in order to detect the presence of antibodies. This is an example of",
+            options: [
+                "Innate immunity",
+                "Passive immunity",
+                "Active immunity",
+                "Natural immunity",
+                "Autoimmunity"
+            ],
+            correct: 2
+        },
+        {
+            question: "In an experimental situation, a virus is injected into a rabbit and the rabbit is allowed to make antibodies against the viral antigen. These antibodies are then removed from the rabbit plasma and injected into a human to help fight the same viral disease. This is an example of",
+            options: [
+                "Passive immunity",
+                "Active immunity",
+                "Autoimmunity",
+                "Innate immunity",
+                "Natural immunity"
+            ],
+            correct: 0
+        },
+        {
+            question: "A decrease in which lymphocytes would decrease all parts of an immune response?",
+            options: [
+                "Helper T cells",
+                "B lymphocytes",
+                "Regulatory T cells",
+                "Plasma cells",
+                "Cytotoxic T cells"
+            ],
+            correct: 0
+        },
+        {
+            question: "The human immunodeficiency virus (HIV) that causes the disease known as AIDS selectively infects",
+            options: [
+                "Suppressor T cells",
+                "Cytotoxic T cells",
+                "Plasma cells",
+                "Helper T cells",
+                "B cells"
+            ],
+            correct: 3
+        },
+        {
+            question: "Milly has just received a kidney transplant and is taking cyclosporin A, a drug that inhibits cytotoxic T cells. What does this medication do?",
+            options: [
+                "Prevents rejection",
+                "Prevents inflammation from destroying the transplanted kidney",
+                "Decreases hematopoiesis",
+                "Increases the number of antibodies in the blood",
+                "Increases B cell activity"
+            ],
+            correct: 0
+        },
+        {
+            question: "Athena has a bad sore throat and the lymph nodes in her neck are swollen. This indicates",
+            options: [
+                "The focus of the infection is the lymph nodes",
+                "The affected lymph nodes contain an increased number of lymphocytes",
+                "The lymph gland has increased its secretion of thymosin",
+                "Lymph is not flowing through these lymph nodes"
+            ],
+            correct: 1
+        },
+        {
+            question: "Anil accidentally swallows a substance that activates the complement cascade in the absence of bound antibodies. This substance would",
+            options: [
+                "Produce a fever",
+                "Increase circulation of lymph",
+                "Cause extensive cellular damage",
+                "Prevent inflammation",
+                "Activate blood clotting"
+            ],
+            correct: 2
+        },
+        {
+            question: "In a routine examination, some blood is taken and analyzed. The results show a high IgM level for the mumps antigen. This would indicate the",
+            options: [
+                "Person is immune to mumps",
+                "Person is just coming down with mumps",
+                "Person is allergic to mumps",
+                "Person has just recovered from mumps"
+            ],
+            correct: 1
+        },
+        {
+            question: "A fluid sample contains a large amount of IgA type antibody. This fluid is probably",
+            options: [
+                "Plasma",
+                "Intracellular",
+                "Lymph",
+                "Tears",
+                "Blood"
+            ],
+            correct: 3
+        },
+        {
+            question: "Immunoglobulins that cross the placenta:",
+            options: [
+                "IgA",
+                "IgG",
+                "IgM",
+                "IgD",
+                "IgE"
+            ],
+            correct: 1
+        },
+        {
+            question: "Immunoglobulins present in breast milk:",
+            options: [
+                "IgA",
+                "IgG",
+                "IgM",
+                "IgD",
+                "IgE"
+            ],
+            correct: 0
+        },
+        {
+            question: "Immunoglobulins that are receptors on B lymphocytes:",
+            options: [
+                "IgA",
+                "IgG",
+                "IgM",
+                "IgD",
+                "IgE"
+            ],
+            correct: 3
+        },
+        {
+            question: "Immunoglobulins that bind to mast cells, triggering degranulation:",
+            options: [
+                "IgA",
+                "IgG",
+                "IgM",
+                "IgD",
+                "IgE"
+            ],
+            correct: 4
+        },
+        {
+            question: "Immunoglobulins that react to blood group antigens:",
+            options: [
+                "IgA",
+                "IgG",
+                "IgM",
+                "IgD",
+                "IgE"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which represents the body's first line of defense to a pathogen?",
+            options: [
+                "B cells",
+                "Leukocytes",
+                "Stomach acid",
+                "Neutrophils"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which correctly explains the relationship between the nervous system, endocrine system, and immune system?",
+            options: [
+                "Cytokines from the immune system can affect neuroendocrine function",
+                "Only the nervous system and immune system share common receptors",
+                "Only the nervous system and endocrine system share common signal molecules",
+                "Hormones and neuropeptides do not alter the function of immune system cells"
+            ],
+            correct: 0
+        }
     ]
 };

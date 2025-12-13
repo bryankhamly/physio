@@ -173,7 +173,7 @@
         }
 
         .chapter-option.selected .checkbox::after {
-            content: '';
+            content: '✓';
             color: white;
             font-size: 14px;
         }
@@ -369,6 +369,28 @@
 
         .results-actions { display: flex; justify-content: center; gap: 1rem; }
 
+        /* Review Section Styles */
+        .review-section { margin-top: 2rem; }
+        .review-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+        .review-header h3 { font-family: 'Fraunces', serif; font-size: 1.5rem; }
+        .review-question { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; }
+        .review-question.correct { border-left: 4px solid var(--accent-success); }
+        .review-question.incorrect { border-left: 4px solid var(--accent-danger); }
+        .review-question.skipped { border-left: 4px solid var(--accent-warning); }
+        .review-q-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
+        .review-q-num { font-size: 0.85rem; color: var(--text-muted); }
+        .review-q-status { font-size: 0.8rem; padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 600; }
+        .review-q-status.correct { background: rgba(16, 185, 129, 0.2); color: var(--accent-success); }
+        .review-q-status.incorrect { background: rgba(239, 68, 68, 0.2); color: var(--accent-danger); }
+        .review-q-status.skipped { background: rgba(245, 158, 11, 0.2); color: var(--accent-warning); }
+        .review-q-text { font-size: 1rem; margin-bottom: 1rem; color: var(--text-primary); line-height: 1.5; }
+        .review-answers { display: flex; flex-direction: column; gap: 0.5rem; }
+        .review-answer { padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.9rem; display: flex; align-items: flex-start; gap: 0.5rem; }
+        .review-answer.user-wrong { background: rgba(239, 68, 68, 0.15); color: var(--accent-danger); }
+        .review-answer.correct-answer { background: rgba(16, 185, 129, 0.15); color: var(--accent-success); }
+        .review-answer-label { font-weight: 600; min-width: 100px; }
+        .back-to-results { margin-top: 2rem; text-align: center; }
+
         @media (max-width: 768px) {
             main { padding: 5rem 1rem 3rem; }
             .page-header h1 { font-size: 1.8rem; }
@@ -383,11 +405,9 @@
         <div class="nav-container">
             <a href="index.html" class="logo">Physiology</a>
             <div class="nav-links">
-                <a href="index.html" class="nav-link"> Home</a>
-                <a href="physiology-guide-ch16.html" class="nav-link">Ch 16</a>
-                <a href="physiology-guide-ch17.html" class="nav-link">Ch 17</a>
-                <a href="physiology-guide-ch18.html" class="nav-link">Ch 18</a>
-                <a href="physiology-guide-ch19.html" class="nav-link">Ch 19</a>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="physiology-guide-ch20.html" class="nav-link">Ch 20</a>
+                <a href="physiology-guide-ch23.html" class="nav-link">Ch 23</a>
                 <a href="practice-quiz.html" class="nav-link active">Practice Test</a>
             </div>
         </div>
@@ -405,44 +425,20 @@
             <div class="setup-section">
                 <label>Select Chapters:</label>
                 <div class="chapter-select">
-                    <div class="chapter-option" onclick="toggleChapter(this, 16)">
-                        <input type="checkbox" value="16">
+                    <div class="chapter-option" onclick="toggleChapter(this, 20)">
+                        <input type="checkbox" value="20">
                         <div class="checkbox"></div>
                         <div class="chapter-info">
-                            <h4>Chapter 16</h4>
-                            <span>Pulmonary Ventilation</span>
+                            <h4>Chapter 20</h4>
+                            <span>The Gastrointestinal System</span>
                         </div>
                     </div>
-                    <div class="chapter-option" onclick="toggleChapter(this, 17)">
-                        <input type="checkbox" value="17">
+                    <div class="chapter-option" onclick="toggleChapter(this, 23)">
+                        <input type="checkbox" value="23">
                         <div class="checkbox"></div>
                         <div class="chapter-info">
-                            <h4>Chapter 17</h4>
-                            <span>Gas Exchange & Regulation</span>
-                        </div>
-                    </div>
-                    <div class="chapter-option" onclick="toggleChapter(this, 18)">
-                        <input type="checkbox" value="18">
-                        <div class="checkbox"></div>
-                        <div class="chapter-info">
-                            <h4>Chapter 18</h4>
-                            <span>Renal Function</span>
-                        </div>
-                    </div>
-                    <div class="chapter-option" onclick="toggleChapter(this, 19)">
-                        <input type="checkbox" value="19">
-                        <div class="checkbox"></div>
-                        <div class="chapter-info">
-                            <h4>Chapter 19</h4>
-                            <span>Fluid & Acid-Base Balance</span>
-                        </div>
-                    </div>
-                    <div class="chapter-option" onclick="toggleAllChapters(this)">
-                        <input type="checkbox" value="all">
-                        <div class="checkbox"></div>
-                        <div class="chapter-info">
-                            <h4>All Chapters</h4>
-                            <span>Comprehensive Review</span>
+                            <h4>Chapter 23</h4>
+                            <span>The Immune System</span>
                         </div>
                     </div>
                 </div>
@@ -469,9 +465,8 @@
             </div>
             <div class="question-card" id="questionCard"></div>
             <div class="quiz-nav">
-                <button class="nav-btn" id="prevBtn" onclick="prevQuestion()" disabled> Previous</button>
-                <button class="nav-btn" id="skipBtn" onclick="skipQuestion()">Skip</button>
-                <button class="nav-btn primary" id="nextBtn" onclick="nextQuestion()" disabled>Next </button>
+                <button class="nav-btn" id="prevBtn" onclick="prevQuestion()" disabled>Previous</button>
+                <button class="nav-btn primary" id="nextBtn" onclick="nextQuestion()" disabled>Next</button>
             </div>
         </div>
 
@@ -482,13 +477,12 @@
                 <div class="results-stats">
                     <div class="stat"><div class="stat-value" id="correctCount">0</div><div class="stat-label">Correct</div></div>
                     <div class="stat"><div class="stat-value" id="incorrectCount">0</div><div class="stat-label">Incorrect</div></div>
-                    <div class="stat"><div class="stat-value" id="skippedCount">0</div><div class="stat-label">Skipped</div></div>
                 </div>
                 <div class="results-actions">
-                    <button class="nav-btn" onclick="reviewQuiz()">Review Answers</button>
                     <button class="nav-btn primary" onclick="restartQuiz()">Take Another Test</button>
                 </div>
             </div>
+            <div class="review-section" id="reviewSection"></div>
         </div>
     </main>
 
@@ -498,45 +492,18 @@
         let currentQuestions = [];
         let currentIndex = 0;
         let answers = [];
-        let score = 0;
 
         function toggleChapter(element, chapter) {
             element.classList.toggle('selected');
             const checkbox = element.querySelector('input');
             checkbox.checked = !checkbox.checked;
-            
+
             if (checkbox.checked) {
                 if (!selectedChapters.includes(chapter)) selectedChapters.push(chapter);
             } else {
                 selectedChapters = selectedChapters.filter(c => c !== chapter);
             }
-            
-            const allOption = document.querySelector('.chapter-option:last-child');
-            allOption.classList.toggle('selected', selectedChapters.length === 4);
-            updateStartButton();
-        }
 
-        function toggleAllChapters(element) {
-            const allSelected = selectedChapters.length === 4;
-            const options = document.querySelectorAll('.chapter-option');
-            
-            options.forEach(opt => {
-                const val = opt.querySelector('input').value;
-                if (val !== 'all') {
-                    const chNum = parseInt(val);
-                    if (allSelected) {
-                        opt.classList.remove('selected');
-                        opt.querySelector('input').checked = false;
-                        selectedChapters = [];
-                    } else {
-                        opt.classList.add('selected');
-                        opt.querySelector('input').checked = true;
-                        if (!selectedChapters.includes(chNum)) selectedChapters.push(chNum);
-                    }
-                }
-            });
-            
-            element.classList.toggle('selected', !allSelected);
             updateStartButton();
         }
 
@@ -564,19 +531,47 @@
             return shuffled;
         }
 
+        // Shuffle options and track correct answer position
+        function shuffleOptions(question) {
+            const originalOptions = question.options;
+            const correctAnswer = originalOptions[question.correct];
+
+            // Create array of {option, originalIndex}
+            const optionsWithIndex = originalOptions.map((opt, i) => ({ text: opt, originalIndex: i }));
+
+            // Shuffle
+            const shuffled = shuffleArray(optionsWithIndex);
+
+            // Find new position of correct answer
+            const newCorrectIndex = shuffled.findIndex(opt => opt.originalIndex === question.correct);
+
+            return {
+                ...question,
+                options: shuffled.map(opt => opt.text),
+                correct: newCorrectIndex,
+                originalOptions: originalOptions,
+                originalCorrect: question.correct
+            };
+        }
+
         function startQuiz() {
             const count = parseInt(document.getElementById('questionCount').value);
             let allQuestions = [];
             selectedChapters.forEach(ch => {
                 allQuestions = allQuestions.concat(questionBank[ch].map(q => ({...q, chapter: ch})));
             });
-            
+
+            // Shuffle questions
             allQuestions = shuffleArray(allQuestions);
-            currentQuestions = allQuestions.slice(0, Math.min(count, allQuestions.length));
+
+            // Take required number and shuffle each question's options
+            currentQuestions = allQuestions
+                .slice(0, Math.min(count, allQuestions.length))
+                .map(q => shuffleOptions(q));
+
             currentIndex = 0;
             answers = new Array(currentQuestions.length).fill(null);
-            score = 0;
-            
+
             document.getElementById('quizSetup').style.display = 'none';
             document.getElementById('quizArea').classList.add('active');
             document.getElementById('resultsArea').classList.remove('active');
@@ -587,35 +582,33 @@
             const q = currentQuestions[currentIndex];
             const card = document.getElementById('questionCard');
             const letters = ['A', 'B', 'C', 'D', 'E'];
-            
+
             let optionsHTML = '';
             q.options.forEach((opt, i) => {
                 let classes = 'option-btn';
-                if (answers[currentIndex] !== null) {
-                    classes += ' disabled';
-                    if (i === q.correct) classes += ' correct';
-                    else if (i === answers[currentIndex]) classes += ' incorrect';
+                // Show selected state but NO correct/incorrect feedback during quiz
+                if (answers[currentIndex] === i) {
+                    classes += ' selected';
                 }
                 optionsHTML += `<div class="${classes}" onclick="selectOption(${i})">
                     <div class="option-letter">${letters[i]}</div>
                     <div class="option-text">${opt}</div>
                 </div>`;
             });
-            
+
             card.innerHTML = `
-                <span class="question-number">Chapter ${q.chapter}  Question ${currentIndex + 1}</span>
+                <span class="question-number">Chapter ${q.chapter} - Question ${currentIndex + 1}</span>
                 <p class="question-text">${q.question}</p>
                 <div class="options-list">${optionsHTML}</div>
             `;
-            
+
             updateProgress();
             updateNavButtons();
         }
 
         function selectOption(index) {
-            if (answers[currentIndex] !== null) return;
+            // Allow changing answer before moving to next question
             answers[currentIndex] = index;
-            if (index === currentQuestions[currentIndex].correct) score++;
             displayQuestion();
         }
 
@@ -624,56 +617,147 @@
             const answered = answers.filter(a => a !== null).length;
             document.getElementById('progressText').textContent = `Question ${currentIndex + 1} of ${total}`;
             document.getElementById('progressBar').style.width = `${((currentIndex + 1) / total) * 100}%`;
-            document.getElementById('scoreText').textContent = `Score: ${score}/${answered}`;
+            document.getElementById('scoreText').textContent = `Answered: ${answered}/${total}`;
         }
 
         function updateNavButtons() {
             document.getElementById('prevBtn').disabled = currentIndex === 0;
             document.getElementById('nextBtn').disabled = answers[currentIndex] === null;
-            document.getElementById('nextBtn').textContent = currentIndex === currentQuestions.length - 1 ? 'Finish Test' : 'Next ';
+            document.getElementById('nextBtn').textContent = currentIndex === currentQuestions.length - 1 ? 'Finish Test' : 'Next';
         }
 
-        function prevQuestion() { if (currentIndex > 0) { currentIndex--; displayQuestion(); } }
-        function nextQuestion() {
-            if (currentIndex < currentQuestions.length - 1) { currentIndex++; displayQuestion(); }
-            else showResults();
+        function prevQuestion() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                displayQuestion();
+            }
         }
-        function skipQuestion() { if (currentIndex < currentQuestions.length - 1) { currentIndex++; displayQuestion(); } }
+
+        function nextQuestion() {
+            if (currentIndex < currentQuestions.length - 1) {
+                currentIndex++;
+                displayQuestion();
+            } else {
+                showResults();
+            }
+        }
 
         function showResults() {
             document.getElementById('quizArea').classList.remove('active');
             document.getElementById('resultsArea').classList.add('active');
-            
+
             const total = currentQuestions.length;
-            const correct = score;
-            const incorrect = answers.filter((a, i) => a !== null && a !== currentQuestions[i].correct).length;
-            const skipped = answers.filter(a => a === null).length;
+            let correct = 0;
+            let incorrect = 0;
+
+            currentQuestions.forEach((q, i) => {
+                if (answers[i] === q.correct) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
+            });
+
             const percentage = Math.round((correct / total) * 100);
-            
+
             const scoreEl = document.getElementById('finalScore');
             scoreEl.textContent = percentage + '%';
             scoreEl.className = 'results-score';
-            
-            if (percentage >= 90) { scoreEl.classList.add('excellent'); document.getElementById('resultLabel').textContent = 'Excellent Work! '; }
-            else if (percentage >= 75) { scoreEl.classList.add('good'); document.getElementById('resultLabel').textContent = 'Great Job! '; }
-            else if (percentage >= 60) { scoreEl.classList.add('fair'); document.getElementById('resultLabel').textContent = 'Good Effort! Keep Studying '; }
-            else { scoreEl.classList.add('poor'); document.getElementById('resultLabel').textContent = 'Keep Practicing! '; }
-            
+
+            if (percentage >= 90) {
+                scoreEl.classList.add('excellent');
+                document.getElementById('resultLabel').textContent = 'Excellent Work!';
+            } else if (percentage >= 75) {
+                scoreEl.classList.add('good');
+                document.getElementById('resultLabel').textContent = 'Great Job!';
+            } else if (percentage >= 60) {
+                scoreEl.classList.add('fair');
+                document.getElementById('resultLabel').textContent = 'Good Effort! Keep Studying';
+            } else {
+                scoreEl.classList.add('poor');
+                document.getElementById('resultLabel').textContent = 'Keep Practicing!';
+            }
+
             document.getElementById('correctCount').textContent = correct;
             document.getElementById('incorrectCount').textContent = incorrect;
-            document.getElementById('skippedCount').textContent = skipped;
+
+            // Generate review section
+            generateReview();
         }
 
-        function reviewQuiz() {
-            document.getElementById('resultsArea').classList.remove('active');
-            document.getElementById('quizArea').classList.add('active');
-            currentIndex = 0;
-            displayQuestion();
+        function generateReview() {
+            const reviewSection = document.getElementById('reviewSection');
+            const letters = ['A', 'B', 'C', 'D', 'E'];
+
+            let html = '<div class="review-header"><h3>Review All Questions</h3></div>';
+
+            currentQuestions.forEach((q, i) => {
+                const userAnswer = answers[i];
+                const correctAnswer = q.correct;
+                let status, statusClass;
+
+                if (userAnswer === correctAnswer) {
+                    status = 'Correct';
+                    statusClass = 'correct';
+                } else {
+                    status = 'Incorrect';
+                    statusClass = 'incorrect';
+                }
+
+                html += `
+                    <div class="review-question ${statusClass}">
+                        <div class="review-q-header">
+                            <span class="review-q-num">Question ${i + 1} (Chapter ${q.chapter})</span>
+                            <span class="review-q-status ${statusClass}">${status}</span>
+                        </div>
+                        <p class="review-q-text">${q.question}</p>
+                        <div class="review-answers">
+                `;
+
+                if (userAnswer !== null && userAnswer !== correctAnswer) {
+                    html += `
+                        <div class="review-answer user-wrong">
+                            <span class="review-answer-label">Your answer:</span>
+                            <span>${letters[userAnswer]}. ${q.options[userAnswer]}</span>
+                        </div>
+                    `;
+                }
+
+                html += `
+                    <div class="review-answer correct-answer">
+                        <span class="review-answer-label">Correct answer:</span>
+                        <span>${letters[correctAnswer]}. ${q.options[correctAnswer]}</span>
+                    </div>
+                `;
+
+                if (userAnswer !== null && userAnswer === correctAnswer) {
+                    html += `
+                        <div class="review-answer correct-answer" style="margin-top: 0.25rem;">
+                            <span class="review-answer-label">Your answer:</span>
+                            <span>${letters[userAnswer]}. ${q.options[userAnswer]}</span>
+                        </div>
+                    `;
+                }
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                <div class="back-to-results">
+                    <button class="nav-btn primary" onclick="restartQuiz()">Take Another Test</button>
+                </div>
+            `;
+
+            reviewSection.innerHTML = html;
         }
 
         function restartQuiz() {
             document.getElementById('resultsArea').classList.remove('active');
             document.getElementById('quizSetup').style.display = 'block';
+            document.getElementById('reviewSection').innerHTML = '';
             selectedChapters = [];
             document.querySelectorAll('.chapter-option').forEach(opt => {
                 opt.classList.remove('selected');
