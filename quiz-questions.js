@@ -6571,6 +6571,1034 @@ const questionBank = {
         }
     ],
 
+    // CHAPTER 22: The Reproductive System
+    22: [
+        // Overview and Gametes
+        {
+            question: "Male gametes (spermatozoa) and female gametes (ova) are:",
+            options: [
+                "Diploid with 46 chromosomes",
+                "Haploid with 23 chromosomes",
+                "Diploid with 23 chromosomes",
+                "Haploid with 46 chromosomes"
+            ],
+            correct: 1
+        },
+        {
+            question: "A zygote formed after fertilization contains how many chromosomes?",
+            options: [
+                "23 chromosomes",
+                "44 chromosomes",
+                "46 chromosomes",
+                "92 chromosomes"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which process produces gametes from undifferentiated germ cells?",
+            options: [
+                "Mitosis",
+                "Meiosis",
+                "Fertilization",
+                "Differentiation"
+            ],
+            correct: 1
+        },
+        {
+            question: "How many times does DNA replicate and how many times do cells divide during meiosis?",
+            options: [
+                "DNA replicates twice, cells divide once",
+                "DNA replicates once, cells divide once",
+                "DNA replicates twice, cells divide twice",
+                "DNA replicates once, cells divide twice"
+            ],
+            correct: 3
+        },
+        {
+            question: "The two major functions of the gonads are to:",
+            options: [
+                "Produce gametes and secrete sex hormones",
+                "Produce hormones and transport gametes",
+                "Store gametes and produce accessory fluids",
+                "Regulate temperature and produce enzymes"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which event during meiosis creates new chromosomes containing mixtures of maternal and paternal genes?",
+            options: [
+                "DNA replication",
+                "Independent assortment",
+                "Crossing over",
+                "Cell division"
+            ],
+            correct: 2
+        },
+        // Sex Determination
+        {
+            question: "The srY gene is located on which chromosome?",
+            options: [
+                "X chromosome",
+                "Y chromosome",
+                "Chromosome 21",
+                "Chromosome 23"
+            ],
+            correct: 1
+        },
+        {
+            question: "What does the srY gene code for?",
+            options: [
+                "Estrogen receptors",
+                "Testosterone",
+                "Testis-determining factor",
+                "Mullerian-inhibiting hormone"
+            ],
+            correct: 2
+        },
+        {
+            question: "If the srY gene is absent, the fetus will develop:",
+            options: [
+                "Testes",
+                "Ovaries",
+                "Both testes and ovaries",
+                "Neither gonads"
+            ],
+            correct: 1
+        },
+        {
+            question: "During early embryonic development, which ducts are the precursors to the male reproductive tract?",
+            options: [
+                "Mullerian ducts",
+                "Wolffian ducts",
+                "Seminiferous ducts",
+                "Efferent ducts"
+            ],
+            correct: 1
+        },
+        {
+            question: "Mullerian-inhibiting hormone (MIH) causes:",
+            options: [
+                "Development of the male reproductive tract",
+                "Development of the female reproductive tract",
+                "Degeneration of the Mullerian ducts",
+                "Degeneration of the Wolffian ducts"
+            ],
+            correct: 2
+        },
+        {
+            question: "In the absence of testosterone and MIH, which ducts develop into the female reproductive tract?",
+            options: [
+                "Wolffian ducts",
+                "Mullerian ducts",
+                "Seminiferous tubules",
+                "Efferent ductules"
+            ],
+            correct: 1
+        },
+        {
+            question: "The default developmental pathway for sex differentiation is:",
+            options: [
+                "Male, requiring estrogen signals",
+                "Female, requiring no hormonal signals from gonads",
+                "Male, requiring no hormonal signals",
+                "Neither male nor female without hormones"
+            ],
+            correct: 1
+        },
+        {
+            question: "Puberty typically begins at what age range?",
+            options: [
+                "5-8 years",
+                "10-14 years",
+                "16-18 years",
+                "20-25 years"
+            ],
+            correct: 1
+        },
+        {
+            question: "Menopause refers to:",
+            options: [
+                "The beginning of menstrual cycles",
+                "The loss of female reproductive capacity around age 45-50",
+                "The onset of puberty",
+                "The first pregnancy"
+            ],
+            correct: 1
+        },
+        // Male Reproductive Anatomy
+        {
+            question: "Leydig cells (interstitial cells) in the testes secrete:",
+            options: [
+                "FSH",
+                "Inhibin",
+                "Testosterone",
+                "Estrogen"
+            ],
+            correct: 2
+        },
+        {
+            question: "Sertoli cells in the testes perform all of the following functions EXCEPT:",
+            options: [
+                "Support sperm development",
+                "Secrete testosterone",
+                "Secrete inhibin",
+                "Secrete androgen-binding protein"
+            ],
+            correct: 1
+        },
+        {
+            question: "The blood-testis barrier is created by:",
+            options: [
+                "Leydig cells",
+                "Tight junctions between Sertoli cells",
+                "The epididymis",
+                "Smooth muscle cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "Why are the testes located in the scrotum outside the body?",
+            options: [
+                "To protect them from injury",
+                "To allow easier access for sperm release",
+                "Because sperm cannot develop at body temperature",
+                "To increase testosterone production"
+            ],
+            correct: 2
+        },
+        {
+            question: "The correct order of sperm transport through the male reproductive tract is:",
+            options: [
+                "Epididymis → Seminiferous tubules → Vas deferens → Urethra",
+                "Seminiferous tubules → Vas deferens → Epididymis → Urethra",
+                "Seminiferous tubules → Rete testis → Epididymis → Vas deferens",
+                "Vas deferens → Epididymis → Seminiferous tubules → Urethra"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which accessory gland secretes alkaline fluid containing fructose, enzymes, and prostaglandins?",
+            options: [
+                "Prostate gland",
+                "Bulbourethral glands",
+                "Seminal vesicles",
+                "Cowper's glands"
+            ],
+            correct: 2
+        },
+        {
+            question: "The prostate gland secretes:",
+            options: [
+                "Fructose and prostaglandins",
+                "Citrate and enzymes",
+                "Viscous fluid with mucus",
+                "Testosterone"
+            ],
+            correct: 1
+        },
+        // Male Hormonal Regulation
+        {
+            question: "GnRH is secreted by the:",
+            options: [
+                "Anterior pituitary",
+                "Posterior pituitary",
+                "Hypothalamus",
+                "Testes"
+            ],
+            correct: 2
+        },
+        {
+            question: "In males, LH stimulates:",
+            options: [
+                "Sertoli cells to produce sperm",
+                "Leydig cells to secrete testosterone",
+                "The hypothalamus to release GnRH",
+                "The anterior pituitary to release FSH"
+            ],
+            correct: 1
+        },
+        {
+            question: "FSH in males acts on:",
+            options: [
+                "Leydig cells to stimulate testosterone production",
+                "Sertoli cells to stimulate spermatogenesis",
+                "The hypothalamus to inhibit GnRH",
+                "Sperm to increase motility"
+            ],
+            correct: 1
+        },
+        {
+            question: "Inhibin provides negative feedback to:",
+            options: [
+                "GnRH secretion only",
+                "LH secretion only",
+                "FSH secretion only",
+                "Both LH and FSH secretion"
+            ],
+            correct: 2
+        },
+        {
+            question: "Testosterone provides negative feedback to:",
+            options: [
+                "The anterior pituitary only",
+                "The hypothalamus only",
+                "The hypothalamus (inhibits GnRH)",
+                "Sertoli cells"
+            ],
+            correct: 2
+        },
+        // Spermatogenesis
+        {
+            question: "The acrosome of a sperm contains:",
+            options: [
+                "Mitochondria for energy",
+                "Chromosomes",
+                "Enzymes necessary for fertilization",
+                "Flagellar proteins"
+            ],
+            correct: 2
+        },
+        {
+            question: "Which part of the sperm contains mitochondria?",
+            options: [
+                "Head",
+                "Midpiece",
+                "Tail",
+                "Acrosome"
+            ],
+            correct: 1
+        },
+        {
+            question: "Spermatogenesis begins with which cell type?",
+            options: [
+                "Spermatids",
+                "Primary spermatocytes",
+                "Spermatogonia",
+                "Secondary spermatocytes"
+            ],
+            correct: 2
+        },
+        {
+            question: "How long do spermatozoa remain immotile after being released into the lumen of seminiferous tubules?",
+            options: [
+                "1 day",
+                "5 days",
+                "20 days",
+                "60 days"
+            ],
+            correct: 2
+        },
+        {
+            question: "Sperm acquire motility in the:",
+            options: [
+                "Seminiferous tubules",
+                "Rete testis",
+                "Epididymis",
+                "Vas deferens"
+            ],
+            correct: 2
+        },
+        // Male Sexual Response
+        {
+            question: "Erection is controlled by which division of the autonomic nervous system?",
+            options: [
+                "Sympathetic",
+                "Parasympathetic",
+                "Somatic",
+                "Enteric"
+            ],
+            correct: 1
+        },
+        {
+            question: "Emission and ejaculation are controlled by which division of the autonomic nervous system?",
+            options: [
+                "Parasympathetic",
+                "Sympathetic",
+                "Somatic",
+                "Central nervous system"
+            ],
+            correct: 1
+        },
+        {
+            question: "During erection, blood flow to the erectile tissue:",
+            options: [
+                "Decreases due to vasoconstriction",
+                "Increases due to vasodilation",
+                "Remains unchanged",
+                "Fluctuates rapidly"
+            ],
+            correct: 1
+        },
+        {
+            question: "Emission involves all of the following EXCEPT:",
+            options: [
+                "Contractions of the epididymis",
+                "Contractions of the vas deferens",
+                "Relaxation of the urethral sphincter",
+                "Secretions from accessory glands"
+            ],
+            correct: 2
+        },
+        // Female Reproductive Anatomy
+        {
+            question: "A key difference between female and male reproductive physiology is that females have:",
+            options: [
+                "Continuous gamete production throughout life",
+                "Cyclic changes in reproductive activity",
+                "Higher levels of testosterone",
+                "No hormonal regulation"
+            ],
+            correct: 1
+        },
+        {
+            question: "Follicles in the ovary contain:",
+            options: [
+                "Multiple ova",
+                "One ovum surrounded by granulosa cells",
+                "Sperm storage",
+                "Testosterone-producing cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "Granulosa cells perform all of the following functions EXCEPT:",
+            options: [
+                "Secrete estrogens",
+                "Secrete inhibin",
+                "Transport nutrients to oocytes",
+                "Secrete testosterone directly"
+            ],
+            correct: 3
+        },
+        {
+            question: "The thickest layer of the uterine wall is the:",
+            options: [
+                "Perimetrium",
+                "Myometrium",
+                "Endometrium",
+                "Serosa"
+            ],
+            correct: 1
+        },
+        {
+            question: "The endometrium is:",
+            options: [
+                "The outer epithelial layer of the uterus",
+                "The smooth muscle layer of the uterus",
+                "The inner layer that is shed during menstruation",
+                "The connective tissue surrounding the ovaries"
+            ],
+            correct: 2
+        },
+        {
+            question: "Fertilization normally occurs in the:",
+            options: [
+                "Ovary",
+                "Uterine tube (fallopian tube)",
+                "Uterus",
+                "Vagina"
+            ],
+            correct: 1
+        },
+        {
+            question: "How long does it take for an ovum to travel from the ovary to the uterus?",
+            options: [
+                "1 hour",
+                "12 hours",
+                "4 days",
+                "2 weeks"
+            ],
+            correct: 2
+        },
+        {
+            question: "The fimbriae function to:",
+            options: [
+                "Secrete hormones",
+                "Pick up the released ovum at ovulation",
+                "Store sperm",
+                "Produce mucus"
+            ],
+            correct: 1
+        },
+        {
+            question: "The vagina is protected from bacterial infections by:",
+            options: [
+                "Alkaline secretions",
+                "Acidic fluid",
+                "Antibodies",
+                "Tight junctions"
+            ],
+            correct: 1
+        },
+        // Oogenesis
+        {
+            question: "Unlike spermatogenesis, oogenesis:",
+            options: [
+                "Occurs continuously throughout life",
+                "Begins with a fixed number of cells established before birth",
+                "Does not involve meiosis",
+                "Produces four functional gametes per cell"
+            ],
+            correct: 1
+        },
+        {
+            question: "Meiosis II in oogenesis is completed:",
+            options: [
+                "Before birth",
+                "At puberty",
+                "At ovulation",
+                "After fertilization"
+            ],
+            correct: 3
+        },
+        {
+            question: "Primary oocytes are arrested at which stage until ovulation?",
+            options: [
+                "Before meiosis I",
+                "During meiosis I",
+                "After meiosis I, before meiosis II",
+                "After meiosis II"
+            ],
+            correct: 1
+        },
+        {
+            question: "Polar bodies produced during oogenesis:",
+            options: [
+                "Develop into additional ova",
+                "Eventually degenerate",
+                "Become granulosa cells",
+                "Fuse with sperm"
+            ],
+            correct: 1
+        },
+        // Menstrual Cycle
+        {
+            question: "The menstrual cycle includes which two subcycles?",
+            options: [
+                "Ovarian cycle and uterine cycle",
+                "Follicular cycle and luteal cycle",
+                "Proliferative cycle and secretory cycle",
+                "Hormonal cycle and structural cycle"
+            ],
+            correct: 0
+        },
+        {
+            question: "The follicular phase of the ovarian cycle lasts approximately:",
+            options: [
+                "3 days",
+                "7 days",
+                "14 days",
+                "28 days"
+            ],
+            correct: 2
+        },
+        {
+            question: "A mature follicle ready for ovulation is called a:",
+            options: [
+                "Primordial follicle",
+                "Primary follicle",
+                "Graafian follicle",
+                "Corpus luteum"
+            ],
+            correct: 2
+        },
+        {
+            question: "The LH surge triggers:",
+            options: [
+                "Menstruation",
+                "Ovulation",
+                "Formation of the primordial follicle",
+                "Degeneration of the corpus luteum"
+            ],
+            correct: 1
+        },
+        {
+            question: "Ovulation occurs approximately how many hours after the LH surge peak?",
+            options: [
+                "2 hours",
+                "6 hours",
+                "18 hours",
+                "48 hours"
+            ],
+            correct: 2
+        },
+        {
+            question: "The corpus luteum is formed from:",
+            options: [
+                "A primordial follicle",
+                "The ruptured follicle after ovulation",
+                "The endometrium",
+                "Granulosa cells only"
+            ],
+            correct: 1
+        },
+        {
+            question: "The corpus luteum secretes:",
+            options: [
+                "FSH and LH",
+                "GnRH",
+                "Estrogens and progesterone",
+                "Testosterone"
+            ],
+            correct: 2
+        },
+        {
+            question: "Luteolysis refers to:",
+            options: [
+                "Formation of the corpus luteum",
+                "Degeneration of the corpus luteum",
+                "Ovulation",
+                "Menstruation"
+            ],
+            correct: 1
+        },
+        {
+            question: "Menstruation is triggered by:",
+            options: [
+                "Increased estrogen and progesterone",
+                "Decreased estrogen and progesterone due to corpus luteum degeneration",
+                "The LH surge",
+                "Increased FSH"
+            ],
+            correct: 1
+        },
+        {
+            question: "The proliferative phase of the uterine cycle is stimulated primarily by:",
+            options: [
+                "Progesterone",
+                "Estrogens",
+                "LH",
+                "FSH"
+            ],
+            correct: 1
+        },
+        {
+            question: "The secretory phase of the uterine cycle is characterized by:",
+            options: [
+                "Shedding of the endometrium",
+                "Growth of the endometrial lining",
+                "Preparation for implantation with increased blood supply and glandular secretions",
+                "Degeneration of all follicles"
+            ],
+            correct: 2
+        },
+        {
+            question: "Fraternal (dizygotic) twins result from:",
+            options: [
+                "One fertilized egg splitting into two",
+                "Two separate eggs being fertilized by two sperm",
+                "Identical genetic material in two embryos",
+                "One sperm fertilizing two eggs"
+            ],
+            correct: 1
+        },
+        // Female Hormonal Regulation
+        {
+            question: "In the two-cell model of estrogen production, theca cells produce:",
+            options: [
+                "Estrogen directly",
+                "Testosterone, which is converted to estrogen by granulosa cells",
+                "Progesterone",
+                "FSH"
+            ],
+            correct: 1
+        },
+        {
+            question: "During the late follicular phase, estrogen switches from negative to positive feedback on:",
+            options: [
+                "The ovary",
+                "The hypothalamus",
+                "The corpus luteum",
+                "Granulosa cells"
+            ],
+            correct: 1
+        },
+        {
+            question: "During the luteal phase, progesterone:",
+            options: [
+                "Stimulates GnRH release",
+                "Is a powerful inhibitor of GnRH and LH/FSH secretion",
+                "Triggers the LH surge",
+                "Stimulates follicle development"
+            ],
+            correct: 1
+        },
+        {
+            question: "Secondary sex characteristics in females at puberty are primarily produced by:",
+            options: [
+                "Testosterone",
+                "Progesterone",
+                "Estrogen",
+                "FSH"
+            ],
+            correct: 2
+        },
+        // Fertilization
+        {
+            question: "Sperm remain viable in the female reproductive tract for approximately:",
+            options: [
+                "12 hours",
+                "24 hours",
+                "5 days",
+                "2 weeks"
+            ],
+            correct: 2
+        },
+        {
+            question: "An oocyte remains viable after ovulation for approximately:",
+            options: [
+                "12-24 hours",
+                "3-5 days",
+                "1 week",
+                "2 weeks"
+            ],
+            correct: 0
+        },
+        {
+            question: "Capacitation of sperm:",
+            options: [
+                "Occurs in the testes",
+                "Occurs in the female reproductive tract and is required for fertilization",
+                "Decreases sperm motility",
+                "Prevents the acrosome reaction"
+            ],
+            correct: 1
+        },
+        {
+            question: "The acrosome reaction involves:",
+            options: [
+                "Sperm gaining motility",
+                "Release of enzymes that digest through the zona pellucida",
+                "Formation of the polar body",
+                "Completion of meiosis II in the sperm"
+            ],
+            correct: 1
+        },
+        {
+            question: "Polyspermy is prevented by:",
+            options: [
+                "The corona radiata blocking additional sperm",
+                "Hardening of the zona pellucida and inactivation of sperm-binding proteins after the first sperm enters",
+                "Destruction of all other sperm by enzymes",
+                "The cervical mucus plug"
+            ],
+            correct: 1
+        },
+        {
+            question: "The fusion of sperm with the oocyte triggers:",
+            options: [
+                "Meiosis I in the oocyte",
+                "Completion of meiosis II in the oocyte",
+                "Formation of the corpus luteum",
+                "Degeneration of the zona pellucida"
+            ],
+            correct: 1
+        },
+        // Pregnancy and Development
+        {
+            question: "A morula is:",
+            options: [
+                "A single cell formed immediately after fertilization",
+                "A solid ball of cells formed 3-4 days after fertilization",
+                "The structure that implants in the uterus",
+                "The early placenta"
+            ],
+            correct: 1
+        },
+        {
+            question: "The trophoblast of the blastocyst will develop into:",
+            options: [
+                "The embryo",
+                "The fetal placenta",
+                "The amnion",
+                "The umbilical cord"
+            ],
+            correct: 1
+        },
+        {
+            question: "The inner cell mass of the blastocyst will develop into:",
+            options: [
+                "The placenta",
+                "The embryo",
+                "The chorion",
+                "The amnion only"
+            ],
+            correct: 1
+        },
+        {
+            question: "Implantation occurs approximately how many days after fertilization?",
+            options: [
+                "1-2 days",
+                "3-4 days",
+                "6-7 days",
+                "10-14 days"
+            ],
+            correct: 2
+        },
+        {
+            question: "During implantation, the trophoblast secretes enzymes that:",
+            options: [
+                "Kill sperm",
+                "Digest endometrial cells to provide nourishment",
+                "Harden the zona pellucida",
+                "Stimulate ovulation"
+            ],
+            correct: 1
+        },
+        {
+            question: "The embryonic heart begins beating around:",
+            options: [
+                "Week 2",
+                "Week 6",
+                "Week 10",
+                "Week 16"
+            ],
+            correct: 1
+        },
+        {
+            question: "An embryo is called a fetus beginning at:",
+            options: [
+                "Week 2",
+                "Week 4",
+                "Week 8",
+                "Week 12"
+            ],
+            correct: 2
+        },
+        {
+            question: "The placenta consists of:",
+            options: [
+                "Fetal tissue only (chorionic villi)",
+                "Maternal tissue only (endometrium)",
+                "Both fetal (chorionic villi) and maternal (endometrial) components",
+                "Amniotic membrane only"
+            ],
+            correct: 2
+        },
+        {
+            question: "Human chorionic gonadotropin (hCG) is secreted by the:",
+            options: [
+                "Corpus luteum",
+                "Anterior pituitary",
+                "Placenta",
+                "Hypothalamus"
+            ],
+            correct: 2
+        },
+        {
+            question: "hCG functions to:",
+            options: [
+                "Trigger ovulation",
+                "Sustain the corpus luteum during early pregnancy",
+                "Stimulate uterine contractions",
+                "Promote lactation"
+            ],
+            correct: 1
+        },
+        {
+            question: "hCG levels peak at approximately:",
+            options: [
+                "Week 1",
+                "Months 2-3",
+                "Month 6",
+                "At parturition"
+            ],
+            correct: 1
+        },
+        {
+            question: "During the first two months of pregnancy, estrogens and progesterone are primarily secreted by the:",
+            options: [
+                "Placenta",
+                "Corpus luteum",
+                "Anterior pituitary",
+                "Fetus"
+            ],
+            correct: 1
+        },
+        {
+            question: "After the first two months of pregnancy, the primary source of estrogens and progesterone is the:",
+            options: [
+                "Corpus luteum",
+                "Placenta",
+                "Ovary",
+                "Adrenal gland"
+            ],
+            correct: 1
+        },
+        {
+            question: "During pregnancy, progesterone:",
+            options: [
+                "Stimulates uterine contractions",
+                "Suppresses uterine contractions",
+                "Triggers the LH surge",
+                "Causes menstruation"
+            ],
+            correct: 1
+        },
+        // Parturition and Lactation
+        {
+            question: "Pregnancy typically lasts approximately:",
+            options: [
+                "30 weeks",
+                "36 weeks",
+                "40 weeks",
+                "44 weeks"
+            ],
+            correct: 2
+        },
+        {
+            question: "The mechanism of parturition involves a positive feedback loop with:",
+            options: [
+                "Progesterone causing more progesterone release",
+                "Oxytocin causing stronger contractions, which causes more oxytocin release",
+                "Estrogen inhibiting contractions",
+                "FSH triggering labor"
+            ],
+            correct: 1
+        },
+        {
+            question: "Oxytocin during parturition is released from the:",
+            options: [
+                "Anterior pituitary",
+                "Posterior pituitary",
+                "Placenta",
+                "Uterus"
+            ],
+            correct: 1
+        },
+        {
+            question: "The current theory suggests that the trigger for parturition may come from:",
+            options: [
+                "The mother's brain",
+                "The placenta responding to maternal stress",
+                "The fetus",
+                "Decreasing hCG levels"
+            ],
+            correct: 2
+        },
+        {
+            question: "The afterbirth refers to:",
+            options: [
+                "The baby",
+                "Expulsion of the placenta",
+                "The amniotic fluid",
+                "Colostrum"
+            ],
+            correct: 1
+        },
+        {
+            question: "During pregnancy, lactation is inhibited by:",
+            options: [
+                "Prolactin",
+                "Oxytocin",
+                "Estrogen and progesterone",
+                "FSH"
+            ],
+            correct: 2
+        },
+        {
+            question: "Prolactin stimulates:",
+            options: [
+                "Milk ejection",
+                "Milk synthesis",
+                "Uterine contractions",
+                "Cervical dilation"
+            ],
+            correct: 1
+        },
+        {
+            question: "Oxytocin stimulates:",
+            options: [
+                "Milk synthesis in alveoli",
+                "Contraction of myoepithelial cells causing milk ejection",
+                "Prolactin release",
+                "Breast tissue growth"
+            ],
+            correct: 1
+        },
+        {
+            question: "Colostrum is:",
+            options: [
+                "Mature milk rich in fat",
+                "Watery milk produced in the first few days containing proteins and antibodies",
+                "A hormone that stimulates lactation",
+                "The muscle that contracts during milk ejection"
+            ],
+            correct: 1
+        },
+        {
+            question: "The milk ejection reflex is initiated by:",
+            options: [
+                "Elevated prolactin levels",
+                "Suckling stimulating tactile receptors in the nipples",
+                "Decreased estrogen after birth",
+                "The baby crying"
+            ],
+            correct: 1
+        },
+        {
+            question: "Myoepithelial cells in the breast respond to oxytocin by:",
+            options: [
+                "Synthesizing milk",
+                "Contracting to eject milk into the ducts",
+                "Storing milk",
+                "Producing colostrum"
+            ],
+            correct: 1
+        },
+        // Additional comprehensive questions
+        {
+            question: "Which cells in the testes are the target cells for both testosterone and FSH?",
+            options: [
+                "Leydig cells",
+                "Sertoli cells",
+                "Spermatogonia",
+                "Spermatids"
+            ],
+            correct: 1
+        },
+        {
+            question: "The zona pellucida is:",
+            options: [
+                "The outer layer of granulosa cells",
+                "A glycoprotein layer surrounding the oocyte",
+                "The fluid-filled cavity of a follicle",
+                "The muscle layer of the uterus"
+            ],
+            correct: 1
+        },
+        {
+            question: "The antrum of a follicle is:",
+            options: [
+                "The outer cell layer",
+                "A fluid-filled cavity",
+                "The oocyte itself",
+                "The blood supply"
+            ],
+            correct: 1
+        },
+        {
+            question: "Which structure marks cells as being totipotent until the 16-32 cell stage?",
+            options: [
+                "Zygote",
+                "Morula",
+                "Blastocyst",
+                "Fetus"
+            ],
+            correct: 1
+        },
+        {
+            question: "The corpus albicans is:",
+            options: [
+                "A developing follicle",
+                "The degenerating corpus luteum",
+                "The fertilized egg",
+                "The placenta"
+            ],
+            correct: 1
+        }
+    ],
+
     // CHAPTER 23: The Immune System
     23: [
         {

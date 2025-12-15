@@ -1,0 +1,1273 @@
+# Chapter 22: The Reproductive System
+
+---
+
+## PART A (22a)
+
+---
+
+### Chapter Outline
+- 22.1 An Overview of Reproductive Physiology
+- 22.2 The Male Reproductive System
+- 22.3 The Female Reproductive System
+- 22.4 Fertilization, Implantation, and Pregnancy
+- 22.5 Parturition and Lactation
+
+---
+
+## 22.1 An Overview of Reproductive Physiology
+
+**Topics covered:**
+- The role of gametes in sexual reproduction
+- Gene sorting and packaging in gametogenesis: meiosis
+- Components of the reproductive system
+- Events following fertilization
+- Patterns of reproductive activity over the human life span
+
+---
+
+### The Role of Gametes in Sexual Reproduction
+
+**Gametes:**
+- Male gametes = spermatozoa
+- Female gametes = ova
+- Haploid: n chromosomes
+- Diploid: 2n chromosomes
+
+**Gametes (haploid):**
+- 23 chromosomes: 22 autosomes, 1 sex
+
+**Fertilization → zygote (diploid):**
+- 46 chromosomes: 44 autosomes, 2 sex
+
+---
+
+### Figure 22.1: The process of fertilization from undifferentiated stem cells to the zygote
+
+**Process overview:**
+- Male undifferentiated stem cells (Diploid)
+- Female undifferentiated stem cells (Diploid)
+- ↓ Gametogenesis
+- Spermatozoa (n = 23) — Ovum (n = 23) [Haploid]
+- ↓ Fertilization
+- Zygote (Diploid, 2n = 46)
+
+---
+
+### Chromosomes
+
+- Autosomes come in pairs: 22 pairs
+- Each member of a pair carries the same complement of genes
+- Sex chromosomes come in two forms: X and Y
+- Not all genes are paired
+
+**Sex chromosomes:**
+- X chromosome is found in both males and females
+  - Has essential genes
+- Y chromosome is found only in males
+  - Has genes essential for developing into male
+- XX = female
+- XY = male
+
+---
+
+### Gene Sorting and Packaging in Gametogenesis: Meiosis
+
+**Production of gametes from undifferentiated germ cells:**
+
+**Mitosis:** normal cell division
+- DNA replicated once
+- Cells undergo division once
+
+**Meiosis:** cell division to produce gametes
+- DNA replicated once
+- Cells undergo division twice
+
+---
+
+### Figure 22.3: Meiosis
+
+**Process:**
+1. Diploid germ cell (2n chromosomes) with Maternal and Paternal chromosomes
+2. DNA is replicated (2n × 2 chromosomes) → Sister chromatids form, connected at centromere
+3. Homologous chromosomes group together in pairs
+4. Crossing over occurs
+5. New chromosomes containing mixtures of maternal and paternal genes are created
+6. Independent assortment occurs
+7. **Meiosis I** → (n × 2 chromosomes)
+8. **Meiosis II** → (n chromosomes)
+9. **Haploid daughter cells**
+
+---
+
+### Components of the Reproductive System
+
+**Reproductive system:** all organs involved in mating, gametogenesis, or other functions involved in producing offspring
+- Gonads
+- Accessory reproductive organs
+
+**Gonads:**
+- Male: testes
+- Female: ovaries
+
+**Two major functions:**
+1. Produce gametes
+2. Secrete sex hormones
+
+---
+
+### Sex Hormones
+
+- Testes: androgens
+- Ovaries: estrogens and progesterone
+- Although males have more androgens and females have more estrogens and progesterone, these steroids are found in both sexes
+- Adrenal cortex also produces androgens
+
+**Accessory reproductive organs:**
+- Organs of the reproductive tract: transport of gametes
+- Glands: secrete fluids into reproductive tract
+
+---
+
+### Events Following Fertilization
+
+**Copulation:** act of mating
+- Sperm deposited into female to fertilize ovum
+
+**After fertilization: pregnancy or gestation**
+- First two months: embryo
+- After two months: fetus
+- About nine months: parturition or birth
+
+---
+
+### Sex Determination
+
+Chromosomes determine whether fetus develops ovaries or testes: sex determination
+
+**Y chromosome: srY gene (sex-determining region of the Y chromosome)**
+- If srY gene present: testes
+- If srY gene absent: ovaries
+
+**srY gene:**
+- Codes for testis-determining factor
+- If present: testis-determining factor causes fetus to develop testes
+- If absent: ovaries develop
+
+---
+
+### Sex Differentiation
+
+Sex differentiation controlled by hormones
+
+**First two weeks:** embryo sexually indifferent
+- Wolffian ducts (precursor to male tract)
+- Müllerian ducts (precursor to female tract)
+
+**If testes are present (due to srY gene), testes secrete hormones:**
+- Testosterone: stimulates development of Wolffian ducts
+- Müllerian-inhibiting hormone (MIH): degeneration of Müllerian ducts
+
+**No testes:**
+- Hormones absent → Wolffian ducts regress, Müllerian ducts develop
+
+---
+
+### Figure 22.4: Development of male and female internal reproductive organs during embryonic life
+
+**Sexually indifferent stage:**
+- Wolffian duct
+- Müllerian duct
+- Primitive gonad
+
+**Male development (7–8 week embryo):**
+- Testis
+- Vas deferens
+- Degenerating Müllerian duct
+- Seminal vesicle
+
+**At birth (male):**
+- Seminal vesicle
+- Prostate gland
+- Vas deferens
+- Testis
+- Penis
+- Urethra
+
+**Female development (8–9 week embryo):**
+- Ovary
+- Degenerating Wolffian duct
+- Uterine tube
+- Uterus
+
+**At birth (female):**
+- Uterine tube
+- Ovary
+- Uterus
+- Vagina
+
+---
+
+### Figure 22.5: The roles of sex determination and sex differentiation
+
+**Male pathway:**
+- X + Y Egg/Sperm → Fertilization → XY Zygote
+- Presence of srY gene → Sex determination → Testes
+- Presence of testosterone → Wolffian ducts → Male reproductive structures
+- Presence of MIS → Müllerian ducts → Regression
+
+**Female pathway:**
+- X + X Egg/Sperm → Fertilization → XX Zygote
+- Absence of srY gene → Sex determination → Ovaries
+- Absence of testosterone → Wolffian ducts → Regression
+- Absence of MIS → Müllerian ducts → Female reproductive structures
+
+---
+
+### Patterns of Reproductive Activity Over the Human Life Span
+
+**Adolescence (prior to 10–14 years):**
+- Inability to reproduce
+
+**Puberty (starts at 10–14 years):**
+- Sexual maturation
+- Reproductive organs mature (can produce gametes)
+- Secondary sexual characteristics develop
+
+**During sexual maturation (from late teens onward):**
+- Female reproductive system cycles
+- Female loses ability to reproduce at approximately age 45–50
+- Menopause: loss of female reproductive capacity
+- Male retains ability to produce sperm
+
+---
+
+## 22.2 The Male Reproductive System
+
+**Topics covered:**
+- Functional anatomy of male reproductive organs
+- Hormonal regulation of reproductive function in males
+- Sperm and their development
+- The sexual response in males
+
+---
+
+### Figure 22.6: The male reproductive system (sagittal section)
+
+**Structures:**
+- Urinary bladder
+- Rectum
+- Vas deferens
+- Urethra
+- Seminal vesicle
+- Erectile tissue
+- Ejaculatory duct
+- Prostate gland
+- External anal sphincter
+- Penis
+- Internal anal sphincter
+- Epididymis
+- Bulbourethral gland
+- Testis
+- Scrotum
+
+---
+
+### Functional Anatomy of Male Reproductive Organs
+
+**Testes:**
+- Male gonads
+- 250–300 compartments
+- Seminiferous tubules
+  - Sperm production
+- Leydig cells (interstitial cells)
+  - Secrete testosterone
+- Sertoli cells (epithelial cells)
+  - Support sperm development
+
+**Testes additional features:**
+- Smooth muscle
+  - Peristalsis: propels sperm
+- Blood-testis barrier
+  - Tight junctions
+  - Lumenal compartment
+  - Basal compartment
+
+---
+
+### Figure 22.7: The testis and associated structures
+
+**Structures:**
+- Nerves and blood vessels
+- Vas deferens
+- Efferent ductules
+- Rete testis
+- Seminiferous tubules
+- Epididymis
+- Leydig cells
+- Sertoli cells
+- Lumen (contains sperm)
+- Basement membrane
+- Basal compartment
+- Lumenal compartment
+- Spermatogonium
+- Spermatocyte
+- Spermatid
+- Sperm
+- Smooth muscle cell
+- Tight junction
+
+---
+
+### Sertoli Cells
+
+**Functions:**
+- Support sperm development
+- Secrete lumenal fluid in which sperm develop
+- Secrete androgen-binding protein
+  - Androgen buffer that helps maintain steady level of androgens in lumen
+- Target cells to testosterone and FSH
+- Secrete chemicals that stimulate spermatogenesis
+- Secrete inhibin
+  - Hormone of negative feedback for FSH
+- Secrete MIH
+
+---
+
+### External Genitalia
+
+**Penis:**
+- Male copulatory organ
+- Penetrates vagina and deposits sperm
+- At rest, penis is flaccid
+- During sexual arousal, penis undergoes erection
+  - Blood flow to penis increases
+  - Blood engorges erectile tissue
+  - Penis swells and elongates
+- Ejaculation
+  - Sperm is ejected through urethra
+
+**Scrotum:**
+- Suspended beneath penis
+- Houses testes
+- Sperm cannot develop at body temperature
+- Allows a cooler environment for sperm development
+
+---
+
+### Sperm Transport Pathway
+
+Seminiferous tubules → Rete testis → Efferent ductules → Exit testis → Epididymis → Vas deferens
+
+---
+
+### Accessory Glands
+
+**Seminal vesicles:**
+- Secrete alkaline fluid with fructose, enzymes, and prostaglandins
+
+**Prostate gland:**
+- Secrete citrate and enzymes
+
+**Bulbourethral glands:**
+- Secrete viscous fluid with mucus
+
+---
+
+### Hormonal Regulation of Reproductive Function in Males
+
+**Gonadotropin releasing hormone (GnRH):**
+- From hypothalamus
+
+**Gonadotropins:**
+- FSH: stimulates gametogenesis and inhibin
+- LH: stimulates androgen secretion
+
+**Blood levels of sex hormones in males:**
+- Pulsatile
+- Fairly constant on a short-term basis
+- Prepubescent → low blood levels
+- Puberty and adulthood → high blood levels
+
+---
+
+### Figure 22.8: Hormonal regulation of reproductive function in males
+
+**Pathway:**
+1. Hypothalamus → GnRH secretion
+2. Anterior pituitary → FSH secretion + LH secretion
+3. LH → Leydig cells → Testosterone secretion → Plasma testosterone
+4. Testosterone provides Negative feedback to hypothalamus
+5. FSH → Sertoli cells → Inhibin secretion + Spermatogenesis
+6. Inhibin provides Negative feedback (FSH only) to anterior pituitary
+
+---
+
+### Sperm and Their Development
+
+**Sperm anatomy:**
+- **Head**
+  - Chromosomes
+  - Acrosome: Enzymes necessary for fertilization
+- **Midpiece**
+  - Mitochondria
+- **Tail**
+  - Whiplike movements propel sperm
+
+---
+
+### Figure 22.10: Spermatogenesis
+
+**Process (from basement membrane to lumen):**
+1. Spermatogonia (2n)
+2. ↓ Mitosis and differentiation
+3. Primary spermatocytes (2n × 2)
+4. ↓ Meiosis I
+5. Secondary spermatocytes (n × 2)
+6. ↓ Meiosis II
+7. Spermatids (n)
+8. ↓ Differentiation
+9. Spermatozoa (n)
+
+**Notes:**
+- Process occurs from basement membrane to lumen
+- Following mitosis, one spermatogonium stays to produce more
+- Sertoli cells and tight junctions support the process
+
+---
+
+### Sperm Maturation
+
+- Spermatozoa released into lumen of seminiferous tubules
+- Remain immotile for 20 days
+- Move to epididymis by peristalsis and flow of lumenal fluid
+- Acquire motility
+- Move to vas deferens by peristalsis
+- Remain in vas deferens until ejaculation
+
+---
+
+### Sexual Response in Males
+
+**Controlled by autonomic nervous system:**
+- Spinal reflexes
+
+**Phases:**
+1. Erection: parasympathetic nervous system
+2. Emission: sympathetic nervous system
+3. Ejaculation: sympathetic nervous system
+
+**Stimuli:**
+- Mechanoreceptors of penis and erogenous zones
+- Descending signals from higher brain centers
+
+---
+
+### Figure 22.11: Events leading to erection
+
+**Pathway:**
+1. Mechanical stimulation of receptors in penis + Activity in descending neural pathways from brain
+2. ↓ Spinal cord
+3. Activity in sympathetic neurons to penis ↓ + Activity in parasympathetic neurons to penis ↑
+4. Arterioles supplying blood to erectile tissue → Relaxation of smooth muscle
+5. Erectile tissue: Blood flow ↑ → Blood volume and blood pressure ↑
+6. Compression of veins → Outflow of blood ↓
+7. **Erection** (Positive feedback loop)
+
+---
+
+### Emission
+
+- Response to mechanical stimulation continues from erection to emission
+- Neural activity shifts from parasympathetic to sympathetic control
+- Contractions of epididymis, vas deferens, and ejaculatory duct
+- Secretions from seminal vesicles and prostate
+- Result: movement of semen (sperm and fluid) into urethra
+
+---
+
+### Ejaculation
+
+- Response to mechanical stimulation continues to ejaculation
+- Mediated by sympathetic activity
+- Stimulates contractions of smooth muscle in urethra and skeletal muscle at base of penis
+- Stimulates closure of urethral sphincter
+- Result: movement of semen through urethra and out of body
+
+---
+
+---
+
+## PART B (22b)
+
+---
+
+## 22.3 The Female Reproductive System
+
+**Topics covered:**
+- Functional anatomy of the female reproductive organs
+- Ova and their development
+- The sexual response in females
+- The menstrual cycle
+- Long-term hormonal regulation of female reproductive function
+
+---
+
+### The Female Reproductive System Overview
+
+- Cyclic changes in activity
+- Menstrual cycle
+- Restricted periods of fertility
+- Ovulation
+- Limited gamete production
+- Pool established at birth
+
+---
+
+### Functional Anatomy of the Female Reproductive Organs
+
+- **Gonads:** ovaries
+- **Reproductive tract:** uterus, uterine tubes, vagina
+- **External genitalia:** vulva
+
+---
+
+### Figure 22.12a: The female reproductive system
+
+**Structures:**
+- Uterine tube (Uterine tube sectioned)
+- Infundibulum
+- Ovary
+- Fimbriae
+- Myometrium
+- Endometrium
+- Uterus
+- Follicles
+- Theca cells
+- Granulosa cells
+- Cervix
+- Vagina
+- Graafian follicle
+- Primordial follicle
+- Oocyte
+- Follicle cells
+
+---
+
+### Follicles
+
+- Follicles contain one ovum
+- Develop in ovary
+- Start as primordial follicles
+  - Oocyte (= ovum)
+  - Granulosa cells
+- Later in development, some granulosa cells become theca cells
+
+---
+
+### Granulosa Cells
+
+**Functions:**
+- Target cells of estrogen and FSH
+- Secrete chemical messengers in response
+- Secrete inhibin
+  - Provides negative feedback to FSH secretion
+- Transport nutrients to oocytes through gap junctions
+- Secrete estrogens
+
+---
+
+### Uterus
+
+- Site of fetal development
+- **Body:** upper portion
+- **Cervix:** canal leading to vagina
+- Cervix + vagina: birth canal
+
+**Wall of uterus:**
+- **Outer layer: perimetrium**
+  - Epithelial cells and connective tissue
+- **Middle layer: myometrium**
+  - Smooth muscle
+  - Thickest layer
+- **Inner layer: endometrium**
+  - Layer of epithelial cells
+  - Layer of connective tissue
+  - Numerous glands
+
+---
+
+### Vagina
+
+- Female organ of copulation
+- Wall contains smooth muscle
+- Inner surface bathed in acid fluid secreted from uterus or glands in cervix
+- Protects against bacterial infections
+
+---
+
+### Figure 22.12b: The female reproductive system (sagittal section)
+
+**Structures:**
+- Uterine tube
+- Ovary
+- Uterus
+- Rectum
+- Urinary bladder
+- Cervix
+- Urethra
+- Vagina
+- Labium majus
+- Labium minus
+
+---
+
+### Uterine Tubes
+
+- Also called fallopian tubes or oviducts
+- Ova transported from ovaries to uterus
+- Site of fertilization
+
+**Infundibulum and fimbriae:**
+- Pick up released ovum
+
+**Movement of ovum through uterine tube:**
+- Initially: peristaltic contractions
+- Mostly: ciliary actions
+- Duration: 4 days to uterus
+
+---
+
+### Figure 22.13: Female external genitalia
+
+**Structures:**
+- Mons pubis
+- Clitoris
+- Labium majus
+- Opening of urethra
+- Labium minus
+- Opening of vagina
+- Hymen
+
+---
+
+### Ova and Their Development
+
+**Oogenesis:** oogonia → ova
+
+- Females: number of oogonia is fixed prior to birth
+- In contrast, males continually produce spermatogonia
+- Meiosis begins in fetal life
+- Meiosis is completed only after fertilization
+
+---
+
+### Figure 22.14: Oogenesis, the development of ova
+
+**Process:**
+
+**FETAL:**
+1. Oogonia (2n)
+2. ↓ Mitosis and differentiation
+3. Primary oocyte (2n × 2)
+4. Meiotic arrest
+
+**PRIOR TO OVULATION:**
+5. ↓ Meiosis I
+6. First polar body + Secondary oocyte (n × 2)
+
+**AFTER FERTILIZATION:**
+7. ↓ Meiosis II
+8. Second polar body + Ovum (2n: n maternal chromosomes + n paternal chromosomes from sperm cell)
+
+---
+
+### The Sexual Response in Females
+
+- Vascular congestion of clitoris
+- Vaginal secretions
+- Nipple erection
+- Orgasm
+  - Rhythmic contractions of vagina and uterus
+  - Increased blood pressure and heart rate
+  - Widespread skeletal muscle contractions
+
+---
+
+### The Menstrual Cycle
+
+Repeated changes in the ovary and uterus through time
+
+**Includes two subcycles:**
+1. Ovarian cycle
+2. Uterine cycle
+
+Caused by changes in estrogen and progesterone concentrations
+
+---
+
+### Ovarian Cycle
+
+**Follicular phase:**
+- Menstruation → ovulation
+- Lasts approximately 14 days
+
+**Luteal phase:**
+- Ovulation → before menstruation
+- Lasts approximately 14 days
+
+---
+
+### Follicular Phase
+
+- FSH and estrogens stimulate follicle growth and development
+- A few follicles develop from primordial follicles
+- Oocyte grows; granulosa cells proliferate
+- Zona pellucida and antrum form
+- Dominant follicle continues development; remaining follicles regress
+- Corona radiata develops
+- Graafian follicle = mature follicle
+- Ovulation
+
+**Late follicular phase:**
+- GnRH surge causes LH surge
+- LH surge triggers ovulation and development of corpus luteum in luteal phase
+- Ovulation: wall of Graafian follicle ruptures
+- Antral fluid with oocyte flows to ovary surface
+- Oocyte is released and enters fimbriae
+
+---
+
+### Luteal Phase
+
+- Ruptured follicle → gland = corpus luteum
+- Corpus luteum secretes estrogens and progesterone
+- Corpus luteum reaches maximum activity in 10 days, then degenerates (luteolysis)
+- Luteolysis → decreased estrogens and progesterone → menstruation (end of luteal phase)
+- If oocyte is fertilized, degeneration does not occur
+
+---
+
+### Figure 22.15a: The ovarian cycle
+
+**Follicle development:**
+- Primordial follicle → Primary follicle → Secondary follicle (with Zona pellucida, Antrum, Oocyte, Granulosa cells, Follicle cells, Theca cells)
+- → Graafian follicle (with Cumulus oophorus, Oocyte, Corona radiata, Antrum)
+- → Ovulation → Ruptured follicle → Corpus luteum
+- → Degenerating corpus luteum → Corpus albicans
+
+---
+
+### Fraternal Twins
+
+- Two or more follicles may become dominant and released at ovulation
+- If both are fertilized, fraternal twins result
+- Also called dizygotic twins (develop from two zygotes)
+
+---
+
+### Uterine Cycle
+
+| Phase | Days | Ovarian Phase |
+|-------|------|---------------|
+| Menstrual phase | days 1–5 | Follicular phase |
+| Proliferative phase | menstruation–day 14 | Follicular phase |
+| Secretory phase | days 15–28 | Luteal phase |
+
+---
+
+### Menstrual Phase
+
+- Shedding of uterine lining
+- Blood flow to tissue decreases
+- Tissues die and slough into vagina, causing menstrual flow
+
+**Hormonal control of menstruation:**
+- Triggered by decreased levels of estrogens and progesterone
+- Hormone levels decrease when corpus luteum degenerates
+
+---
+
+### Proliferative Phase
+
+- Uterus prepares for fertilized ovum
+- Endometrial lining develops
+- Endometrial layer grows
+- Endometrial glands enlarge
+- Smooth muscle layer thickens
+- Cervical glands secrete mucus
+
+**Hormonal control of proliferative phase:**
+- Estrogens stimulate development of uterine lining
+
+---
+
+### Secretory Phase
+
+- Endometrium prepared for implantation
+- Blood supply increased
+- Glands enlarge and secrete glycogen-rich fluids
+- Cervical secretions are more sticky, forming a plug
+
+---
+
+### Figure 22.16: The uterine cycle
+
+**Structure:**
+- Days 1–5: Menstrual phase (menstruation)
+- Days 5–14: Proliferative phase
+- Days 14–28: Secretory phase
+- Blood vessels and Endometrial glands develop
+- Endometrial thickness increases through proliferative and secretory phases
+
+---
+
+### Hormonal Changes During Menstrual Cycle
+
+- Estrogen is first secreted from follicles, then from the corpus luteum
+- Progesterone is secreted from corpus luteum
+- LH and FSH are secreted from anterior pituitary gland
+- Estrogens and progesterone inhibit LH and FSH secretion
+
+---
+
+### Hormonal Changes in the Early to Mid-Follicular Phase
+
+- Short-lived declines in plasma estrogen and progesterone (final stages of luteolysis)
+- LH and FSH consequently increase slightly
+- FSH binds to receptors on granulosa cells, causing follicles to grow
+- FSH causes the outer granulosa layer to differentiate into thecal cells
+- LH acts on thecal LH receptors to stimulate testosterone synthesis
+- Testosterone is converted by granulosa cells into estrogens
+- Estrogen concentrations increase: negative feedback on GnRH and LH and FSH
+- LH and FSH levels remain constant but estrogens continue to rise due to proliferating cells and increased LH and FSH receptors
+
+---
+
+### Figure 22.17: Summary of hormonal changes in the menstrual cycle
+
+**Hormone patterns:**
+- **Estrogen:** rises through follicular phase, peaks before ovulation, rises again in luteal phase
+- **Progesterone:** low in follicular phase, rises significantly in luteal phase
+- **LH:** relatively stable, with major surge at ovulation
+- **FSH:** relatively stable, slight rise at beginning, small surge at ovulation
+
+---
+
+### Figure 22.18: Regulation of hormone secretion during the early to mid-follicular phase
+
+**Pathway:**
+1. Hypothalamus → GnRH secretion
+2. Anterior pituitary → FSH secretion + LH secretion
+3. LH → Theca cells → Androgen secretion
+4. Androgens → Granulosa cells → Enzymatic modification of androgens → Estrogen secretion → Plasma estrogen
+5. Estrogen provides Negative feedback to hypothalamus
+6. FSH → Granulosa cells → Inhibin secretion → Negative feedback (FSH only)
+7. Result: Oogenesis and follicular development
+
+---
+
+### Hormonal Changes in the Late Follicular Phase
+
+- Estrogens switch from negative feedback to positive feedback in hypothalamus; mechanism is unknown
+- LH levels rise, leading to more estrogen and, consequently, more LH
+- LH surge
+
+**Changes induced in dominant follicle under influence of LH surge:**
+- Meiosis I completed
+- Estrogen declines
+- Progesterone production by granulosa cells initiated
+- Enzymes secreted, breaking down follicular wall
+- Follicular wall ruptures 18 hours after surge peak
+- Granulosa and thecal cells differentiate into luteal cells
+
+---
+
+### Figure 22.19: Regulation of hormone secretion during the late follicular phase
+
+**Pathway:**
+1. Hypothalamus → GnRH secretion
+2. Anterior pituitary → LH (and FSH) secretion
+3. LH → Granulosa cells → Estrogen secretion
+4. Estrogen provides **Positive feedback** to hypothalamus
+5. Result: LH surge → Ovulation
+
+---
+
+### Figure 22.20: Regulation of hormone secretion during the luteal phase
+
+**Pathway:**
+1. Hypothalamus → GnRH secretion
+2. Anterior pituitary → FSH secretion + LH secretion
+3. LH/FSH → Corpus luteum → Estrogen secretion + Progesterone secretion + Inhibin secretion
+4. Estrogen and Progesterone provide Negative feedback to hypothalamus
+5. Inhibin provides Negative feedback (FSH only) to anterior pituitary
+6. Result: Plasma progesterone ↑, Plasma estrogen ↑, Plasma inhibin ↑
+
+---
+
+### Hormonal Changes in the Luteal Phase
+
+- Estrogen levels continue to decline
+- LH surge is terminated
+- Progesterone from luteal cells increases
+  - Promotes uterine development and preparation for pregnancy
+  - Powerful inhibitor of GnRH and LH/FSH secretion
+- Estrogen also increases but its potential stimulatory effects are blocked by progesterone
+- After 10 days in absence of implantation, corpus luteum starts to degenerate (spontaneous in humans)
+- Progesterone and estrogen decline, triggering menstruation
+
+---
+
+### Long-Term Regulation of Female Reproductive Function
+
+**Puberty:**
+Estrogen produces secondary sex characteristics:
+- Widening of hips
+- Deposition of fat in breasts, hips, and buttocks
+- Skin oil
+- Body hair changes
+- Growth of bones
+
+**Reproductive years:**
+- Estrogen levels remain high to maintain secondary sex characteristics
+
+**Menopause:**
+- Estrogen levels decrease
+- Reversal of some secondary sex characteristics
+- Hot flashes
+- Increased risk of heart disease and osteoporosis
+
+---
+
+## 22.4 Fertilization, Implantation, and Pregnancy
+
+- Fertilization usually takes place in uterine tube
+- Sperm must be introduced into female reproductive tract within five days before ovulation
+- Sperm remain viable for 5 days
+- Oocyte remains viable for 12–24 hours
+- Sperm are initially incapable of fertilization
+  - Requires capacitation
+
+---
+
+### Ovum Transport
+
+- At ovulation, fluid movement causes the oocyte to enter the fimbriae of the uterine tube
+- Peristaltic contractions move the oocyte toward the uterus for several minutes
+- Activity of cilia move the oocyte toward the uterus for a few days
+- Entire trip takes four days
+- Sperm must meet ovum during these four days
+
+---
+
+### Events of Fertilization
+
+- Millions of sperm are deposited into vagina during copulation
+- Sperm swim to the uterus and uterine tube
+- Survival time in reproductive tract is approximately five days
+- Only a few hundred sperm reach the uterine tubes
+
+**Sperm capacitation:**
+- Deposited sperm cannot fertilize oocyte
+- Capacitation occurs in female reproductive tract
+- Tail movement
+- Plasma membrane altered
+
+---
+
+### Fertilization Process
+
+1. Several sperm generally reach the ovum and try penetrating the corona radiata
+2. When they get through the corona radiata, sperm bind to sperm-binding protein
+3. Acrosome reaction is triggered, with acrosomal enzymes released
+4. Enzymes break through the zona pellucida, allowing sperm to access the oocyte
+5. The first sperm to access the oocyte binds to a receptor on the oocyte plasma membrane
+6. Sperm transported into cytoplasm = fusion
+7. Sperm-binding proteins become inactivated and the zona pellucida hardens, preventing polyspermy
+8. Fusion stimulates second meiotic division of the oocyte
+9. Oocyte → ovum
+10. Sperm plasma membrane disintegrates
+11. Chromosomes from sperm and ovum migrate to center
+12. DNA replicated → zygote
+
+---
+
+### Early Embryonic Development and Implantation
+
+**Mitotic divisions → morula:**
+- Cell cleavage (no increase in overall size)
+- Totipotent until the 16- to 32-cell stage
+
+**Blastocyst:**
+- Lost zona pellucida
+- **Outer cell layer: trophoblast**
+  - Will become fetal placenta
+- **Inner cell mass**
+  - Will become embryo
+- **Fluid-filled cavity: blastocele**
+
+---
+
+### Figure 22.22a: Early embryonic development and implantation
+
+**Timeline:**
+1. Ovulation → Ovary
+2. Fertilization → Zygote (fertilized ovum) with Zona pellucida
+3. Early cleavage (4-cell stage)
+4. Morula (3–4 days postfertilization)
+5. Blastocyst (4–5 days postfertilization)
+   - Inner cell mass
+   - Trophoblast
+   - Blastocoele
+6. Implantation (6 days post-fertilization) → Uterus
+
+---
+
+### Implantation
+
+- Occurs 6–7 days post fertilization
+- Trophoblast is responsible for implantation
+- Secretes enzymes that digest endometrial cells to provide nourishment for the embryo
+- Secretes paracrines that stimulate the decidual response
+- Infiltrates endometrial tissue to develop into the placenta
+
+**Process:**
+- Blastocyst attaches to endometrial lining
+- Endometrium swells, increases glycogen stores
+- Trophoblast penetrates endometrium
+- Trophoblast and endometrial cells will form placenta
+
+---
+
+### Figure 22.22b-c: Early embryonic development and implantation
+
+**Structures:**
+- Blood vessels
+- Epithelium lining uterus
+- Inner cell mass
+- Trophoblast
+- Endometrial gland
+
+**One day later:**
+- Amniotic cavity
+- Trophoblastic cells invading endometrium
+
+---
+
+### Late Embryonic and Fetal Development
+
+**Development from embryo to fetus:**
+- In region of contact between embryo and uterine wall, trophoblast thickens → chorion
+- Amniotic cavity forms
+- Amnion (amniotic sac) contains amniotic fluid
+- Week 5: heart, spinal cord, and GI tract start to develop
+- Week 6: heart beating
+- Week 8: lungs develop
+- Week 9: remaining organs develop
+- Week 10: size of kidney bean = fetus
+
+---
+
+### Figure 22.23: Growth and development of the embryo and the structures that support it
+
+**3 weeks:**
+- Embryo
+- Endometrium
+
+**5 weeks:**
+- Embryo larger
+- Amniotic cavity
+- Placenta forming
+- Cervix
+
+**8 weeks:**
+- Chorion
+- Uterus
+- Fetus
+- Amnion
+- Amniotic cavity
+- Myometrium
+- Placenta
+
+---
+
+### Placenta Development
+
+**Fetal component:**
+- Chorionic villi
+
+**Maternal component:**
+- Endometrial tissue
+
+**Blood flow to placenta:**
+- Maternal uterine artery and vein
+- Fetal umbilical artery and vein located in umbilical cord
+- By 5 weeks, placenta is functioning and heart is beating
+
+---
+
+### Figure 22.24: The placenta
+
+**Structures:**
+- Lumen of uterus
+- Sinus containing maternal blood
+- Fetal blood vessels
+- Chorionic villus
+- Chorion
+- Maternal venule
+- Amnion
+- Amniotic fluid
+- Umbilical cord
+- Maternal arteriole
+- Fetus (12 weeks)
+- Placenta
+- Myometrium
+- Endometrium
+
+---
+
+### Hormonal Changes During Pregnancy
+
+**hCG secreted from placenta:**
+- Sustains corpus luteum
+- Corpus luteum secretes estrogens and progesterone during first two months of pregnancy
+- Placenta secretes estrogens and progesterone during remainder of pregnancy
+- Progesterone inhibits GnRH, LH, and FSH release, preventing LH surge
+
+---
+
+### Effects of Pregnancy Hormones
+
+**Estrogen:**
+- Growth of duct tissue in the breasts
+- Prolactin secretion
+- Growth and enhanced contractile responsiveness of smooth muscle in uterus
+- Oxytocin
+
+**Progesterone:**
+- Growth of glandular tissue in the breasts
+- Maintenance of secretory-phase uterine conditions
+- Suppression of contractile activity of smooth muscle in uterus
+
+---
+
+### Figure 22.25: Plasma concentrations of estrogen, progesterone, and human chorionic gonadotropin during pregnancy
+
+**Hormone patterns:**
+- **Human chorionic gonadotropin:** peaks around month 2-3, then declines
+- **Estrogens:** gradually increases throughout pregnancy, highest at parturition
+- **Progesterone:** gradually increases throughout pregnancy, highest at parturition
+- **Timeline:** 0-10 months since start of last menstrual period → Parturition
+
+---
+
+## 22.5 Parturition and Lactation
+
+- **Pregnancy:** 40 weeks
+- **Parturition:** birth
+- **Lactation:** milk production in mammary glands
+
+---
+
+### Events of Parturition
+
+**End of pregnancy:**
+- Cervix ripens
+
+**Beginning of parturition:**
+- Cervix dilates
+- Labor (uterine contractions)
+
+**Parturition:**
+- Baby's head wedges cervix open
+- Baby is born head first
+- Expulsion of placenta: afterbirth
+
+---
+
+### Figure 22.26: Events of parturition
+
+**Structures involved:**
+- Placenta
+- Umbilical cord
+- Uterus
+- Cervix (closed → dilates)
+- Vagina
+
+---
+
+### Mechanism of Parturition
+
+**Positive feedback loop:**
+1. Weak uterine contractions
+2. Pressure of fetus against cervix
+3. ↓
+4. Oxytocin secretion from posterior pituitary
+5. ↓
+6. Strengthen uterine contractions
+7. ↓
+8. **Parturition**
+
+---
+
+### Trigger for Parturition
+
+Trigger for parturition is unknown, but current theory suggests signal comes from the fetus
+
+**Fetal placenta pathway:**
+- CRH → fetal ACTH → DHEA
+- DHEA → estrogens
+- Enters maternal bloodstream
+- Estrogen → parturition
+
+---
+
+### Lactation
+
+**Inhibition of lactation:**
+- Estrogen and progesterone
+
+**Stimulation of lactation:**
+- Prolactin stimulates milk synthesis
+- Oxytocin stimulates the milk ejection reflex
+
+**Colostrum:**
+- Watery milk produced in the first few days after birth
+- Contains proteins, but few nutrients
+
+**Later milk:**
+- Nutrients, growth factors, hormones, and antibodies
+
+---
+
+### Figure 22.27: Mammary glands
+
+**Structures:**
+- Adipose tissue
+- Muscle of chest
+- Milk ducts
+- Nipple
+- Alveoli
+- Milk-secreting epithelial cells
+- Myoepithelial cells
+
+---
+
+### Figure 22.28: Hormonal regulation of lactation in response to suckling
+
+**Pathway:**
+1. Suckling of infant
+2. Tactile receptors in nipples
+3. ↓ Hypothalamus
+4. Activity in neurosecretory cells + PRH secretion ↑ + PIH secretion ↓
+5. Posterior pituitary → Oxytocin secretion
+6. Anterior pituitary → Prolactin secretion
+7. Breasts:
+   - Milk secretion by alveoli (from prolactin)
+   - Contraction of myoepithelial cells (from oxytocin)
+8. **Milk ejection**
+
+---
+
+*End of Chapter 22: The Reproductive System*
