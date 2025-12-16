@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 22: The Reproductive System | Physiology Study Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2234;
+            --accent-blue: #3b82f6;
+            --accent-indigo: #6366f1;
+            --accent-purple: #8b5cf6;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-orange: #f59e0b;
+            --accent-red: #ef4444;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: #1e293b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'DM Sans', sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.7; }
+
+        /* Navigation */
+        nav { position: fixed; top: 0; left: 0; right: 0; background: rgba(10, 15, 26, 0.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-color); z-index: 1000; padding: 0.75rem 2rem; }
+        .nav-container { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Fraunces', serif; font-size: 1.25rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-blue), var(--accent-indigo)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .nav-chapters { display: flex; gap: 0.5rem; }
+        .nav-ch { padding: 0.4rem 0.8rem; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 6px; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; transition: all 0.2s; }
+        .nav-ch:hover, .nav-ch.active { background: var(--accent-blue); color: white; border-color: var(--accent-blue); }
+
+        /* Layout */
+        .page-wrapper { display: flex; max-width: 1400px; margin: 0 auto; padding-top: 60px; }
+
+        /* Sidebar */
+        .sidebar { width: 260px; position: fixed; top: 70px; left: max(calc((100vw - 1400px) / 2), 20px); height: calc(100vh - 90px); overflow-y: auto; padding: 1.5rem 1rem; }
+        .sidebar::-webkit-scrollbar { width: 4px; }
+        .sidebar::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 2px; }
+        .sidebar-title { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 1rem; font-weight: 600; }
+        .sidebar-nav { list-style: none; }
+        .sidebar-nav li { margin-bottom: 0.25rem; }
+        .sidebar-nav a { display: block; padding: 0.5rem 0.75rem; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; border-radius: 6px; border-left: 2px solid transparent; transition: all 0.2s; }
+        .sidebar-nav a:hover { color: var(--text-primary); background: rgba(59, 130, 246, 0.1); }
+        .sidebar-nav a.active { color: var(--accent-blue); border-left-color: var(--accent-blue); background: rgba(59, 130, 246, 0.1); }
+
+        /* Main Content */
+        main { flex: 1; max-width: 800px; margin-left: 280px; padding: 2rem 2rem 4rem; }
+
+        /* Header */
+        .chapter-header { text-align: center; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color); }
+        .chapter-label { display: inline-block; background: linear-gradient(135deg, var(--accent-blue), var(--accent-indigo)); color: white; padding: 0.35rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; margin-bottom: 1rem; }
+        .chapter-header h1 { font-family: 'Fraunces', serif; font-size: 2.25rem; margin-bottom: 0.5rem; }
+        .chapter-header .subtitle { color: var(--text-secondary); font-size: 1rem; }
+
+        /* Sections */
+        .section { margin-bottom: 3rem; scroll-margin-top: 80px; }
+        .section-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; padding-bottom: 0.75rem; border-bottom: 2px solid var(--border-color); }
+        .section-num { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: var(--accent-blue); color: white; border-radius: 8px; font-weight: 700; font-size: 0.9rem; }
+        .section-header h2 { font-family: 'Fraunces', serif; font-size: 1.4rem; }
+
+        /* Cards - Color Coded */
+        .card { border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
+        .card h4 { font-size: 0.9rem; margin-bottom: 0.75rem; font-weight: 600; }
+        .card p, .card li { font-size: 0.9rem; color: var(--text-secondary); }
+        .card ul, .card ol { padding-left: 1.25rem; margin: 0; }
+        .card li { margin-bottom: 0.35rem; }
+        .card strong { color: var(--text-primary); }
+
+        /* Card Types */
+        .card-concept { background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.25); }
+        .card-concept h4 { color: #a78bfa; }
+
+        .card-process { background: rgba(6, 182, 212, 0.1); border: 1px solid rgba(6, 182, 212, 0.25); }
+        .card-process h4 { color: #22d3ee; }
+
+        .card-clinical { background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.25); }
+        .card-clinical h4 { color: #f87171; }
+
+        .card-remember { background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.25); }
+        .card-remember h4 { color: #fbbf24; }
+
+        .card-summary { background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); }
+        .card-summary h4 { color: #34d399; }
+
+        /* Quick Facts */
+        .quick-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1rem; }
+        .fact { background: var(--bg-card); border-radius: 8px; padding: 0.75rem 1rem; }
+        .fact-label { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.25rem; }
+        .fact-value { font-size: 0.9rem; color: var(--accent-blue); font-weight: 600; }
+
+        /* Tables */
+        .table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        th { background: var(--bg-card); padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--accent-blue); }
+        td { padding: 0.75rem; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        td strong { color: var(--text-primary); }
+
+        /* Flow Diagram */
+        .flow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 1rem 0; font-size: 0.85rem; }
+        .flow-item { background: var(--bg-card); padding: 0.5rem 0.75rem; border-radius: 6px; border: 1px solid var(--border-color); }
+        .flow-arrow { color: var(--accent-blue); font-weight: bold; }
+
+        /* Progress Bar */
+        .progress-container { position: fixed; top: 60px; left: 0; right: 0; height: 3px; background: var(--bg-secondary); z-index: 999; }
+        .progress-bar { height: 100%; background: linear-gradient(90deg, var(--accent-blue), var(--accent-indigo)); width: 0%; transition: width 0.1s; }
+
+        /* Chapter Summary */
+        .chapter-summary { background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary)); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; margin-top: 2rem; }
+        .chapter-summary h3 { font-family: 'Fraunces', serif; margin-bottom: 1rem; color: var(--accent-green); }
+        .chapter-summary ul { list-style: none; padding: 0; }
+        .chapter-summary li { padding: 0.4rem 0 0.4rem 1.5rem; position: relative; color: var(--text-secondary); font-size: 0.9rem; }
+        .chapter-summary li::before { content: '✓'; position: absolute; left: 0; color: var(--accent-green); }
+
+        /* CTA */
+        .cta { text-align: center; margin-top: 2rem; }
+        .cta a { display: inline-block; padding: 0.875rem 2rem; background: linear-gradient(135deg, var(--accent-blue), var(--accent-indigo)); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: transform 0.2s; }
+        .cta a:hover { transform: translateY(-2px); }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            main { margin-left: 0; max-width: 100%; }
+        }
+        @media (min-width: 901px) and (max-width: 1100px) {
+            .sidebar { width: 200px; left: 10px; }
+            main { margin-left: 220px; }
+        }
+        @media (max-width: 768px) {
+            main { padding: 1.5rem 1rem 3rem; }
+            .chapter-header h1 { font-size: 1.75rem; }
+            .nav-chapters { display: none; }
+            .quick-facts { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container"><div class="progress-bar" id="progressBar"></div></div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Physiology</div>
+            <div class="nav-chapters">
+                <a href="index.html" class="nav-ch">Home</a>
+                <a href="physiology-guide-ch20.html" class="nav-ch">Ch 20</a>
+                <a href="physiology-guide-ch22.html" class="nav-ch active">Ch 22</a>
+                <a href="physiology-guide-ch23.html" class="nav-ch">Ch 23</a>
+                <a href="practice-quiz.html" class="nav-ch">Practice Test</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-wrapper">
+        <aside class="sidebar">
+            <div class="sidebar-title">Sections</div>
+            <ul class="sidebar-nav">
+                <li><a href="#overview">1. Overview</a></li>
+                <li><a href="#gametes">2. Gametes & Meiosis</a></li>
+                <li><a href="#sex-determination">3. Sex Determination</a></li>
+                <li><a href="#male-anatomy">4. Male Anatomy</a></li>
+                <li><a href="#male-hormones">5. Male Hormonal Regulation</a></li>
+                <li><a href="#spermatogenesis">6. Spermatogenesis</a></li>
+                <li><a href="#male-response">7. Male Sexual Response</a></li>
+                <li><a href="#female-anatomy">8. Female Anatomy</a></li>
+                <li><a href="#oogenesis">9. Oogenesis</a></li>
+                <li><a href="#menstrual">10. Menstrual Cycle</a></li>
+                <li><a href="#female-hormones">11. Female Hormonal Regulation</a></li>
+                <li><a href="#fertilization">12. Fertilization</a></li>
+                <li><a href="#pregnancy">13. Pregnancy & Development</a></li>
+                <li><a href="#parturition">14. Parturition & Lactation</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <header class="chapter-header">
+                <span class="chapter-label">Chapter 22</span>
+                <h1>The Reproductive System</h1>
+                <p class="subtitle">Gametes, hormones, and development</p>
+            </header>
+
+            <!-- Section 1: Overview -->
+            <section class="section" id="overview">
+                <div class="section-header">
+                    <span class="section-num">1</span>
+                    <h2>Overview</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Components of the Reproductive System</h4>
+                    <ul>
+                        <li><strong>Gonads:</strong> Produce gametes and secrete sex hormones
+                            <ul>
+                                <li>Male: Testes (produce androgens)</li>
+                                <li>Female: Ovaries (produce estrogens and progesterone)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Accessory reproductive organs:</strong>
+                            <ul>
+                                <li>Reproductive tract: transport of gametes</li>
+                                <li>Glands: secrete fluids into reproductive tract</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="quick-facts">
+                    <div class="fact"><div class="fact-label">Autosomes</div><div class="fact-value">22 pairs (44 total)</div></div>
+                    <div class="fact"><div class="fact-label">Sex Chromosomes</div><div class="fact-value">1 pair (XX or XY)</div></div>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Key Terms</h4>
+                    <ul>
+                        <li><strong>Gametes:</strong> Haploid (n = 23 chromosomes)</li>
+                        <li><strong>Zygote:</strong> Diploid (2n = 46 chromosomes)</li>
+                        <li><strong>Copulation:</strong> Act of mating</li>
+                        <li><strong>Gestation:</strong> Pregnancy (~9 months)</li>
+                        <li><strong>Parturition:</strong> Birth</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Developmental Timeline</h4>
+                    <ul>
+                        <li><strong>First 2 months:</strong> Embryo</li>
+                        <li><strong>After 2 months:</strong> Fetus</li>
+                        <li><strong>~9 months:</strong> Parturition (birth)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 2: Gametes & Meiosis -->
+            <section class="section" id="gametes">
+                <div class="section-header">
+                    <span class="section-num">2</span>
+                    <h2>Gametes & Meiosis</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Gamete Types</h4>
+                    <ul>
+                        <li><strong>Male gametes:</strong> Spermatozoa (sperm)</li>
+                        <li><strong>Female gametes:</strong> Ova (eggs)</li>
+                        <li>Both are <strong>haploid</strong> with 23 chromosomes (22 autosomes + 1 sex chromosome)</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Mitosis vs Meiosis</h4>
+                    <ul>
+                        <li><strong>Mitosis:</strong> Normal cell division
+                            <ul>
+                                <li>DNA replicated once</li>
+                                <li>Cell divides once</li>
+                                <li>Result: 2 diploid cells</li>
+                            </ul>
+                        </li>
+                        <li><strong>Meiosis:</strong> Gamete production
+                            <ul>
+                                <li>DNA replicated once</li>
+                                <li>Cell divides <strong>twice</strong></li>
+                                <li>Result: 4 haploid cells</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Meiosis Steps</h4>
+                    <div class="flow">
+                        <span class="flow-item">Diploid germ cell (2n)</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">DNA replication</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Crossing over</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Meiosis I</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Meiosis II</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Haploid gametes (n)</span>
+                    </div>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Key Meiosis Events</h4>
+                    <ul>
+                        <li><strong>Crossing over:</strong> Creates new chromosomes with mixtures of maternal and paternal genes</li>
+                        <li><strong>Independent assortment:</strong> Random distribution of chromosomes to daughter cells</li>
+                        <li>These events create <strong>genetic diversity</strong></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 3: Sex Determination & Differentiation -->
+            <section class="section" id="sex-determination">
+                <div class="section-header">
+                    <span class="section-num">3</span>
+                    <h2>Sex Determination & Differentiation</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Chromosomes and Sex</h4>
+                    <ul>
+                        <li><strong>X chromosome:</strong> Found in both males and females; has essential genes</li>
+                        <li><strong>Y chromosome:</strong> Found only in males; has genes essential for male development</li>
+                        <li><strong>XX = Female</strong></li>
+                        <li><strong>XY = Male</strong></li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Sex Determination: The srY Gene</h4>
+                    <ul>
+                        <li><strong>srY gene</strong> = sex-determining region of Y chromosome</li>
+                        <li>Codes for <strong>testis-determining factor</strong></li>
+                        <li><strong>If srY present:</strong> Testes develop</li>
+                        <li><strong>If srY absent:</strong> Ovaries develop</li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Sex Differentiation: Controlled by Hormones</h4>
+                    <p><strong>First two weeks:</strong> Embryo is sexually indifferent</p>
+                    <ul>
+                        <li><strong>Wolffian ducts:</strong> Precursor to male reproductive tract</li>
+                        <li><strong>Mullerian ducts:</strong> Precursor to female reproductive tract</li>
+                    </ul>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <tr><th>If Testes Present</th><th>If No Testes</th></tr>
+                        <tr><td><strong>Testosterone</strong> stimulates Wolffian duct development</td><td>No testosterone → Wolffian ducts <strong>regress</strong></td></tr>
+                        <tr><td><strong>MIH</strong> causes Mullerian duct degeneration</td><td>No MIH → Mullerian ducts <strong>develop</strong></td></tr>
+                        <tr><td>Result: Male structures</td><td>Result: Female structures</td></tr>
+                    </table>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Key Point</h4>
+                    <p><strong>Default pathway is female.</strong> Male development requires active hormonal signals (testosterone and MIH) from the developing testes.</p>
+                </div>
+
+                <div class="card card-clinical">
+                    <h4>Patterns of Reproductive Activity</h4>
+                    <ul>
+                        <li><strong>Adolescence (before 10-14):</strong> Inability to reproduce</li>
+                        <li><strong>Puberty (10-14 years):</strong> Sexual maturation; secondary sex characteristics develop</li>
+                        <li><strong>Adulthood:</strong> Female system cycles; male produces sperm continuously</li>
+                        <li><strong>Menopause (~45-50):</strong> Female loses reproductive capacity</li>
+                        <li><strong>Males:</strong> Retain ability to produce sperm throughout life</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 4: Male Anatomy -->
+            <section class="section" id="male-anatomy">
+                <div class="section-header">
+                    <span class="section-num">4</span>
+                    <h2>Male Reproductive Anatomy</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Testes Structure</h4>
+                    <ul>
+                        <li>Male gonads with 250-300 compartments</li>
+                        <li><strong>Seminiferous tubules:</strong> Site of sperm production</li>
+                        <li><strong>Leydig cells (interstitial cells):</strong> Secrete testosterone</li>
+                        <li><strong>Sertoli cells (epithelial cells):</strong> Support sperm development</li>
+                        <li><strong>Smooth muscle:</strong> Peristalsis propels sperm</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Sertoli Cell Functions</h4>
+                    <ul>
+                        <li>Support sperm development</li>
+                        <li>Secrete lumenal fluid for sperm development</li>
+                        <li>Secrete <strong>androgen-binding protein</strong> (maintains steady androgen levels)</li>
+                        <li>Target cells for testosterone and FSH</li>
+                        <li>Secrete chemicals that stimulate spermatogenesis</li>
+                        <li>Secrete <strong>inhibin</strong> (negative feedback for FSH)</li>
+                        <li>Secrete <strong>MIH</strong> during development</li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Blood-Testis Barrier</h4>
+                    <ul>
+                        <li>Created by <strong>tight junctions</strong> between Sertoli cells</li>
+                        <li>Divides tubule into <strong>basal</strong> and <strong>lumenal</strong> compartments</li>
+                        <li>Protects developing sperm from immune system</li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>External Genitalia</h4>
+                    <ul>
+                        <li><strong>Penis:</strong> Male copulatory organ
+                            <ul>
+                                <li>Contains erectile tissue</li>
+                                <li>Erection: blood engorges erectile tissue</li>
+                                <li>Ejaculation: sperm ejected through urethra</li>
+                            </ul>
+                        </li>
+                        <li><strong>Scrotum:</strong> Houses testes
+                            <ul>
+                                <li>Sperm cannot develop at body temperature</li>
+                                <li>Provides cooler environment for sperm development</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Sperm Transport Pathway</h4>
+                    <div class="flow">
+                        <span class="flow-item">Seminiferous tubules</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Rete testis</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Efferent ductules</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Epididymis</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Vas deferens</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Urethra</span>
+                    </div>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <tr><th>Accessory Gland</th><th>Secretions</th></tr>
+                        <tr><td><strong>Seminal vesicles</strong></td><td>Alkaline fluid with fructose, enzymes, prostaglandins</td></tr>
+                        <tr><td><strong>Prostate gland</strong></td><td>Citrate and enzymes</td></tr>
+                        <tr><td><strong>Bulbourethral glands</strong></td><td>Viscous fluid with mucus</td></tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Section 5: Male Hormonal Regulation -->
+            <section class="section" id="male-hormones">
+                <div class="section-header">
+                    <span class="section-num">5</span>
+                    <h2>Male Hormonal Regulation</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Hormonal Hierarchy</h4>
+                    <ul>
+                        <li><strong>GnRH:</strong> From hypothalamus</li>
+                        <li><strong>FSH:</strong> Stimulates spermatogenesis (via Sertoli cells) and inhibin secretion</li>
+                        <li><strong>LH:</strong> Stimulates testosterone secretion (from Leydig cells)</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Hormonal Control Pathway</h4>
+                    <div class="flow">
+                        <span class="flow-item">Hypothalamus</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">GnRH</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Anterior pituitary</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">FSH + LH</span>
+                    </div>
+                    <div class="flow">
+                        <span class="flow-item">LH</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Leydig cells</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Testosterone</span>
+                    </div>
+                    <div class="flow">
+                        <span class="flow-item">FSH</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Sertoli cells</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Spermatogenesis + Inhibin</span>
+                    </div>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Negative Feedback</h4>
+                    <ul>
+                        <li><strong>Testosterone:</strong> Negative feedback to hypothalamus (inhibits GnRH)</li>
+                        <li><strong>Inhibin:</strong> Negative feedback to anterior pituitary (<strong>FSH only</strong>)</li>
+                    </ul>
+                </div>
+
+                <div class="quick-facts">
+                    <div class="fact"><div class="fact-label">Blood Hormone Pattern</div><div class="fact-value">Pulsatile but fairly constant</div></div>
+                    <div class="fact"><div class="fact-label">Puberty Change</div><div class="fact-value">Low → High testosterone</div></div>
+                </div>
+            </section>
+
+            <!-- Section 6: Spermatogenesis -->
+            <section class="section" id="spermatogenesis">
+                <div class="section-header">
+                    <span class="section-num">6</span>
+                    <h2>Spermatogenesis</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Sperm Anatomy</h4>
+                    <ul>
+                        <li><strong>Head:</strong>
+                            <ul>
+                                <li>Contains chromosomes</li>
+                                <li><strong>Acrosome:</strong> Enzymes necessary for fertilization</li>
+                            </ul>
+                        </li>
+                        <li><strong>Midpiece:</strong> Mitochondria (energy production)</li>
+                        <li><strong>Tail:</strong> Whiplike movements propel sperm</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Spermatogenesis Steps</h4>
+                    <div class="flow">
+                        <span class="flow-item">Spermatogonia (2n)</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Mitosis</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Primary spermatocytes (2n x 2)</span>
+                    </div>
+                    <div class="flow">
+                        <span class="flow-item">Primary spermatocytes</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Meiosis I</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Secondary spermatocytes (n x 2)</span>
+                    </div>
+                    <div class="flow">
+                        <span class="flow-item">Secondary spermatocytes</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Meiosis II</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Spermatids (n)</span>
+                    </div>
+                    <div class="flow">
+                        <span class="flow-item">Spermatids</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Differentiation</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Spermatozoa (n)</span>
+                    </div>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Key Points</h4>
+                    <ul>
+                        <li>Process occurs from <strong>basement membrane to lumen</strong></li>
+                        <li>After mitosis, one spermatogonium stays to produce more (maintains stem cell pool)</li>
+                        <li>Sertoli cells and tight junctions support the process</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Sperm Maturation</h4>
+                    <ul>
+                        <li>Spermatozoa released into lumen of seminiferous tubules</li>
+                        <li>Remain <strong>immotile for 20 days</strong></li>
+                        <li>Move to epididymis by peristalsis and lumenal fluid flow</li>
+                        <li><strong>Acquire motility</strong> in epididymis</li>
+                        <li>Move to vas deferens by peristalsis</li>
+                        <li>Remain in vas deferens until ejaculation</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 7: Male Sexual Response -->
+            <section class="section" id="male-response">
+                <div class="section-header">
+                    <span class="section-num">7</span>
+                    <h2>Male Sexual Response</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Overview</h4>
+                    <ul>
+                        <li>Controlled by <strong>autonomic nervous system</strong></li>
+                        <li>Involves spinal reflexes</li>
+                        <li><strong>Stimuli:</strong> Mechanoreceptors of penis/erogenous zones + descending signals from higher brain centers</li>
+                    </ul>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <tr><th>Phase</th><th>Nervous Control</th><th>Events</th></tr>
+                        <tr><td><strong>Erection</strong></td><td>Parasympathetic</td><td>Arteriolar dilation, blood fills erectile tissue</td></tr>
+                        <tr><td><strong>Emission</strong></td><td>Sympathetic</td><td>Sperm and fluid move into urethra</td></tr>
+                        <tr><td><strong>Ejaculation</strong></td><td>Sympathetic</td><td>Semen expelled from body</td></tr>
+                    </table>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Erection Mechanism</h4>
+                    <ol>
+                        <li>Parasympathetic activity increases</li>
+                        <li>Arterioles to erectile tissue <strong>dilate</strong></li>
+                        <li>Blood flow increases → tissue engorges</li>
+                        <li>Veins compressed → blood outflow decreases</li>
+                        <li><strong>Positive feedback loop</strong> maintains erection</li>
+                    </ol>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Emission</h4>
+                    <ul>
+                        <li>Neural activity shifts to <strong>sympathetic control</strong></li>
+                        <li>Contractions of epididymis, vas deferens, ejaculatory duct</li>
+                        <li>Secretions from seminal vesicles and prostate</li>
+                        <li>Result: <strong>Semen</strong> (sperm + fluid) moves into urethra</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Ejaculation</h4>
+                    <ul>
+                        <li>Mediated by sympathetic activity</li>
+                        <li>Contractions of smooth muscle in urethra</li>
+                        <li>Contractions of skeletal muscle at base of penis</li>
+                        <li>Urethral sphincter closes</li>
+                        <li>Result: Semen expelled through urethra</li>
+                    </ul>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Memory Tip: "Point and Shoot"</h4>
+                    <ul>
+                        <li><strong>P</strong>oint = <strong>P</strong>arasympathetic (erection)</li>
+                        <li><strong>S</strong>hoot = <strong>S</strong>ympathetic (emission and ejaculation)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 8: Female Anatomy -->
+            <section class="section" id="female-anatomy">
+                <div class="section-header">
+                    <span class="section-num">8</span>
+                    <h2>Female Reproductive Anatomy</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Key Differences from Male</h4>
+                    <ul>
+                        <li><strong>Cyclic changes</strong> in activity (menstrual cycle)</li>
+                        <li><strong>Restricted periods of fertility</strong> (around ovulation)</li>
+                        <li><strong>Limited gamete production</strong> - pool established at birth</li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Female Reproductive Organs</h4>
+                    <ul>
+                        <li><strong>Gonads:</strong> Ovaries</li>
+                        <li><strong>Reproductive tract:</strong> Uterus, uterine tubes, vagina</li>
+                        <li><strong>External genitalia:</strong> Vulva (clitoris, labia)</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Follicles</h4>
+                    <ul>
+                        <li>Each follicle contains <strong>one ovum</strong></li>
+                        <li>Develop in ovary from primordial follicles</li>
+                        <li><strong>Primordial follicle components:</strong>
+                            <ul>
+                                <li>Oocyte (= ovum)</li>
+                                <li>Granulosa cells</li>
+                            </ul>
+                        </li>
+                        <li>Later: some granulosa cells become <strong>theca cells</strong></li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Granulosa Cell Functions</h4>
+                    <ul>
+                        <li>Target cells for estrogen and FSH</li>
+                        <li>Secrete chemical messengers in response</li>
+                        <li>Secrete <strong>inhibin</strong> (negative feedback for FSH)</li>
+                        <li>Transport nutrients to oocytes via gap junctions</li>
+                        <li>Secrete <strong>estrogens</strong></li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Uterus Structure</h4>
+                    <ul>
+                        <li><strong>Body:</strong> Upper portion (site of fetal development)</li>
+                        <li><strong>Cervix:</strong> Canal leading to vagina</li>
+                        <li><strong>Cervix + vagina = birth canal</strong></li>
+                    </ul>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <tr><th>Uterine Layer</th><th>Composition</th><th>Notes</th></tr>
+                        <tr><td><strong>Perimetrium</strong> (outer)</td><td>Epithelial cells + connective tissue</td><td>Outermost layer</td></tr>
+                        <tr><td><strong>Myometrium</strong> (middle)</td><td>Smooth muscle</td><td><strong>Thickest layer</strong></td></tr>
+                        <tr><td><strong>Endometrium</strong> (inner)</td><td>Epithelium + connective tissue + glands</td><td>Shed during menstruation</td></tr>
+                    </table>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Uterine Tubes (Fallopian Tubes)</h4>
+                    <ul>
+                        <li>Also called oviducts</li>
+                        <li>Transport ova from ovaries to uterus</li>
+                        <li><strong>Site of fertilization</strong></li>
+                        <li><strong>Infundibulum and fimbriae:</strong> Pick up released ovum</li>
+                        <li>Movement: Initially peristalsis, then mostly <strong>ciliary action</strong></li>
+                        <li>Transit time: <strong>4 days</strong> to reach uterus</li>
+                    </ul>
+                </div>
+
+                <div class="card card-clinical">
+                    <h4>Vagina</h4>
+                    <ul>
+                        <li>Female organ of copulation</li>
+                        <li>Wall contains smooth muscle</li>
+                        <li>Inner surface bathed in <strong>acidic fluid</strong></li>
+                        <li>Acid protects against bacterial infections</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 9: Oogenesis -->
+            <section class="section" id="oogenesis">
+                <div class="section-header">
+                    <span class="section-num">9</span>
+                    <h2>Oogenesis</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Key Differences from Spermatogenesis</h4>
+                    <ul>
+                        <li>Number of oogonia is <strong>fixed prior to birth</strong></li>
+                        <li>Males continually produce spermatogonia</li>
+                        <li>Meiosis begins in <strong>fetal life</strong></li>
+                        <li>Meiosis is only completed <strong>after fertilization</strong></li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Oogenesis Timeline</h4>
+                    <p><strong>FETAL:</strong></p>
+                    <div class="flow">
+                        <span class="flow-item">Oogonia (2n)</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Mitosis</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Primary oocyte (2n x 2)</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">MEIOTIC ARREST</span>
+                    </div>
+                    <p><strong>PRIOR TO OVULATION:</strong></p>
+                    <div class="flow">
+                        <span class="flow-item">Primary oocyte</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Meiosis I</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Secondary oocyte (n x 2) + First polar body</span>
+                    </div>
+                    <p><strong>AFTER FERTILIZATION:</strong></p>
+                    <div class="flow">
+                        <span class="flow-item">Secondary oocyte</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Meiosis II</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Ovum (2n) + Second polar body</span>
+                    </div>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Polar Bodies</h4>
+                    <ul>
+                        <li>Small cells that receive minimal cytoplasm</li>
+                        <li>Eventually degenerate</li>
+                        <li>Ensure the ovum retains most of the cytoplasm and nutrients</li>
+                    </ul>
+                </div>
+
+                <div class="card card-clinical">
+                    <h4>Female Sexual Response</h4>
+                    <ul>
+                        <li>Vascular congestion of clitoris</li>
+                        <li>Vaginal secretions</li>
+                        <li>Nipple erection</li>
+                        <li><strong>Orgasm:</strong>
+                            <ul>
+                                <li>Rhythmic contractions of vagina and uterus</li>
+                                <li>Increased blood pressure and heart rate</li>
+                                <li>Widespread skeletal muscle contractions</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 10: Menstrual Cycle -->
+            <section class="section" id="menstrual">
+                <div class="section-header">
+                    <span class="section-num">10</span>
+                    <h2>The Menstrual Cycle</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Overview</h4>
+                    <p>Repeated changes in ovary and uterus caused by changes in <strong>estrogen and progesterone</strong></p>
+                    <ul>
+                        <li><strong>Ovarian cycle:</strong> Changes in the ovary</li>
+                        <li><strong>Uterine cycle:</strong> Changes in the uterus</li>
+                    </ul>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <tr><th>Ovarian Phase</th><th>Days</th><th>Key Events</th></tr>
+                        <tr><td><strong>Follicular phase</strong></td><td>Days 1-14</td><td>Follicle development → ovulation</td></tr>
+                        <tr><td><strong>Luteal phase</strong></td><td>Days 15-28</td><td>Corpus luteum → degeneration</td></tr>
+                    </table>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Follicular Phase Events</h4>
+                    <ol>
+                        <li>FSH and estrogens stimulate follicle growth</li>
+                        <li>A few primordial follicles develop</li>
+                        <li>Oocyte grows; granulosa cells proliferate</li>
+                        <li><strong>Zona pellucida</strong> and <strong>antrum</strong> form</li>
+                        <li>Dominant follicle continues; others regress</li>
+                        <li><strong>Corona radiata</strong> develops</li>
+                        <li><strong>Graafian follicle</strong> = mature follicle</li>
+                    </ol>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Late Follicular Phase: LH Surge</h4>
+                    <ul>
+                        <li>GnRH surge causes <strong>LH surge</strong></li>
+                        <li>LH surge triggers:
+                            <ul>
+                                <li><strong>Ovulation:</strong> Wall of Graafian follicle ruptures</li>
+                                <li>Oocyte released into fimbriae</li>
+                                <li>Development of corpus luteum</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Luteal Phase Events</h4>
+                    <ol>
+                        <li>Ruptured follicle → <strong>corpus luteum</strong></li>
+                        <li>Corpus luteum secretes estrogens and progesterone</li>
+                        <li>Maximum activity in <strong>10 days</strong></li>
+                        <li><strong>Luteolysis:</strong> Corpus luteum degenerates (if no fertilization)</li>
+                        <li>↓ Estrogens and progesterone → menstruation</li>
+                    </ol>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>If Fertilization Occurs</h4>
+                    <p>Corpus luteum does <strong>NOT</strong> degenerate - it is sustained by hCG from the developing embryo.</p>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <tr><th>Uterine Phase</th><th>Days</th><th>Ovarian Phase</th><th>Events</th></tr>
+                        <tr><td><strong>Menstrual</strong></td><td>1-5</td><td>Follicular</td><td>Shedding of endometrium</td></tr>
+                        <tr><td><strong>Proliferative</strong></td><td>5-14</td><td>Follicular</td><td>Endometrium rebuilds</td></tr>
+                        <tr><td><strong>Secretory</strong></td><td>15-28</td><td>Luteal</td><td>Endometrium prepares for implantation</td></tr>
+                    </table>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Uterine Cycle Details</h4>
+                    <ul>
+                        <li><strong>Menstrual phase:</strong> Blood flow to tissue decreases → tissue dies and sloughs off → menstrual flow. Triggered by ↓ estrogen and progesterone</li>
+                        <li><strong>Proliferative phase:</strong> Endometrium grows, glands enlarge, smooth muscle thickens. Stimulated by <strong>estrogens</strong></li>
+                        <li><strong>Secretory phase:</strong> Blood supply increases, glands secrete glycogen-rich fluids, cervical mucus forms plug. Stimulated by <strong>progesterone</strong></li>
+                    </ul>
+                </div>
+
+                <div class="card card-clinical">
+                    <h4>Fraternal (Dizygotic) Twins</h4>
+                    <ul>
+                        <li>Two or more follicles become dominant</li>
+                        <li>Both released at ovulation</li>
+                        <li>If both fertilized → fraternal twins</li>
+                        <li>Develop from two separate zygotes</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 11: Female Hormonal Regulation -->
+            <section class="section" id="female-hormones">
+                <div class="section-header">
+                    <span class="section-num">11</span>
+                    <h2>Female Hormonal Regulation</h2>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Hormone Sources</h4>
+                    <ul>
+                        <li><strong>Estrogen:</strong> First from follicles, then from corpus luteum</li>
+                        <li><strong>Progesterone:</strong> From corpus luteum (luteal phase)</li>
+                        <li><strong>LH and FSH:</strong> From anterior pituitary</li>
+                        <li>Estrogens and progesterone inhibit LH and FSH secretion</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Early to Mid-Follicular Phase</h4>
+                    <ol>
+                        <li>Decline in estrogen/progesterone (end of previous cycle)</li>
+                        <li>LH and FSH increase slightly</li>
+                        <li>FSH binds granulosa cells → follicles grow</li>
+                        <li>FSH causes outer granulosa → theca cells</li>
+                        <li><strong>LH → theca cells → testosterone</strong></li>
+                        <li><strong>Testosterone → granulosa cells → estrogens</strong></li>
+                        <li>↑ Estrogen = <strong>negative feedback</strong> on GnRH, LH, FSH</li>
+                    </ol>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Two-Cell Model of Estrogen Production</h4>
+                    <ul>
+                        <li><strong>Theca cells:</strong> LH stimulates testosterone production</li>
+                        <li><strong>Granulosa cells:</strong> Convert testosterone to estrogen</li>
+                        <li>Requires cooperation of both cell types!</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Late Follicular Phase: The LH Surge</h4>
+                    <ol>
+                        <li>Estrogen switches from <strong>negative to POSITIVE feedback</strong> at hypothalamus</li>
+                        <li>LH levels rise → more estrogen → more LH</li>
+                        <li><strong>LH SURGE</strong></li>
+                    </ol>
+                    <p><strong>Effects of LH surge on dominant follicle:</strong></p>
+                    <ul>
+                        <li>Meiosis I completed</li>
+                        <li>Estrogen declines</li>
+                        <li>Progesterone production begins</li>
+                        <li>Enzymes break down follicular wall</li>
+                        <li>Wall ruptures <strong>18 hours after surge peak</strong></li>
+                        <li>Granulosa/theca cells → luteal cells</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Luteal Phase Hormones</h4>
+                    <ul>
+                        <li>Estrogen levels decline → LH surge terminates</li>
+                        <li><strong>Progesterone increases</strong> from corpus luteum</li>
+                        <li>Progesterone promotes uterine development</li>
+                        <li>Progesterone = powerful inhibitor of GnRH and LH/FSH</li>
+                        <li>Without implantation: corpus luteum degenerates after ~10 days</li>
+                        <li>↓ Progesterone and estrogen → menstruation</li>
+                    </ul>
+                </div>
+
+                <div class="card card-clinical">
+                    <h4>Long-Term Regulation</h4>
+                    <p><strong>Puberty:</strong> Estrogen produces secondary sex characteristics</p>
+                    <ul>
+                        <li>Widening of hips</li>
+                        <li>Fat deposition in breasts, hips, buttocks</li>
+                        <li>Body hair changes</li>
+                        <li>Bone growth</li>
+                    </ul>
+                    <p><strong>Menopause:</strong></p>
+                    <ul>
+                        <li>Estrogen levels decrease</li>
+                        <li>Hot flashes</li>
+                        <li>Increased risk of heart disease and osteoporosis</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 12: Fertilization -->
+            <section class="section" id="fertilization">
+                <div class="section-header">
+                    <span class="section-num">12</span>
+                    <h2>Fertilization</h2>
+                </div>
+
+                <div class="quick-facts">
+                    <div class="fact"><div class="fact-label">Sperm Viability</div><div class="fact-value">~5 days in female tract</div></div>
+                    <div class="fact"><div class="fact-label">Oocyte Viability</div><div class="fact-value">12-24 hours after ovulation</div></div>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Ovum Transport</h4>
+                    <ul>
+                        <li>At ovulation, fluid movement causes oocyte to enter fimbriae</li>
+                        <li>Peristaltic contractions move oocyte for several minutes</li>
+                        <li>Ciliary activity moves oocyte for several days</li>
+                        <li>Entire trip: <strong>4 days</strong></li>
+                        <li>Sperm must meet ovum during these 4 days</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Sperm Journey</h4>
+                    <ul>
+                        <li>Millions deposited in vagina during copulation</li>
+                        <li>Sperm swim to uterus and uterine tubes</li>
+                        <li>Only a <strong>few hundred</strong> reach the uterine tubes</li>
+                        <li>Survival time: ~5 days</li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Sperm Capacitation</h4>
+                    <ul>
+                        <li>Deposited sperm <strong>cannot immediately fertilize</strong></li>
+                        <li>Capacitation occurs in female reproductive tract</li>
+                        <li>Changes include:
+                            <ul>
+                                <li>Increased tail movement</li>
+                                <li>Plasma membrane alterations</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Fertilization Process</h4>
+                    <ol>
+                        <li>Several sperm try to penetrate <strong>corona radiata</strong></li>
+                        <li>Sperm bind to <strong>sperm-binding protein</strong></li>
+                        <li><strong>Acrosome reaction:</strong> Acrosomal enzymes released</li>
+                        <li>Enzymes digest through <strong>zona pellucida</strong></li>
+                        <li>First sperm binds receptor on oocyte membrane</li>
+                        <li>Sperm transported into cytoplasm (<strong>fusion</strong>)</li>
+                        <li>Sperm-binding proteins inactivated; zona pellucida hardens</li>
+                        <li>This prevents <strong>polyspermy</strong></li>
+                        <li>Fusion triggers <strong>meiosis II</strong> completion</li>
+                        <li>Sperm and ovum chromosomes migrate to center</li>
+                        <li>DNA replicated → <strong>zygote</strong></li>
+                    </ol>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Polyspermy Prevention</h4>
+                    <p>After the first sperm enters, the zona pellucida hardens and sperm-binding proteins are inactivated. This prevents multiple sperm from fertilizing the same egg.</p>
+                </div>
+            </section>
+
+            <!-- Section 13: Pregnancy & Development -->
+            <section class="section" id="pregnancy">
+                <div class="section-header">
+                    <span class="section-num">13</span>
+                    <h2>Pregnancy & Development</h2>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Early Embryonic Development</h4>
+                    <div class="flow">
+                        <span class="flow-item">Zygote</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Cleavage</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Morula (3-4 days)</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Blastocyst (4-5 days)</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Implantation (6-7 days)</span>
+                    </div>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Blastocyst Structure</h4>
+                    <ul>
+                        <li>Lost zona pellucida</li>
+                        <li><strong>Trophoblast:</strong> Outer cell layer → becomes fetal placenta</li>
+                        <li><strong>Inner cell mass:</strong> Becomes embryo</li>
+                        <li><strong>Blastocoele:</strong> Fluid-filled cavity</li>
+                        <li>Cells are <strong>totipotent</strong> until 16-32 cell stage</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Implantation (Days 6-7)</h4>
+                    <ol>
+                        <li>Blastocyst attaches to endometrial lining</li>
+                        <li>Trophoblast secretes enzymes → digests endometrial cells</li>
+                        <li>Provides nourishment for embryo</li>
+                        <li>Trophoblast secretes paracrines → <strong>decidual response</strong></li>
+                        <li>Endometrium swells, increases glycogen stores</li>
+                        <li>Trophoblast penetrates endometrium</li>
+                        <li>Trophoblast + endometrium → placenta</li>
+                    </ol>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Fetal Development Timeline</h4>
+                    <ul>
+                        <li><strong>Week 5:</strong> Heart, spinal cord, GI tract start to develop</li>
+                        <li><strong>Week 6:</strong> Heart beating</li>
+                        <li><strong>Week 8:</strong> Lungs develop; embryo → <strong>fetus</strong></li>
+                        <li><strong>Week 9:</strong> Remaining organs develop</li>
+                        <li><strong>Week 10:</strong> Size of kidney bean</li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Supporting Structures</h4>
+                    <ul>
+                        <li><strong>Chorion:</strong> Thickened trophoblast at contact site</li>
+                        <li><strong>Amnion (amniotic sac):</strong> Contains amniotic fluid</li>
+                        <li><strong>Placenta:</strong> Exchange between mother and fetus</li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Placenta</h4>
+                    <ul>
+                        <li><strong>Fetal component:</strong> Chorionic villi</li>
+                        <li><strong>Maternal component:</strong> Endometrial tissue</li>
+                        <li><strong>Blood supply:</strong>
+                            <ul>
+                                <li>Maternal: uterine artery and vein</li>
+                                <li>Fetal: umbilical artery and vein (in umbilical cord)</li>
+                            </ul>
+                        </li>
+                        <li>By week 5: placenta functioning, heart beating</li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Hormonal Changes During Pregnancy</h4>
+                    <ul>
+                        <li><strong>hCG (human chorionic gonadotropin):</strong>
+                            <ul>
+                                <li>Secreted by placenta</li>
+                                <li>Sustains corpus luteum</li>
+                                <li>Peaks at months 2-3, then declines</li>
+                                <li>Basis for pregnancy tests</li>
+                            </ul>
+                        </li>
+                        <li><strong>First 2 months:</strong> Corpus luteum secretes estrogens and progesterone</li>
+                        <li><strong>After 2 months:</strong> Placenta takes over hormone production</li>
+                    </ul>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <tr><th>Hormone</th><th>Effects During Pregnancy</th></tr>
+                        <tr><td><strong>Estrogen</strong></td><td>Breast duct tissue growth, prolactin secretion, uterine smooth muscle growth and contractile responsiveness, oxytocin receptor expression</td></tr>
+                        <tr><td><strong>Progesterone</strong></td><td>Breast glandular tissue growth, maintains secretory-phase uterine conditions, <strong>suppresses</strong> uterine contractions</td></tr>
+                    </table>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Progesterone's Dual Role</h4>
+                    <p>During pregnancy, progesterone <strong>suppresses</strong> uterine contractions to prevent premature labor. It also inhibits GnRH, LH, and FSH release, preventing the LH surge and new ovulation.</p>
+                </div>
+            </section>
+
+            <!-- Section 14: Parturition & Lactation -->
+            <section class="section" id="parturition">
+                <div class="section-header">
+                    <span class="section-num">14</span>
+                    <h2>Parturition & Lactation</h2>
+                </div>
+
+                <div class="quick-facts">
+                    <div class="fact"><div class="fact-label">Pregnancy Duration</div><div class="fact-value">~40 weeks</div></div>
+                    <div class="fact"><div class="fact-label">Parturition</div><div class="fact-value">Birth</div></div>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Events of Parturition</h4>
+                    <ol>
+                        <li><strong>End of pregnancy:</strong> Cervix ripens (softens)</li>
+                        <li><strong>Beginning:</strong> Cervix dilates, labor (uterine contractions) begins</li>
+                        <li>Baby's head wedges cervix open</li>
+                        <li>Baby born head first</li>
+                        <li><strong>Afterbirth:</strong> Expulsion of placenta</li>
+                    </ol>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Mechanism: Positive Feedback Loop</h4>
+                    <div class="flow">
+                        <span class="flow-item">Weak uterine contractions</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Pressure on cervix</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Oxytocin release (posterior pituitary)</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Stronger contractions</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">More pressure</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">More oxytocin</span>
+                    </div>
+                    <p>This <strong>positive feedback</strong> continues until parturition!</p>
+                </div>
+
+                <div class="card card-clinical">
+                    <h4>Trigger for Parturition</h4>
+                    <p>Exact trigger is unknown, but current theory suggests signal comes from the <strong>fetus</strong>:</p>
+                    <div class="flow">
+                        <span class="flow-item">Fetal placenta: CRH</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Fetal ACTH</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">DHEA</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Estrogens</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Maternal bloodstream</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-item">Parturition</span>
+                    </div>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Lactation</h4>
+                    <ul>
+                        <li><strong>Inhibition:</strong> Estrogen and progesterone (during pregnancy)</li>
+                        <li><strong>Stimulation:</strong>
+                            <ul>
+                                <li><strong>Prolactin:</strong> Stimulates milk synthesis</li>
+                                <li><strong>Oxytocin:</strong> Stimulates milk ejection reflex</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card card-process">
+                    <h4>Milk Ejection Reflex</h4>
+                    <ol>
+                        <li>Suckling stimulates tactile receptors in nipples</li>
+                        <li>Signal travels to hypothalamus</li>
+                        <li><strong>Posterior pituitary:</strong> Oxytocin secretion</li>
+                        <li><strong>Anterior pituitary:</strong> Prolactin secretion (↑PRH, ↓PIH)</li>
+                        <li><strong>Breasts:</strong>
+                            <ul>
+                                <li>Prolactin → milk secretion by alveoli</li>
+                                <li>Oxytocin → contraction of myoepithelial cells</li>
+                            </ul>
+                        </li>
+                        <li><strong>Milk ejection!</strong></li>
+                    </ol>
+                </div>
+
+                <div class="card card-remember">
+                    <h4>Types of Breast Milk</h4>
+                    <ul>
+                        <li><strong>Colostrum:</strong> First few days after birth
+                            <ul>
+                                <li>Watery</li>
+                                <li>Contains proteins but few nutrients</li>
+                                <li>Rich in antibodies (passive immunity)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Later milk:</strong>
+                            <ul>
+                                <li>Nutrients</li>
+                                <li>Growth factors</li>
+                                <li>Hormones</li>
+                                <li>Antibodies (IgA)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card card-concept">
+                    <h4>Mammary Gland Structure</h4>
+                    <ul>
+                        <li><strong>Alveoli:</strong> Milk-secreting epithelial cells</li>
+                        <li><strong>Myoepithelial cells:</strong> Contract to eject milk</li>
+                        <li><strong>Milk ducts:</strong> Transport milk to nipple</li>
+                        <li>Surrounded by adipose tissue</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Summary -->
+            <div class="chapter-summary">
+                <h3>Key Takeaways</h3>
+                <ul>
+                    <li>Gametes are haploid (n=23); zygote is diploid (2n=46)</li>
+                    <li>Meiosis: DNA replicated once, cells divide twice → 4 haploid cells</li>
+                    <li>srY gene → testis-determining factor → testes; absence → ovaries</li>
+                    <li>Male differentiation requires testosterone (Wolffian ducts) and MIH (Mullerian regression)</li>
+                    <li>Leydig cells produce testosterone; Sertoli cells support spermatogenesis</li>
+                    <li>Male: LH → Leydig cells → testosterone; FSH → Sertoli cells → spermatogenesis</li>
+                    <li>Inhibin provides negative feedback to FSH only</li>
+                    <li>Erection = parasympathetic; emission/ejaculation = sympathetic</li>
+                    <li>Oogenesis begins in fetal life; meiosis II completes only after fertilization</li>
+                    <li>Follicular phase (days 1-14): follicle development → ovulation</li>
+                    <li>Luteal phase (days 15-28): corpus luteum → degeneration → menstruation</li>
+                    <li>LH surge triggers ovulation (~18 hours after peak)</li>
+                    <li>Two-cell model: LH → theca → testosterone; granulosa → estrogen</li>
+                    <li>Sperm viable ~5 days; oocyte viable 12-24 hours after ovulation</li>
+                    <li>Capacitation required before sperm can fertilize</li>
+                    <li>Implantation occurs 6-7 days post-fertilization</li>
+                    <li>hCG sustains corpus luteum; peaks months 2-3; basis for pregnancy tests</li>
+                    <li>Progesterone suppresses uterine contractions during pregnancy</li>
+                    <li>Parturition: oxytocin positive feedback loop</li>
+                    <li>Prolactin → milk synthesis; oxytocin → milk ejection</li>
+                </ul>
+            </div>
+
+            <div class="cta">
+                <a href="practice-quiz.html">Take the Practice Test</a>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Progress bar
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            document.getElementById('progressBar').style.width = (winScroll / height) * 100 + '%';
+        });
+
+        // Active sidebar link
+        const sections = document.querySelectorAll('.section');
+        const navLinks = document.querySelectorAll('.sidebar-nav a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (scrollY >= sectionTop) current = section.getAttribute('id');
+            });
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
